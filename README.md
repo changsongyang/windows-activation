@@ -1,9 +1,26 @@
-# Instant Windows 10 & 11 Activation: 40-Second Solution. 
+# Instant Windows 10 & 11 Activation: 40-Second Solution.   
 
-[![Readme](https://img.shields.io/badge/README_IN-فارسی-blue?logo=readme)](README-FA.md)  
-[![Readme](https://img.shields.io/badge/README_IN-ENGLISH-blue?logo=readme)](README.md)
+> This repository contains Microsoft activation scripts that can activate Windows 10 and 11 in under 40 seconds.  
+> Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation.  
 
-> This repository contains a way that can activate Windows 10 and 11 in under 40 seconds. Both methodes is compatible with home, home N, Home single lang, Home country specific, professional, education and enterprise versions of Windows.
+<br><br> 
+
+```CSS
+Overview
+-  This activation method supports Windows 10/11 only.
+-  This activation method does not store or modify any files in your system.
+-  This activation method gives you permanent Windows activation for your system hardware.
+-  All activations can be linked to a Microsoft account without any issues.
+-  Once the system is activated, this activation cannot be removed because the license is stored on Microsoft's servers, not on the user's system. Microsoft checks the hardware ID (HWID), and if a license is found in their database, the system will automatically activate. This is how all digital licenses work.
+-  Any significant changes to the hardware (such as a motherboard) may deactivate the system. It is possible to reactivate a system that was deactivated because of significant hardware changes, IF your activation, was linked to an online Microsoft account.
+-  For activation to succeed, Internet connectivity must be enabled. If you are trying to activate without these conditions being met, then the system will auto-activate later when the conditions are met.
+-  The following is required for Windows to reactivate itself after Windows reinstall:
+  -  Internet connectivity is required. (Only at the time of activation)
+  -  The system will auto-activate only if Retail (Consumer) media was used for installing Windows.
+  -  The system will NOT auto-activate if VL (Business) media was used for the installation. In this case, the user will have to insert the generic Retail/OEM key corresponding to the Windows edition currently running to activate if the user doesn't want to use the script again. (Those keys can be found below on this page)
+```
+
+<br><br> 
 
 ## Method 1 (recommend)  
 ### Instant Windows activation using (PowerShell)  
@@ -23,6 +40,7 @@ All you need to do is hit the start or search icon and type the "PowerShell" in 
 </p>  
 
 ---
+
 <br>
 
 ### Step 2  
@@ -35,18 +53,29 @@ Next, you must click on the `Run as Administrator` to start PowerShell, in this 
 ---
 <br>
 
-### Step 3  
+### Step 3   
 Now, after a brief pause to allow for execution, please `copy` this line:
 
 ```CSS
 irm https://get.activated.win | iex
-```
+```  
 
----
+Alternatively, you can use the following (this will be deprecated in the future):   
+
+```CSS
+irm https://massgrave.dev/get | iex
+```  
+
+---  
 <br>
 
-### Step 4  
-Now paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available, from which we must select option `1` and wait a few seconds to complete.  
+### Step 4    
+Now paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available,  
+
+You will see the activation options:  
+  -  Press `[1]` HWID for Windows activation.  
+  -  Press `[2]` Ohook for Office activation.   
+from which we must select option `[1]` and wait a few seconds to complete.   
 
 <p align="left">
   <br><img src="https://github.com/user-attachments/assets/0c3689a1-1595-40b3-97e2-041dac423237" width="540px">
@@ -56,148 +85,126 @@ Now paste it (with right-click) and hit the enter key. In the newly opened windo
 
 #### Congratulations,
 your Windows has been activated.  
-now you can hit the enter key to exit the CMD and close PowerShell and check windows Activation menu [^3]
+now you can hit the enter key to exit the CMD and close PowerShell and check windows Activation menu [^3]  
 
-<br><br><br><br><br><br><br><br>
+<br><br>  
 
-## Method 2  
-### Instant Windows activation using CMD (Command Prompt)
+> [!CAUTION]
+> **Not working❓**  
+> If you are unable to launch MAS using the PowerShell method, please refer to KMS Method 2.
+>  
+> [![KMS](https://img.shields.io/badge/Second_Method-blue?logo=readme)](kms.md)
 
-<br>
+<br><br><br><br>
+
+
+> [!WARNING]
+> **Files will be stored on ...**   
+>   
+> **HWID**   
+> When using HWID activation, no files are stored on the system, and Windows 10-11 will be activated when connected to the internet for the first time.  
+>  
+> **Ohook**  
+> If Office is preinstalled then Ohook method will activate the Office immediately without Internet. This activation uses custom sppc.dll file for the activation.    
+>  
+> **TSforge**  
+> When using TSforge activation, no files are stored on the system, and Windows / ESU / Office (preinstalled) becomes activated immediately without Internet.  
+>   
+> **KMS38**     
+> When using KMS38 activation, no files are stored on the system, and Windows 10-11-Server becomes activated immediately without Internet.  
+>   
+> **Online KMS**     
+> When using Online KMS activation, Windows-Server and Office (Preinstalled) both will be activated when connected to the internet for the first time. This option uses a renewal task for lifetime activation.  
+>   
+> **HWID + Ohook**     
+In this method, Windows 10-11 will be activated with HWID, and **Office** (Preinstalled) will be activated using Ohook.  
+>    
+> **HWID + Ohook + TSforge**    
+> In this method, Windows 10-11 will be activated with HWID, and **Office** (Preinstalled) will be activated using Ohook and Windows ESU will be activated with TSforge.    
+>     
+> **TSforge + Online KMS**    
+In this method, Windows will be activated with TSforge, and **Office** (Preinstalled) will be activated using Online KMS.    
+
+<br><br>  
+
+## Supported Products  
+
+| Windows 10/11 Product Names           | EditionID                | Generic Retail/OEM/MAK Key    |
+|---------------------------------------|--------------------------|-------------------------------|
+| Education                             | Education                | YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY |
+| Education N                           | EducationN               | 84NGF-MHBT6-FXBX8-QWJK7-DRR8H |
+| Enterprise                            | Enterprise               | XGVPP-NMH47-7TTHJ-W3FW7-8HV2C |
+| Enterprise N                          | EnterpriseN              | 3V6Q6-NQXCX-V8YXR-9QCYV-QPFCT |
+| Enterprise LTSB 2015                  | EnterpriseS              | FWN7H-PF93Q-4GGP8-M8RF3-MDWWW |
+| Enterprise LTSB 2016                  | EnterpriseS              | NK96Y-D9CD8-W44CQ-R8YTK-DYJWX |
+| Enterprise LTSC 2019                  | EnterpriseS              | 43TBQ-NH92J-XKTM7-KT3KK-P39PB |
+| Enterprise N LTSB 2015                | EnterpriseSN             | NTX6B-BRYC2-K6786-F6MVQ-M7V2X |
+| Enterprise N LTSB 2016                | EnterpriseSN             | 2DBW3-N2PJG-MVHW3-G7TDK-9HKR4 |
+| Home                                  | Core                     | YTMG3-N6DKC-DKB77-7M9GH-8HVX7 |
+| Home N                                | CoreN                    | 4CPRK-NM3K3-X6XXQ-RXX86-WXCHW |
+| Home China                            | CoreCountrySpecific      | N2434-X9D7W-8PF6X-8DV9T-8TYMD |
+| Home Single Language                  | CoreSingleLanguage       | BT79Q-G7N6G-PGBYW-4YWX6-6F4BT |
+| IoT Enterprise                        | IoTEnterprise            | XQQYW-NFFMW-XJPBH-K8732-CKFFD |
+| IoT Enterprise Subscription           | IoTEnterpriseK           | P8Q7T-WNK7X-PMFXY-VXHBG-RRK69 |
+| IoT Enterprise LTSC 2021              | IoTEnterpriseS           | QPM6N-7J2WJ-P88HH-P3YRH-YY74H |
+| IoT Enterprise LTSC 2024              | IoTEnterpriseS           | CGK42-GYN6Y-VD22B-BX98W-J8JXD |
+| IoT Enterprise LTSC Subscription 2024 | IoTEnterpriseSK          | N979K-XWD77-YW3GB-HBGH6-D32MH |
+| Pro                                   | Professional             | VK7JG-NPHTM-C97JM-9MPGT-3V66T |
+| Pro N                                 | ProfessionalN            | 2B87N-8KFHP-DKV6R-Y2C8J-PKCKT |
+| Pro Education                         | ProfessionalEducation    | 8PTT6-RNW4C-6V7J2-C2D3X-MHBPB |
+| Pro Education N                       | ProfessionalEducationN   | GJTYN-HDMQY-FRR76-HVGC7-QPF8P |
+| Pro for Workstations                  | ProfessionalWorkstation  | DXG7C-N36C4-C4HTG-X4T3X-2YV77 |
+| Pro N for Workstations                | ProfessionalWorkstationN | WYPNQ-8C467-V2W6J-TX4WX-WT2RQ |
+| S                                     | Cloud                    | V3WVW-N2PV2-CGWC3-34QGF-VMJ2C |
+| S N                                   | CloudN                   | NH9J3-68WK7-6FB93-4K3DF-DJ4F6 |
+| SE                                    | CloudEdition             | KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W |
+| SE N                                  | CloudEditionN            | K9VKN-3BGWV-Y624W-MCRMQ-BHDCD |
+| Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |
+
+-----
+<br>  
+
+> [!TIP]  
+> Systems in all architectures (x86, x64 and arm64) are supported.
+>  
+> Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) beyond the evaluation period. You can use TSforge option in MAS to reset the activation any given time.
+>   
+> IoTEnterpriseS (LTSC) 2021 key will be used to activate the unsupported EnterpriseS (LTSC) 2021 edition.
+> IoTEnterpriseS (LTSC) 2024 key will be used to activate the unsupported EnterpriseS (LTSC) 2024 edition.
+> 
+> Windows Server does not support HWID activation.
+> 
+> Enterprise multi-session (ServerRdsh) edition can be activated with only a key NJCF7-PW8QT-3324D-688JX-2YV66, but it does not support real digital license activation.   
+
+<br>  
+
+> [!IMPORTANT]
+> **How to remove HWID?**
+> 
+> **HWID (Digital license) activation cannot be removed**  
+> because the license is stored in the Microsoft servers and not in the user's system.   
+> Microsoft checks the hardware ID (HWID) and if a license is found in their database, the system will automatically activate.   
+> This is how the official digital license activation process works.   
+>  
+> **What if you still want to remove it?**   
+> As explained above, you cannot remove it for your hardware, only major hardware change such as CPU, motherboard can remove the activation.   
+>   
+> **What if you just want to keep Windows in the unactivated stage?**     
+> 1To do that, you can install the [KMS key](kms38.md#supported-products) in the Windows settings activation page  
+>  
+> **Or**
+>  
+> Change the edition using Change Windows edition option in MAS.      
+
+<br>  
 
 > [!NOTE]
-> Remember **connect** to the **Internet**
->
-> VPN is **not necessary**
+> Windows settings will instantly show that Windows is not activated but it usually takes 3 hours for the Activation Watermark to appear.  
+>   
+> These options will simply hide the HWID activation. If you reinstall Windows with the same edition or restore the default generic Retail/OEM keys, the system will automatically activate again if an Internet connection is found.   
 
-<br>
-
-### Step 1  
-First, hit the start or search icon and type the "CMD" in the search box. and after seeing the command prompt option, run it as an **administrator**  
-> another easy ways: [^2].
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/88ac970a-f24b-4acc-82c0-f8e7c0b05249" width="480px">
-</p>  
-
----
-<br>
-
-### The following is the list of LICENSE KEYS  
-
-|            **Key**            |  **Version**   |
-| :---------------------------: | :------------: |
-| TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 |      Home      |
-| 3KHY7-WNT83-DGQKR-F7HPR-844BM |     Home N     |
-| 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH |  Home sl [^4]  |
-| PVMJN-6DFY6–9CCP6–7BKTT-D3WVR |  Home cs [^5]  |
-| W269N-WFGWX-YVC9B-4J6C9-T83GX |  Professional  |
-| MH37W-N47XK-V7XM9-C7227-GCQG9 | Professional N |
-| NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 |   Education    |
-| 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ |  Education N   |
-| NPPR9-FWDCX-D2C8J-H872K-2YT43 |   Enterprise   |
-| DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 |  Enterprise N  |
-
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-
-<br>
-
-### Step 2  
-Install KMS client key.
-
-Use this command:
-
-```CSS
-slmgr /ipk yourlicensekey
-```
-
-> [!NOTE]
-> Please select one of the **license keys** from the list that **matches your version of Windows** and replace it with the phrase `yourlicencekey` in the command.
-
-> [!TIP]
-> How to check version of Windows [^3].
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/1b6401e6-7e63-4351-8a92-fa355dfc30cf" width="480px">
-</p>  
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/90037069-7ea3-44a8-a9fa-e296f5e8d47b" width="340px">
-</p>  
-
----
-<br>
-
-### Step 3  
-Set KMS machine address.
-
-Use the command:
-
-```CSS
-slmgr /skms kms8.msguides.com
-```
-
-to connect to my KMS server.
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/9d634454-1c59-47da-874e-bfe575288fe6" width="480px">
-</p>  
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/2d2e6cfb-4e85-483f-ae0a-c7157d22da36" width="340px">
-</p>  
-
----  
-<br>
-
-### Step 4  
-Activate your Windows.
-The last step is to activate your Windows using the command:
-
-```CSS
-slmgr /ato
-```
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/5e495d42-6ce5-4884-9de2-96a56efb4343" width="480px">
-</p>  
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/aecd9cfd-8c09-4433-b410-a62205a8d692" width="240px">
-</p>  
-
----
-<br>
-
-### Step 5  
-And Now check the activation status again [^6].
-
-<p align="left">
-  <br><img src="https://github.com/user-attachments/assets/9ca70137-8e2e-4504-a52d-22f41d959bd7" width="480px">
-</p>
-
-#### Done ✅  
-your Windows is activated successfully.
-
-<br>
-
-**Be curious 🤍**
-
-[![Telegram](https://img.shields.io/badge/TELEGRAM-blue.svg?logo=telegram)](https://t.me/F_NiREvil) [![Twitter](https://img.shields.io/badge/TWITTER-blue.svg?logo=x)](https://twitter.com/NiREvil_)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
-
-<br>
 
 [^1]: [10 Ways to run PowerShell in windows](https://www.google.com/amp/s/www.minitool.com/news/open-windows-11-powershell.html%3famp)  
 
-[^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.
-[^3]: To check version of your Windows: **Right-click** on your Start menu and select the **system** option. Your Windows version can be seen in the second section under **Edition.**, You can also follow the steps of method 2 by **copy pasting** them. copy the commands and then hit the **Right-click** in the **cmd or powershell** to paste them.
-[^4]: Home Single language version.
-[^5]: Home Country Specific version.
-[^6]: To see windows activation status you must to go:  
-***Settings → Update & Security → activation menu.***
+[^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.  
+[^3]: To check version of your Windows: **Right-click** on your Start menu and select the **system** option. Your Windows version can be seen in the second section under **Edition.**, You can also follow the steps of method 2 by **copy pasting** them. copy the commands and then hit the **Right-click** in the **cmd or powershell** to paste them.  
