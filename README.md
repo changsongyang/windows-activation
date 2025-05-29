@@ -5,8 +5,8 @@
 
 <br><br> 
 
-```CSS
-Overview
+## Overview. 
+
 -  This activation method supports Windows 10/11 only.
 -  This activation method does not store or modify any files in your system.
 -  This activation method gives you permanent Windows activation for your system hardware.
@@ -18,9 +18,21 @@ Overview
   -  Internet connectivity is required. (Only at the time of activation)
   -  The system will auto-activate only if Retail (Consumer) media was used for installing Windows.
   -  The system will NOT auto-activate if VL (Business) media was used for the installation. In this case, the user will have to insert the generic Retail/OEM key corresponding to the Windows edition currently running to activate if the user doesn't want to use the script again. (Those keys can be found below on this page)
-```
 
 <br><br> 
+
+
+### Activations Summary
+
+| Activation Type | Supported Product      | Activation Period                    | Is Internet Needed? |
+|:----------------|:-----------------------|:-------------------------------------|:--------------------|
+| HWID            | Windows 10-11          | Permanent                            | Yes                 |
+| Ohook           | Office                 | Permanent                            | No                  |
+| TSforge         | Windows / ESU / Office | Permanent                            | No                  |
+| KMS38           | Windows 10-11-Server   | Till the Year 2038                   | No                  |
+| Online KMS      | Windows / Office       | 180 Days. Lifetime With Renewal Task | Yes                 |
+
+<br><br>   
 
 ## Method 1 (recommend)  
 ### Instant Windows activation using (PowerShell)  
@@ -89,18 +101,19 @@ now you can hit the enter key to exit the CMD and close PowerShell and check win
 
 <br><br>  
 
-> [!CAUTION]
-> **Not working❓**  
+### Not working ❓  
+
+> [!CAUTION] 
 > If you are unable to launch MAS using the PowerShell method, please refer to KMS Method 2.
->  
-> [![KMS](https://img.shields.io/badge/Second_Method-blue?logo=readme)](kms.md)
+>
+> ![Static Badge](https://img.shields.io/badge/KMS?style=for-the-badge&logo=Codecademy&logoColor=%231B1B1D&link=kms.md)
+> 
+> [![KMS](https://img.shields.io/badge/KMS_Method-blue?logo=readme)](kms.md)  OR  [![KMS](https://img.shields.io/badge/KMS38_Method-green?logo=Codecademy)](kms38.md)  
 
-<br><br><br><br>
-
+### Files will be stored on ...   
 
 > [!WARNING]
-> **Files will be stored on ...**   
->   
+> 
 > **HWID**   
 > When using HWID activation, no files are stored on the system, and Windows 10-11 will be activated when connected to the internet for the first time.  
 >  
@@ -162,7 +175,7 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 | Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |
 
 -----
-<br>  
+<br><br>    
 
 > [!TIP]  
 > Systems in all architectures (x86, x64 and arm64) are supported.
@@ -176,11 +189,11 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 > 
 > Enterprise multi-session (ServerRdsh) edition can be activated with only a key NJCF7-PW8QT-3324D-688JX-2YV66, but it does not support real digital license activation.   
 
-<br>  
+<br><br>   
 
-> [!IMPORTANT]
-> **How to remove HWID?**
-> 
+### How to remove HWID?
+
+> [!IMPORTANT] 
 > **HWID (Digital license) activation cannot be removed**  
 > because the license is stored in the Microsoft servers and not in the user's system.   
 > Microsoft checks the hardware ID (HWID) and if a license is found in their database, the system will automatically activate.   
@@ -190,18 +203,34 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 > As explained above, you cannot remove it for your hardware, only major hardware change such as CPU, motherboard can remove the activation.   
 >   
 > **What if you just want to keep Windows in the unactivated stage?**     
-> 1To do that, you can install the [KMS key](kms38.md#supported-products) in the Windows settings activation page  
->  
-> **Or**
->  
-> Change the edition using Change Windows edition option in MAS.      
+>  - To do that, you can
+>     - install the [KMS key](kms38.md#supported-products) in the Windows settings activation page **OR**
+>     - Change the edition using Change Windows edition option in MAS.      
 
-<br>  
+<br><br>   
 
 > [!NOTE]
 > Windows settings will instantly show that Windows is not activated but it usually takes 3 hours for the Activation Watermark to appear.  
 >   
-> These options will simply hide the HWID activation. If you reinstall Windows with the same edition or restore the default generic Retail/OEM keys, the system will automatically activate again if an Internet connection is found.   
+> These options will simply hide the HWID activation. If you reinstall Windows with the same edition or restore the default generic Retail/OEM keys, the system will automatically activate again if an Internet connection is found.
+
+<br><br>   
+
+## Features
+
+-   **HWID (Digital License)** Method to Permanently Activate Windows
+-   **Ohook** Method to Permanently Activate Office
+-   **TSforge** Method to Permanently Activate Windows/ESU/Office
+-   **KMS38** Method to Activate Windows Till the Year 2038
+-   **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)
+-   Advanced Activation Troubleshooting
+-   $OEM$ Folders For Preactivation
+-   Change Windows Edition
+-   Change Office Edition
+-   Check Windows/Office Activation Status
+-   Available in All In One and Separate Files Versions
+-   Fully Open Source and Based on Batch Scripts
+-   Fewer Antivirus Detections
 
 
 [^1]: [10 Ways to run PowerShell in windows](https://www.google.com/amp/s/www.minitool.com/news/open-windows-11-powershell.html%3famp)  
