@@ -1,9 +1,14 @@
-# KMS38 Activation
+# KMS38 Activation  
+## Instant Windows 10 & 11 Activation: 40-Second Solution.   
 
-<br><br>  
+> This repository contains Microsoft activation scripts that can activate Windows 10 and 11 in under 40 seconds.  
+> Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation.  
+
+<br><br> 
 
 ```CSS
 Overview
+
 -  This activation method activates Windows 10/11 and Windows Server (14393 and later builds), until January 19, 2038, 03:14:07 UTC.
 -  This activation method does not store any files on the system.
 -  This activation method works offline.
@@ -14,22 +19,28 @@ Overview
 
 ## How does it work? 
 
--   In a genuine [KMS](https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee939272(v=technet.10)?redirectedfrom=MSDN#kms-overview) activation environment, activation lasts a maximum of up to 180 days. This is done using a valid license and server setup.
--   In the Windows major upgrade process, the system uses `gatherosstate.exe` to carry over the remaining KMS activation period. It does this by creating a ticket that can be used offline.
--   The trick is that we can fool the `gatherosstate.exe` about the remaining KMS activation period and manually put the desired period maximum up to January 19, 2038, 03:14:07 UTC.
--   Why is it limited to the year 2038?  
-    This is due to the [Y2K38 problem](https://en.wikipedia.org/wiki/Year_2038_problem). This date (19 January 2038, 03:14:07 UTC) is the maximum value that can fit into a signed 32 bit integer.
--   How can we convince the gatherosstate.exe?  
-    There are two methods for it.  
-    **1-** Place a [custom slc.dll](https://github.com/asdcorp/Integrated_Patcher_3) file beside gatherosstate.exe:  
-    gatherosstate.exe uses the system's `C:\Windows\System32\slc.dll` file to gather the system's info. If we place a custom slc.dll file beside gatherosstate.exe which can send the rubbish data to it, then it will simply accept it and generate a valid ticket allowing activation up to January 19, 2038, 03:14:07 UTC.  
-    **2-** [Modify](https://github.com/asdcorp/GamersOsState) the gatherosstate.exe file itself so that it doesn't check the system's activation status and we can put the activation period as we wish.
--   **Notes:**
-    -   To be clear, we are **not modifying/patching any on-board system file** to get the ticket. Gatherosstate.exe is a part of the ISO file and not available in C drive system files. The system's slc.dll file is not touched; instead, we use custom slc.dll only for a brief moment of ticket generation.
-    -   Latest MAS doesn't use any of these methods; instead, it uses ready-to-use Universal Tickets (check below for manual activation info).
+> [!TIP]   
+> In a genuine [KMS](https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee939272(v=technet.10)?redirectedfrom=MSDN#kms-overview) activation environment, activation lasts a maximum of up to 180 days. This is done using a valid license and server setup.   
+> In the Windows major upgrade process, the system uses `gatherosstate.exe` to carry over the remaining KMS activation period. It does this by creating a ticket that can be used offline.   
+>    
+> The trick is that we can fool the `gatherosstate.exe` about the remaining KMS activation period and manually put the desired period maximum up to January 19, 2038, 03:14:07 UTC.   
+> 
+> **Why is it limited to the year 2038?**   
+> This is due to the [Y2K38 problem](https://en.wikipedia.org/wiki/Year_2038_problem). This date (19 January 2038, 03:14:07 UTC) is the maximum value that can fit into a signed 32 bit integer.   
+> 
+> **How can we convince the gatherosstate.exe?**   
+>  - There are two methods for it.   
+>     - **1-** Place a [custom slc.dll](https://github.com/asdcorp/Integrated_Patcher_3) file beside gatherosstate.exe:  
+>         gatherosstate.exe uses the system's `C:\Windows\System32\slc.dll` file to gather the system's info. If we place a custom slc.dll file beside gatherosstate.exe   which can send the rubbish data to it, then it will simply accept it and generate a valid ticket allowing activation up to January 19, 2038, 03:14:07 UTC.  
+>     - **2-** [Modify](https://github.com/asdcorp/GamersOsState) the gatherosstate.exe file itself so that it doesn't check the system's activation status and we can put the activation period as we wish.   
 
-**Q:** Can Microsoft block this kind of activation?  
-**A:** Not directly. They could only update Clipup to allow for a maximum activation period of 180 days. Not much besides that can be done on their part. The tickets are not sent to Microsoft at all, so they can't block them or take action directly.
+
+> [!NOTE]
+> **To be clear**, we are **not modifying/patching any on-board system file** to get the ticket.   
+> Gatherosstate.exe is a part of the ISO file and not available in C drive system files. The system's slc.dll file is not touched; instead, we use custom slc.dll only for a brief moment of ticket generation.       
+>  - Latest MAS doesn't use any of these methods; instead, it uses ready-to-use Universal Tickets (check below for manual activation info).      
+>     - **Q:** Can Microsoft block this kind of activation?        
+>     - **A:** Not directly. They could only update Clipup to allow for a maximum activation period of 180 days. Not much besides that can be done on their part. The tickets are not sent to Microsoft at all, so they can't block them or take action directly.     
 
 
 <br><br> 
@@ -71,6 +82,8 @@ Overview
 | Pro N for Workstations                                 | ProfessionalWorkstationN | 9FNHH-K3HBT-3W4TD-6383H-6XYWF |
 | SE                                                     | CloudEdition             | 37D7F-N49CB-WQR8W-TBJ73-FM8RX |
 | SE N                                                   | CloudEditionN            | 6XN7V-PCBDC-BDBRH-8DQY7-G6R44 |
+
+
 
 ### Windows Server 2025 (LTSC)
 | Product Names                        | EditionID        | Generic Volume License Key    |
@@ -132,49 +145,54 @@ Overview
 
 
 
+> [!NOTE]
+> Systems in all architectures (x86, x64 and arm64) are supported.     
+> Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) beyond the evaluation period. You can use the TSforge option in MAS to reset the activation at any time.     
+> KMS38 only supports Windows/server version 14393 (1607) and newer versions.     
+> Initial release (19044.1288) of Iot LTSC 2021 doesn't support KMS license and it was added later in update 19044.2788.     
+> Server Azure Datacenter (ServerTurbine) edition does not support activation on non-azure systems.     
 
 
--   Systems in all architectures (x86, x64 and arm64) are supported.
--   Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) beyond the evaluation period. You can use the TSforge option in MAS to reset the activation at any time.
--   KMS38 only supports Windows/server version 14393 (1607) and newer versions.
--   Initial release (19044.1288) of Iot LTSC 2021 doesn't support KMS license and it was added later in update 19044.2788.
--   Server Azure Datacenter (ServerTurbine) edition does not support activation on non-azure systems.
+## How to remove
 
+> [!IMPORTANT]
+> **How to remove KMS38?**      
+> In MAS, go to KMS38 Activation and apply the Remove KM38 Protection option.   
+> After that, In MAS, go to Troubleshoot and apply the Fix Licensing option.   
+> Done.
 
-## How to remove KMS38?
+<br>  
 
--   In MAS, go to KMS38 Activation and apply the Remove KM38 Protection option.
--   After that, In MAS, go to Troubleshoot and apply the Fix Licensing option.
--   Done.
+## KMS38 - Server Cor/Acor 
 
-
-## KMS38 - Server Cor/Acor
-
--   Windows Server Cor/Acor (No GUI) editions don't have the `clipup.exe` file.
--   To KMS38 activate it, you need to download the `ClipUp.exe` file from [this link](https://app.box.com/s/cwoxub9tqyowhnyva6ign6qnogb6vk0o).  
+> [!NOTE]      
+> Windows Server Cor/Acor (No GUI) editions don't have the `clipup.exe` file.   
+> To KMS38 activate it, you need to download the `ClipUp.exe` file from [this link](https://app.box.com/s/cwoxub9tqyowhnyva6ign6qnogb6vk0o).     
     `File: ClipUp.exe`  
-    `SHA-256: 0d6e9f6bbd0321eda149658d96040cb4f79e0bd93ba60061f25b28fecbf4d4ef`  
-    This file has digital signatures that can be verified. You can also get this file from the official [Windows Server 2016 x64 RTM ISO](https://download.microsoft.com/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO).
--   Put the `ClipUp.exe` file beside the KMS38 Activation script. That would be either `MAS_AIO.cmd` or `KMS38_Activation.cmd`
--   The activation script will check for `ClipUp.exe` in the current folder (from where the script is running) and will use it accordingly.
+    `SHA-256: 0d6e9f6bbd0321eda149658d96040cb4f79e0bd93ba60061f25b28fecbf4d4ef`     
+    This file has digital signatures that can be verified. You can also get this file from the official [Windows Server 2016 x64 RTM ISO](https://download.microsoft.com/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO).   
+> Put the `ClipUp.exe` file beside the KMS38 Activation script. That would be either `MAS_AIO.cmd` or `KMS38_Activation.cmd`   
+> The activation script will check for `ClipUp.exe` in the current folder (from where the script is running) and will use it accordingly.   
 
+<br>  
 
-## KMS38 Protection
+## KMS38 Protection   
 
--   KMS38 Activation is vulnerable to unintended replacement by a 180-Day KMS Activator.
--   From MAS 1.7, the script will enable KMS38 protection by default.
--   If you are going to use KMS_VL_ALL by abbodi1406 or [MAS](README.md) (Online KMS option) for **Office activation**, then you can choose to remove this protection.
--   Below is the explanation for how the script protect KMS38.
--   In the KMS activation method, Windows first checks the KMS IP registered as a specific KMS, and if that is not defined, then it checks the Global KMS IP. 
-    -   Another fact is that if Localhost (IP range 127.0.0.0/8) is defined as the KMS IP in Windows 8 and later OS, then Windows will not accept it as a valid KMS IP.
-    -   This script simply utilizes the above facts to protect the KMS38 activation from being overwritten by any alternative 'normal' 180-Day KMS Activation, and at the same time, that KMS activator can be used for Office activation.
--   Script steps-  
-    -   Set the Windows edition-specific KMS IP to Localhost (127.0.0.2)
-    -   Protect the below Registry from edit and delete  
-	   `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\55c92734-d682-4d71-983e-d6ec3f16059f\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\`
-    -   Done.  
+> [!TIP]    
+> KMS38 Activation is vulnerable to unintended replacement by a 180-Day KMS Activator.   
+> From MAS 1.7, the script will enable KMS38 protection by default.   
+>   
+> If you are going to use KMS_VL_ALL by abbodi1406 or [MAS](README.md) (Online KMS option) for **Office activation**, then you can choose to remove this protection.   
+>   
+> Below is the explanation for how the script protect KMS38.   
+> In the KMS activation method, Windows first checks the KMS IP registered as a specific KMS, and if that is not defined, then it checks the Global KMS IP.   
+>  -   Another fact is that if Localhost (IP range 127.0.0.0/8) is defined as the KMS IP in Windows 8 and later OS, then Windows will not accept it as a valid KMS IP.  
+>  -   This script simply utilizes the above facts to protect the KMS38 activation from being overwritten by any alternative 'normal' 180-Day KMS Activation, and at the same time, that KMS activator can be used for Office activation.   
+>  - Script steps   
+>  -   Set the Windows edition-specific KMS IP to Localhost (127.0.0.2)     
+>  -   Protect the below Registry from edit and delete   
+>  -   `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\55c92734-d682-4d71-983e-d6ec3f16059f\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\`   
+>  -   Done.     
     
-    
------
 
-## Command line Switches
+<br>  
