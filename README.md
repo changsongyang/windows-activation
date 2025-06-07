@@ -1,4 +1,4 @@
-# Instant Windows 8, 10, 11 & Office Activation: 40-Second Solution   
+# Instant Windows and Office Activation: 40-Second Solution   
 
 > **A reliable, open-source activation tool for Windows and Office, featuring HWID, Ohook, TSforge, KMS38, and Online KMS—activate in under 40 seconds!**  
 
@@ -15,6 +15,12 @@
 | KMS38           | Windows 10-11-Server   | Till the Year 2038                   | No                  |
 | Online KMS      | Windows / Office       | 180 Days. Lifetime With Renewal Task | Yes                 |
 
+![rainbow]  
+
+> [!CAUTION]  
+> - Remember **connect** to the **Internet**  
+>   - VPN is **not necessary**  
+
 <br>  
 
 ## Table of contents    
@@ -28,7 +34,8 @@
 - [How to Remove](#How-to-remove)  
 - [Clean install windows](en/clean_install_windows.md)
 - [Removing Malware](en/remove_malware.md)
-- [Office C2R Custom install](en/office_c2r.md)  
+- [Office C2R Custom install](en/office_c2r.md)
+- [A genuine Windows ISO files](en/clean_install_windows.md#prerequisites)
 
 <br>   
 
@@ -83,23 +90,23 @@
 >
 > </details>  
 
-</br  >  
+</br>    
 
 ## Method 1  
 
 **Instant Windows activation via HWID**     
-> We have many ways to run powershell in windowss 10 & 11. [^1] [^2]
+> We have many ways to run powershell in windowss 10 and 11. [^1] [^2]
 
 
 ### Step 1  
  
 - All you need to do: 
 - Click Start/Search icon.
-  - Type PowerShell and select Run as Administrator.
+  - Type **PowerShell** and select **Run as Administrator**.
 - Alternative:
-  - Right-click the Start menu
-  - Select Windows Terminal (Admin) Win11 OR  
-  - Select Windows PowerShell (Admin) Win10   
+  - Right-click the **Start menu**  
+  - Select **Windows Terminal (Admin)** Win 11 OR  
+  - **Select Windows PowerShell (Admin)** Win 10   
 - in this case we need to run with **administrative privileges**.  
  
 <br>  
@@ -110,22 +117,22 @@
 
 ---  
 
-<br>  
+<br>   ..
 
-### Step 2   
-Now, `Copy` the following command:  
+### Step 2    
+**Now, `Copy` the following command:** 
 
 ```CSS
 irm https://get.activated.win | iex
 ```  
 
-Alternative (Deprecated Soon):  my 
+Alternative (Deprecated Soon):
 
 ```CSS
 irm https://massgrave.dev/get | iex
 ```  
 
-<br>   
+</br>   
 
 <p align="center">
   <br><img src="https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e" width="754px">
@@ -133,10 +140,10 @@ irm https://massgrave.dev/get | iex
 
 ---  
 
-<br>   
+</br>   
 
 ### Step 3   
-To Run the Activator, paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available,  
+To Run the activator, paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available:    
 
 You will see the activation options:  
   -  Press `[1]` HWID for Windows activation.  
@@ -144,7 +151,7 @@ You will see the activation options:
   -  Press `[3]` TSforge for Windows activation. 
 from which we must select option `[1]` and wait a few seconds to complete.     
 
-</br  >     
+</br>     
 
 <p align="center">
   <br><img src="https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273" width="754px">
@@ -179,7 +186,7 @@ For additional help, visit the **[Discussion Section](https://github.com/NiREvil
 >  just like the first one, it doesn’t save anything on your system. 
 > 
 > For activating Office, I use the activation method with Ohook, TSforge, or Online KMS—they’re pretty similar. I’ve noted the slight differences in the activation summary section.   
-> If you run into any issues or have questions at any step, definitely share with me and our friends in the [Discussion](https://github.com/NiREvil/windows-activation/discussions/new/choose) section. And if you need to reach out urgently, here’s my email: <diana.clk01@gmail.com>
+> If you run into any issues or have questions at any step, definitely share with me and our friends in the [Discussion][8] section. And if you need to reach out urgently, here’s my email: [diana.cl@gmail.com][9]
 >  
 > </details>
 
@@ -230,8 +237,8 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 | Enterprise N LTSB 2016                | EnterpriseSN             | 2DBW3-N2PJG-MVHW3-G7TDK-9HKR4 |
 | Home                                  | Core                     | YTMG3-N6DKC-DKB77-7M9GH-8HVX7 |
 | Home N                                | CoreN                    | 4CPRK-NM3K3-X6XXQ-RXX86-WXCHW |
-| Home China                            | CoreCountrySpecific      | N2434-X9D7W-8PF6X-8DV9T-8TYMD |
-| Home Single Language                  | CoreSingleLanguage       | BT79Q-G7N6G-PGBYW-4YWX6-6F4BT |
+| Home China                            | CoreCountrySpecific [^4] | N2434-X9D7W-8PF6X-8DV9T-8TYMD |
+| Home Single Language                  | CoreSingleLanguage  [^5] | BT79Q-G7N6G-PGBYW-4YWX6-6F4BT |
 | IoT Enterprise                        | IoTEnterprise            | XQQYW-NFFMW-XJPBH-K8732-CKFFD |
 | IoT Enterprise Subscription           | IoTEnterpriseK           | P8Q7T-WNK7X-PMFXY-VXHBG-RRK69 |
 | IoT Enterprise LTSC 2021              | IoTEnterpriseS           | QPM6N-7J2WJ-P88HH-P3YRH-YY74H |
@@ -247,13 +254,12 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 | S N                                   | CloudN                   | NH9J3-68WK7-6FB93-4K3DF-DJ4F6 |
 | SE                                    | CloudEdition             | KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W |
 | SE N                                  | CloudEditionN            | K9VKN-3BGWV-Y624W-MCRMQ-BHDCD |
-| Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |
-
-----  
+| Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |  
+![rainbow]  
 
 </br>    
 
-> [!TIP]
+> [!TIP]  
 > 
 > <details>  
 > <summary> System in all architecture are suppurted </summary>  
@@ -343,10 +349,20 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 
 <br>  
 
-[^1]: [10 Ways to run PowerShell in windows][4]    
+[^1]: [10 Ways to run PowerShell in windows][7]    
 
 [^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.  
 
 [^3]: To check version of your Windows: **Right-click** on your Start menu and select the **system** option. Your Windows version can be seen in the second section under **Edition.**, You can also follow the steps of method 2 by **copy pasting** them. copy the commands and then hit the **Right-click** in the **cmd or powershell** to paste them.  
+[^4]: Home Country Specific version.   
+[^5]: Home Single language version.  
+[^6]: To see windows activation status you must to go:  
+***Settings → Update & Security → activation menu.***  
+[^7]: Professional for Workstations & Professional N for Workstations   
 
-[4]: https://www.minitool.com/news/open-windows-11-powershell.html
+
+
+[7]: https://www.minitool.com/news/open-windows-11-powershell.html  
+[8]: https://github.com/NiREvil/windows-activation/discussions/new/choose  
+[9]: <mailto:diana.clk01@gmail.com>
+[rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256
