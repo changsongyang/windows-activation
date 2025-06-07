@@ -38,7 +38,7 @@ Support
 
 ---
 
-[^1]: Provided by [TSforge](tsforge.md).
+[^1]: Provided by [TSforge](en/tsforge.md).
 [^2]: Valid until the year 2038.
 [^3]: Valid for 180 days by default. Permanent with renewal task installed.
 [^4]: Valid for 4083 years.
