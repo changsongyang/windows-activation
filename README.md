@@ -1,8 +1,8 @@
 # Instant Windows 8, 10, 11 & Office Activation: 40-Second Solution   
 
-> This repository contains an open-source activator for Windows and Office, featuring HWID, Ohook, TSforge, KMS38, and Online KMS, which can activate Windows and Office in less than 40 seconds.   
+> **A reliable, open-source activation tool for Windows and Office, featuring HWID, Ohook, TSforge, KMS38, and Online KMS—activate in under 40 seconds!**  
 
-<br>  
+</br>    
 
 ## Activations Summary
 
@@ -47,8 +47,7 @@
 - Check Windows/Office Activation Status  
 - Available in All In One and Separate Files Versions  
 - Fully Open Source and Based on Batch Scripts  
-- Fewer Antivirus Detections   
-</br  > 
+- Fewer Antivirus Detections <br></br>  
 
 > [!NOTE]
 > 
@@ -73,14 +72,14 @@
 > [!WARNING]
 > 
 > <details>  
-> <summary> Batch script is not recommended </summary>
+> <summary> Batch Scripts Are Not Official </summary>  
 >   
-> - KMS commands are developed by Microsoft but the batch scripts are not.  
->   - They are just contain a batch of KMS commands and written by individuals like me.  
+> - KMS commands are **developed by Microsoft** but batch scripts are custom-written.  
+>   - They are just contain a batch of commands and written by individuals like me.  
 >
 > - Our purpose of creating the scripts is help you guys save your time instead of running all commands, one by one in the command prompt or Windows power shell.   
 >   - But this method has never been treated as an official method because opening batch file with admin rights is not recommended by Microsoft.   
->   - **For example, if the author inserts the command formatting your disk into the script, all your data will be lost.**    
+>   - **Security Warning:** For example, if the author inserts the command formatting your disk (e.g., disk formatting) into the script, all your data loss could occur.    
 >
 > </details>  
 
@@ -88,20 +87,21 @@
 
 ## Method 1  
 
-**Instant Windows activation using HWID**   
+**Instant Windows activation via HWID**     
+> We have many ways to run powershell in windowss 10 & 11. [^1] [^2]
 
-> We have many ways to run powershell in windowss 10 & 11. [^1]  
-> Another easy way: [^2]  
-
-One of the fastest ways to open PowerShell in Windows is a Start menu search. You may follow the steps below:
-
-<br>  
 
 ### Step 1  
-All you need to do is hit the start or search icon and type the "PowerShell" in the search box.       
  
-Next, you must click on the `Run as Administrator` to start PowerShell, in this case we need to run with **administrative privileges**.
-
+- All you need to do: 
+- Click Start/Search icon.
+  - Type PowerShell and select Run as Administrator.
+- Alternative:
+  - Right-click the Start menu
+  - Select Windows Terminal (Admin) Win11 OR  
+  - Select Windows PowerShell (Admin) Win10   
+- in this case we need to run with **administrative privileges**.  
+ 
 <br>  
 
 <p align="center">
@@ -113,13 +113,13 @@ Next, you must click on the `Run as Administrator` to start PowerShell, in this 
 <br>  
 
 ### Step 2   
-Now, after a brief pause to allow for execution, please `copy` this line: 
+Now, `Copy` the following command:  
 
 ```CSS
 irm https://get.activated.win | iex
 ```  
 
-Alternatively, you can use the following (this will be deprecated in the future):   
+Alternative (Deprecated Soon):  my 
 
 ```CSS
 irm https://massgrave.dev/get | iex
@@ -135,8 +135,8 @@ irm https://massgrave.dev/get | iex
 
 <br>   
 
-### Step 3    
-Now paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available,  
+### Step 3   
+To Run the Activator, paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available,  
 
 You will see the activation options:  
   -  Press `[1]` HWID for Windows activation.  
@@ -151,18 +151,19 @@ from which we must select option `[1]` and wait a few seconds to complete.
 </p><br>  
 
 
-### Congratulations
-your Windows has been activated.  
+**Congratulations!** Windows is now activated!
 
-now you can hit the enter key to exit the CMD and close PowerShell and check windows Activation menu [^3]   
+To verify, go to **Settings → System → Activation Menu**. [^3]   
 
-</br  >  
+<br></br>     
 
-## Not working  
+## Troubleshooting  
 
-Did this method not work for you ? Very well,  
-then [click here](en/kms) to proceed with the KMS method.
+Did HWID not work for you?  ? Very well,  
+then [click here](en/kms) to proceed with the KMS method.   
+For additional help, visit the **[Discussion Section](https://github.com/NiREvil/windows-activation/discussions/new/choose)** or reach out via email: [diana.clk01@gmail.com](mailto:diana.clk01@gmail.com).    
 
+---  
 
 > [!NOTE]
 > 
@@ -212,7 +213,7 @@ then [click here](en/kms) to proceed with the KMS method.
 > **❖ TSforge + Online KMS**    
 In this method, Windows will be activated with TSforge, and **Office** (Preinstalled) will be activated using Online KMS.   
 
-</br  >    
+</br>    
 
 ## Supported Products  
 
@@ -250,7 +251,7 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 
 ----  
 
-</br  >    
+</br>    
 
 > [!TIP]
 > 
@@ -267,7 +268,7 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 >  
 > </details>  
 
-</br  >  
+</br>  
 
 ## How to remove
 
@@ -276,7 +277,7 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 > **⨻ How to remove HWID?**
 > 
 > HWID (Digital license) activation cannot be removed.    
-> Because the license is stored in the Microsoft servers and not in the user's system.     
+> Because the license is stor in the Microsoft servers and not in the user's system.     
 > Microsoft checks the hardware ID (HWID) and if a license is found in their database, the system will automatically activate.   
 > This is how the official digital license activation process works.   
 >  
@@ -332,8 +333,9 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 
 </br  >  
 
-> [!NOTE] 
->  
+> [!NOTE]
+>
+> **HWID Activation Notes**  
 > Windows settings will instantly show that Windows is not activated but it usually takes 3 hours for the Activation Watermark to appear.   
 >   
 > These options will simply hide the HWID activation.    
