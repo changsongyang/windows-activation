@@ -6,11 +6,11 @@
 
 ## Activations Summary
 
-| Activation Type | Supported Product      | Activation Period                    | Is Internet Needed? |
-|:----------------|:-----------------------|:-------------------------------------|:--------------------|
+| Activation Type |    Supported Product   |          Activation Period           | Is Internet Needed? |
+|:---------------:|:----------------------:|:------------------------------------:|:-------------------:|
 | HWID            | Windows 10-11          | Permanent                            | Yes                 |
 | KMS             | Windows 10-11          | Permanent                            | Yes                 |
-| Ohook           | Office                 | Permanent                            | No                  |Add commentMore actions
+| Ohook           | Office                 | Permanent                            | No                  |
 | TSforge         | Windows / ESU / Office | Permanent                            | Yes, needed on build 19041 and later |
 | KMS38           | Windows 10-11-Server   | Till the Year 2038                   | No                  |
 | Online KMS      | Windows / Office       | 180 Days. Lifetime With Renewal Task | Yes                 |
