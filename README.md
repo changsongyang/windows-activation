@@ -7,11 +7,11 @@
 ## Activations Summary
 
 | Activation Type | Supported Product      | Activation Period                    | Is Internet Needed? |
-|:----------------|:-----------------------|:-------------------------------------|:--------------------|
+|-----------------|------------------------|--------------------------------------|---------------------|
 | HWID            | Windows 10-11          | Permanent                            | Yes                 |
 | KMS             | Windows 10-11          | Permanent                            | Yes                 |
-| Ohook           | Office                 | Permanent                            | No                  |Add commentMore actions
-| TSforge         | Windows / ESU / Office | Permanent                            | Yes, needed on build 19041 and later |
+| Ohook           | Office                 | Permanent                            | No                  |
+| TSforge         | Windows / ESU / Office | Permanent                            | Yes, needed on build 19041 and later 
 | KMS38           | Windows 10-11-Server   | Till the Year 2038                   | No                  |
 | Online KMS      | Windows / Office       | 180 Days. Lifetime With Renewal Task | Yes                 |
 
@@ -167,7 +167,7 @@ To verify, go to **Settings → System → Activation Menu**. [^3]
 ## Troubleshooting  
 
 Did HWID not work for you?  ? Very well,  
-then [click here](en/kms) to proceed with the KMS method.   
+then [click here](en/kms.md) to proceed with the KMS method.   
 For additional help, visit the **[Discussion Section](https://github.com/NiREvil/windows-activation/discussions/new/choose)** or reach out via email: [diana.clk01@gmail.com](mailto:diana.clk01@gmail.com).    
 
 ---  
@@ -237,8 +237,8 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 | Enterprise N LTSB 2016                | EnterpriseSN             | 2DBW3-N2PJG-MVHW3-G7TDK-9HKR4 |
 | Home                                  | Core                     | YTMG3-N6DKC-DKB77-7M9GH-8HVX7 |
 | Home N                                | CoreN                    | 4CPRK-NM3K3-X6XXQ-RXX86-WXCHW |
-| Home China                            | CoreCountrySpecific [^4] | N2434-X9D7W-8PF6X-8DV9T-8TYMD |
-| Home Single Language                  | CoreSingleLanguage  [^5] | BT79Q-G7N6G-PGBYW-4YWX6-6F4BT |
+| Home China  [^4]                      | CoreCountrySpecific      | N2434-X9D7W-8PF6X-8DV9T-8TYMD |
+| Home Single Language  [^5]            | CoreSingleLanguage       | BT79Q-G7N6G-PGBYW-4YWX6-6F4BT |
 | IoT Enterprise                        | IoTEnterprise            | XQQYW-NFFMW-XJPBH-K8732-CKFFD |
 | IoT Enterprise Subscription           | IoTEnterpriseK           | P8Q7T-WNK7X-PMFXY-VXHBG-RRK69 |
 | IoT Enterprise LTSC 2021              | IoTEnterpriseS           | QPM6N-7J2WJ-P88HH-P3YRH-YY74H |
@@ -254,7 +254,8 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 | S N                                   | CloudN                   | NH9J3-68WK7-6FB93-4K3DF-DJ4F6 |
 | SE                                    | CloudEdition             | KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W |
 | SE N                                  | CloudEditionN            | K9VKN-3BGWV-Y624W-MCRMQ-BHDCD |
-| Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |  
+| Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |
+
 ![rainbow]  
 
 </br>    
