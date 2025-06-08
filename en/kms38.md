@@ -1,41 +1,39 @@
 # KMS38 Activation  
-## Instant Windows 10 & 11 Activation: 40-Second Solution.   
+## Instant Windows and Office Activation: 40-Second Solution
 
-> This repository contains Microsoft activation scripts that can activate Windows 10 and 11 in under 40 seconds.  
-> Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation.  
+> A reliable, open-source activation tool for Windows and Office, featuring HWID, Ohook, TSforge, KMS38, and Online KMS—activate in under 40 seconds!
 
 <br><br> 
 
-```CSS
-Overview
+## Overview
 
 -  This activation method activates Windows 10/11 and Windows Server (14393 and later builds), until January 19, 2038, 03:14:07 UTC.
 -  This activation method does not store any files on the system.
 -  This activation method works offline.
 -  Unlike HWID and Online KMS activation options, KMS38 does not match with any official activation method.
-```
 
+ 
 <br><br>  
 
 ## How does it work? 
 
 > [!TIP]   
-> In a genuine [KMS](https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee939272(v=technet.10)?redirectedfrom=MSDN#kms-overview) activation environment, activation lasts a maximum of up to 180 days. This is done using a valid license and server setup.   
+> In a genuine [KMS][1] activation environment, activation lasts a maximum of up to 180 days. This is done using a valid license and server setup.   
 > In the Windows major upgrade process, the system uses `gatherosstate.exe` to carry over the remaining KMS activation period. It does this by creating a ticket that can be used offline.   
 >    
 > The trick is that we can fool the `gatherosstate.exe` about the remaining KMS activation period and manually put the desired period maximum up to January 19, 2038, 03:14:07 UTC.   
 > 
 > **Why is it limited to the year 2038?**   
-> This is due to the [Y2K38 problem](https://en.wikipedia.org/wiki/Year_2038_problem). This date (19 January 2038, 03:14:07 UTC) is the maximum value that can fit into a signed 32 bit integer.   
+> This is due to the [Y2K38 problem][2]. This date (19 January 2038, 03:14:07 UTC) is the maximum value that can fit into a signed 32 bit integer.   
 > 
 > **How can we convince the gatherosstate.exe?**   
 >  - There are two methods for it.   
->     - **1-** Place a [custom slc.dll](https://github.com/asdcorp/Integrated_Patcher_3) file beside gatherosstate.exe:  
+>     - **1-** Place a [custom slc.dll][3] file beside gatherosstate.exe:  
 >         gatherosstate.exe uses the system's `C:\Windows\System32\slc.dll` file to gather the system's info. If we place a custom slc.dll file beside gatherosstate.exe   which can send the rubbish data to it, then it will simply accept it and generate a valid ticket allowing activation up to January 19, 2038, 03:14:07 UTC.  
->     - **2-** [Modify](https://github.com/asdcorp/GamersOsState) the gatherosstate.exe file itself so that it doesn't check the system's activation status and we can put the activation period as we wish.   
+>     - **2-** [Modify][4] the gatherosstate.exe file itself so that it doesn't check the system's activation status and we can put the activation period as we wish.   
 
 
-> [!NOTE]
+> [!IMPORTANT]  
 > **To be clear**, we are **not modifying/patching any on-board system file** to get the ticket.   
 > Gatherosstate.exe is a part of the ISO file and not available in C drive system files. The system's slc.dll file is not touched; instead, we use custom slc.dll only for a brief moment of ticket generation.       
 >  - Latest MAS doesn't use any of these methods; instead, it uses ready-to-use Universal Tickets (check below for manual activation info).      
@@ -50,7 +48,7 @@ Overview
 
 ### Windows 10 / 11
 | Product Names                                          | EditionID                | Generic Volume License Key    |
-|--------------------------------------------------------|--------------------------|-------------------------------|
+|:------------------------------------------------------:|:------------------------:|:-----------------------------:|
 | Education                                              | Education                | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 |
 | Education N                                            | EducationN               | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ |
 | Enterprise                                             | Enterprise               | NPPR9-FWDCX-D2C8J-H872K-2YT43 |
@@ -87,7 +85,7 @@ Overview
 
 ### Windows Server 2025 (LTSC)
 | Product Names                        | EditionID        | Generic Volume License Key    |
-|--------------------------------------|------------------|-------------------------------|
+|:------------------------------------:|:----------------:|:-----------------------------:|
 | Windows Server 2025 Standard         | ServerStandard   | TVRH6-WHNXV-R9WG3-9XRFY-MY832 |
 | Windows Server 2025 Datacenter       | ServerDatacenter | D764K-2NDRG-47T6Q-P8T8W-YP6DF |
 | Windows Server 2025 Azure Core       | ServerAzureCor   | FCNV3-279Q9-BQB46-FTKXX-9HPRH |
@@ -95,7 +93,7 @@ Overview
 
 ### Windows Server 2022 (LTSC)
 | Product Names                        | EditionID        | Generic Volume License Key    |
-|--------------------------------------|------------------|-------------------------------|
+|:------------------------------------:|:----------------:|:-----------------------------:|
 | Windows Server 2022 Datacenter       | ServerDatacenter | WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
 | Windows Server 2022 Standard         | ServerStandard   | VDYBN-27WPP-V4HQT-9VMD4-VMK7H |
 | Windows Server 2022 Azure Core       | ServerAzureCor   | 6N379-GGTMK-23C6M-XVVTC-CKFRQ |
@@ -103,7 +101,7 @@ Overview
 
 ### Windows Server 2019 (LTSC)
 | Product Names                  | EditionID        | Generic Volume License Key    |
-|--------------------------------|------------------|-------------------------------|
+|:------------------------------:|:----------------:|:-----------------------------:|
 | Windows Server 2019 Datacenter | ServerDatacenter | WMDGN-G9PQG-XVVXX-R3X43-63DFG |
 | Windows Server 2019 Standard   | ServerStandard   | N69G4-B89J2-4G8F4-WWYCC-J464C |
 | Windows Server 2019 Essentials | ServerSolution   | WVDHN-86M7X-466P6-VHXV7-YY726 |
@@ -155,11 +153,11 @@ Overview
 
 ## How to remove
 
-> [!IMPORTANT]
+> [!NOTE]
 > **How to remove KMS38?**      
 > In MAS, go to KMS38 Activation and apply the Remove KM38 Protection option.   
 > After that, In MAS, go to Troubleshoot and apply the Fix Licensing option.   
-> Done.
+> Done ✔️.
 
 <br>  
 
@@ -167,10 +165,10 @@ Overview
 
 > [!NOTE]      
 > Windows Server Cor/Acor (No GUI) editions don't have the `clipup.exe` file.   
-> To KMS38 activate it, you need to download the `ClipUp.exe` file from [this link](https://app.box.com/s/cwoxub9tqyowhnyva6ign6qnogb6vk0o).     
+> To KMS38 activate it, you need to download the `ClipUp.exe` file from [this link][5].     
     `File: ClipUp.exe`  
     `SHA-256: 0d6e9f6bbd0321eda149658d96040cb4f79e0bd93ba60061f25b28fecbf4d4ef`     
-    This file has digital signatures that can be verified. You can also get this file from the official [Windows Server 2016 x64 RTM ISO](https://download.microsoft.com/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO).   
+    This file has digital signatures that can be verified. You can also get this file from the official [Windows Server 2016 x64 RTM ISO][6].   
 > Put the `ClipUp.exe` file beside the KMS38 Activation script. That would be either `MAS_AIO.cmd` or `KMS38_Activation.cmd`   
 > The activation script will check for `ClipUp.exe` in the current folder (from where the script is running) and will use it accordingly.   
 
@@ -182,7 +180,7 @@ Overview
 > KMS38 Activation is vulnerable to unintended replacement by a 180-Day KMS Activator.   
 > From MAS 1.7, the script will enable KMS38 protection by default.   
 >   
-> If you are going to use KMS_VL_ALL by abbodi1406 or [MAS](README.md) (Online KMS option) for **Office activation**, then you can choose to remove this protection.   
+> If you are going to use KMS_VL_ALL by abbodi1406 or [MAS][7] (Online KMS option) for **Office activation**, then you can choose to remove this protection.   
 >   
 > Below is the explanation for how the script protect KMS38.   
 > In the KMS activation method, Windows first checks the KMS IP registered as a specific KMS, and if that is not defined, then it checks the Global KMS IP.   
@@ -192,7 +190,25 @@ Overview
 >  -   Set the Windows edition-specific KMS IP to Localhost (127.0.0.2)     
 >  -   Protect the below Registry from edit and delete   
 >  -   `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\55c92734-d682-4d71-983e-d6ec3f16059f\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\`   
->  -   Done.     
-    
+>  -   Done ✔️.
 
-<br>  
+-----
+
+
+
+[1]: https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee939272(v=technet.10)?redirectedfrom=MSDN#kms-overview
+
+[2]: https://en.wikipedia.org/wiki/Year_2038_problem  
+
+[3]: https://github.com/asdcorp/Integrated_Patcher_3  
+
+[4]: https://github.com/asdcorp/GamersOsState
+
+[5]: https://app.box.com/s/cwoxub9tqyowhnyva6ign6qnogb6vk0o  
+
+[6]: https://download.microsoft.com/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO  
+
+[7]: https://github.com/NiREvil/windows-activation/blob/Dev/README.md
+
+
+
