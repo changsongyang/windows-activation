@@ -23,7 +23,6 @@
     `E:\rearm.cmd`
 -   Wait for it to finish. When it's finished, you will be able to type in the command prompt, If not then wait.
 -   Once done, exit and then normally boot into Windows.
--   If it doesn't help, you can [connect with us](troubleshoot.md) for help.
 
 <br><br> 
 
