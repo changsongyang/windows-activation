@@ -1,6 +1,6 @@
 # KMS  
 
-> A reliable, open-source activation tool for <mark>Windows.</mark>
+> A reliable, open-source activation tool for `Windows`
 
 [Back to main menu](../README.md)
 
