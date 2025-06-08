@@ -2,7 +2,7 @@
 
 > A reliable, open-source activation tool for <mark>Windows.</mark>
 
-[Back to main menu](./README.md)
+[Back to main menu](../README.md)
 
 </br>    
 
@@ -144,7 +144,7 @@ To verify, go to **Settings → System → Activation Menu**. [^3]
   Please make sure your device is online and try the command “ato” again until you succeed.
 - Did KMS not work for you ?   
   -  So run script again and select [`TSforge`](./README.md) Or [` KMS Online`](./README.md) to proceed activation.   
-  -  For additional help, visit the **[Discussion Section][8]** or reach out via email: [diana.cl@gmail.com][9]
+  -  For additional help, visit the **[Discussion Section][2]** or reach out via email: [diana.cl@gmail.com][3]
 
 </br>  
 
@@ -156,7 +156,7 @@ To verify, go to **Settings → System → Activation Menu**. [^3]
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>  
 
-[^1]: 10 Ways to run PowerShell in windows [read here][7]  
+[^1]: 10 Ways to run PowerShell in windows [read here][1]  
 
 [^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.  
 
@@ -171,10 +171,10 @@ To verify, go to **Settings → System → Activation Menu**. [^3]
 
 [^7]: Professional for Workstations & Professional N for Workstations.   
 
-[7]: https://www.minitool.com/news/open-windows-11-powershell.html   
-
-[8]: https://github.com/NiREvil/windows-activation/discussions/new/choose   
-
-[9]: <mailto:diana.clk01@gmail.com>  
-
 [rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256  
+
+[1]: https://www.minitool.com/news/open-windows-11-powershell.html   
+
+[2]: https://github.com/NiREvil/windows-activation/discussions/new/choose   
+
+[3]: <mailto:diana.clk01@gmail.com>   
