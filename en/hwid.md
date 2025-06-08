@@ -1,8 +1,10 @@
 # HWID Activation Method
 
-> Welcome to the `HWID` document. This has some details about the HWID activation method.
+> Welcome to the `HWID` document. This has some details about the <mark>HWID</mark> activation method.
 
-[Back to main menu](./README.md)
+[Back to main menu](./README.md)  
+
+
 ## Scope
 
 How and why `HWID` works is somewhat complicated because of all the preliminary "knowledge" required to know why the very thing abused by HWID activators exists at all. Hence, this document.
