@@ -1,7 +1,7 @@
-# Activation Methods Chart  
-
-> [!NOTE]
+# Activation Methods Chart    
 > Below is a comparison of activation methods offered by Microsoft Activation Scripts.
+
+[Back to main menu](../README.md)
 
 <br></br>    
 
@@ -11,11 +11,11 @@ Basics
 |:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Works offline | 🔴 | 🟢  | 🟢  | 🔴 | 🟢  | 🔴 | 🟢  |
 | Activation is permanent | 🟢  | 🟢  | 🟢[^2] | 🟢[^3] | 🟢  | 🟢  | 🟢[^4] |
-| Does not leave any files in the system to maintain activation status | 🟢  | 🔴 | 🟢  | 🔴 | 🟢  | 🟢  | 🟢  |  
+| Does not leave any files in the system to maintain activation status | 🟢  | 🔴 | 🟢  | 🔴 | 🟢  | 🟢  | 🟢  |   
 
 </br>    
 
-Persistence
+Persistence  
 -----------
 |    | HWID | Ohook | KMS38 | Online KMS | ZeroCID[^1] | StaticCID[^1] | KMS4k[^1] |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -25,7 +25,7 @@ Persistence
 
 </br>    
 
-Support
+Support  
 -------
 |    | HWID | Ohook | KMS38 | Online KMS | ZeroCID[^1] | StaticCID[^1] | KMS4k[^1] |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -40,9 +40,9 @@ Support
 | Office 2013 and later | 🔴 | 🟢  | 🔴 | 🟢[^5] | 🟢[^6] | 🟢[^6] |🟢[^5] [^6] |
 | Windows / Office KMS Host | 🔴 | 🔴 | 🔴 | 🔴 | 🟢  | 🟢  | 🔴 |
 | Windows Extended Security Updates | 🔴 | 🔴 | 🔴 | 🔴 | 🟢  | 🟢  | 🔴 |
-| OCUR / RP / APPXLOB addons | 🔴 | 🔴 | 🔴 | 🔴 | 🟢  | 🟢  | 🔴 |  
+| OCUR / RP / APPXLOB addons | 🔴 | 🔴 | 🔴 | 🔴 | 🟢  | 🟢  | 🔴 |   
 
-</br>    
+</br>     
 
 [^1]: Provided by [TSforge](en/tsforge.md).
 [^2]: Valid until the year 2038.
