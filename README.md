@@ -41,10 +41,10 @@
 
 ## Features   
 
-- **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hAll.md)  
+- **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hwid.md)  
 - **KMS** Method to Active Windows manually for 180 Days. [Extended guide](en/kms.md)  
 - **Ohook** Method to Permanently Activate Office  
-- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Technical details](en/tWindow.md)   
+- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Technical details](en/tsforge.md)   
 - **KMS38** Method to Activate Windows Till the Year 2038  
 - **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)  
 - Advanced Activation Troubleshooting  
