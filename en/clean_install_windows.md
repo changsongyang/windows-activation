@@ -11,7 +11,7 @@
   -   OR Directly from [Microsoft](https://www.microsoft.com/en-us/software-download)
 - The latest version of Rufus from [rufus](https://rufus.ie/)
 - A minimum 8GB USB drive   
-- Follow this [guide](remove_malware.md) before making a bootable USB if you think the system has malware.
+- Follow this [guide](en/remove_malware.md) before making a bootable USB if you think the system has malware.
 <details>
   <summary>Another clean system if your current system is infected with File infector malware.</summary>
 
