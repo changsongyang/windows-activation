@@ -2,24 +2,26 @@
 
 ## Overview
 
--   How to use it? Please find the instructions [here](README.md).
--   This activation is permanent until a Windows reinstall or a major feature upgrade (not to be confused with small enablement upgrades or monthly cumulative updates).
--   This activation method doesn't modify any Windows components and doesn't install any new files.
--   Once the system is activated, hardware can be changed arbitrarily without triggering de-activation.
--   Internet is not required for ZeroCID or KMS4k, but it is required for StaticCID. The script uses the StaticCID method from Windows 10 20H1 (19041) and later versions.
--   This activation method can activate any of the following products if a phone license is available and licensing is managed by the system's SPP. For example,
+-   How to use it?
+-   Please find the instructions [here][1].
+-   
+-   This activation is permanent until a Windows reinstall or a major feature upgrade (not to be confused with small enablement upgrades or monthly cumulative updates).  
+-   This activation method **Doesn't modify any Windows components and doesn't install any new files.**   
+-   Once the system is activated, hardware can be changed arbitrarily without triggering de-activation.  
+-   Internet is not required for ZeroCID or KMS4k, but it is required for StaticCID. The script uses the StaticCID method from Windows 10 20H1 (19041) and later versions.   
+-   This activation method can activate any of the following products if a phone license is available and licensing is managed by the system's SPP. For example,   
     *   Windows Vista and later
     *   Windows Server 2008 and later
     *   Office 2013 and later (requires Windows 8 or later)
     *   Windows addons (ESU, APPXLOB, etc.)
     *   Windows and Office KMS Hosts (CSVLK)
--   Online validation (WAT) is bypassed on Windows 7.
+-   Online validation (WAT) is bypassed on Windows 7.  
 -   In addition to the permanent activation of Windows and Office KMS Hosts, it also charges the KMS server with 25 clients (required for KMS client activation) for 30 days (maximum).
 -	In addition to activation, it can reset the rearm count and evaluation period, clear the tamper state, and remove the evaluation key lock.
 
-------------------------------------------------------------------------
+<br></br>    
 
-## How does it work?
+## How does it work?   
 
 ### ZeroCID
 
@@ -28,22 +30,19 @@
 <br>  
 
 <p align="center">
-  <br><img src="https://github.com/user-attachments/assets/bda35f60-d1ba-4318-a65e-6843fdd11e41" width="480px">
-</p><br>   
+  <img src="https://github.com/user-attachments/assets/bda35f60-d1ba-4318-a65e-6843fdd11e41" width="420px">
+</p><br></br>   
 
----
-<br>
 
 **Process on Windows 8 and later**
 
 <br>  
 
 <p align="center">
-  <br><img src="https://github.com/user-attachments/assets/770e6df6-74bc-40e0-b790-6f8e9273d000" width="480px">
-</p><br>   
+  <img src="https://github.com/user-attachments/assets/770e6df6-74bc-40e0-b790-6f8e9273d000" width="420px">
+</p><br></br>    
 
----
-<br>
+
 
 - Windows activation is managed by a subsystem called the Software Protection Platform (SPP).
 - SPP stores information about the activation state in files called the "physical store" and "token store".
@@ -60,7 +59,7 @@
   - Windows 8.1/10/11 - `C:\Windows\System32\spp\store\2.0\tokens.dat`
 - In normal product key installation and phone activation, associated cache data is written to the physical store and token store. Said phone activation data is [cryptographically checked](https://github.com/UMSKT/writeups/blob/main/PKEY2005.md) against the Installation ID before being written. When SPP relaunches, it is only given a very basic check against the current Hardware ID.
 - By writing forged cache data directly to the physical store and token store, we can bypass both checks, causing SPP to believe it installed a fake product key and/or confirmation ID.
-- To bypass checks for hardware changes, a [Hardware ID](https://github.com/massgravel/activation/blob/main/Hwid.md#hardware-id) with a threshold of 0 is included in this forged data.
+- To bypass checks for hardware changes, a [Hardware ID](en/Hwid.md#hardware-id) with a threshold of 0 is included in this forged data.
 - On Windows 7, the fake product key data does not contain a value known as the "Key Unique ID". This value is required for both WAT and online activation, so removing it causes both to be non-functional, preventing WAT from triggering de-activation.
 - The presence of valid product key and confirmation ID data causes SPP to activate the specified product as long as it is capable of phone activation.
 - This process is implemented as the ZeroCID option in [TSforge](https://github.com/massgravel/TSforge).
@@ -82,7 +81,7 @@
 - Unlike via normal KMS emulators, this method can arbitrarily set the activation expiration up to a maximum of 2147483640 (2^31 - 8) minutes, or 4083 years.
 - This allows for offline KMS activation that is effectively infinite for all practical purposes.
 
-------------------------------------------------------------------------
+-----
 
 ## Supported Products
 
@@ -133,14 +132,14 @@ This activation method can activate any of the following products if a phone lic
   - Windows Server 2008 and later
   - Office 2010 and later
 
-> [!INFO]
+> [!NOTE]  
 > All architectures (x86, x64 and arm64) are supported.  
 > For Windows, the script's key preference is: OEM_DM > OEM_COA_SLP > OEM_COA_NSLP > MAK > RETAIL  
 > For Office, the script's key preference is: OEM_COA_NSLP > MAK > RETAIL  
 
-------------------------------------------------------------------------
+----
 
-## Keys
+### Keys
 
 TSforge activation generates keys for PKey2009-based products and sets product key data for PKey2005-based products.  
 However, it cannot handle keys for Windows Vista and Windows Server 2008. That is why only the keys for these products are listed here.  
@@ -211,11 +210,11 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 | ServerComputeCluster, ServerEnterprise, <br /> ServerStandard, ServerWeb <br /> and their V editions                                                | PVGKG-2R7XQ-7WTFD-FXTJR-DQBQ3          | Volume:CSVLK |
 | ServerComputeCluster, ServerWeb                                                                                                                     | KH4PC-KJFX6-XFVHQ-GDK2G-JCJY9          | Volume:CSVLK |
 
-------------------------------------------------------------------------
+----
 
-## Unsupported Products
-
-This activation method does not work if a phone license is not available or if licensing is not managed by the system's SPP.
+> [!WARNING]
+> **Unsupported Products**  
+> This activation method does not work if a phone license is not available or if licensing is not managed by the system's SPP.  
 
 - **Office on Windows 7**
   - Its licensing is based on OSPP, not SPP.
@@ -236,10 +235,10 @@ This activation method does not work if a phone license is not available or if l
   - Its licensing is based on CLIP, not SPP.
   - You can activate commercial ESU for 3 years on Pro and higher level editions with TSforge.
 
-> [!INFO]
+> [!CAUTION]  
 > **OSPP based Office:** Physical store is stored in the registry in a format that has not yet been reverse engineered.
 
-------------------------------------------------------------------------
+----
 
 ## ZeroCID / KMS4k / AVMA4k
 
@@ -254,8 +253,7 @@ This activation method does not work if a phone license is not available or if l
 | KMS4k   | Offline KMS activation for over 4000 years / until reinstall/feature upgrade                         |
 | AVMA4k  | Offline AVMA activation for over 4000 years (Server 2012 R2+ only) / until reinstall/feature upgrade |
 
-------------------------------------------------------------------------
-
+----
 ## Windows ESU
 
 - Microsoft offers paid [Extended Security Updates](https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates) (ESU) for several Windows versions after their product lifecycle ends.
@@ -273,7 +271,7 @@ This activation method does not work if a phone license is not available or if l
 | Windows Server 2012 R2       | ServerDatacenter, ServerStandard and their Core variants                                                                                          | [3 Years](https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2012-r2) <br /> Oct 2023 to Oct 2026                                                                                                                                           | Same as Windows 8.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Windows 10                   | Education, Enterprise, IoTEnterprise, <br /> Professional, ProfessionalEducation, <br /> ProfessionalWorkstation, ServerRdsh and their N variants | [3 Years](https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates) <br /> Oct 2025 to Oct 2028                                                                                                                                         | Windows 10 22H2 (19045.4957) <br /> Just run Windows Update                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-------------------------------------------------------------------------
+----
 
 ## Windows KMS Host
 
@@ -281,16 +279,14 @@ This activation method does not work if a phone license is not available or if l
 - Script will auto-select the available CSVLK with most KMS Counted IDs.
 - Along with activation it will also charge the host with 25 clients which is a minimum required threshold for a working KMS host.
 - With Windows KMS host, you can activate the KMS client in your network.
-- This option is for the advanced users, you can check the below guides to understand more about it.
+- This option is for the advanced users, you can [check the guides](https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host) to understand more about it.  
 
-https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host
-
-> [!NOTE]  
+> [!NOTE]
+> 
 > **Use this activation only when necessary.**  
 > On Windows 10/11, the system may randomly change the Windows edition later. This is a Windows issue and can be safely ignored.  
-> KMS host license causes the sppsvc service to run continuously.  
+> KMS host license causes the sppsvc service to run continuously.   
 
-------------------------------------------------------------------------
 
 ## Office KMS Host
 
@@ -298,9 +294,7 @@ https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host
 - To activate an Office KMS host, you will need to download and run the installer for the appropriate license pack.
 - Along with activation it will also charge the host with 25 clients for a working KMS host.  
 - With Office KMS host, you can activate the Office KMS client in your network. 
-- This option is for the advanced users, you can check the below guides to understand more about it.  
-
-https://learn.microsoft.com/en-us/office/volume-license-activation/plan-volume-activation-of-office#key-management-service-kms-activation-of-office
+- This option is for the advanced users, you can [check the guides](https://learn.microsoft.com/en-us/office/volume-license-activation/plan-volume-activation-of-office#key-management-service-kms-activation-of-office) to understand more about it.  
 
 > [!NOTE]   
 > **Use this activation only when necessary.**  
@@ -325,7 +319,8 @@ All links given below are official links hosted by Microsoft.
  - Office 2019-2024 packs are only supported on Windows 8/Server 2012 and newer. 
  - If installing multiple license packs on the same machine, make sure to install older versions before newer versions (ex. Install Office 2016 before Office 2024).
 
-</details>
+</details>  
+
 
 <details>
   <summary>Office 2010 KMS Host Installer Workaround</summary>
@@ -342,7 +337,7 @@ All links given below are official links hosted by Microsoft.
    - If you are using 32-bit Windows, run `cscript "%programfiles%\MSECache\OfficeKMS\kms_host.vbs"`.
    - If you are using 64-bit or ARM64 Windows, run `cscript "%programfiles(x86)%\MSECache\OfficeKMS\kms_host.vbs"`
 
-</details>
+</details>  
 
 <details>
   <summary>Workaround to install on Non-Volume licensed Windows</summary>
@@ -353,7 +348,7 @@ All links given below are official links hosted by Microsoft.
 
 </details>
 
-------------------------------------------------------------------------
+-----
 
 ## Reset of Rearm / Timers / Tamper / Lock
 
@@ -366,30 +361,30 @@ All links given below are official links hosted by Microsoft.
 | Clear Tamper State         | Clear the tamper state set due to store corruption or deletion     |
 | Remove Evaluation Key Lock | Remove the product key change lock set for evaluation product keys |
 
-------------------------------------------------------------------------
+----
 
 ## How to remove TSforge?
 
--   This activation method doesn't modify any Windows components and doesn't install any new files. Instead, it appends data to one of data files used by Software Protection Platform.
--   If you want to reset the activation status,
-    - In MAS script, goto Troubleshoot and apply Fix Licensing option.
-    - Done
+> [!IMPORTANT]  
+> This activation method doesn't modify any Windows components and doesn't install any new files.  
+> Instead, it appends data to one of data files used by Software Protection Platform.  
+> If you want to reset the activation status,   
+> In MAS script, goto Troubleshoot and apply Fix Licensing option.
+> Done :check:
 
-------------------------------------------------------------------------
 
 ## Manual Activation
 
 See the [TSforge README](https://github.com/massgravel/TSforge) for information on manually using TSforge.
 
-------------------------------------------------------------------------
 
 ## Setup Preactivation
 
 -   Check the Extract OEM option in the MAS Extras section if you want pre-activated Windows installation.
--   Read more [here](oem-folder.md).
+-   Read more [here](en/oem-folder.md).
 
-------------------------------------------------------------------------
 
 ## Credits 
-[massggravel](https://github.com/massgravel/massgrave.dev/)
+[massggravel](https://github.com/massgravel/massgrave.dev/)   
 
+[1]: https://github.com/NiREvil/windows-activation/
