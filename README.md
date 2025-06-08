@@ -41,10 +41,10 @@
 
 ## Features   
 
-- **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hwid)  
+- **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hAll.md)  
 - **KMS** Method to Active Windows manually for 180 Days. [Extended guide](en/kms.md)  
 - **Ohook** Method to Permanently Activate Office  
-- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Technical details](en/tsforge)   
+- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Technical details](en/tWindow.md)   
 - **KMS38** Method to Activate Windows Till the Year 2038  
 - **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)  
 - Advanced Activation Troubleshooting  
@@ -61,7 +61,7 @@
 > <details>  
 > <summary> Read Overview</summary>  
 > 
-> - HWID activation method supports Windows 10/11 only. [more details](en/hwid)   
+> - HWID activation method supports Windows 10/11 only. [more details](en/hwid.md)   
 > - This activation method does [not store](README.md#The-files-will-be-stored-on) or modify any files in your system.  
 > - This activation method gives you permanent Windows activation for your system hardware.  
 > - All activations can be linked to a Microsoft account without any issues.  
@@ -179,7 +179,7 @@ For additional help, visit the [Discussion Section][2] Or reach out via email: [
 >  just like the first one, it doesn’t save anything on your system. 
 > 
 > For activating Office, I use the activation method with Ohook, TSforge, or Online KMS—they’re pretty similar. I’ve noted the slight differences in the activation summary section.   
-> If you run into any issues or have questions at any step, definitely share with me and our friends in the [Discussion][8] section. And if you need to reach out urgently, here’s my email: [diana.cl@gmail.com][9]
+> If you run into any issues or have questions at any step, definitely share with me and our friends in the [Discussion][2] section. And if you need to reach out urgently, here’s my email: [diana.cl@gmail.com][3]
 >  
 > </details>
 
