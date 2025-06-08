@@ -1,6 +1,6 @@
 # Instant Windows and Office Activation: 40-Second Solution   
 
-> **A reliable, open-source activation tool for Windows and Office, featuring HWID, Ohook, TSforge, KMS38, and Online KMS—activate in under 40 seconds!**  
+> A reliable, open-source activation tools for Windows and Office, featuring KMS, Ohook, TSforge, KMS38, and HWID—activate in under 40 seconds!  
 
 </br>    
 
@@ -41,10 +41,10 @@
 
 ## Features   
 
-- **HWID (Digital License)** Method to Permanently Activate Windows  
-- **KMS** Method to Active Windows manually for 180 Days  
+- **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hwid)  
+- **KMS** Method to Active Windows manually for 180 Days. [Extended guide](en/kms.md)  
 - **Ohook** Method to Permanently Activate Office  
-- **TSforge** Method to Permanently Activate Windows/ESU/Office  
+- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Technical details](en/tsforge)   
 - **KMS38** Method to Activate Windows Till the Year 2038  
 - **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)  
 - Advanced Activation Troubleshooting  
@@ -59,10 +59,10 @@
 > [!NOTE]
 > 
 > <details>  
-> <summary> Tap to read Overview </summary>  
+> <summary> Read Overview</summary>  
 > 
-> - HWID activation method supports Windows 10/11 only.  
-> - This activation method does not store or modify any files in your system.  
+> - HWID activation method supports Windows 10/11 only. [more details](en/hwid)   
+> - This activation method does [not store](README.md#The-files-will-be-stored-on) or modify any files in your system.  
 > - This activation method gives you permanent Windows activation for your system hardware.  
 > - All activations can be linked to a Microsoft account without any issues.  
 > - Once the system is activated, this activation cannot be removed because the license is stored on Microsoft's servers, not on the user's system. Microsoft checks the hardware ID (HWID), and if a license is found in their database, the system will automatically activate. This is how all digital licenses work.  
@@ -112,12 +112,8 @@
 <br>  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5638557d-9bfe-4e7c-a851-218bec6559bf" width="754px">
-</p>  
-
----  
-
-<br>   ..
+  <img src="https://github.com/user-attachments/assets/5638557d-9bfe-4e7c-a851-218bec6559bf" width="680px">
+</p><br>   
 
 ### Step 2    
 **Now, `Copy` the following command:** 
@@ -135,32 +131,29 @@ irm https://massgrave.dev/get | iex
 </br>   
 
 <p align="center">
-  <br><img src="https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e" width="754px">
-</p>  
+  <br><img src="https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e" width="680px">
+</p></br  >   
 
----  
+### Step 3    
 
-</br>   
-
-### Step 3   
 To Run the activator, paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available:    
 
 You will see the activation options:  
-  -  Press `[1]` HWID for Windows activation.  
-  -  Press `[2]` Ohook for Office activation.
-  -  Press `[3]` TSforge for Windows activation. 
-from which we must select option `[1]` and wait a few seconds to complete.     
+  -  Press <mark>[1]</mark> HWID for Windows activation.  
+  -  Press <mark>[2]</mark> Ohook for Office activation.
+  -  Press <mark>[3]</mark> TSforge for Windows activation. 
+from which we must select option <mark>[1]</mark> and wait a few seconds to complete.     
 
 </br>     
 
 <p align="center">
-  <br><img src="https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273" width="754px">
-</p><br>  
+  <br><img src="https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273" width="680px">
+</p></br>  
 
 
 **Congratulations!** Windows is now activated!
 
-To verify, go to **Settings → System → Activation Menu**. [^3]   
+To verify, go to **Settings → System → Activation Menu**.[^3]   
 
 <br></br>     
 
@@ -168,7 +161,7 @@ To verify, go to **Settings → System → Activation Menu**. [^3]
 
 Did HWID not work for you?  ? Very well,  
 then [click here](en/kms.md) to proceed with the KMS method.   
-For additional help, visit the **[Discussion Section](https://github.com/NiREvil/windows-activation/discussions/new/choose)** or reach out via email: [diana.clk01@gmail.com](mailto:diana.clk01@gmail.com).    
+For additional help, visit the [Discussion Section][2] Or reach out via email: [diana.clk01@gmail.com][3].    
 
 ---  
 
@@ -190,14 +183,14 @@ For additional help, visit the **[Discussion Section](https://github.com/NiREvil
 >  
 > </details>
 
-<br><br>   
+<br></br>   
 
 ## The files will be stored on
 
 > [!CAUTION]
 > 
 > **❖ HWID**   
-> When using HWID activation, no files are stored on the system, and Windows 10-11 will be activated when connected to the internet for the first time.  
+> When using HWID activation, no files are stored on the system, and Windows 10-11 will be activated when connected to the internet for the first time. 
 >  
 > **❖ Ohook**  
 > If Office is preinstalled then Ohook method will activate the Office immediately without Internet. This activation uses custom sppc.dll file for the activation.    
@@ -283,7 +276,7 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 > 
 > **⨻ How to remove HWID?**
 > 
-> HWID (Digital license) activation cannot be removed.    
+> HWID [Digital license](en/hwid.md) activation cannot be removed.    
 > Because the license is stor in the Microsoft servers and not in the user's system.     
 > Microsoft checks the hardware ID (HWID) and if a license is found in their database, the system will automatically activate.   
 > This is how the official digital license activation process works.   
@@ -350,20 +343,18 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 
 <br>  
 
-[^1]: [10 Ways to run PowerShell in windows][7]    
-
-[^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.  
-
-[^3]: To check version of your Windows: **Right-click** on your Start menu and select the **system** option. Your Windows version can be seen in the second section under **Edition.**, You can also follow the steps of method 2 by **copy pasting** them. copy the commands and then hit the **Right-click** in the **cmd or powershell** to paste them.  
+[^1]: [10 Ways to run PowerShell in windows][1]     
+[^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.   
+[^3]: To check version of your Windows: **Right-click** on your Start menu and select the **system** option. Your Windows version can be seen in the second section under **Edition.**, You can also follow the steps of method 2 by **copy pasting** them. copy the commands and then hit the **Right-click** in the **cmd or powershell** to paste them.   
 [^4]: Home Country Specific version.   
 [^5]: Home Single language version.  
 [^6]: To see windows activation status you must to go:  
 ***Settings → Update & Security → activation menu.***  
 [^7]: Professional for Workstations & Professional N for Workstations   
 
+[1]: https://www.minitool.com/news/open-windows-11-powershell.html  
 
+[2]: https://github.com/NiREvil/windows-activation/discussions/new/choose  
 
-[7]: https://www.minitool.com/news/open-windows-11-powershell.html  
-[8]: https://github.com/NiREvil/windows-activation/discussions/new/choose  
-[9]: <mailto:diana.clk01@gmail.com>
+[3]: <mailto:diana.clk01@gmail.com>
 [rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256
