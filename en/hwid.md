@@ -1,8 +1,8 @@
 # HWID Activation Method
 
-> Welcome to the `HWID` document. This has some details about the <mark>HWID</mark> activation method.
+> Welcome to the `HWID` document. This has some details about the **HWID** activation method.  
 
-[Back to main menu](../../README.md)  
+[Back to main menu](../README.md)   
 
 
 ## Scope
@@ -13,7 +13,7 @@ How and why `HWID` works is somewhat complicated because of all the preliminary 
 
 `Digital Licenses` (recently renamed to `Digital Entitlements`, but no one cares) are a fancy DRM invention by the geniuses over at Microsoft to make the Microsoft Store at least somewhat relevant.
 
-Their purpose is to be proof of being licensed to use a piece of software (Please note that *You will own nothing and you will be happy* and *This software is licensed, not sold*) assigned to a Microsoft account.
+Their purpose is to be proof of being licensed to use a piece of software (Please note that **You will own nothing and you will be happy** and **This software is licensed, not sold)** assigned to a Microsoft account.
 
 There is a very long explanation for what keeps track of digital licenses, but that's somewhat complicated and I don't know everything.
 
@@ -129,13 +129,13 @@ struct TIMEWEIGHT {
 
 The timeweight is a structure that contains information on how important certain hardware elements are. The structure is constant across Windows 10's history (not thoroughly verified).
 
-The type corresponds to identifiers of Hardware Collectors in the HWID algorithm (you can find the values in the [massgravel/hwid-stuff](https://github.com/massgravel/hwid-stuff) repo) and the weight is how "important" a component is.
+The type corresponds to identifiers of Hardware Collectors in the HWID algorithm (you can find the values in the [massgravel/hwid-stuff][1] repo) and the weight is how "important" a component is.
 
 When **locally** verifying a hardware ID, you sum all the weights of components matching with the license's HWID and determine if they are equal to or over the threshold. If they aren't, the HWID does not match (`ClipUp` exits with an error).
  
 ### Further reading
 
-If you're interested, the (somewhat outdated but still matching) patent for this type of Hardware ID can be found [here](https://patents.google.com/patent/US7302590B2).
+If you're interested, the (somewhat outdated but still matching) patent for this type of Hardware ID can be found [patents.googlr.com/][2].
 
 ## Product Family Name
 
@@ -159,7 +159,7 @@ In turn, the parts of Package Identity Name are:
  - **Product Key Part Number**: `X21-99682`
 
 ### Publish string  
-The publisher string is made by hashing some data about the publisher ([here](https://stackoverflow.com/questions/21568483/how-to-calculate-publisherid-from-publisher)). For all intents and purposes, it's a constant value.
+The publisher string is made by hashing some data about the publisher [stackoverflow.com/questions/][3]. For all intents and purposes, it's a constant value.
 
 ### SKU ID
 
@@ -169,5 +169,15 @@ This value corresponds to the edition. You can find an (almost) full list of the
 
 The product key part number is a value specific to a given range of product key IDs belonging to a given group. Most commonly, you can find it on COA stickers. It's basically the "signature" of a key range; different ranges can have different policies, some ranges can be reserved for testing, etc. etc.
 
-The part numbers can also be specific to markets (basically countries) in the Store itself, though I have no concrete examples of this.
+The part numbers can also be specific to markets (basically countries) in the Store itself, though I have no concrete examples of this.  
+
+-----
+
+[1]: https://github.com/massgravel/hwid-stuff
+
+[2]: https://patents.google.com/patent/US7302590B2
+
+[3]: https://stackoverflow.com/questions/21568483/how-to-calculate-publisherid-from-publisher
+
+
 
