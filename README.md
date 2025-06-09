@@ -2,6 +2,12 @@
 
 > A reliable, open-source activation tools for `Windows` and `Office`, featuring KMS, Ohook, TSforge, KMS38, and HWID—activate in under 40 seconds!
 
+[——Persian](README-FA.md)  
+[——kms method](en/kms.md)
+
+[![Readme](https://img.shields.io/badge/README_IN-فارسی-blue?logo=readme)](README-FA.md)  
+[![Readme](https://img.shields.io/badge/SECOND_METHO_-kMS-blue?logo=readme)](en/kms.md)  
+
 </br>
 
 ## Activations Summary
@@ -66,7 +72,7 @@
 > I personally use the second method for activating my Windows 10 and 11, which is the [KMS method](en/kms.md). It takes less than 3 minutes, but only because you have to copy and paste three short commands.  
 > It’s official and recognized worldwide, and nothing gets stored on my system—so I'm totally chill about it.
 >
-> - If for some crazy reason the KMS method doesn’t work (which is super unlikely), then I’ll go for the first method, which is [HWI](../../README.md).  
+> - If for some crazy reason the KMS method doesn’t work (which is super unlikely), then I’ll go for the first method, which is [HWID](#Method-1).  
 >   That one takes less than 40 seconds, This method is also official from Microsoft and.  
 >    just like the first one, it doesn’t save anything on your system.
 >
@@ -318,13 +324,13 @@ For additional help, visit the [Discussion Section][2] Or reach out via email: [
 > <details>  
 > <summary> System in all architecture are suppurted </summary>
 >
-> ◍ Systems in all architectures (x86, x64 and arm64) are supported.  
-> ◍ Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) beyond the evaluation period. You can use TSforge option in MAS to reset the activation any given time.  
-> ◍ IoTEnterpriseS (LTSC) 2021 key will be used to activate the unsupported EnterpriseS (LTSC) 2021 edition.  
-> ◍ IoTEnterpriseS (LTSC) 2024 key will be used to activate the unsupported EnterpriseS (LTSC) 2024 edition.  
-> ◍ Windows Server does not support HWID activation.
+> Systems in all architectures (x86, x64 and arm64) are supported.  
+> Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) beyond the evaluation period. You can use TSforge option in MAS to reset the activation any given time.  
+> IoTEnterpriseS (LTSC) 2021 key will be used to activate the unsupported EnterpriseS (LTSC) 2021 edition.  
+> IoTEnterpriseS (LTSC) 2024 key will be used to activate the unsupported EnterpriseS (LTSC) 2024 edition.  
+> Windows Server does not support HWID activation.
 >
-> ◍ Enterprise multi-session (ServerRdsh) edition can be activated with only a key NJCF7-PW8QT-3324D-688JX-2YV66, but it does not support real digital license activation.
+> Enterprise multi-session (ServerRdsh) edition can be activated with only a key NJCF7-PW8QT-3324D-688JX-2YV66, but it does not support real digital license activation.  
 >
 > </details>
 
