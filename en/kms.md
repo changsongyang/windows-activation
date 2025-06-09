@@ -8,14 +8,14 @@
 
 ## Activations Summary
 
-| Activation Type |   Supported Product    |          Activation Period           |         Is Internet Needed?          |
-| :-------------: | :--------------------: | :----------------------------------: | :----------------------------------: |
-|      HWID       |     Windows 10-11      |              Permanent               |                 Yes                  |
-|     **KMS**     |     Windows 10-11      |               180 Days               |                 Yes                  |
-|      Ohook      |         Office         |              Permanent               |                  No                  |
-|     TSforge     | Windows / ESU / Office |              Permanent               | Yes, needed on build 19041 and later |
-|      KMS38      |  Windows 10-11-Server  |          Till the Year 2038          |                  No                  |
-|   Online KMS    |    Windows / Office    | 180 Days. Lifetime With Renewal Task |                 Yes                  |
+| **Activation Type** 	|  **Supported Product** 	|         **Activation Period**        	|        **Is Internet Needed?**       	|
+|:-------------------:	|:----------------------:	|:------------------------------------:	|:------------------------------------:	|
+|         HWID        	|      Windows 10-11     	|               Permanent              	|                  Yes                 	|
+|       **KMS**       	|    **Windows 10-11**   	|             **180 Days**             	|                **Yes**               	|
+|        Ohook        	|         Office         	|               Permanent              	|                  No                  	|
+|       TSforge       	| Windows / ESU / Office 	|               Permanent              	| Yes, needed on build 19041 and later 	|
+|        KMS38        	|  Windows 10-11-Server  	|          Till the Year 2038          	|                  No                  	|
+|      Online KMS     	|    Windows / Office    	| 180 Days. Lifetime With Renewal Task 	|                  Yes                 	|
 
 ![rainbow]
 
@@ -66,37 +66,36 @@ slmgr /ipk yourlicensekey
 
 **List of LICENSE KEYS**
 
-|            **Key**            |   **Version**    |
-| :---------------------------: | :--------------: |
-| TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 |       Home       |
-| 3KHY7-WNT83-DGQKR-F7HPR-844BM |      Home N      |
-| 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH |   Home sl [^6]   |
-| PVMJN-6DFY6–9CCP6–7BKTT-D3WVR |   Home cs [^7]   |
-| W269N-WFGWX-YVC9B-4J6C9-T83GX |       Pro        |
-| MH37W-N47XK-V7XM9-C7227-GCQG9 |      Pro N       |
-| YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY |    Education     |
-| 84NGF-MHBT6-FXBX8-QWJK7-DRR8H |   Education N    |
-| NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 |  Pro Education   |
-| 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ | Pro Education N  |
-| DXG7C-N36C4-C4HTG-X4T3X-2YV77 |  Pro for W [^8]  |
-| WYPNQ-8C467-V2W6J-TX4WX-WT2RQ | Pro N for W [^8] |
-| NPPR9-FWDCX-D2C8J-H872K-2YT43 |    Enterprise    |
-| DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 |   Enterprise N   |
-| XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |       Team       |
-| V3WVW-N2PV2-CGWC3-34QGF-VMJ2C |        S         |
-| KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W |        SE        |
-
-![rainbow]
+|            **Key**            	|    **Version**   	|
+|:-----------------------------:	|:----------------:	|
+| TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 	|       Home       	|
+| 3KHY7-WNT83-DGQKR-F7HPR-844BM 	|      Home N      	|
+| 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH 	|   Home sl [^6]   	|
+| PVMJN-6DFY6–9CCP6–7BKTT-D3WVR 	|   Home cs [^7]   	|
+| W269N-WFGWX-YVC9B-4J6C9-T83GX 	|        Pro       	|
+| MH37W-N47XK-V7XM9-C7227-GCQG9 	|       Pro N      	|
+| YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY 	|     Education    	|
+| 84NGF-MHBT6-FXBX8-QWJK7-DRR8H 	|    Education N   	|
+| NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 	|   Pro Education  	|
+| 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ 	|  Pro Education N 	|
+| DXG7C-N36C4-C4HTG-X4T3X-2YV77 	|  Pro for W [^8]  	|
+| WYPNQ-8C467-V2W6J-TX4WX-WT2RQ 	| Pro N for W [^8] 	|
+| NPPR9-FWDCX-D2C8J-H872K-2YT43 	|    Enterprise    	|
+| DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 	|   Enterprise N   	|
+| XKCNC-J26Q9-KFHD2-FKTHY-KD72Y 	|       Team       	|
+| V3WVW-N2PV2-CGWC3-34QGF-VMJ2C 	|         S        	|
+| KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W 	|        SE        	|
 
 <br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3ff5fb18-b7ca-40ec-b125-44e1aa3c0c79" width="800px">
+  <img src="https://github.com/user-attachments/assets/d5d93702-7865-4552-85d0-6916b1331bc0" width="800px">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0456724e-c37c-4961-8f80-dd1b10354255" width="800px">
+  <img src="https://github.com/user-attachments/assets/50c23cad-7690-49fb-bf1c-d1c7cc66f0fe" width="800px">
 </p></br>
+
 
 ## Step 3
 
@@ -109,7 +108,7 @@ slmgr /skms kms8.msguides.com
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/23454c06-b22e-4370-b4d1-8c633f84d34b" width="800px">
+  <img src="https://github.com/user-attachments/assets/edd0835f-c314-4ef8-a87d-a33e29f3f7c0" width="800px">
 </p></br>
 
 ## Step 4
@@ -122,7 +121,7 @@ slmgr /ato
 ```
 
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/b8abc0ff-0efb-4e06-ac44-b5342e00fbcb" width="800px">
+   <img src="https://github.com/user-attachments/assets/95e014e5-8946-4036-84ca-77ebb6122b1b" width="800px">
 </p></br>
 
 ## Step 5
@@ -130,10 +129,10 @@ slmgr /ato
 **And Now check the activation status again**. [^6]
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/179add25-5bce-4869-8b7e-afd8a20d1c26" width="800px">
+  <img src="https://github.com/user-attachments/assets/da52f1bb-79c9-45db-bade-a0f56cd0a739" width="800px">
 </p></br>
 
-**Done✔️**,  
+**Done✔️**  
 Windows is now activated!
 
 To check the activation status of `Windows 10`, navigate to **Settings → Update & Security → Activation.** [^4]
@@ -147,7 +146,7 @@ To check the activation status of `Windows 11`, open Settings by clicking the St
 - If you see the error **0xC004F074**, it means that your internet connection is unstable or the server is busy.  
   Please make sure your device is online and try the command “ato” again until you succeed.
 - Did KMS not work for you ?
-  - So run script again and select [`TSforge`](../README.md) Or [` KMS Online`](../README.md) to proceed activation.
+  - So run script again and select `TSforge` Or ` KMS Online` to proceed activation.
   - For additional help, visit the **[Discussion Section][2]**
 
 </br>
