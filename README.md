@@ -9,7 +9,7 @@
 | Activation Type | Supported Product      | Activation Period                    | Is Internet Needed? |
 |-----------------|------------------------|--------------------------------------|---------------------|
 | HWID            | Windows 10-11          | Permanent                            | Yes                 |
-| KMS             | Windows 10-11          | Permanent                            | Yes                 |
+| KMS             | Windows 10-11          | 180 Days                       | Yes                 |
 | Ohook           | Office                 | Permanent                            | No                  |
 | TSforge         | Windows / ESU / Office | Permanent                            | Yes, needed on build 19041 and later 
 | KMS38           | Windows 10-11-Server   | Till the Year 2038                   | No                  |
@@ -25,27 +25,27 @@
 
 ## Table of contents    
 
-- [Activation using HWID ✷](#Method-1)
+- [Activation using HWID](#Method-1)  
+- [Activating Using KMS](en/kms.md)  
 - [Supported Products](#Supported-Products)  
 - [Activation methods chart](en/chart.md)   
-- [Activating Using KMS](en/kms.md)   
 - [Files will be stored on](#The-files-will-be-stored-on)  
-- [Fix wpa registry files](en/fix-wpa-registry.md)
+- [Fix wpa registry files](en/fix-wpa-registry.md)  
 - [How to Remove](#How-to-remove)  
-- [Clean install windows](en/clean_install_windows.md)
-- [Removing Malware](en/remove_malware.md)
-- [Office C2R Custom install](en/office_c2r.md)
-- [A genuine Windows ISO files](en/clean_install_windows.md#prerequisites)
+- [Clean install windows](en/clean_install_windows.md)  
+- [Removing Malware](en/remove_malware.md)  
+- [Office C2R Custom install](en/office_c2r.md)  
+- [A genuine Windows ISO files](en/clean_install_windows.md#prerequisites)  
 
 <br>   
 
 ## Features   
 
 - **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hwid.md)  
-- **KMS** Method to Active Windows manually for 180 Days. [Extended guide](en/kms.md)  
+- **KMS** Method to Active Windows manually for 180 Days. [Details](en/kms.md)  
 - **Ohook** Method to Permanently Activate Office  
-- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Technical details](en/tsforge.md)   
-- **KMS38** Method to Activate Windows Till the Year 2038  
+- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Details](en/tsforge.md)   
+- **KMS38** Method to Activate Windows Till the Year 2038. [Details](en/kms38.md)
 - **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)  
 - Advanced Activation Troubleshooting  
 - OEM Folders For Preactivation    
@@ -56,7 +56,30 @@
 - Fully Open Source and Based on Batch Scripts  
 - Fewer Antivirus Detections <br></br>  
 
-> [!NOTE]
+> [!IMPORTANT]  
+> 
+> <details>  
+> <summary> Here’s my suggestion for you guys </summary>  
+>  
+> - Since I use the same methods for activating my Microsoft products like you do, I wanted to share a tip.  
+> I personally use the second method for activating my Windows 10 and 11, which is the [KMS method](en/kms.md). It takes less than 3 minutes, but only because you have to copy and paste three short commands.  
+> It’s official and recognized worldwide, and nothing gets stored on my system—so I'm totally chill about it.   
+> 
+> - If for some crazy reason the KMS method doesn’t work (which is super unlikely), then I’ll go for the first method, which is [HWI](../../README.md).  
+> That one takes less than 40 seconds, This method is also official from Microsoft and.    
+>  just like the first one, it doesn’t save anything on your system. 
+> 
+> For activating Office, I use the activation method with Ohook, TSforge, or Online KMS—they’re pretty similar. I’ve noted the slight differences in the activation summary section.    
+>   
+>  
+> If you run into any issues or have questions at any step, definitely share with me and our friends in the [Discussion][2] section. And if you need to reach out urgently, here’s my email: [diana.cl@gmail.com][3]  
+>  
+> </details>  
+
+<br></br>   
+
+
+> [!NOTE]  
 > 
 > <details>  
 > <summary> Read Overview</summary>  
@@ -73,8 +96,7 @@
 >   - The system will auto-activate only if Retail (Consumer) media was used for installing Windows.  
 >   - The system will NOT auto-activate if VL (Business) media was used for the installation. In this case, the user will have to insert the generic Retail/OEM key corresponding to the Windows edition currently running to activate if the user doesn't want to use the script again. (Those keys can be found below on this page).   
 >  
->  </details>  
-
+>  </details>   
 
 > [!WARNING]
 > 
@@ -139,58 +161,41 @@ irm https://massgrave.dev/get | iex
 To Run the activator, paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available:    
 
 You will see the activation options:  
-  -  Press <mark>[1]</mark> HWID for Windows activation.  
-  -  Press <mark>[2]</mark> Ohook for Office activation.
-  -  Press <mark>[3]</mark> TSforge for Windows activation. 
-from which we must select option <mark>[1]</mark> and wait a few seconds to complete.     
+  -  Press `[1]` HWID for Windows activation.  
+  -  Press `[2]` Ohook for Office activation.
+  -  Press `[3]` TSforge for Windows activation. 
+from which we must select option <mark>[1]</mark> and wait a few seconds to complete.  
 
 </br>     
 
 <p align="center">
-  <br><img src="https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273" width="680px">
+  <img src="https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273" width="680px">
 </p></br>  
 
 
-**Congratulations!** Windows is now activated!
+**Congratulations!** Windows is now activated!   
 
-To verify, go to **Settings → System → Activation Menu**.[^3]   
+To check the activation status of `Windows 10`, navigate to **Settings → Update & Security → Activation.** [^3]   
 
-<br></br>     
+To check the activation status of `Windows 11`, open Settings by clicking the Start button and then selecting **Settings → System → Activation.** [^4]   
+
+<br></br>  
 
 ## Troubleshooting  
 
-Did HWID not work for you?  ? Very well,  
-then [click here](en/kms.md) to proceed with the KMS method.   
+Did HWID not work for you? well,  
+then [click here](en/kms.md) to proceed with the KMS method.  
+
 For additional help, visit the [Discussion Section][2] Or reach out via email: [diana.clk01@gmail.com][3].    
 
----  
+</br>   
 
-> [!NOTE]
-> 
-> <details>  
-> <summary> Here’s my suggestion for you guys </summary>  
->  
-> - Since I use the same methods for activating my Microsoft products like you do, I wanted to share a tip.  
-> I personally use the first method for activating my Windows 10 and 11, which is the HWID method. It takes less than 40 seconds,  
-> It’s official and recognized worldwide, and nothing gets stored on my system—so I'm totally chill about it.  
-> 
-> - If for some crazy reason the first method doesn’t work (which is super unlikely), then I’ll go for the second method, which is KMS.  
-> That one takes about 3 minutes but only because you have to copy and paste three short commands. This method is also official from Microsoft and,  
->  just like the first one, it doesn’t save anything on your system. 
-> 
-> For activating Office, I use the activation method with Ohook, TSforge, or Online KMS—they’re pretty similar. I’ve noted the slight differences in the activation summary section.   
-> If you run into any issues or have questions at any step, definitely share with me and our friends in the [Discussion][2] section. And if you need to reach out urgently, here’s my email: [diana.cl@gmail.com][3]
->  
-> </details>
-
-<br></br>   
-
-## The files will be stored on
+## The files will be stored on  
 
 > [!CAUTION]
 > 
 > **❖ HWID**   
-> When using HWID activation, no files are stored on the system, and Windows 10-11 will be activated when connected to the internet for the first time. 
+> When using HWID activation, no files are stored on the system, and Windows 10-11 will be activated when connected to the internet for the first time.  
 >  
 > **❖ Ohook**  
 > If Office is preinstalled then Ohook method will activate the Office immediately without Internet. This activation uses custom sppc.dll file for the activation.    
@@ -230,8 +235,8 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 | Enterprise N LTSB 2016                | EnterpriseSN             | 2DBW3-N2PJG-MVHW3-G7TDK-9HKR4 |
 | Home                                  | Core                     | YTMG3-N6DKC-DKB77-7M9GH-8HVX7 |
 | Home N                                | CoreN                    | 4CPRK-NM3K3-X6XXQ-RXX86-WXCHW |
-| Home China  [^4]                      | CoreCountrySpecific      | N2434-X9D7W-8PF6X-8DV9T-8TYMD |
-| Home Single Language  [^5]            | CoreSingleLanguage       | BT79Q-G7N6G-PGBYW-4YWX6-6F4BT |
+| Home China  [^5]                      | CoreCountrySpecific      | N2434-X9D7W-8PF6X-8DV9T-8TYMD |
+| Home Single Language  [^6]            | CoreSingleLanguage       | BT79Q-G7N6G-PGBYW-4YWX6-6F4BT |
 | IoT Enterprise                        | IoTEnterprise            | XQQYW-NFFMW-XJPBH-K8732-CKFFD |
 | IoT Enterprise Subscription           | IoTEnterpriseK           | P8Q7T-WNK7X-PMFXY-VXHBG-RRK69 |
 | IoT Enterprise LTSC 2021              | IoTEnterpriseS           | QPM6N-7J2WJ-P88HH-P3YRH-YY74H |
@@ -247,24 +252,23 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 | S N                                   | CloudN                   | NH9J3-68WK7-6FB93-4K3DF-DJ4F6 |
 | SE                                    | CloudEdition             | KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W |
 | SE N                                  | CloudEditionN            | K9VKN-3BGWV-Y624W-MCRMQ-BHDCD |
-| Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |
-
+| Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |   
 ![rainbow]  
 
-</br>    
+</br>  
 
 > [!TIP]  
 > 
 > <details>  
 > <summary> System in all architecture are suppurted </summary>  
 > 
-> ◯ Systems in all architectures (x86, x64 and arm64) are supported.  
-> ◯ Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) beyond the evaluation period. You can use TSforge option in MAS to reset the activation any given time.    
-> ◯ IoTEnterpriseS (LTSC) 2021 key will be used to activate the unsupported EnterpriseS (LTSC) 2021 edition.   
-> ◯ IoTEnterpriseS (LTSC) 2024 key will be used to activate the unsupported EnterpriseS (LTSC) 2024 edition.  
-> ◯ Windows Server does not support HWID activation.  
+> ◍ Systems in all architectures (x86, x64 and arm64) are supported.  
+> ◍ Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) beyond the evaluation period. You can use TSforge option in MAS to reset the activation any given time.   
+> ◍ IoTEnterpriseS (LTSC) 2021 key will be used to activate the unsupported EnterpriseS (LTSC) 2021 edition.   
+> ◍ IoTEnterpriseS (LTSC) 2024 key will be used to activate the unsupported EnterpriseS (LTSC) 2024 edition.  
+> ◍ Windows Server does not support HWID activation.  
 >  
-> ◯ Enterprise multi-session (ServerRdsh) edition can be activated with only a key NJCF7-PW8QT-3324D-688JX-2YV66, but it does not support real digital license activation.  
+> ◍ Enterprise multi-session (ServerRdsh) edition can be activated with only a key NJCF7-PW8QT-3324D-688JX-2YV66, but it does not support real digital license activation.  
 >  
 > </details>  
 
@@ -287,7 +291,7 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 > As explained above, you cannot remove it for your hardware,   
 > only major hardware change such as CPU, motherboard can remove the activation.    
 >   
-> What if you just want to keep Windows in the unactivated stage?    
+> What if you just want to keep Windows in the unactivated stage?  
 > To do that, you can install the [KMS key](en/kms38.md#supported-products) in the Windows settings activation page OR  
 > Change the edition using Change Windows edition option in MAS.   
 > 
@@ -339,22 +343,27 @@ In this method, Windows will be activated with TSforge, and **Office** (Preinsta
 > Windows settings will instantly show that Windows is not activated but it usually takes 3 hours for the Activation Watermark to appear.   
 >   
 > These options will simply hide the HWID activation.    
-> If you reinstall Windows with the same edition or restore the default generic Retail/OEM keys, the system will  automatically activate again if an Internet connection is found.  
+> If you reinstall Windows with the same edition or restore the default generic Retail/OEM keys, the system will  automatically activate again if an Internet connection is found.
 
-<br>  
+----  
 
-[^1]: [10 Ways to run PowerShell in windows][1]     
-[^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.   
-[^3]: To check version of your Windows: **Right-click** on your Start menu and select the **system** option. Your Windows version can be seen in the second section under **Edition.**, You can also follow the steps of method 2 by **copy pasting** them. copy the commands and then hit the **Right-click** in the **cmd or powershell** to paste them.   
-[^4]: Home Country Specific version.   
-[^5]: Home Single language version.  
-[^6]: To see windows activation status you must to go:  
-***Settings → Update & Security → activation menu.***  
+[^1]: [10 Ways to run PowerShell in windows][1]  
+
+[^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.  
+
+[^3]: To check the activation status of Windows 10, navigate to Settings → Update & Security → Activation. You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.  
+
+[^4]: To check the activation status of Windows 11, open Settings by clicking the Start button and then selecting Settings → System → Activation. The activation status will be displayed, showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.  
+
+[^5]: Home Country Specific version.  
+
+[^6]: Home Single language version.   
+
 [^7]: Professional for Workstations & Professional N for Workstations   
 
 [1]: https://www.minitool.com/news/open-windows-11-powershell.html  
 
-[2]: https://github.com/NiREvil/windows-activation/discussions/new/choose  
+[2]: https://github.com/NiREvil/windows-activation/discussions/new/choose   
 
-[3]: <mailto:diana.clk01@gmail.com>
+[3]: <mailto:diana.clk01@gmail.com>  
 [rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256
