@@ -1,9 +1,5 @@
-# Instant Windows and Office Activation: 40-Second Solution
-
-> A reliable, open-source activation tools for `Windows` and `Office`, featuring KMS, Ohook, TSforge, KMS38, and HWID—activate in under 40 seconds!
-
-[![Readme](https://img.shields.io/badge/README_IN-فارسی-blue?logo=readme)](README-FA.md)   
-[![Readme](https://img.shields.io/badge/SECOND_METHO_-kMS-blue?logo=readme)](en/kms.md)  
+# Instant Windows and Office Activation: 40-Second Solution   
+> A reliable, open-source activation tools for `Windows` and `Office`, featuring KMS, Ohook, TSforge, KMS38, and HWID—activate in under 40 seconds!  
 
 </br>
 
@@ -40,25 +36,9 @@
 - [Removing Malware](en/remove_malware.md)
 - [Office C2R Custom install](en/office_c2r.md)
 - [A genuine Windows ISO files](en/clean_install_windows.md#prerequisites)
+- [readme in فارسی](README-FA.md)
 
-<br>
-
-## Features
-
-- **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hwid.md)
-- **KMS** Method to Active Windows manually for 180 Days. [Details](en/kms.md)
-- **Ohook** Method to Permanently Activate Office
-- **TSforge** Method to Permanently Activate Windows/ESU/Office. [Details](en/tsforge.md)
-- **KMS38** Method to Activate Windows Till the Year 2038. [Details](en/kms38.md)
-- **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)
-- Advanced Activation Troubleshooting
-- OEM Folders For Preactivation
-- Change Windows Edition
-- Change Office Edition
-- Check Windows/Office Activation Status
-- Available in All In One and Separate Files Versions
-- Fully Open Source and Based on Batch Scripts
-- Fewer Antivirus Detections <br></br>
+<br>   
 
 > [!IMPORTANT]
 >
@@ -82,7 +62,29 @@
 > [!NOTE]
 >
 > <details>  
-> <summary> Read Overview</summary>
+> <summary> Features</summary>  
+>  
+> - **HWID (Digital License)** Method to Permanently Activate Windows. [Technical details](en/hwid.md)
+> - **KMS** Method to Active Windows manually for 180 Days. [Details](en/kms.md)
+> - **Ohook** Method to Permanently Activate Office
+> - **TSforge** Method to Permanently Activate Windows/ESU/Office. [Details](en/tsforge.md)
+> - **KMS38** Method to Activate Windows Till the Year 2038. [Details](en/kms38.md)
+> - **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)
+> - Advanced Activation Troubleshooting
+> - OEM Folders For Preactivation
+> - Change Windows Edition
+> - Change Office Edition
+> - Check Windows/Office Activation Status
+> - Available in All In One and Separate Files Versions  
+> - Fully Open Source and Based on Batch Scripts
+> - Fewer Antivirus Detections
+>
+> </details>   
+
+> [!NOTE]
+>
+> <details>  
+> <summary> Overview</summary>
 >
 > - HWID activation method supports Windows 10/11 only. [more details](en/hwid.md)
 > - This activation method does [not store](README.md#The-files-will-be-stored-on) or modify any files in your system.
@@ -312,9 +314,7 @@ For additional help, visit the [Discussion Section][2] Or reach out via email: [
 > Instead, it appends data to one of data files used by Software Protection Platform.
 >
 > If you want to reset the activation status,  
-> In MAS script, goto Troubleshoot and apply Fix Licensing option. Done ✔️
-
-</br>  
+> In MAS script, goto Troubleshoot and apply Fix Licensing option. Done ✔️  
 
 > [!TIP]
 >
@@ -329,10 +329,7 @@ For additional help, visit the [Discussion Section][2] Or reach out via email: [
 >
 > Enterprise multi-session (ServerRdsh) edition can be activated with only a key NJCF7-PW8QT-3324D-688JX-2YV66, but it does not support real digital license activation.  
 >
-> </details>
-
-</br>  
-
+> </details>   
 
 > [!NOTE]
 >
@@ -342,7 +339,6 @@ For additional help, visit the [Discussion Section][2] Or reach out via email: [
 > These options will simply hide the HWID activation.  
 > If you reinstall Windows with the same edition or restore the default generic Retail/OEM keys, the system will automatically activate again if an Internet connection is found.
 
----
 
 [^1]: [10 Ways to run PowerShell in windows][1]
 
