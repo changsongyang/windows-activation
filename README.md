@@ -2,10 +2,7 @@
 
 > A reliable, open-source activation tools for `Windows` and `Office`, featuring KMS, Ohook, TSforge, KMS38, and HWID—activate in under 40 seconds!
 
-[——Persian](README-FA.md)  
-[——kms method](en/kms.md)
-
-[![Readme](https://img.shields.io/badge/README_IN-فارسی-blue?logo=readme)](README-FA.md)  
+[![Readme](https://img.shields.io/badge/README_IN-فارسی-blue?logo=readme)](README-FA.md)   
 [![Readme](https://img.shields.io/badge/SECOND_METHO_-kMS-blue?logo=readme)](en/kms.md)  
 
 </br>
