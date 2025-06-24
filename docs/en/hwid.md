@@ -1,35 +1,34 @@
 ---
 title: HWID Activation Method
-description: Welcome to the `HWID` document. This has some details about the **HWID** activation method. 
+description: Detailed explanation of the HWID (Digital License) activation method for Windows.
 ---
 
-# HWID Activation Method 
-> Welcome to the `HWID` document. This has some details about the **HWID** activation method.
+<br><br/>  
 
-<br><br/>
-
+# HWID Activation Method  
+> Welcome to the `HWID` document. This has some details about the **HWID** activation method.  <br><br/>  
 
 ## Scope
 
-How and why `HWID` works is somewhat complicated because of all the preliminary "knowledge" required to know why the very thing abused by HWID activators exists at all. Hence, this document.
+How and why `HWID` works is somewhat complicated because of all the preliminary "knowledge" required to know why the very thing abused by HWID activators exists at all. Hence, this document.  <br><br/>   
 
 ## Digital Licenses
 
-`Digital Licenses` (recently renamed to `Digital Entitlements`, but no one cares) are a fancy DRM invention by the geniuses over at Microsoft to make the Microsoft Store at least somewhat relevant.
+`Digital Licenses` (recently renamed to `Digital Entitlements`, but no one cares) are a fancy DRM invention by the geniuses over at Microsoft to make the Microsoft Store at least somewhat relevant.  
 
-Their purpose is to be proof of being licensed to use a piece of software (Please note that **You will own nothing and you will be happy** and **This software is licensed, not sold)** assigned to a Microsoft account.
+Their purpose is to be proof of being licensed to use a piece of software (Please note that **You will own nothing and you will be happy** and **This software is licensed, not sold)** assigned to a Microsoft account.  
 
-There is a very long explanation for what keeps track of digital licenses, but that's somewhat complicated and I don't know everything.
+There is a very long explanation for what keeps track of digital licenses, but that's somewhat complicated and I don't know everything.  
 
-Basically, there is a couple of components that keep track of these licenses and manage all the talking with the Microsoft Store and that talk to software components to tell them what Windows users are allowed to do with their computers. These are the things we want to accept our forgeries.
+Basically, there is a couple of components that keep track of these licenses and manage all the talking with the Microsoft Store and that talk to software components to tell them what Windows users are allowed to do with their computers. These are the things we want to accept our forgeries.  <br><br/>  
 
-## The Free Windows 10 Upgrade
+## The Free Windows 10 Upgrade  
 
 This activation method was at one point referred to as the "Digital License Generation without KMS or predecessor install/upgrade" and that name is just a tiny bit better and more descriptive than "HWID/KMS38".
 
 During the free Windows 10 upgrade period, any activated system (this is the "predecessor") that upgraded to Windows 10 got a free digital license. This promotion is long over, but the free upgrade still works.
 
-This type of reactivation/transfer (legal or otherwise) is actually used during **every single upgrade**, including between individual versions of Windows 10. This mode of activation is what we fake at the moment of writing.
+This type of reactivation/transfer (legal or otherwise) is actually used during **every single upgrade**, including between individual versions of Windows 10. This mode of activation is what we fake at the moment of writing.  <br/>  
 
 ## Mechanism of Activation Transfer
 
@@ -44,13 +43,13 @@ This tool collects, other than the titular activation state, the following infor
    - KMS Activation expiration time
  - MSDM OEM product key
 
-These are put into a file called the Genuine Authorization Ticket (`GenuineTicket.xml`) and used by `ClipUp.exe` in a process referred to as "License Migration".
+These are put into a file called the Genuine Authorization Ticket (`GenuineTicket.xml`) and used by `ClipUp.exe` in a process referred to as "License Migration".  <br><br/>    
 
 ## Hardware ID
 
 The activation method's name - "HWID" - refers to this very parameter so it must be important.
 
-The Hardware ID is a magical data structure built by evaluating the system's hardware. In the ticket, it is found under the base64 string `SessionId`. The `Hwid` string is the base64 representation of the `HWID_BLOCK` structure.
+The Hardware ID is a magical data structure built by evaluating the system's hardware. In the ticket, it is found under the base64 string `SessionId`. The `Hwid` string is the base64 representation of the `HWID_BLOCK` structure.  <br><br/>   
 
 ### HWID_BLOCK
 
@@ -78,13 +77,13 @@ struct HWID {
 };
 ```
 
-The hashes are all SHA-256 truncated to 15 bits; the 16th bit is set to whether the device is removable (1 if removable).
+The hashes are all SHA-256 truncated to 15 bits; the 16th bit is set to whether the device is removable (1 if removable).  <br><br/>   
 
-#### `version`
+### version
 
-This is the version of the hardware ID. It is set to `0` for all implementations I'm aware of.
+This is the version of the hardware ID. It is set to `0` for all implementations I'm aware of.  <br><br/>   
 
-#### `nInstances`
+### nInstances
 
 This is an array of 9 counts of instances of hardware per type of hardware. The types are, in order (by 0-based index):
 
@@ -98,27 +97,27 @@ This is an array of 9 counts of instances of hardware per type of hardware. The 
  7. `Network Cards`
  8. `CPUs`
 
-When there is an "or" betwen two types, the kind of device that has more instances is chosen.
+When there is an "or" betwen two types, the kind of device that has more instances is chosen.  <br><br/>   
 
-#### `bDockOrPCMCIA`
+### bDockOrPCMCIA
 
-This is set to 1 if non-user-provided docking info or PCMCIA is present. 
+This is set to 1 if non-user-provided docking info or PCMCIA is present.  <br><br/>   
 
-#### `hashRAM`
+### hashRAM
 
-This is a hash of the amount of RAM in the local system. It is rather advanced (supports NUMA and such) and is more than just the amount or a hash thereof.
+This is a hash of the amount of RAM in the local system. It is rather advanced (supports NUMA and such) and is more than just the amount or a hash thereof.  <br><br/>   
 
-#### `hashSMBIOS`
+### hashSMBIOS
 
-This is a hash of the entire SMBIOS table.
+This is a hash of the entire SMBIOS table.  <br><br/>  
 
-#### `instanceHashes`
+### instanceHashes
 
-These are the hashes for all components as per `nInstances`. For removable devices, the least significant bit is used as a flag for whether the device is removable or not.
+These are the hashes for all components as per `nInstances`. For removable devices, the least significant bit is used as a flag for whether the device is removable or not.  
 
 Removability is assessed via PnP info. You can check it yourself with Powershell's `Get-PnpDeviceProperty -KeyName DEVPKEY_Device_RemovalPolicy` for any device you like. These values (`CM_REMOVAL_POLICY_[…]`) are mapped to a single bit set if the device is removable.
 
-Some of the devices are only counted when they are not removable. Exact info on that when I stop being lazy.
+Some of the devices are only counted when they are not removable. Exact info on that when I stop being lazy.  <br><br/>  
 
 ### Timeweight
 
@@ -135,23 +134,23 @@ The timeweight is a structure that contains information on how important certain
 
 The type corresponds to identifiers of Hardware Collectors in the HWID algorithm (you can find the values in the [massgravel/hwid-stuff][1] repo) and the weight is how "important" a component is.
 
-When **locally** verifying a hardware ID, you sum all the weights of components matching with the license's HWID and determine if they are equal to or over the threshold. If they aren't, the HWID does not match (`ClipUp` exits with an error).
+When **locally** verifying a hardware ID, you sum all the weights of components matching with the license's HWID and determine if they are equal to or over the threshold. If they aren't, the HWID does not match (`ClipUp` exits with an error).    <br><br/>  
  
 ### Further reading
 
-If you're interested, the (somewhat outdated but still matching) patent for this type of Hardware ID can be found [patents.googlr.com/][2].
+If you're interested, the (somewhat outdated but still matching) patent for this type of Hardware ID can be found [patents.googlr.com/][2].  <br><br/>  
 
 ## Product Family Name
 
 The **Product family name** is a string that identifies a product family in the Microsoft store. When it comes to Windows, it is composed of a few mostly stationary parts:
 
-```
+```bash
 Microsoft.Windows.191.X21-99682_8wekyb3d8bbwe
 ```
 
 The above PFN corresponds to the following fields:
 
-```
+```bash
 Package Identity Name: Microsoft.Windows.191.X21-99682
 Publisher String: 8wekyb3d8bbwe
 ```
@@ -163,15 +162,15 @@ In turn, the parts of Package Identity Name are:
  - **Product Key Part Number**: `X21-99682`
 
 ### Publish string  
-The publisher string is made by hashing some data about the publisher [stackoverflow.com/questions/][3]. For all intents and purposes, it's a constant value.
+The publisher string is made by hashing some data about the publisher [stackoverflow.com/questions/][3]. For all intents and purposes, it's a constant value.   <br><br/>  
 
 ### SKU ID
 
-This value corresponds to the edition. You can find an (almost) full list of these IDs in Windows SDK's `winnt.h`.
+This value corresponds to the edition. You can find an (almost) full list of these IDs in Windows SDK's `winnt.h`.  <br><br/> 
 
 ### Product Key Part Number
 
-The product key part number is a value specific to a given range of product key IDs belonging to a given group. Most commonly, you can find it on COA stickers. It's basically the "signature" of a key range; different ranges can have different policies, some ranges can be reserved for testing, etc. etc.
+The product key part number is a value specific to a given range of product key IDs belonging to a given group. Most commonly, you can find it on COA stickers. It's basically the "signature" of a key range; different ranges can have different policies, some ranges can be reserved for testing, etc. etc.  
 
 The part numbers can also be specific to markets (basically countries) in the Store itself, though I have no concrete examples of this.  
 
@@ -181,5 +180,3 @@ The part numbers can also be specific to markets (basically countries) in the St
 [2]: https://patents.google.com/patent/US7302590B2
 
 [3]: https://stackoverflow.com/questions/21568483/how-to-calculate-publisherid-from-publisher
-
-
