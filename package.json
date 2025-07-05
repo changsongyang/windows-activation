@@ -2,13 +2,10 @@
   "name": "AEG",
   "version": "0.0.0",
   "description": "Instant Windows and Office Activation - 40-Second Solution.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Hello MF World\" && exit 1",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview",
-    "deploy": "npm run build && gh-pages -d .vitepress/dist"
+    "preview": "vitepress preview"
   },
   "keywords": [
     "windows",

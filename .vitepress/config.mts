@@ -9,7 +9,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/windows-activation/public/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#646cff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'AEG Activation - Instant Windows & Office Activation Tools' }],
@@ -52,9 +52,9 @@ export default defineConfig({
               items: [
                 { text: 'Methods Chart', link: '/en/chart' },
                 { text: 'HWID (Digital License)', link: '/en/hwid' },
-                { text: 'KMS38', link: '/en/kms38' },
-                { text: 'TSforge', link: '/en/tsforge' },
-                { text: '$OEM$ Folders (Pre-activation)', link: '/en/oem-folder' },
+                // { text: 'KMS38', link: '/en/kms38' }, // کامنت شد - نیاز به ترجمه یا محتوای فارسی
+                // { text: 'TSforge', link: '/en/tsforge' }, // کامنت شد - نیاز به ترجمه یا محتوای فارسی
+                // { text: '$OEM$ Folders (Pre-activation)', link: '/en/oem-folder' }, // کامنت شد - نیاز به ترجمه یا محتوای فارسی
               ]
             },
             {
@@ -70,7 +70,7 @@ export default defineConfig({
           ]
         },
         editLink: {
-          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/posts/:path',
+          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/posts/en/:path',
           text: 'Edit this page on GitHub'
         },
       }
@@ -100,7 +100,7 @@ export default defineConfig({
           ]
         },
         editLink: {
-          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/posts/:path',
+          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/posts/fa/:path',
           text: 'این صفحه را در گیت‌هاب ویرایش کنید'
         },
       }
