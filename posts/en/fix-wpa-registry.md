@@ -1,13 +1,20 @@
 ---
-title: Fix WPA Registry  
-description: Placeholder description for fix-wpa-registry.md
+layout: doc
+outline: deep
+title: Fix WPA Registry
+description: "fix corrupt WPA registry keys which can cause to not work activation."
+date: 2025-05-09
+editLink: true
+head:
+  - - meta
+    - name: keywords
+      content: broken system registry, sppsvc, wpa
 ---
 
-<br/>  
+## Fix corrupt  system wpa registry 
 
 In some cases, the system may have corrupt WPA registry keys at `HKEY_LOCAL_MACHINE\SYSTEM\WPA` which can cause `sppsvc` to not work and activation to fail, it can also cause high CPU usage in `sppsvc` service.  
-This registry key is protected by the kernel and cannot be deleted normally. That is why we need to follow some more steps below to clear it.  <br/>  
-
+This registry key is protected by the kernel and cannot be deleted normally. That is why we need to follow some more steps below to clear it. 
 
 ## Steps To Fix WPA Registry
 
@@ -24,9 +31,9 @@ This registry key is protected by the kernel and cannot be deleted normally. Tha
 -   It will show you the OS drive letter. Use that drive letter in the command, for example,  
     `E:\rearm.cmd`
 -   Wait for it to finish. When it's finished, you will be able to type in the command prompt, If not then wait.
--   Once done, exit and then normally boot into Windows.  <br/>  
+-   Once done, exit and then normally boot into Windows.
 
-
+l
 ## Video Tutorial
 
-https://github.com/user-attachments/assets/e672229e-b946-42ee-8f04-53a3fbcdbfad
+![Tutorial](https://github.com/user-attachments/assets/e672229e-b946-42ee-8f04-53a3fbcdbfad)
