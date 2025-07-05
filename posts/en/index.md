@@ -1,7 +1,7 @@
 ---
 layout: doc
 outline: deep
-title: "Introduction to REvil Activation"
+title: "Introduction to Activation Enhancement guides"
 description: "A reliable, open-source activation toolkit for Windows and Office."
 date: 2025-05-05
 editLink: true
@@ -42,22 +42,22 @@ For a quick overview, here is a summary of the activation methods available:
 <p style="text-align: center;">
   For a detailed comparison of all methods, check out the <a href="./chart">Activation Methods Chart</a>.</p><br/>   
 
-## Method 1: Permanent Activation with HWID 
+## Method 1. Permanent Activation with HWID 
 
 For most users, the **HWID (Hardware ID)** method is the simplest way to get a permanent digital license for Windows 10 and 11.
 
 <br><br/>  
 
-### Step 1: Open PowerShell as Administrator
+### Step 1. Open PowerShell as Administrator
 
 1.  Right-click the **Start menu**.
 2.  Select **Windows Terminal (Admin)** on Windows 11 or **Windows PowerShell (Admin)** on Windows 10. [^1] [^2]   
 
-![Open PowerShell as Admin](https://github.com/user-attachments/assets/5638557d-9bfe-4e7c-a851-218bec6559bf)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5638557d-9bfe-4e7c-a851-218bec6559bf" alt="Open PowerShell as admin" width="480px" /></p><br><br/>
 
-<br><br/>  
 
-### Step 2: Run the Activation Script
+### Step 2. Run the Activation Script
 
 Copy the following command, paste it into the PowerShell window by right-clicking, and press `Enter`.
 
@@ -70,15 +70,16 @@ irm https://massgrave.dev/get | iex
 ```
 :::
 
-![Paste command in PowerShell](https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e" alt="Paste command in PowerShell" width="480px" /></p><br><br/>
 
-<br><br/>  
 
-### Step 3: Choose the HWID Option
+### Step 3. Choose the HWID Option
 
 A menu will appear in a new window. Press `1` on your keyboard to select **HWID Activation** and wait a few moments for the process to complete.
 
-![Select HWID Activation](https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273" alt="Select HWID Activation" width="480px" /></p><br><br/>
 
 **Congratulations!** Your Windows is now permanently activated with a digital license. <br/>  
 
@@ -95,7 +96,7 @@ To check the activation status of `Windows 11`, open Settings by clicking the St
 ::: details Click here to see the details  
 - **For Windows:** I personally use the **KMS method** ([see guide](./kms)) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.  
 - **For Office:** I use Ohook, TSforge, or Online KMS. The small differences are noted in the summary table above.  
-- **Need Help?** If you run into any issues, feel free to ask in the [GitHub Discussions][2] or email me directly.  
+- **Need Help?** If you run into any issues, feel free to ask in the [GitHub Discussions][2] or [Email me][3] directly. 
 :::
 
 <br/>  
