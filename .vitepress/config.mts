@@ -93,6 +93,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'مقدمه و آموزش', link: '/fa/index-fa' },
+                { text: 'فعال‌سازی با روش KMS', link: '/fa/kms-fa' },
                 // Note: Add other translated files here later
               ]
             }
