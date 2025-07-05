@@ -1,6 +1,6 @@
 ---
 layout: doc
-outline: [[1, 2]
+outline: [1, 2]
 title: "Markdown Extensions"
 description: "VitePress comes with built in Markdown Extensions."
 date: 2024-02-05
