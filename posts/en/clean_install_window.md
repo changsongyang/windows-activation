@@ -1,8 +1,15 @@
 ---
-title: Clean Install Windows   
-description: Guide on how to backup your data and clean install Windows.
+layout: doc
+outline: deep
+title: Clean Install Windows
+description: "Guide on how to backup your data and clean install Windows."
+date: 2025-05-07
+editLink: true
+head:
+  - - meta
+    - name: keywords
+      content: clean install, windows
 ---
-
 
 ## Prerequisites  
 
@@ -49,16 +56,17 @@ IF you have `C:\ drive only`
   - Create another partition using this [guide][5]      
   - Save your data onto that other newly created partition.  
 
-::: tip Backup your data first
+::: danger Backup your data first
 
-It's highly recommended to backup your critical data on some online drive as well, for example,  
+It's highly recommended to backup your critical data on some online drive as well, for example,
 
 - [GoogleDrive][6] → 15GB Free   
 - [OneDrive][7] → 5GB Free    
 - [Mega][8] → 20GB Free    
 - [Filen][9] → 10GB Free  
 
------   
+---
+
 <br/>  
 
 ## Create a bootable USB with Rufus   
@@ -102,7 +110,7 @@ Alternatively, if you don't want to do that, you can install Windows normally an
 
 <br/>  
 
-## Edition List During Windows Installation  
+::: tip Edition List During Windows Installation  
 
 ::: details Click here to view  
 
