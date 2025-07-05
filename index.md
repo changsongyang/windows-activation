@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /en/index
+      link: /posts/en/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/sahar-km/windows-activation
@@ -24,7 +24,7 @@ features:
 ---
 
 <script setup>
-import { data as posts } from '../.vitepress/posts.data.js'
+import { data as posts } from './.vitepress/posts.data.js'
 </script>
 
 <div class="latest-posts-section">
