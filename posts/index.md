@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "REvil"
+  name: "AEG"
   text: "Instant Windows & Office Activation"
-  tagline: A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more. Activate in under 40 seconds!
+  tagline: "A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more. Activate in under 40 seconds!"
   actions:
     - theme: brand
       text: Get Started
