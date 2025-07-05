@@ -1,13 +1,21 @@
 ---
-title: KMS Activation Method
-description: A guide to activating Windows and Office using the KMS method.
+layout: doc
+outline: deep
+title: "KMS Activation Method"
+description: "A guide to activating Windows and Office using the KMS method."
+date: 2023-08-17
+editLink: true
+head:
+  - - meta
+    - name: keywords
+      content: KMS, Office activator, Windows 10, Windows 11
 ---
-
-
 
 # Manual Activation with KMS  
 
-This guide explains how to activate Windows for 180 days using the Key Management Service (KMS) method. This is an official activation channel provided by Microsoft for volume licensing and is a safe, reliable, and temporary activation solution.  
+> This guide explains how to activate Windows for 180 days using the Key Management Service (KMS) method.
+>
+> This is an official activation channel provided by Microsoft for volume licensing and is a safe, reliable, and temporary activation solution.  
 
 :::tip Prerequisites
 - A stable internet connection.
@@ -34,16 +42,19 @@ In the Command Prompt window, run the following command. You must replace `yourl
 slmgr /ipk yourlicensekey
 ```  
 
-::: info To find your Windows edition  
+::: tip To find your Windows edition  
+
+details click here
 
 Right-click the Start menu, select System, and look under "Windows specifications".   
 
  Please select one of the **license keys** from the list that **matches your version of Windows** and replace it with the phrase `yourlicencekey` in the command.    
- How to check version of Windows. [^3]  
+ How to check version of Windows. [^3]
+
 :::  
 
 
-**Generic Volume License Keys (GVLK):**
+### Generic Volume License Keys (GVLK)
 
 | Windows Edition        | GVLK Key                      |
 |:-----------------------|:------------------------------|
@@ -123,7 +134,7 @@ To check the activation status of `Windows 11`, open Settings by clicking the St
 
 <br/>  
 
-[^1]: 10 Ways to run PowerShell in windows [read here][1]
+[^1]: 10 Ways to run PowerShell in windows [read here][1].
 
 [^2]: Another easiest way to run PowerShell: **Right-click** on your Start menu to trigger the quick link menu and select **Windows Terminal (admin)** at win11 or **Windows powershell (admin)** at win 10 in the menu list.
 
