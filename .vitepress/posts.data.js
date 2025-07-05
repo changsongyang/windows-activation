@@ -2,29 +2,40 @@
 import { createContentLoader } from 'vitepress'
 
 const base = '/windows-activation/';
+const EXCERPT_MAX_LENGTH = 150;
 
-function stripHtml(html) {
+function stripHtmlAndTruncate(html, maxLength) {
   if (!html) return '';
-  return html.replace(/<\/?[^>]+(>|$)/g, "");
+  let text = html;
+  text = text.replace(/<\/?[^>]+(>|$)/g, "");
+  text = text.replace(/&ZeroWidthSpace;/gi, ' ');
+  text = text.replace(/&nbsp;/gi, ' ');
+  text = text.replace(/\s\s+/g, ' ').trim();
+
+  if (text.length > maxLength) {
+    return text.substring(0, maxLength) + '...';
+  }
+  return text;
 }
 
 export default createContentLoader('posts/*.md', {
-  excerpt: true,
+  excerpt: true, 
   transform(raw) {
     return raw
       .filter(({ frontmatter }) => frontmatter && frontmatter.title)
-      .map(({ url, frontmatter, excerpt }) => {
-        let cleanExcerpt = '';
-        if (excerpt) {
-          cleanExcerpt = stripHtml(excerpt);
-        } else if (frontmatter.description) {
-          cleanExcerpt = frontmatter.description;
+      .map(({ url, frontmatter, excerpt: autoExcerpt }) => { 
+        let finalExcerpt = '';
+
+        if (frontmatter.description) {
+          finalExcerpt = stripHtmlAndTruncate(frontmatter.description, EXCERPT_MAX_LENGTH);
+        } else if (autoExcerpt) {
+          finalExcerpt = stripHtmlAndTruncate(autoExcerpt, EXCERPT_MAX_LENGTH);
         }
 
         return {
           title: frontmatter.title || 'Untitled',
           url: `${base}${url.startsWith('/') ? url.substring(1) : url}`,
-          excerpt: cleanExcerpt,
+          excerpt: finalExcerpt,
           date: formatDate(frontmatter.date || frontmatter.data || new Date())
         };
       })
@@ -36,7 +47,7 @@ function formatDate(raw) {
   const date = new Date(raw)
   return {
     time: +date,
-    string: date.toLocaleDateString('en-US', {
+    string: date.toLocaleDateString('en-US', { 
       year: 'numeric',
       month: 'long',
       day: 'numeric'
