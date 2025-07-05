@@ -1,0 +1,33 @@
+{
+  "name": "AEG",
+  "version": "0.0.0",
+  "description": "Instant Windows and Office Activation - 40-Second Solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello MF World\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "deploy": "npm run build && gh-pages -d .vitepress/dist"
+  },
+  "keywords": [
+    "windows",
+    "office",
+    "activation",
+    "kms",
+    "hwid"
+  ],
+  "author": "REvil",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "viewerjs": "^1.11.7",
+    "vitepress-plugin-image-viewer": "^1.1.6"
+  }
+}
