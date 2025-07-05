@@ -1,12 +1,22 @@
 ---
-title: HWID Activation Method
-description: Detailed explanation of the HWID (Digital License) activation method for Windows.
----
-
-<br><br/>  
+layout: doc
+outline: deep
+title: "HWID Activation Method"
+description: "Detailed explanation of the HWID activation method for Windows."
+date: 2025-05-09
+editLink: true
+head:
+  - - meta
+    - name: keywords
+      content: HWID, Digital zj 
+---  
 
 # HWID Activation Method  
-> Welcome to the `HWID` document. This has some details about the **HWID** activation method.  <br><br/>  
+
+::: tip  Welcome to the `HWID` document. 
+This has some details about the **HWID** (Digital License) activation method. 
+
+<br><br/>  
 
 ## Scope
 
@@ -134,7 +144,7 @@ The timeweight is a structure that contains information on how important certain
 
 The type corresponds to identifiers of Hardware Collectors in the HWID algorithm (you can find the values in the [massgravel/hwid-stuff][1] repo) and the weight is how "important" a component is.
 
-When **locally** verifying a hardware ID, you sum all the weights of components matching with the license's HWID and determine if they are equal to or over the threshold. If they aren't, the HWID does not match (`ClipUp` exits with an error).    <br><br/>  
+When **locally** verifying a hardware ID, you sum all the weights of components matching with the license's HWID and determine if they are equal to or over the threshold. If they aren't, the HWID does not match (`ClipUp` exits with an error).
  
 ### Further reading
 
