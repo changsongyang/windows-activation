@@ -1,9 +1,18 @@
 ---
+layout: doc
+outline: deep
 title: Activation Methods Chart
-description: A comparison of activation methods offered by Microsoft Activation Scripts.
+description: "A comparison of activation methods offered by Microsoft Activation Scripts."
+date: 2025-05-06
+editLink: true
+head:
+  - - meta
+    - name: keywords
+      content: chart, something
 ---
 
 # Activation Methods Chart
+
 > Below is a comparison of activation methods offered by Microsoft Activation Scripts.
 
 
