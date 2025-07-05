@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /posts/en/index
+      link: /en/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/sahar-km/windows-activation
