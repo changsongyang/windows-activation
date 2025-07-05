@@ -1,22 +1,30 @@
 ---
-title: Introduction to REvil Activation
-description: A reliable, open-source activation toolkit for Windows and Office. Activate your products in under 40 seconds using methods like HWID, KMS, and more.
+layout: doc
+outline: deep
+title: "Introduction to REvil Activation"
+description: "A reliable, open-source activation toolkit for Windows and Office."
+date: 2025-05-05
+editLink: true
+head:
+  - - meta
+    - name: keywords
+      content: placeholder, kms
 ---
 
-<br/>  
+# Welcome to the REvil
 
-# Getting Started with REvil  
+> Activation Enhancement Guide
 
-Welcome to the REvil (Activation Enhancement Guide).   
 This project provides a collection of reliable, open-source activation tools for `Windows` and `Office`.   
 Our scripts leverage various methods to help you activate your products quickly and safely.
 
 :::danger IMPORTANT
-For most activation methods, a stable **internet connection** is required.   
+For most activation methods, a stable **internet connection** is required.
+
 A VPN is generally not necessary.
 :::  
 
-<br/>  
+<br><br/>  
 
 ## Activation Methods Summary
 
