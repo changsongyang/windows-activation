@@ -92,7 +92,7 @@ export default defineConfig({
               text: 'راهنمای فعال‌سازی',
               collapsed: false,
               items: [
-                { text: 'مقدمه و آموزش (فارسی)', link: '/fa/index-fa' },
+                { text: 'مقدمه و آموزش', link: '/fa/index-fa' },
                 // Note: Add other translated files here later
               ]
             }
