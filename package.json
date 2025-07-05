@@ -1,25 +1,33 @@
 {
-  "name": "REvil",
-  "version": "1.0.0",
-  "description": "Instant Windows and Office Activation: 40-Second Solution",
+  "name": "AEG",
+  "version": "0.0.0",
+  "description": "Instant Windows and Office Activation - 40-Second Solution.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "test": "echo \"Hello MF World\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "deploy": "npm run build && gh-pages -d .vitepress/dist"
   },
   "keywords": [
     "windows",
     "office",
-    "activation"
+    "activation",
+    "kms",
+    "hwid"
   ],
-  "author": "Diana-Cl",
+  "author": "REvil",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.6.3",
+    "gh-pages": "^6.3.0",
     "markdown-it-footnote": "^4.0.0",
-    "markdown-it-mathjax3": "^4.3.2"
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "viewerjs": "^1.11.7",
+    "vitepress-plugin-image-viewer": "^1.1.6"
   }
 }
