@@ -11,25 +11,27 @@ head:
       content: kms, alternative method, office
 ---
 
-# Welcome to the Activation Enhancement Guide.
-
-::: warning Author's Suggestion & Tips  
-
-::: details Click here to see the details
-
-- After activation, logging into a Microsoft account via Windows settings may not work as expected.  
-
-- **For Windows:** I personally use the **KMS method** ([see guide](./kms)) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.  
-- **For Office:** I use Ohook, TSforge, or Online KMS. The small differences are noted in the summary table above.  
-- **Need Help?** If you run into any issues, feel free to ask in the [GitHub Discussions][2] or [Email me][3] directly.   
-:::
-
-<br/>
+# Welcome to the Activation Enhancement Guide.  
 
 This project provides a collection of reliable, open-source activation tools for `Windows` and `Office`.   
 Our scripts leverage various methods to help you activate your products quickly and safely.
 
-::: tip IMPORTANT
+</br>
+
+::: danger Author's Suggestion & Tips
+
+- After activation, logging into a Microsoft account via Windows settings may not work as expected.  
+
+::: details Click here to see the details
+
+- **For Windows:** I personally use the **KMS method** [[see kms Guide's](./kms)] for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.  
+- **For Office:** I use Ohook, TSforge, or Online KMS. The small differences are noted in the summary table above.  
+- **Need Help?** If you run into any issues, feel free to ask in the [GitHub Discussions][2] or [Email me][3] directly.
+
+:::
+
+::: tip NOTE
+
 For most activation methods, a stable **internet connection** is required.
 
 A VPN is generally not necessary.
@@ -68,7 +70,6 @@ For most users, the **HWID (Hardware ID)** method is the simplest way to get a p
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5638557d-9bfe-4e7c-a851-218bec6559bf" alt="Open PowerShell as admin" width="480px" /></p><br><br/>
 
-
 ## Step 2. Run the Activation Script
 
 Copy the following command, paste it into the PowerShell window by right-clicking, and press `Enter`.
@@ -84,7 +85,6 @@ irm https://massgrave.dev/get | iex
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e" alt="Paste command in PowerShell" width="480px" /></p><br><br/>
-
 
 ## Step 3. Choose the HWID Option
 
@@ -108,7 +108,8 @@ To check the activation status of `Windows 11`, open Settings by clicking the St
 ::: details  Click here to see the details  
 - **HWID:** A digital license is stored on Microsoft's servers and tied to your hardware. It cannot be "removed" in the traditional sense. A major hardware change (like the motherboard) will invalidate it.  To return to an unactivated state, you can install a generic KMS key.  
 - **Online KMS / Ohook / KMS38:** Use the corresponding "Uninstall" or "Remove" option within the MAS script menu, then run the "Fix Licensing" option from the Troubleshoot menu.  
-- **TSforge:** This method only appends data and doesn't install files. To reset it, simply run the "Fix Licensing" option from the Troubleshoot menu in the MAS script.   
+- **TSforge:** This method only appends data and doesn't install files. To reset it, simply run the "Fix Licensing" option from the Troubleshoot menu in the MAS script.
+
 :::
 
 <br/>  
