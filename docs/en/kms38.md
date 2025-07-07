@@ -25,8 +25,6 @@ editLink: true
 
 ## How does it work?
 
-::: tip
-
 - In a genuine [KMS][1] activation environment, activation lasts a maximum of up to 180 days. This is done using a valid license and server setup.
   - In the Windows major upgrade process, the system uses `gatherosstate.exe` to carry over the remaining KMS activation period. It does this by creating a ticket that can be used offline.
 
@@ -40,19 +38,16 @@ editLink: true
     - **1-** Place a [custom slc.dll][3] file beside gatherosstate.exe: gatherosstate.exe uses the system's `C:\Windows\System32\slc.dll` file to gather the system's info. If we place a custom slc.dll file beside gatherosstate.exe which can send the rubbish data to it, then it will simply accept it and generate a valid ticket allowing activation up to January 19, 2038, 03:14:07 UTC.
     - **2-** [Modify][4] the gatherosstate.exe file itself so that it doesn't check the system's activation status and we can put the activation period as we wish.
 
-:::
-
 <br/>
 
-::: danger Important
+
+ ### Important
 
 - **To be clear**, we are **not modifying/patching any on-board system file** to get the ticket.
 - Gatherosstate.exe is a part of the ISO file and not available in C drive system files. The system's slc.dll file is not touched; instead, we use custom slc.dll only for a brief moment of ticket generation.
   - Latest MAS doesn't use any of these methods; instead, it uses ready-to-use Universal Tickets (check below for manual activation info).
     - **Q:** Can Microsoft block this kind of activation?
     - **A:** Not directly. They could only update Clipup to allow for a maximum activation period of 180 days. Not much besides that can be done on their part. The tickets are not sent to Microsoft at all, so they can't block them or take action directly.
-
-:::
 
 <br/>
 
@@ -214,8 +209,6 @@ editLink: true
 
 ### KMS38 Protection
 
-::: tip KMS38 Protection
-
 - KMS38 Activation is vulnerable to unintended replacement by a 180-Day KMS Activator.
 - From MAS 1.7, the script will enable KMS38 protection by default.
 
@@ -229,8 +222,6 @@ editLink: true
   - Protect the below Registry from edit and delete  
     `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\55c92734-d682-4d71-983e-d6ec3f16059f\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\`
 - Done ✔️
-
-:::
 
 [1]: https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee939272(v=technet.10)?redirectedfrom=MSDN#kms-overview
 [2]: https://en.wikipedia.org/wiki/Year_2038_problem
