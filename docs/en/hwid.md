@@ -8,13 +8,15 @@ editLink: true
 head:
   - - meta
     - name: keywords
-      content: HWID, Digital zj 
+      content: HWID, Digital License
 ---  
 
 # HWID Activation Method  
 
 ::: tip  Welcome to the `HWID` document. 
 This has some details about the **HWID** (Digital License) activation method. 
+
+:::
 
 <br><br/>  
 
