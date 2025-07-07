@@ -61,7 +61,7 @@ export default defineConfig({
               text: 'Advanced Guides',
               collapsed: true,
               items: [
-                { text: 'Clean Install Windows', link: '/en/clean_install_windows' },
+                { text: 'Clean Install Windows', link: '/en/clean_install_window' },
                 { text: 'Office C2R Custom Install', link: '/en/office_c2r' },
                 { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
                 { text: 'Remove Malware', link: '/en/remove_malware' },
