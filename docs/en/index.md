@@ -8,20 +8,32 @@ editLink: true
 head:
   - - meta
     - name: keywords
-      content: placeholder, kms
+      content: kms, alternative method, office
 ---
 
-# Welcome to the REvil
+# Welcome to the Activation Enhancement Guide.
 
-> Activation Enhancement Guide
+::: warning Author's Suggestion & Tips  
+
+::: details Click here to see the details
+
+- After activation, logging into a Microsoft account via Windows settings may not work as expected.  
+
+- **For Windows:** I personally use the **KMS method** ([see guide](./kms)) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.  
+- **For Office:** I use Ohook, TSforge, or Online KMS. The small differences are noted in the summary table above.  
+- **Need Help?** If you run into any issues, feel free to ask in the [GitHub Discussions][2] or [Email me][3] directly.   
+:::
+
+<br/>
 
 This project provides a collection of reliable, open-source activation tools for `Windows` and `Office`.   
 Our scripts leverage various methods to help you activate your products quickly and safely.
 
-:::danger IMPORTANT
+::: tip IMPORTANT
 For most activation methods, a stable **internet connection** is required.
 
 A VPN is generally not necessary.
+
 :::  
 
 <br><br/>  
@@ -48,7 +60,7 @@ For most users, the **HWID (Hardware ID)** method is the simplest way to get a p
 
 <br><br/>  
 
-### Step 1. Open PowerShell as Administrator
+## Step 1. Open PowerShell as Administrator
 
 1.  Right-click the **Start menu**.
 2.  Select **Windows Terminal (Admin)** on Windows 11 or **Windows PowerShell (Admin)** on Windows 10. [^1] [^2]   
@@ -57,7 +69,7 @@ For most users, the **HWID (Hardware ID)** method is the simplest way to get a p
   <img src="https://github.com/user-attachments/assets/5638557d-9bfe-4e7c-a851-218bec6559bf" alt="Open PowerShell as admin" width="480px" /></p><br><br/>
 
 
-### Step 2. Run the Activation Script
+## Step 2. Run the Activation Script
 
 Copy the following command, paste it into the PowerShell window by right-clicking, and press `Enter`.
 
@@ -74,7 +86,7 @@ irm https://massgrave.dev/get | iex
   <img src="https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e" alt="Paste command in PowerShell" width="480px" /></p><br><br/>
 
 
-### Step 3. Choose the HWID Option
+## Step 3. Choose the HWID Option
 
 A menu will appear in a new window. Press `1` on your keyboard to select **HWID Activation** and wait a few moments for the process to complete.
 
@@ -89,17 +101,7 @@ To check the activation status of `Windows 11`, open Settings by clicking the St
 
 <br><br/>  
 
-## Additional Information
-
-::: tip Author's Suggestion & Tips  
-
-::: details Click here to see the details  
-- **For Windows:** I personally use the **KMS method** ([see guide](./kms)) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.  
-- **For Office:** I use Ohook, TSforge, or Online KMS. The small differences are noted in the summary table above.  
-- **Need Help?** If you run into any issues, feel free to ask in the [GitHub Discussions][2] or [Email me][3] directly. 
-:::
-
-<br/>  
+## Additional Information  
 
 ::: danger How to Remove Activations
 
@@ -146,11 +148,10 @@ To check the activation status of `Windows 11`, open Settings by clicking the St
 | Team                                  | PPIPro                   | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y |
 
 *A generic key is automatically applied by the script where needed.*
+
 :::
 
----
-
-<br><br/>  
+<hr><br><br/>  
 
 [^1]: [10 Ways to run PowerShell in windows][1]  
 
