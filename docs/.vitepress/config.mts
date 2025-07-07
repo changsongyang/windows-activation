@@ -52,9 +52,9 @@ export default defineConfig({
               items: [
                 { text: 'Methods Chart', link: '/en/chart' },
                 { text: 'HWID (Digital License)', link: '/en/hwid' },
-                // { text: 'KMS38', link: '/en/kms38' }, // کامنت شد - نیاز به ترجمه یا محتوای فارسی
-                // { text: 'TSforge', link: '/en/tsforge' }, // کامنت شد - نیاز به ترجمه یا محتوای فارسی
-                // { text: '$OEM$ Folders (Pre-activation)', link: '/en/oem-folder' }, // کامنت شد - نیاز به ترجمه یا محتوای فارسی
+                { text: 'KMS38', link: '/en/kms38' },
+                { text: 'TSforge', link: '/en/tsforge' },
+                { text: '$OEM$ Folders', link: '/en/oem-folder' },
               ]
             },
             {
