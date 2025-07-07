@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "Instant Windows and Office Activation - 40-Second Solution.",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+  "dev": "vitepress dev docs",
+  "build": "vitepress build docs",
+  "preview": "vitepress preview docs"
   },
   "keywords": [
     "windows",
