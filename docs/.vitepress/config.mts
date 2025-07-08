@@ -54,20 +54,20 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Methods Chart', link: '/en/chart' },
-                { text: 'HWID (Digital License)', link: '/en/hwid' },
-                { text: 'KMS38', link: '/en/kms38' },
-                { text: 'TSforge', link: '/en/tsforge' },
+                { text: 'Clean Install Windows', link: '/en/clean_install_windows' },
+                { text: 'Remove Malware', link: '/en/remove_malware' },
                 { text: 'Office C2R Custom Install', link: '/en/office_c2r' },
+                { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
               ]
             },
             {
               text: 'Advanced Guides',
               collapsed: true,
               items: [
-                { text: 'Clean Install Windows', link: '/en/clean_install_window' },
+                { text: 'HWID (Digital License)', link: '/en/hwid' },
+                { text: 'KMS38', link: '/en/kms38' },
+                { text: 'TSforge', link: '/en/tsforge' },
                 { text: '$OEM$ Folders', link: '/en/oem-folder' },
-                { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
-                { text: 'Remove Malware', link: '/en/remove_malware' },
               ]
             }
           ]
@@ -100,7 +100,7 @@ export default defineConfig({
                 // Note: Add other translated files here later
               ]
             }
-          ]
+          ] 
         },
         editLink: {
           pattern: 'https://github.com/sahar-km/windows-activation/edit/main/posts/fa/:path',
@@ -124,8 +124,8 @@ export default defineConfig({
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'medium'
+        dateStyle: 'medium',
+        timeStyle: 'short'
       }
     },
     socialLinks: [
