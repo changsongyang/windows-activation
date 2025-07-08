@@ -17,14 +17,39 @@
   "author": "REvil",
   "license": "ISC",
   "type": "module",
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "markdown-it-footnote": "^4.0.0",
-    "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.6.3"
-  },
   "dependencies": {
     "viewerjs": "^1.11.7",
+    "@shikijs/core": "^3.7.0",
+    "@shikijs/transformers": "^3.7.0",
+    "@shikijs/types": "^3.7.0",
+    "shiki": "^3.7.0",
     "vitepress-plugin-image-viewer": "^1.1.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-async": "^2.2.0",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-container": "^4.0.0",
+    "postcss-rtlcss": "^5.7.1",
+    "postcss-prefix-selector": "^2.1.1",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-group-icons": "^1.5.4"
+  },
+  "peerDependencies": {
+    "markdown-it-mathjax3": "^4",
+    "postcss": "^8"
+  },
+  "peerDependenciesMeta": {
+    "markdown-it-mathjax3": {
+      "optional": true
+    },
+    "postcss": {
+      "optional": true
+    }
   }
 }
