@@ -1,8 +1,8 @@
 ---
 layout: doc
 outline: deep
-title: Clean Install Windows
-description: "Guide on how to backup your data and clean install Windows."
+title: 'Clean Install Windows'
+description: 'Guide on how to backup your data and clean install Windows.'
 date: 2025-05-07
 editLink: true
 head:
@@ -18,7 +18,7 @@ head:
   -   OR Directly from [Microsoft][2]  
 - The latest version of Rufus from [rufus][3]  
 - A minimum 8GB USB drive   
-- Follow this [guide](/en/remove_malware) before making a bootable USB if you think the system has malware.
+- Follow this [guide](./remove_malware) before making a bootable USB if you think the system has malware.
 
 ::: details Another clean system if your current system is infected with File infector malware
 
@@ -56,20 +56,20 @@ IF you have `C:\ drive only`
   - Create another partition using this [guide][5]      
   - Save your data onto that other newly created partition.  
 
-::: danger Backup your data first
+::: danger It's highly recommend
 
 It's highly recommended to backup your critical data on some online drive as well, for example,
 
 - [GoogleDrive][6] → 15GB Free   
 - [OneDrive][7] → 5GB Free    
 - [Mega][8] → 20GB Free    
-- [Filen][9] → 10GB Free  
+- [Filen][9] → 10GB Free
 
----
+:::
 
-<br/>  
+<hr/><br/>  
 
-## Create a bootable USB with Rufus   
+## Create a bootable USB with Rufus
 
 - Plug your USB drive into the system. (Its data will be deleted.)
 - Launch Rufus which you downloaded earlier.
@@ -79,9 +79,11 @@ It's highly recommended to backup your critical data on some online drive as wel
 - Click "START."
 - Wait for Rufus to create the bootable USB. It may take several minutes. You'll see "READY" when done.   
 
+<br/>
+
 ## Windows 11 on Unsupported Hardware   
 
-::: details Click here to view
+::: details Rufus can help you
 
 - Rufus can help you install Windows 11 on unsupported hardware, but you will encounter problems with future feature updates since Microsoft does not permit that on such hardware.
 - To resolve this issue, you need to install IoT Enterprise 24H2 (2024) edition which is [officially supported][10] on unsupported hardware. Don't worry about it being an unusual edition; it's binary identical to other editions, with the primary difference being the licensing.
@@ -105,14 +107,14 @@ It's highly recommended to backup your critical data on some online drive as wel
 - When installing Windows, be sure not to use the old version of the installer.  
 - That's it. The setup will auto-pick the IoT Enterprise edition.  
 
-Alternatively, if you don't want to do that, you can install Windows normally and later change the edition to IoT Enterprise.    
+Alternatively, if you don't want to do that, you can install Windows normally and later change the edition to IoT Enterprise.  
 :::
 
 <br/>  
 
 ::: tip Edition List During Windows Installation  
 
-::: details Click here to view  
+::: details If your system has an OEM license  
 
 - If your system has an OEM license installed by the manufacturer on the motherboard, then the Windows setup will not show the edition list and will automatically select the edition based on the license on the motherboard.  
 - If you have such hardware and want to view the list of available editions for Windows installation, follow the steps below.  
@@ -140,32 +142,23 @@ NoKeyChannel
   - Choose "Custom: Install Windows only (advanced)" for a clean install.  
   - Delete all partitions on the boot drive, or if you want to save data partitions then delete only the C drive and other small system partitions, and select the unallocated space created.  
   - Click "Next" to start the installation. Windows will auto-create the necessary partitions.
- 
-----
 
 <br/>  
 
 ## Troubleshoot  
 
-You can connect with us for help from [Discussion](https://github.com/NiREvil/windows-activation/discussions/new/choose) if you need.   
+You can connect with us for help from [Discussion][11] if you need.   
 
 
 [1]: https://msdl.gravesoft.dev/
-
 [2]: https://www.microsoft.com/en-us/software-download
-
 [3]: https://rufus.ie/
-
 [4]: https://free.drweb.com/download+cureit/gr
-
 [5]: https://youtu.be/_HgjasKuOBw
-
 [6]: https://drive.google.com/
-
 [7]: https://onedrive.live.com/
-
 [8]: https://mega.io/
-
 [9]: https://filen.io/  
-
 [10]: https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/Hardware/System_Requirements?tabs=Windows11LTSC#optional-minimum-requirements
+[11]: https://github.com/NiREvil/windows-activation/discussions/new/choose
+
