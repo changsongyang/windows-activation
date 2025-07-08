@@ -2,8 +2,6 @@ import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import mathjax3 from 'markdown-it-mathjax3'
 
-const require = createRequire(import.meta.url)
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/windows-activation/',
@@ -15,6 +13,7 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap', rel: 'stylesheet' }],
+    ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'AEG Activation - Instant Windows & Office Activation Tools' }],
     ['meta', { property: 'og:description', content: 'A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more.' }]
@@ -33,7 +32,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      title: 'AEG Activation',
+      title: 'A E G',
       description: 'Instant Windows and Office Activation Tools',
       themeConfig: {
         nav: [
@@ -83,7 +82,7 @@ export default defineConfig({
       label: 'فارسی',
       lang: 'fa-IR',
       dir: 'rtl',
-      title: 'فعال‌ساز محصولات مایکروسافت',
+      title: 'A E G',
       description: 'ابزارهای فعال‌سازی فوری ویندوز و آفیس',
       themeConfig: {
         nav: [
