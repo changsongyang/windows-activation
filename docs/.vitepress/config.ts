@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import mathjax3 from 'markdown-it-mathjax3'
 
+const require = createRequire(import.meta.url)
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/windows-activation/',
@@ -10,7 +12,9 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#646cff' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap', rel: 'stylesheet' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'AEG Activation - Instant Windows & Office Activation Tools' }],
     ['meta', { property: 'og:description', content: 'A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more.' }]
@@ -54,7 +58,7 @@ export default defineConfig({
                 { text: 'HWID (Digital License)', link: '/en/hwid' },
                 { text: 'KMS38', link: '/en/kms38' },
                 { text: 'TSforge', link: '/en/tsforge' },
-                { text: '$OEM$ Folders', link: '/en/oem-folder' },
+                { text: 'Office C2R Custom Install', link: '/en/office_c2r' },
               ]
             },
             {
@@ -62,7 +66,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Clean Install Windows', link: '/en/clean_install_window' },
-                { text: 'Office C2R Custom Install', link: '/en/office_c2r' },
+                { text: '$OEM$ Folders', link: '/en/oem-folder' },
                 { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
                 { text: 'Remove Malware', link: '/en/remove_malware' },
               ]
@@ -77,14 +81,14 @@ export default defineConfig({
     },
     fa: {
       label: 'فارسی',
-      lang: 'fa',
+      lang: 'fa-IR',
       dir: 'rtl',
-      title: 'فعال‌ساز مایکروسافت',
+      title: 'فعال‌ساز محصولات مایکروسافت',
       description: 'ابزارهای فعال‌سازی فوری ویندوز و آفیس',
       themeConfig: {
         nav: [
           { text: 'خانه', link: '/fa/index-fa' },
-          { text: 'فعال سازی', link: '/fa/kms-fa' }
+          { text: 'روش kms', link: '/fa/kms-fa' }
         ],
         sidebar: {
           '/fa/': [
