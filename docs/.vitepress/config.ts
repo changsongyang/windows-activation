@@ -1,31 +1,41 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import mathjax3 from 'markdown-it-mathjax3'
+import attrs from 'markdown-it-attrs'
+import { mermaid } from 'vitepress-plugin-mermaid'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
-// https://vitepress.dev/reference/site-config
+const base = '/windows-activation/'
+const siteUrl = `https://sahar-km.github.io${base}`
+
 export default defineConfig({
-  base: '/windows-activation/',
+  base: base,
   cleanUrls: true,
   ignoreDeadLinks: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: `${base}favicon.ico` }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap', rel: 'stylesheet' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'AEG Activation - Instant Windows & Office Activation Tools' }],
-    ['meta', { property: 'og:description', content: 'A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more.' }]
+    // اضافه کردن استایل و اسکریپت Video.js
+    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/video.js@8.17.4/dist/video-js.min.css' }],
+    ['script', { src: 'https://unpkg.com/video.js@8.17.4/dist/video.min.js' }]
   ],
 
   markdown: {
     config: (md) => {
       md.use(footnote)
       md.use(mathjax3)
+      md.use(attrs)
+      md.use(tabsMarkdownPlugin) // فعال‌سازی پلاگین تب‌ها
     },
     lineNumbers: true
   },
+
+  // Mermaid diagram support
+  mermaid: {},
 
   // --- I18n Configuration ---
   locales: {
@@ -37,7 +47,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Guides', link: '/en/index' }
+          { text: 'Guides', link: '/en/' }
         ],
         sidebar: {
           '/en/': [
@@ -45,7 +55,7 @@ export default defineConfig({
               text: 'Activation Guides',
               collapsed: false,
               items: [
-                { text: 'Introduction', link: '/en/index' },
+                { text: 'Introduction', link: '/en/' },
                 { text: 'KMS Activation', link: '/en/kms' },
               ]
             },
@@ -66,14 +76,14 @@ export default defineConfig({
               items: [
                 { text: 'HWID (Digital License)', link: '/en/hwid' },
                 { text: 'KMS38', link: '/en/kms38' },
-                { text: 'TSforge', link: '/en/tsforge' },
+                { text: 'Online KMS', link: '/en/online_kms' },
                 { text: '$OEM$ Folders', link: '/en/oem-folder' },
               ]
             }
           ]
         },
         editLink: {
-          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/posts/en/:path',
+          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/docs/:path',
           text: 'Edit this page on GitHub'
         },
       }
@@ -87,7 +97,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'خانه', link: '/fa/index-fa' },
-          { text: 'روش kms', link: '/fa/kms-fa' }
+          { text: 'روش KMS', link: '/fa/kms-fa' }
         ],
         sidebar: {
           '/fa/': [
@@ -97,13 +107,12 @@ export default defineConfig({
               items: [
                 { text: 'مقدمه و آموزش', link: '/fa/index-fa' },
                 { text: 'فعال‌سازی با روش KMS', link: '/fa/kms-fa' },
-                // Note: Add other translated files here later
               ]
             }
-          ] 
+          ]
         },
         editLink: {
-          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/posts/fa/:path',
+          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/docs/:path',
           text: 'این صفحه را در گیت‌هاب ویرایش کنید'
         },
       }
@@ -115,12 +124,10 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-
     docFooter: {
       prev: 'Previous page',
       next: 'Next page'
     },
-
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
@@ -129,12 +136,19 @@ export default defineConfig({
       }
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/NiREvil' },
+      { icon: 'github', link: 'https://github.com/NiREvil/windows-activation' },
       { icon: 'telegram', link: 'https://t.me/F_NiREvil/6448' }
     ],
     footer: {
       message: 'Made with 🩶 using VitePress',
-      copyright: '© 2025 REvil - Sharing knowledge, one note at a time'
+      copyright: '© 2025 REvil — Sharing knowledge, one note at a time'
+    }
+  },
+
+  // تنظیمات Vite برای بهینه‌سازی Video.js
+  vite: {
+    optimizeDeps: {
+      include: ['video.js']
     }
   }
 })
