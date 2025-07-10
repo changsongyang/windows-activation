@@ -118,15 +118,20 @@ irm https://massgrave.dev/get | iex
 
 <br/>
 
+<img width="883" height="739" alt="p1" src="" />
+
+<img width="1070" height="791" alt="p2" src="" />
+<img width="862" height="562" alt="p3" src="" />
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dfaa3f27-efb8-4979-bc32-081362274a2e" alt="Paste command in PowerShell" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="Paste command in PowerShell" width="540px" /></p><br/>
 
 ## Step 3. Choose the HWID Option
 
 A menu will appear in a new window. Press `1` number on your keyboard to select **HWID Activation** and wait a few moments for the process to complete.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c4289236-1d5d-421f-984f-5b3816575273" alt="Select HWID Activation" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="540px" /></p><br/>
 
 **Congratulations!**  
 Your Windows is now permanently activated with a digital license. <br/>
@@ -189,7 +194,7 @@ _A generic key is automatically applied by the script where needed._
 
 :::
 
-<hr/><br/><br/>
+<hr/><br/>
 
 [^1]: To check the activation status of Windows 10, navigate to Settings → Update & Security → Activation. You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.
 
