@@ -13,6 +13,7 @@ head:
 
 ## Fix corrupt system wpa registry 
 
+
 In some cases, the system may have corrupt WPA registry keys at `HKEY_LOCAL_MACHINE\SYSTEM\WPA` which can cause `sppsvc` to not work and activation to fail, it can also cause high CPU usage in `sppsvc` service.  
 This registry key is protected by the kernel and cannot be deleted normally. That is why we need to follow some more steps below to clear it. 
 
