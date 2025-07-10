@@ -33,50 +33,12 @@ This registry key is protected by the kernel and cannot be deleted normally. Tha
 -   Wait for it to finish. When it's finished, you will be able to type in the command prompt, If not then wait.
 -   Once done, exit and then normally boot into Windows.
 
-l
 ## Video Tutorial
 
-## روش‌های مختلف فعال‌سازی
-
-::: tabs
-== KMS
-محتوای مربوط به فعال‌سازی KMS اینجا قرار می‌گیرد.
-== HWID
-محتوای مربوط به فعال‌سازی HWID اینجا قرار می‌گیرد.
-:::
-
 <br/> 
-
-
-```yaml
-import ReactPlayer from 'react-player'
-(in package.json had:
-"react-player": "^2.16.0"
-```
-
-<ReactPlayer controls width='100%' height='auto' url='.//Fix_WPA_Registry.mp4' />
-
-<br/> 
-
-
-<video class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{}'>
-  <source src="https://github.com/user-attachments/assets/e672229e-b946-42ee-8f04-53a3fbcdbfad" type="video/mp4" />
-  <p class="vjs-no-js">
-    برای مشاهده این ویدئو، لطفاً JavaScript را فعال کنید
-  </p>
-</video>
-
-
-<p align="center"><small>Video tutorial</small></p>
-
-
-<br/>
-
 
 <video class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{}'>
   <source src="./Fix_WPA_Registry.mp4" type="video/mp4" />
-  <p class="vjs-no-js">
-    برای مشاهده این ویدئو، لطفاً JavaScript را فعال کنید
-  </p>
+  <p class="vjs-no-js"></p>
 </video>
 
