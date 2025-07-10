@@ -275,11 +275,11 @@ Settings → System → Activation. [^8] <br/>
 
 :::
 
-<hr/><br/><br><br/>
+<hr/><br/>
 
 [^1]: ۱۰ روش برای اجرای PowerShell در ویندوز [اینجا بخوانید][1].
 
-[^2]: ساده‌ترین روش دیگر برای اجرای **PowerShell** از طریق **Power User Menu** می‌باشد. <br><br/> - 1. روی آیکون `Windows Start` در `Taskbar` کلیک راست کنید تا منوی حاوی میانبرهای ابزارهای پرکاربرد باز شود، همچنین می‌توانید این منو را با `Win (⊞) + x` باز کنید.   <br><br/>  - 2. سپس بر روی گزینه **Windows Terminal (Admin)** در ویندوز 11 و یا **Windows PowerShell (Admin)** در ویندوز 10 کلیک کنید.
+[^2]: ساده‌ترین روش دیگر برای اجرای **PowerShell** از طریق **Power User Menu** می‌باشد. <br/> - 1. روی آیکون `Windows Start` در `Taskbar` کلیک راست کنید تا منوی حاوی میانبرهای ابزارهای پرکاربرد باز شود، همچنین می‌توانید این منو را با `Win (⊞) + x` باز کنید.<br/> - 2. سپس بر روی گزینه **Windows Terminal (Admin)** در ویندوز 11 و یا **Windows PowerShell (Admin)** در ویندوز 10 کلیک کنید.
 
 [^3]: نسخه تک زبانه Home.
 
@@ -289,12 +289,11 @@ Settings → System → Activation. [^8] <br/>
 
 [^6]: Professional N for Workstations.
 
-[^7]: برای بررسی وضعیت فعال‌سازی ویندوز 10، به Settings → Update & Security → Activation بروید. وضعیت فعال‌سازی شما در آنجا فهرست شده است. اگر ویندوز فعال باشد، باید "Activated" را با علامت تیک سبز ببینید.
+[^7]: برای بررسی وضعیت فعال‌سازی ویندوز 10، به Settings → Update & Security → Activation بروید. وضعیت فعال‌سازی شما در آنجا فهرست شده است. <br/> اگر ویندوز فعال باشد، باید "Activated" را با علامت تیک سبز ببینید.
 
-[^8]: برای بررسی وضعیت فعال‌سازی ویندوز 11، Settings را با کلیک روی دکمه Start باز کنید و سپس Settings → System → Activation را انتخاب کنید. وضعیت فعال‌سازی نمایش داده می‌شود و نشان می‌دهد که آیا ویندوز فعال است یا خیر، همراه با جزئیات روش فعال‌سازی و هر حساب مایکروسافت پیوند شده.
+[^8]: برای بررسی وضعیت فعال‌سازی ویندوز 11، Settings را با کلیک روی دکمه Start باز کنید و سپس Settings → System → Activation را انتخاب کنید. <br/> وضعیت فعال‌سازی نمایش داده می‌شود و نشان می‌دهد که آیا ویندوز فعال است یا خیر، همراه با جزئیات روش فعال‌سازی و هر حساب مایکروسافت پیوند شده.
 
 [1]: https://www.minitool.com/news/open-windows-11-powershell.html
 [2]: https://www.minitool.com/news/open-command-prompt-windows-11.html
 [3]: https://github.com/NiREvil/windows-activation/discussions
 [4]: mailto:diana.clk01@gmail.com
-[rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256
