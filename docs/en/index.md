@@ -22,6 +22,7 @@ head:
 
 # Welcome to the ultimate guide for activating Windows and Office using trusted open-source methods.
 
+
 This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently. <br/>
 
 ::: tip **Author's Notes**
