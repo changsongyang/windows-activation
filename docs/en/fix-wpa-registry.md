@@ -1,9 +1,9 @@
 ---
 layout: doc
 outline: deep
-title: Fix WPA Registry
-description: "fix corrupt WPA registry keys which can cause to not work activation."
-date: 2025-05-09
+title: 'Fix WPA Registry'
+description: 'fix corrupt WPA registry keys which can cause to not work activation.'
+date: 2025-01-07
 editLink: true
 head:
   - - meta
@@ -11,7 +11,7 @@ head:
       content: broken system registry, sppsvc, wpa
 ---
 
-## Fix corrupt  system wpa registry 
+## Fix corrupt system wpa registry 
 
 In some cases, the system may have corrupt WPA registry keys at `HKEY_LOCAL_MACHINE\SYSTEM\WPA` which can cause `sppsvc` to not work and activation to fail, it can also cause high CPU usage in `sppsvc` service.  
 This registry key is protected by the kernel and cannot be deleted normally. That is why we need to follow some more steps below to clear it. 
@@ -36,4 +36,47 @@ This registry key is protected by the kernel and cannot be deleted normally. Tha
 l
 ## Video Tutorial
 
-![Tutorial](https://github.com/user-attachments/assets/e672229e-b946-42ee-8f04-53a3fbcdbfad)
+## روش‌های مختلف فعال‌سازی
+
+::: tabs
+== KMS
+محتوای مربوط به فعال‌سازی KMS اینجا قرار می‌گیرد.
+== HWID
+محتوای مربوط به فعال‌سازی HWID اینجا قرار می‌گیرد.
+:::
+
+<br/> 
+
+
+```yaml
+import ReactPlayer from 'react-player'
+(in package.json had:
+"react-player": "^2.16.0"
+```
+
+<ReactPlayer controls width='100%' height='auto' url='.//Fix_WPA_Registry.mp4' />
+
+<br/> 
+
+
+<video class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{}'>
+  <source src="https://github.com/user-attachments/assets/e672229e-b946-42ee-8f04-53a3fbcdbfad" type="video/mp4" />
+  <p class="vjs-no-js">
+    برای مشاهده این ویدئو، لطفاً JavaScript را فعال کنید
+  </p>
+</video>
+
+
+<p align="center"><small>Video tutorial</small></p>
+
+
+<br/>
+
+
+<video class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{}'>
+  <source src="./Fix_WPA_Registry.mp4" type="video/mp4" />
+  <p class="vjs-no-js">
+    برای مشاهده این ویدئو، لطفاً JavaScript را فعال کنید
+  </p>
+</video>
+

@@ -1,5 +1,7 @@
 # Dependency directories
 node_modules/
+package-lock.json
+.nojekyll
 
 # VitePress cache and build output
 .vitepress/cache/
