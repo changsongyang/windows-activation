@@ -19,7 +19,6 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap', rel: 'stylesheet' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
-    // اضافه کردن استایل و اسکریپت Video.js
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/video.js@8.17.4/dist/video-js.min.css' }],
     ['script', { src: 'https://unpkg.com/video.js@8.17.4/dist/video.min.js' }]
   ],
@@ -29,15 +28,13 @@ export default defineConfig({
       md.use(footnote)
       md.use(mathjax3)
       md.use(attrs)
-      md.use(tabsMarkdownPlugin) // فعال‌سازی پلاگین تب‌ها
+      md.use(tabsMarkdownPlugin)
     },
     lineNumbers: true
   },
 
-  // Mermaid diagram support
   mermaid: {},
 
-  // --- I18n Configuration ---
   locales: {
     root: {
       label: 'English',
@@ -56,28 +53,29 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Introduction', link: '/' },
-                { text: 'KMS Activation', link: 'kms' },
+                { text: 'KMS Activation', link: '/en/kms' },
               ]
             },
             {
               text: 'Technical Details',
               collapsed: true,
               items: [
-                { text: 'Methods Chart', link: 'chart' },
-                { text: 'Clean Install Windows', link: 'clean_install_windows' },
-                { text: 'Remove Malware', link: 'remove_malware' },
-                { text: 'Office C2R Custom Install', link: 'office_c2r' },
-                { text: 'Fix WPA Registry', link: 'fix-wpa-registry' },
+                { text: 'Methods Chart', link: '/en/chart' },
+                { text: 'Clean Install Windows', link: '/en/clean_install_windows' },
+                { text: 'Remove Malware', link: '/en/remove_malware' },
+                { text: 'Office C2R Custom Install', link: '/en/office_c2r' },
+                { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
               ]
             },
             {
               text: 'Advanced Guides',
               collapsed: true,
               items: [
-                { text: 'HWID (Digital License)', link: 'hwid' },
-                { text: 'KMS38', link: 'kms38' },
+                { text: 'HWID', link: '/en/hwid' },
+                { text: 'KMS38', link: '/en/kms38' },
+                { text: 'TSforge', link: '/en/tsforge' },
                 { text: 'Online KMS', link: '/en/online_kms' },
-                { text: '$OEM$ Folders', link: 'oem-folder' },
+                { text: '$OEM$ Folders', link: '/en/oem-folder' },
               ]
             }
           ]
@@ -105,8 +103,8 @@ export default defineConfig({
               text: 'راهنمای فعال‌سازی',
               collapsed: false,
               items: [
-                { text: 'مقدمه و آموزش', link: 'index-fa' },
-                { text: 'فعال‌سازی با روش KMS', link: 'kms-fa' },
+                { text: 'مقدمه و آموزش', link: '/fa/index-fa' },
+                { text: 'فعال‌سازی با روش KMS', link: '/fa/kms-fa' },
               ]
             }
           ]
@@ -145,7 +143,6 @@ export default defineConfig({
     }
   },
 
-  // تنظیمات Vite برای بهینه‌سازی Video.js
   vite: {
     optimizeDeps: {
       include: ['video.js']
