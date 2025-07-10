@@ -55,29 +55,29 @@ export default defineConfig({
               text: 'Activation Guides',
               collapsed: false,
               items: [
-                { text: 'Introduction', link: '/en/' },
-                { text: 'KMS Activation', link: '/en/kms' },
+                { text: 'Introduction', link: '/' },
+                { text: 'KMS Activation', link: 'kms' },
               ]
             },
             {
               text: 'Technical Details',
               collapsed: true,
               items: [
-                { text: 'Methods Chart', link: '/en/chart' },
-                { text: 'Clean Install Windows', link: '/en/clean_install_windows' },
-                { text: 'Remove Malware', link: '/en/remove_malware' },
-                { text: 'Office C2R Custom Install', link: '/en/office_c2r' },
-                { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
+                { text: 'Methods Chart', link: 'chart' },
+                { text: 'Clean Install Windows', link: 'clean_install_windows' },
+                { text: 'Remove Malware', link: 'remove_malware' },
+                { text: 'Office C2R Custom Install', link: 'office_c2r' },
+                { text: 'Fix WPA Registry', link: 'fix-wpa-registry' },
               ]
             },
             {
               text: 'Advanced Guides',
               collapsed: true,
               items: [
-                { text: 'HWID (Digital License)', link: '/en/hwid' },
-                { text: 'KMS38', link: '/en/kms38' },
+                { text: 'HWID (Digital License)', link: 'hwid' },
+                { text: 'KMS38', link: 'kms38' },
                 { text: 'Online KMS', link: '/en/online_kms' },
-                { text: '$OEM$ Folders', link: '/en/oem-folder' },
+                { text: '$OEM$ Folders', link: 'oem-folder' },
               ]
             }
           ]
@@ -105,8 +105,8 @@ export default defineConfig({
               text: 'راهنمای فعال‌سازی',
               collapsed: false,
               items: [
-                { text: 'مقدمه و آموزش', link: '/fa/index-fa' },
-                { text: 'فعال‌سازی با روش KMS', link: '/fa/kms-fa' },
+                { text: 'مقدمه و آموزش', link: 'index-fa' },
+                { text: 'فعال‌سازی با روش KMS', link: 'kms-fa' },
               ]
             }
           ]
@@ -120,7 +120,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/logo-h.svg',
     search: {
       provider: 'local'
     },
