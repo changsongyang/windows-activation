@@ -221,9 +221,9 @@ To check the activation status of `Windows 11`, open Settings by clicking the St
 - **Method Not Working?** If you're still having trouble, try the **HWID method** from the [Main guide](./index).
   - For additional help, visit the **[Discussion Section][3]** Or send [Email][4] Directly to me. <br/>
 
-**Be curious 🤍**
+<p align="left"><Huge> Be curious 🤍</Huge></p><br/>
 
-### About Hotkeys
+## About Hotkeys
 
 ::: details Use the hotkeys to open default programs in the Win+X Menu.
 
@@ -267,11 +267,11 @@ The following are the hotkeys corresponding to each program:
 
 :::
 
-<hr/><br/><br><br/> 
+<hr/><br/> 
 
 [^1]: 10 Ways to run PowerShell in windows [read here][1].
 
-[^2]: Another easiest way to run **PowerShell** is **Using Power User Menu**.  <br><br/> - 1. **Right-click** the **Windows Start** icon on the Taskbar to open the menu containing shortcuts to frequently used tools. Also you can open this menu with **`Win (⊞) + x`**.  <br><br/>  - 2. Select **Windows Terminal (admin)** at windows 11 Or **Windows PowerShell (admin)** at Windows 10.
+[^2]: Another easiest way to run **PowerShell** is **Using Power User Menu**. <br/> - 1. **Right-click** the **Windows Start** icon on the Taskbar to open the menu containing shortcuts to frequently used tools. Also you can open this menu with **`Win (⊞) + x`**. <br/> - 2. Select **Windows Terminal (admin)** at windows 11 Or **Windows PowerShell (admin)** at Windows 10.
 
 [^3]: Home Single language version.
 
