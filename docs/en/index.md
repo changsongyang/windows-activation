@@ -70,7 +70,7 @@ For most users, the **HWID (Hardware ID)** method is the simplest way to get a p
 - 3. Select **Run as administrator**. <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5638557d-9bfe-4e7c-a851-218bec6559bf" alt="open-powershell-as-admin" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="540px" /></p><br/>
   
 ::: tip Another ways to run PowerShell
 
@@ -119,13 +119,8 @@ irm https://massgrave.dev/get | iex
 
 <br/>
 
-<img width="883" height="739" alt="p1" src="" />
-
-<img width="1070" height="791" alt="p2" src="" />
-<img width="862" height="562" alt="p3" src="" />
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="Paste command in PowerShell" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="Paste command in PowerShell" width="540px" /></p><br/>
 
 ## Step 3. Choose the HWID Option
 
@@ -197,9 +192,9 @@ _A generic key is automatically applied by the script where needed._
 
 <hr/><br/>
 
-[^1]: To check the activation status of Windows 10, navigate to Settings → Update & Security → Activation. You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.
+[^1]: To check the activation status of Windows 10, <br/> navigate to Settings → Update & Security → Activation. You will see your activation status listed there. <br/> If Windows is activated, you should see "Activated" with a green checkmark.
 
-[^2]: To check the activation status of Windows 11, open Settings by clicking the **Start button** and then selecting Settings → System → Activation. The activation status will be displayed, showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
+[^2]: To check the activation status of Windows 11, <br/> open Settings by clicking the **Start button** and then selecting Settings → System → Activation. The activation status will be displayed, <br/> showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
 
 [^3]: Home China Country Specific version.
 
