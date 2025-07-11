@@ -38,8 +38,7 @@ This registry key is protected by the kernel and cannot be deleted normally. Tha
 
 <br/> 
 
-<video class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{}'>
-  <source src="./Fix_WPA_Registry.mp4" type="video/mp4" />
+<video class="video-js vjs-default-skin" controls preload="auto" video="vjs-fluid" width="380" height="260" data-setup='{}'>
+  <source src="/Fix_WPA_Registry.mp4" type="video/mp4" />
   <p class="vjs-no-js"></p>
 </video>
-
