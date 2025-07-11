@@ -20,7 +20,15 @@ export default defineConfig({
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap', rel: 'stylesheet' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/video.js@8.17.4/dist/video-js.min.css' }],
-    ['script', { src: 'https://unpkg.com/video.js@8.17.4/dist/video.min.js' }]
+    ['script', { src: 'https://unpkg.com/video.js@8.17.4/dist/video.min.js' }],
+    ['style', {}, `
+      .video-js {
+        width: 100%;
+        max-width: 960px;
+        height: auto;
+        aspect-ratio: 16/9;
+      }
+    `]
   ],
 
   markdown: {
@@ -38,7 +46,7 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: 'en',
+      lang: 'en-US',
       title: 'A E G',
       description: 'Instant Windows and Office Activation Tools',
       themeConfig: {
@@ -52,30 +60,43 @@ export default defineConfig({
               text: 'Activation Guides',
               collapsed: false,
               items: [
-                { text: 'Introduction', link: '/' },
-                { text: 'KMS Activation', link: '/en/kms' },
+                { text: 'HWID Activation', link: '/en/' },
+                { text: 'KMS Activation', link: '/en/kms' }
               ]
             },
             {
               text: 'Technical Details',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Methods Chart', link: '/en/chart' },
-                { text: 'Clean Install Windows', link: '/en/clean_install_windows' },
+                { text: 'TSforge', link: '/en/tsforge' },
+                { text: 'KMS38', link: '/en/kms38' },
+                { text: 'Online KMS', link: '/en/online_kms' },
                 { text: 'Remove Malware', link: '/en/remove_malware' },
-                { text: 'Office C2R Custom Install', link: '/en/office_c2r' },
+                { text: 'Clean Install Windows', link: '/en/clean_install_windows' },
+                { text: 'Office c2r Custom Install', link: '/en/office_c2r' },
                 { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
+                { text: '$OEM$ Folders', link: '/en/oem-folder' },
+                { text: 'Switches in Command line', link: '/en/command_line_switches' },
+                { text: 'Evaluation Editions', link: '/en/evaluation_editions' }
               ]
             },
             {
-              text: 'Advanced Guides',
+              text: 'Manual Activation Guides',
               collapsed: true,
               items: [
-                { text: 'HWID', link: '/en/hwid' },
-                { text: 'KMS38', link: '/en/kms38' },
-                { text: 'TSforge', link: '/en/tsforge' },
-                { text: 'Online KMS', link: '/en/online_kms' },
-                { text: '$OEM$ Folders', link: '/en/oem-folder' },
+                { text: 'Manual HWID activation', link: '/en/manual_hwid_activation' },
+                { text: 'Manual Ohook activation', link: '/en/manual_ohook_activation' },
+                { text: 'Manual KMS38 activation', link: '/en/manual_kms38_activation' }
+              ]
+            },
+            {
+              text: 'Contact Us',
+              collapsed: true,
+              items: [
+                { text: 'FAQ', link: '/en/faq' },
+                { text: 'Troubleshoot', link: '/en/troubleshoot' },
+                { text: 'Credits', link: '/en/credits' }
               ]
             }
           ]
@@ -84,6 +105,17 @@ export default defineConfig({
           pattern: 'https://github.com/sahar-km/windows-activation/edit/main/docs/:path',
           text: 'Edit this page on GitHub'
         },
+        docFooter: {
+          prev: 'Previous page',
+          next: 'Next page'
+        },
+        lastUpdated: {
+          text: 'Last updated',
+          formatOptions: {
+            dateStyle: 'medium',
+            timeStyle: 'short'
+          }
+        }
       }
     },
     fa: {
@@ -94,8 +126,8 @@ export default defineConfig({
       description: 'ابزارهای فعال‌سازی فوری ویندوز و آفیس',
       themeConfig: {
         nav: [
-          { text: 'خانه', link: '/fa/index-fa' },
-          { text: 'روش KMS', link: '/fa/kms-fa' }
+          { text: 'خانه', link: '/' },
+          { text: 'راهنمای فعال‌سازی', link: '/fa/index-fa' }
         ],
         sidebar: {
           '/fa/': [
@@ -103,8 +135,43 @@ export default defineConfig({
               text: 'راهنمای فعال‌سازی',
               collapsed: false,
               items: [
-                { text: 'مقدمه و آموزش', link: '/fa/index-fa' },
-                { text: 'فعال‌سازی با روش KMS', link: '/fa/kms-fa' },
+                { text: 'فعال‌سازی با روش HWID', link: '/fa/index-fa' },
+                { text: 'فعال‌سازی با روش KMS', link: '/fa/kms-fa' }
+              ]
+            },
+            {
+              text: 'جزئیات فنی',
+              collapsed: false,
+              items: [
+                { text: 'نمودار روش‌های فعال‌سازی', link: '/fa/chart-fa' },
+                { text: 'روش TSforge', link: '/fa/tsforge-fa' },
+                { text: 'روش KMS38', link: '/fa/kms38-fa' },
+                { text: 'روش Online KMS', link: '/fa/online_kms-fa' },
+                { text: 'حذف بدافزارها', link: '/fa/remove_malware-fa' },
+                { text: 'نصب تمیز ویندوز', link: '/fa/clean_install_windows-fa' },
+                { text: 'نصب سفارشی Office c2r', link: '/fa/office_c2r-fa' },
+                { text: 'رفع مشکل WPA رجیستری', link: '/fa/fix-wpa-registry-fa' },
+                { text: 'پوشه‌های $OEM$', link: '/fa/oem-folder-fa' },
+                { text: 'معرفی سوئیچ‌ها در ترمینال', link: '/fa/command_line_switches-fa' },
+                { text: 'نسخه‌ی Evaluation', link: '/fa/evaluation_editions-fa' }
+              ]
+            },
+            {
+              text: 'راهنمای فعال‌سازی دستی',
+              collapsed: true,
+              items: [
+                { text: 'نصب دستی HWID', link: '/fa/manual_hwid_activation-fa' },
+                { text: 'نصب دستی Ohook', link: '/fa/manual_ohook_activation-fa' },
+                { text: 'نصب دستی KMS38', link: '/fa/manual_kms38_activation-fa' }
+              ]
+            },
+            {
+              text: 'تماس با ما',
+              collapsed: true,
+              items: [
+                { text: 'پرسش و پاسخ‌', link: '/fa/faq-fa' },
+                { text: 'گزارش مشکلات', link: '/fa/troubleshoot-fa' },
+                { text: 'کردیت', link: '/fa/credits-fa' }
               ]
             }
           ]
@@ -113,6 +180,10 @@ export default defineConfig({
           pattern: 'https://github.com/sahar-km/windows-activation/edit/main/docs/:path',
           text: 'این صفحه را در گیت‌هاب ویرایش کنید'
         },
+        docFooter: {
+          prev: 'صفحه قبلی',
+          next: 'صفحه بعدی'
+        }
       }
     }
   },
@@ -122,23 +193,12 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    docFooter: {
-      prev: 'Previous page',
-      next: 'Next page'
-    },
-    lastUpdated: {
-      text: 'Last updated',
-      formatOptions: {
-        dateStyle: 'medium',
-        timeStyle: 'short'
-      }
-    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/NiREvil/windows-activation' },
+      { icon: 'github', link: 'https://github.com/NiREvil/' },
       { icon: 'telegram', link: 'https://t.me/F_NiREvil/6448' }
     ],
     footer: {
-      message: 'Made with 🩶 using VitePress',
+      message: 'Made with using VitePress',
       copyright: '© 2025 REvil — Sharing knowledge, one note at a time'
     }
   },
