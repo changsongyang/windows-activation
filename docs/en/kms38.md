@@ -2,14 +2,18 @@
 layout: doc
 outline: deep
 title: 'KMS38 Activation'
-description: ''
+description: 'Discover KMS38 Activation – a secure, open-source solution for activating Windows and Office products.'
 date: 2025-05-06
 editLink: true
 ---
 
 # KMS38 Activation
 
-> A reliable, open-source activation tool for Windows and Office, featuring HWID, Ohook, TSforge, KMS38, and Online KMS—activate in under 40 seconds!
+> Discover KMS38 Activation – a secure, open-source solution for activating Windows and Office products.
+>
+> KMS38 provides offline activation for Windows 10/11 and Server (build 14393+) with validity until 2038, without leaving any files on your system.
+>
+> Learn how this clever method extends Microsoft's KMS technology for permanent offline activation.
 
 <br/>
 
@@ -18,7 +22,8 @@ editLink: true
 - This activation method activates Windows 10/11 and Windows Server (14393 and later builds), until January 19, 2038, 03:14:07 UTC.
 - This activation method does not store any files on the system.
 - This activation method works offline.
-- Unlike HWID and Online KMS activation options, KMS38 does not match with any official activation method.  
+- Unlike HWID and Online KMS activation options, KMS38 does not match with any official activation method.
+
 :::
 
 <br/>
@@ -40,14 +45,17 @@ editLink: true
 
 <br/>
 
-
  ### Important
 
-- **To be clear**, we are **not modifying/patching any on-board system file** to get the ticket.
+::: important **To be Clear,**
+
+- we are **not modifying/patching any on-board system file** to get the ticket.
 - Gatherosstate.exe is a part of the ISO file and not available in C drive system files. The system's slc.dll file is not touched; instead, we use custom slc.dll only for a brief moment of ticket generation.
   - Latest MAS doesn't use any of these methods; instead, it uses ready-to-use Universal Tickets (check below for manual activation info).
     - **Q:** Can Microsoft block this kind of activation?
     - **A:** Not directly. They could only update Clipup to allow for a maximum activation period of 180 days. Not much besides that can be done on their part. The tickets are not sent to Microsoft at all, so they can't block them or take action directly.
+   
+:::
 
 <br/>
 
@@ -183,11 +191,13 @@ editLink: true
 
 :::
 
-## How to remove
+<br/> 
+
+## How to remove kms38
 
 ::: danger How to remove KMS38
 
-- In MAS, go to KMS38 Activation and apply the Remove KM38 Protection option.
+- In AEG, go to KMS38 Activation and apply the Remove KM38 Protection option.
 - After that, In MAS, go to Troubleshoot and apply the Fix Licensing option.
 - Done ✔️
 
@@ -198,7 +208,7 @@ editLink: true
 ## KMS38 - Server Cor/Acor
 
 - Windows Server Cor/Acor (No GUI) editions don't have the `clipup.exe` file.
-- To KMS38 activate it, you need to download the `ClipUp.exe` file from this link [app.box.com/...][5].  
+- To KMS38 activate it, you need to download the `ClipUp.exe` file from this link [app.box.com/s/][5].  
    `File: ClipUp.exe`  
    `SHA-256: 0d6e9f6bbd0321eda149658d96040cb4f79e0bd93ba60061f25b28fecbf4d4ef`  
    This file has digital signatures that can be verified. You can also get this file from the official [Windows Server 2016 x64 RTM ISO.download][6].
@@ -212,7 +222,7 @@ editLink: true
 - KMS38 Activation is vulnerable to unintended replacement by a 180-Day KMS Activator.
 - From MAS 1.7, the script will enable KMS38 protection by default.
 
-- If you are going to use KMS_VL_ALL by abbodi1406 or [MAS][7] (Online KMS option) for **Office activation**, then you can choose to remove this protection.
+- If you are going to use KMS_VL_ALL by abbodi1406 or [AEG][7] (Online KMS option) for **Office activation**, then you can choose to remove this protection.
 - Below is the explanation for how the script protect KMS38.
 - In the KMS activation method, Windows first checks the KMS IP registered as a specific KMS, and if that is not defined, then it checks the Global KMS IP.
   - Another fact is that if Localhost (IP range 127.0.0.0/8) is defined as the KMS IP in Windows 8 and later OS, then Windows will not accept it as a valid KMS IP.
