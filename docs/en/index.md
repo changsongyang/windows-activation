@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 title: 'All-in-One Windows & Office Activation Guide: HWID, KMS, TSforge and More.'
 description: 'Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons.'
-date: 2024-05-05
+date: 2025-05-05
 editLink: true
 head:
   - - meta
@@ -20,14 +20,15 @@ head:
       content: A full open-source guide to activating Windows 10/11 and Microsoft Office using reliable tools like HWID, KMS, and TSforge.
 ---
 
-# Welcome to the ultimate guide for activating Windows and Office using trusted open-source methods.
+# A E G
 
+### Welcome to the ultimate guide for activating Windows and Office
 
-This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently. <br/>
+> All-in One, This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently in under 40 seconds. Includes troubleshooting tips and detailed comparisons.
 
 ::: tip **Author's Notes**
 
-- After activation via the `HWID` method, you may encounter issues signing into your Microsoft account in **Microsoft Edge** browser settings!
+- After permanent activation via the `HWID` method, you may encounter issues signing into your Microsoft account in **Microsoft Edge** browser settings!
 - **Solution 1:** Skip this activation method< and use [KMS](./kms) instead (takes less than 2 minutes and requires renewal every 6 months).
 - **Solution 2:** Avoid Edge and switch to alternative browsers like **Chrome** or **Firefox**.
 
@@ -70,18 +71,11 @@ For most users, the **HWID (Hardware ID)** method is the simplest way to get a p
 - 3. Select **Run as administrator**. <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="580px" /></p><br/>
   
 ::: tip Another ways to run PowerShell
 
 ::: details Click here to see more ways
-
-**1. Using search bar**
-
-- 1. Click on windows `Start` button or `Search` icon in the taskbar.
-
-2.  Type `powershell`.
-3.  Select **Run as administrator**. <br/>
 
 **2. Using the Run box**
 
@@ -107,11 +101,11 @@ Copy the following command, paste it into the PowerShell window and press `Enter
 
 ::: code-group
 
-```powershell [Recommended]
+```reg [Recommended]
 irm https://get.activated.win | iex
 ```
 
-```powershell [Alternative]
+```reg [Alternative]
 irm https://massgrave.dev/get | iex
 ```
 
@@ -120,14 +114,14 @@ irm https://massgrave.dev/get | iex
 <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="Paste command in PowerShell" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="Paste command in PowerShell" width="580px" /></p><br/>
 
 ## Step 3. Choose the HWID Option
 
 A menu will appear in a new window. Press `1` number on your keyboard to select **HWID Activation** and wait a few moments for the process to complete.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="580px" /></p><br/>
 
 **Congratulations!**  
 Your Windows is now permanently activated with a digital license. <br/>
