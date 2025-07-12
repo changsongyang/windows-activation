@@ -8,7 +8,7 @@ editLink: true
 head:
   - - meta
     - name: keywords
-      content: chart, something
+      content: chart, something, which one is the best for me, hwid or kms, kms, hwid, tsforge
 ---
 
 # Activation Methods Chart
@@ -48,7 +48,7 @@ head:
 | Windows Extended Security Updates |  🔴  |  🔴   |   🔴   |     🔴     |     🟢      |      🟢       |     🔴      |
 | OCUR / RP / APPXLOB addons        |  🔴  |  🔴   |   🔴   |     🔴     |     🟢      |      🟢       |     🔴      |
 
-[^1]: Provided by [TSforge](tsforge.md).
+[^1]: Provided by [TSforge](/tsforge).
 
 [^2]: Valid until the year 2038.
 
