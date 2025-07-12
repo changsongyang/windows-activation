@@ -2,41 +2,39 @@
 layout: doc
 outline: deep
 title: 'فعـال‌سازی ویندوز با روش KMS — رسمی و قابل تمدید'
-description: 'راهنمای کامل فعال‌سازی قانونی ویندوز و آفیس با روش رسمی KMS، قابل تمدید هر ۱۸۰ روز'
-date: 2024-04-17
+description: 'راهنمای کامل فعال‌سازی قانونی ویندوز با روش رسمی KMS، قابل تمدید هر ۱۸۰ روز'
+date: 2025-05-04
 editLink: true
 head:
   - - meta
     - name: description
-      content: فعال‌سازی ایمن و قانونی ویندوز ۱۰، ویندوز ۱۱ و آفیس با روش KMS. قابل تمدید، بدون نیاز به فایل اضافی و مطابق با کانال‌های رسمی مایکروسافت.
+      content: فعال‌سازی ایمن و قانونی ویندوز ۱۰، ویندوز ۱۱ با روش KMS. قابل تمدید، بدون نیاز به فایل اضافی و مطابق با کانال‌های رسمی مایکروسافت.
   - - meta
     - name: keywords
-      content: فعال‌سازی KMS، ویندوز ۱۰، ویندوز ۱۱، فعال‌سازی آفیس، لایسنس KMS، روش قانونی، تمدید لایسنس، فعال‌سازی موقت
+      content: فعال‌سازی KMS، ویندوز ۱۰، ویندوز ۱۱، فعال‌سازی، روش قانونی، تمدید لایسنس، فعال‌سازی موقت
   - - meta
     - property: og:title
       content: راهنمای فعال‌سازی ویندوز با روش رسمی KMS
   - - meta
     - property: og:description
-      content: آموزش کامل و ساده برای فعال‌سازی قانونی و قابل تمدید ویندوز و آفیس با روش رسمی KMS
+      content: آموزش کامل و ساده برای فعال‌سازی قانونی و قابل تمدید ویندوز با روش رسمی KMS
 ---
 
-<div class="rtl">
+# فعال‌سازی ویندوز با روش KMS
 
-# فعال‌سازی دستی ویندوز با روش KMS
-
-> این راهنما نحوه فعال‌سازی موقت و ایمن ویندوز و آفیس را با استفاده از روش رسمی KMS توضیح می‌دهد.
+> این راهنما نحوه فعال‌سازی موقت و ایمن ویندوز و آفیس را با استفاده از روش رسمی `KMS` توضیح می‌دهد.
 >
-> این روش توسط مایکروسافت برای لایسنس‌های حجمی ارائه شده و به‌مدت ۱۸۰ روز معتبر است. پس از پایان این دوره، به‌راحتی می‌توان آن را تمدید کرد. <br/>
+> این روش توسط مایکروسافت برای لایسنس‌های حجمی ارائه شده و به‌مدت `180` روز معتبر است. پس از پایان این دوره، به‌راحتی می‌توان آن را تمدید کرد. <br/>
 
 ::: tip پیش‌نیازها
 
 - اتصال پایدار به اینترنت
-- دسترسی ادمین (Administrator) داشتن cmd در کامپیوتر شما
-- فعال‌ کردن VPN درصورت اجرا نشدن فرامین. (فعلا دامنه ‌ها فیلتر نشدن پس طبیعتا برای اجرای دستورها نیازی به فعال کردن vpn نیست).
+-  دسترسی ادمین < Badge type="danger" text="Administrator" /> برای < Badge type="danger" text="CMD" /> در کامپیوتر
+- اتصال به <Badge type="tip" text="VPN" /> درصورت اجرا نشدن فرامین، (دامنه‌ها فعلا فیلتر نشدن پس طبیعتا برای اجرای دستورها نیازی به ااتصال <Badge type="tip" text="VPN" /> نیست).
 
 :::
 
-</div><br/>
+<br/>
 
 ## مرحله ۱: اجرای Command Prompt با حالت مدیر سیستم
 
@@ -72,7 +70,7 @@ head:
 در پنجره Command Prompt، دستور زیر را اجرا کنید.
 حتماً `Your-License-Key` را با کلید مناسب از جدول زیر که با نسخه ویندوز شما هم‌خوانی دارد جایگزین کنید. <br/>
 
-```powershell
+```reg
 slmgr /ipk Your-License-Key
 ```
 
@@ -80,17 +78,17 @@ slmgr /ipk Your-License-Key
 
 **۱. استفاده از میانبر کیبورد**
 
-- کلیدهای **`Win (⊞) + Pause/Break`** را همزمان فشار دهید.
+- کلیدهای `Win (⊞) + Pause/Break` را همزمان فشار دهید.
   - این کار بخش **About** را در **Settings** مستقیماً باز می‌کند و شما نسخه ویندوز خود را در زیر **Windows specifications** خواهید دید. <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/647ef16b-9208-4ff3-a94b-825ffa99721f" alt="about-system" width="320px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/647ef16b-9208-4ff3-a94b-825ffa99721f" alt="about-system" width="420px" /></p><br/>
 
 ::: details برای مشاهده روش‌های دیگر کلیک کنید
 
 **۱. استفاده از میانبر کیبورد**
 
-- کلیدهای **`Win (⊞) + Pause/Break`** را همزمان فشار دهید.
+- کلیدهای `Win (⊞) + Pause/Break` را همزمان فشار دهید.
   - این کار بخش **About** را در **Settings** مستقیماً باز می‌کند و شما نسخه ویندوز را در زیر **Windows specifications** خواهید دید. <br/>
 
 **۲. استفاده از تنظیمات سیستم**
@@ -107,16 +105,16 @@ slmgr /ipk Your-License-Key
      > پنجره‌ای ظاهر می‌شود که نسخه ویندوز، Build number و سایر جزئیات را نشان می‌دهد. <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f764797a-e07f-4c58-b932-bfe7b359a7bd" alt="winver-command" width="320px" /></p>
+  <img src="https://github.com/user-attachments/assets/f764797a-e07f-4c58-b932-bfe7b359a7bd" alt="winver-command" width="420px" /></p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4c7edc15-1c02-4d7b-ab5f-df70eaff8ad7" alt="winver-response" width="320px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/4c7edc15-1c02-4d7b-ab5f-df70eaff8ad7" alt="winver-response" width="420px" /></p><br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a6360712-0ad0-4be4-b0a4-01171d293d83" alt="msinfo32-command" width="320px" /></p>
+  <img src="https://github.com/user-attachments/assets/a6360712-0ad0-4be4-b0a4-01171d293d83" alt="msinfo32-command" width="420px" /></p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8592c1bd-4a1a-47c1-bd21-0eb17049db31" alt="msinfo32-response" width="320px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/8592c1bd-4a1a-47c1-bd21-0eb17049db31" alt="msinfo32-response" width="420px" /></p><br/>
 
 **۴. استفاده از Command Prompt یا PowerShell** [^2]
 
@@ -125,14 +123,14 @@ slmgr /ipk Your-License-Key
 - 3. در Command Prompt، `systeminfo` یا `systeminfo | findstr /B /C:"OS Name" /B /C:"OS Version"` را تایپ کرده و Enter را فشار دهید.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/16e8f49a-0cec-4836-b841-0cbd9344fbb1" alt="findstr command" width="320px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/16e8f49a-0cec-4836-b841-0cbd9344fbb1" alt="findstr command" width="420px" /></p><br/>
 
 - همچنین می‌توانید PowerShell یا Command Prompt را اجرا کنید و `slmgr /dlv` را تایپ کنید، سپس Enter را فشار دهید.
   - دستور /dlv اطلاعات مفصل لایسنس را نمایش می‌دهد.
     - توجه کنید که خروجی "Home" را نشان می‌دهد همانطور که در تصویر زیر مشاهده می‌کنید:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86925e56-7cac-4b53-8ccf-6addcd799ece" alt="slmgr-command" width="320px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/86925e56-7cac-4b53-8ccf-6addcd799ece" alt="slmgr-command" width="420px" /></p><br/>
 
 :::
 
@@ -140,7 +138,7 @@ slmgr /ipk Your-License-Key
 
 > شما می‌توانید هر چیزی را که قبلا کپی کرده‌اید با عمل **راست‌کلیک** در داخل CMD یا PowerShell یا سایر ترمینال‌ها جای‌گذاری کنید، در واقع در ترمینال‌ها از راست‌کلیک برای عمل paste استفاده می‌شود.  
 
-### کلیدهای لایسنس حجمی (GVLK)
+### کلیدهای لایسنس حجمی <Badge type="danger" text="GVLK" />
 
 | نسخه ویندوز      | کلید GVLK                     |
 | :--------------- | :---------------------------- |
@@ -165,10 +163,10 @@ slmgr /ipk Your-License-Key
 <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d5d93702-7865-4552-85d0-6916b1331bc0" alt="Install-KMS-Key" width="540px" /></p>
+  <img src="https://github.com/user-attachments/assets/d5d93702-7865-4552-85d0-6916b1331bc0" alt="Install-KMS-Key" width="580px" /></p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/50c23cad-7690-49fb-bf1c-d1c7cc66f0fe" alt="install-KMS-keyy" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/50c23cad-7690-49fb-bf1c-d1c7cc66f0fe" alt="install-KMS-keyy" width="580px" /></p><br/>
 
 ::: details کلیدهای لایسنس جایگزین
 
@@ -191,36 +189,38 @@ slmgr /ipk Your-License-Key
 
 سپس، سیستم خود را به یک سرور KMS عمومی متصل کنید. این دستور را اجرا کنید:
 
-```powershell
+```reg
 slmgr /skms kms8.msguides.com
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/edd0835f-c314-4ef8-a87d-a33e29f3f7c0" alt="set-kms-server" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/edd0835f-c314-4ef8-a87d-a33e29f3f7c0" alt="set-kms-server" width="580px" /></p><br/>
 
 ## مرحله ۴: فعال‌سازی ویندوز
 
 در نهایت، با اجرای این دستور فعال‌سازی را انجام دهید:
 
-```powershell
+```reg
 slmgr /ato
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/95e014e5-8946-4036-84ca-77ebb6122b1b" alt="active-windows" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/95e014e5-8946-4036-84ca-77ebb6122b1b" alt="active-windows" width="580px" /></p><br/>
 
 ## مرحله ۵: بررسی وضعیت فعال‌سازی
 
 **همه چیز آماده است!**
 
 برای بررسی وضعیت فعال‌سازی **`ویندوز ۱۰`**، از این طریق اقدام کنید:  
- **Settings → Update & Security → Activation**. [^7]
 
-برای بررسی وضعیت فعال‌سازی **`ویندوز ۱۱`**، بر روی دکمه Start کلیک کرده و سپس از این طریق اقدام کنید:  
+**Settings → Update & Security → Activation**. [^7]
+
+برای بررسی وضعیت فعال‌سازی **`ویندوز ۱۱`**، بر روی دکمه Start کلیک کرده و سپس از این طریق اقدام کنید:
+
 Settings → System → Activation. [^8] <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/da52f1bb-79c9-45db-bade-a0f56cd0a739" alt="activated" width="540px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/da52f1bb-79c9-45db-bade-a0f56cd0a739" alt="activated" width="580px" /></p><br/>
 
 ### رفع مشکلات
 
@@ -230,11 +230,13 @@ Settings → System → Activation. [^8] <br/>
 
 **کنجکاو باشید 🤍**
 
-<br><br/>
+<hr/><br><br/>
 
-### درباره کلیدهای میانبر
+### درباره کلیدهای میانبر 
 
-::: details از کلیدهای میانبر برای باز کردن برنامه‌های پیش‌فرض در منوی Win+X استفاده کنید.
+::: details فقط برای <Badge type="danger" text="علاقه‌مندان" />
+
+**از کلیدهای میانبر** برای باز کردن برنامه‌های پیش‌فرض در منوی Win+X استفاده کنید.
 
 **منوی Power user** یک منوی کوتاه است که برخی از ابزارهای پیشرفته سیستم مانند event viewer، device manager، disk management، computer management، task manager و غیره را فهرست می‌کند.
 
