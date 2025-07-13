@@ -1,9 +1,22 @@
+---
+layout: doc
+outline: deep
+title: 'TSforge'
+description: 'A comparison of activation methods for Microsoft Corporation like windows and office.'
+date: 2025-03-06
+editLink: true
+head:
+  - - meta
+    - name: keywords
+      content: windows activation, office 2013, windows 10, windows 11, hwid or kms, kms, hwid, tsforge
+---
+
 # TSforge Activation  
 
 ### Welcome to the `tsforge` document. This has some details about the TSForge activation method.
 
 ::: tip Notes
->  
+
 > How to use it?  
 > Please find the instructions [Intro](./index/#step-2-run-the-activation-script)
 
@@ -35,7 +48,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bda35f60-d1ba-4318-a65e-6843fdd11e41" width="540px">
 </p>   
-
 
 **Process on Windows 8 and later** 
 
@@ -80,7 +92,7 @@
 - Unlike via normal KMS emulators, this method can arbitrarily set the activation expiration up to a maximum of 2147483640 (2^31 - 8) minutes, or 4083 years.
 - This allows for offline KMS activation that is effectively infinite for all practical purposes.
 
------
+---
 
 ## Supported Products
 
@@ -240,7 +252,7 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
  
 :::
 
-::: caution 
+::: danger Note
 
 **OSPP based Office:** Physical store is stored in the registry in a format that has not yet been reverse engineered.
 
@@ -377,7 +389,7 @@ All links given below are official links hosted by Microsoft.
 
 ## How to remove TSforge?
 
-::: important  How to remove TSforge
+::: danger How to remove TSforge
 
 > This activation method doesn't modify any Windows components and doesn't install any new files.  
 > Instead, it appends data to one of data files used by Software Protection Platform.  
