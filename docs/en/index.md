@@ -26,7 +26,7 @@ head:
 
 > All-in One, This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently in under 40 seconds. Includes troubleshooting tips and detailed comparisons.
 
-::: tip **Author's Notes**
+::: tip Notes
 
 - After permanent activation via the `HWID` method, you may encounter issues signing into your Microsoft account in **Microsoft Edge** browser settings!
 - **Solution 1:** Skip this activation method< and use [KMS](./kms) instead (takes less than 2 minutes and requires renewal every 6 months).
@@ -60,34 +60,33 @@ For a quick overview, here is a summary of the activation methods available:
 
 # Method 1. Permanent Activation with HWID
 
-For most users, the **HWID (Hardware ID)** method is the simplest way to get a permanent digital license for Windows 10 and 11. <br/>
+For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the simplest way to get a permanent digital license for Windows 10 and 11. <br/>
 
 ## Step 1. Open PowerShell as Administrator
 
-**Run PowerShell using search bar**
-
-- 1. Click on windows `Start` button or `Search` icon in the taskbar.
-- 2. Type `powershell`.
-- 3. Select **Run as administrator**. <br/>
+### Option A: Using Search Bar <Badge type="danger" text="Recommend" />  
+1. Click on windows "Start" button or "Search" icon in the taskbar  
+2. Type `powershell`  
+3. Select `Run as administrator` <br/>  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="580px" /></p><br/>
   
 ::: tip Another ways to run PowerShell
 
-::: details Click here to see more ways
+::: details Click here to see more waysa
 
-**2. Using the Run box**
+### Option B: Using Run Box
 
-- 1. **Open the Run dialog box:** Simultaneously Press `Win (⊞) + R` keys on your keyboard.
-- 2. **Type:** `powershell`.
-- 3. **Run as administrator:** Instead of just pressing Enter, press `Ctrl + Shift + Enter`. This combination will launch PowerShell with elevated (administrator) privileges.
-- 4. If prompted by the User Account Control dialog, click `Yes` to grant administrative privileges. <br/>
+1. Open the Run dialog box: Press `Win (⊞) + R` keys simultaneously  
+2. Type `powershell`  
+3. Press `Ctrl + Shift + Enter` to run as administrator  
+4. If prompted by User Account Control, click `Yes` <br/>  
 
-**3. Using Power User Menu (Win+X)**
+### Option C: Using Power User Menu
 
-- 1. Right-click on the **Start menu**.
-- 2. Then select **Windows Terminal (Admin)** on Windows 11 or **Windows PowerShell (Admin)** on Windows 10 to run PowerShell. <br/>
+1. Right-click on the "Start menu" (or press `Win (⊞) + X`)  
+2. Select "Windows Terminal (Admin)" on Windows 11 or "Windows PowerShell (Admin)" on Windows 10 <br/>  
 
 Or You can visit [this Link][1] to see 10 ways to run **PowerShell** And [this link][2] For Running CMD in your windows.
 
@@ -95,9 +94,7 @@ Or You can visit [this Link][1] to see 10 ways to run **PowerShell** And [this l
 
 ## Step 2. Run the Activation Script
 
-Copy the following command, paste it into the PowerShell window and press `Enter` key.
-
-> You can `paste` everything you copied by **Right-clicking** in CMD Or PowerShell Or other terminals.
+Copy the following command, paste it (via Right-click) into the PowerShell window and press `Enter` key.
 
 ::: code-group
 
@@ -123,12 +120,14 @@ A menu will appear in a new window. Press `1` number on your keyboard to select 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="580px" /></p><br/>
 
-**Congratulations!**  
+<Badge type="tip" text="Congratulations!" />  
 Your Windows is now permanently activated with a digital license. <br/>
 
-To check the activation status of `Windows 10`, navigate to **Settings → Update & Security → Activation.** [^1]
+To check the activation status of "Windows 10" Navigate to:  
+Settings > Update & Security > Activation [^1]
 
-To check the activation status of `Windows 11`, open Settings by clicking the Start button and then selecting **Settings → System → Activation.** [^2] <br/>
+To check the activation status of "Windows 11" Navigate to:  
+Settings > System > Activation [^2] <br/>
 
 ## Additional Information
 
