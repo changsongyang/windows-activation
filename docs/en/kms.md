@@ -26,7 +26,7 @@ head:
 
 > This guide walks you through activating Windows for <Badge type="tip" text="180 Days" /> using Microsoft’s official Key Management Service <Badge type="tip" text="KMS" /> method.
 > 
-> It is a safe and trusted activation approach for volume-licensed products, and can be renewed indefinitely. <br><br/>
+> It is a safe and trusted activation approach for volume-licensed products, and can be renewed indefinitely. <br/>
 
 # Method 2. Activating Win for 180 days with KMS
 
@@ -88,7 +88,7 @@ slmgr /ipk Your-License-Key
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/647ef16b-9208-4ff3-a94b-825ffa99721f" alt="about-system" width="420px" /></p><br/>
-
+  
 ::: details Click here to see more ways
 
 ### Option B: Using System Settings
