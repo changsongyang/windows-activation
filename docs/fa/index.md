@@ -5,17 +5,17 @@ layout: home
 hero:
   name: 'A E G'
   text: 'فعال‌سازی فوری محصولات مایکروسافت'
-  tagline: 'یک مجموعه ابزار قابل اعتماد و متن‌باز برای فعال‌سازی ویندوز و آفیس، شامل HWID، KMS، Ohook و بیشتر. فعال‌سازی در کمتر از ۴۰ ثانیه!'
+  tagline: "یک مجموعه ابزار قابل اعتماد و متن‌باز برای فعال‌سازی ویندوز و آفیس، شامل HWID، KMS، Ohook و بیشتر. فعال‌سازی در کمتر از ۴۰ ثانیه!"
   actions:
     - theme: brand
       text: شروع کنید
       link: /fa/index-fa
     - theme: alt
-      text: مشاهده در گیتهاب
+      text: مشاهده در گیت‌هاب
       link: https://github.com/sahar-km/windows-activation
 
 features:
-  - title: 🔰 فعال‌سازی HWID
+  - title: 🔰 فعال‌سازی با روشHWID
     details: یک لایسنس دیجیتال دائمی برای ویندوز ۱۰ و ۱۱ دریافت کنید. به سخت‌افزار شما متصل است و بازنصب‌ها را دوام می‌آورد.
   - title: ⚙️ KMS و Online KMS
     details: ویندوز و آفیس را برای ۱۸۰ روز فعال کنید، با یک تسک خودکار تمدید برای فعال‌سازی مادام‌العمر.
@@ -30,7 +30,7 @@ import { data as posts } from '../.vitepress/posts.data.js'
 <div class="latest-posts-section">
   <h2 class="section-title">آخرین مطالب</h2>
   <div class="posts-grid" v-if="posts && posts.length > 0">
-    <article v-for="post of posts" :key="post.url" class="post-card">
+    <article v-for="post of posts.filter(p => p.lang === 'fa')" :key="post.url" class="post-card">
       <div class="post-content">
         <h3 class="post-title">
           <a :href="post.url" class="post-link">{{ post.title }}</a>
