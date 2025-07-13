@@ -126,7 +126,7 @@ export default defineConfig({
       description: 'ابزارهای فعال‌سازی فوری ویندوز و آفیس',
       themeConfig: {
         nav: [
-          { text: 'خانه', link: '/' },
+          { text: 'خانه', link: '/fa/' },
           { text: 'راهنمای فعال‌سازی', link: '/fa/index-fa' }
         ],
         sidebar: {
