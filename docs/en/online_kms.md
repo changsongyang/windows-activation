@@ -3,24 +3,20 @@ layout: doc
 outline: deep
 title: 'Online KMS Activation'
 description: 'online kms activation'
-date: 2025-05-06
+date: 2025-05-05
 editLink: true
 ---
 
 # Online KMS Activation
 
-<br/>
-
 ## Overview
 
-- How to use it? Please find the instructions [Intro](../docs/index).
+- How to use it? Please find the instructions [Intro](./index).
 - KMS activates Windows / Office for 180 Days. For Windows Core / ProWMC editions it is 30 / 45 Days.
 - This script can activate both Retail and Volume Windows installation.
 - This script can activate C2R Retail and VL Office, UWP Office, but not 2010 / 2013 MSI Retail Office.
 - This script skips the activation if Windows is permanently / KMS38 activated.
 - As mentioned, KMS activates only for a limited period and it's not permanent, read below on how to achieve lifetime activation.
-
-<br/>
 
 ## Activation Renewal
 
@@ -433,7 +429,7 @@ If you don't want to install this renewal task, you can turn off the "Renewal Ta
 | VisioStd2024Volume           | JMMVY-XFNQC-KK4HK-9H7R3-WQQTV |
 | Word2024Volume               | MQ84N-7VYDM-FXV7C-6K7CC-VFW9J |
 
-<hr/><br/>
+<hr/>
 
 ::: tip INFO
 
@@ -461,25 +457,33 @@ If you don't want to install this renewal task, you can turn off the "Renewal Ta
   Windows 10 (Cloud "S", IoTEnterprise, ProfessionalSingleLanguage... etc)  
   Windows Server (Server Foundation, Storage Server, Home Server 2011... etc)
 
-<br/>
 
 ## How does it work?
 
-- **What is KMS activation?**  
-  Key Management Service (KMS) is a genuine activation method provided by Microsoft for volume licensing customers (organizations, schools, or governments). The machines in those environments (called KMS clients) are activated via the Environment KMS Host Server (authorized Microsoft's licensing key), instead of Microsoft activation servers. By design, the KMS activation period lasts up to 180 Days (6 Months) at max, with the ability to renew and reinstate the period at any time. Activation renewal automatically happens every 7 days if the client can connect to the KMS host server. For more info, see [microsoft.com/licensing][5] and [technet.microsoft.com/kms-overview][6].
+::: tip What is KMS activation?
+
+Key Management Service (KMS) is a genuine activation method provided by Microsoft for volume licensing customers (organizations, schools, or governments). The machines in those environments (called KMS clients) are activated via the Environment KMS Host Server (authorized Microsoft's licensing key), instead of Microsoft activation servers. By design, the KMS activation period lasts up to 180 Days (6 Months) at max, with the ability to renew and reinstate the period at any time. Activation renewal automatically happens every 7 days if the client can connect to the KMS host server. For more info, see [microsoft.com/licensing][5] and [technet.microsoft.com/kms-overview][6].
+
+:::
 
 <br/>
 
-- **How are we getting it for free?**  
-  Developers reverse-engineered the KMS Host Server setup, so now anyone can host a KMS server and activate the systems without any limitations. KMS activators such as KMSpico, MTK, KMS_VL_ALL, etc., locally create an emulated KMS Host Server and activate Windows and Office.  
-  This locally-emulated KMS server requires you to run binary files which often cause anti-virus alerts (false positives).  
-  Another method of KMS activation is a publicly-available Online KMS Host Server. In this method, the site hosts the emulated KMS server, and anyone can simply use this server to activate their systems, there is no requirement for running any software on your system.
+::: tip How are we getting it for free?
+
+Developers reverse-engineered the KMS Host Server setup, so now anyone can host a KMS server and activate the systems without any limitations. KMS activators such as KMSpico, MTK, KMS_VL_ALL, etc., locally create an emulated KMS Host Server and activate Windows and Office.  
+
+This locally-emulated KMS server requires you to run binary files which often cause anti-virus alerts (false positives).  
+
+Another method of KMS activation is a publicly-available Online KMS Host Server. In this method, the site hosts the emulated KMS server, and anyone can simply use this server to activate their systems, there is no requirement for running any software on your system.
+
+:::
 
 <br/>
 
-- **Is Online KMS activation safe?**  
-  Yes.  
-  Let's go into the details. In the KMS protocol, there is a relationship between host and client. The client system asks the host system to grant the activation, and the host system grants the activation if it's eligible. In this process, the client system shares some of the system's data, which is not sensitive in nature. According to the [technet.microsoft.com/aspx#kms-overview][7], the client system shares the following data with the host system: Client FQDN, CMID, time-stamp, Product license state, expiration time, and IP address
+## Is Online KMS activation safe?
+
+Yes.  
+Let's go into the details. In the KMS protocol, there is a relationship between host and client. The client system asks the host system to grant the activation, and the host system grants the activation if it's eligible. In this process, the client system shares some of the system's data, which is not sensitive in nature. According to the [technet.microsoft.com/aspx#kms-overview][7], the client system shares the following data with the host system: Client FQDN, CMID, time-stamp, Product license state, expiration time, and IP address
   In this shared info, the important part is your IP address. Below are some things regarding it which you should know.
   - Sharing your IP while going online is not a security concern. You can not go online to visit any website without having to share your IP address.
   - IP addresses do not necessarily represent a specific person. Internet Service Providers (ISPs) mostly use dynamic IP, which means the same IP address can be used by many different persons, and a dynamic IP address is periodically reassigned to different people all the time. But a static IP address is permanently assigned to a unique subscriber. The Internet Service Provider (ISP) won't reveal that information unless there is a legal reason to do so.
@@ -507,7 +511,7 @@ HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
 HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
 ```
 
-- This is perfectly fine to keep, and it does not affect Windows or Office activation. For more explanation, visit [Office license is not genuine](./office-license-is-not-genuine). <br/>
+- This is perfectly fine to keep, and it does not affect Windows or Office activation. For more explanation, visit [Office license is not genuine](./office-license-is-not-genuine).
 
 ### Office Retail to Volume
 
@@ -524,12 +528,19 @@ If you don't want the script to convert the Retail Office to Volume, you can tur
 
 ### Command line Switches
 
-- Check [Command line switches](./command_line_switches). <br/>
+- Check [Command line switches](./command_line_switches).
 
 ### Setup Preactivate
 
 - Check the Extract OEM option in the MAS `Extras` section if you want pre-activated Windows installation.
 - Further read [OEM Folder](./oem-folder).
+
+::: danger Troubleshooting
+
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If your issue persists - [**Contact us**](./troubleshoot).
+
+:::
 
 [1]: https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee939272(v=technet.10)?redirectedfrom=MSDN#kms-overview
 [2]: https://github.com/abbodi1406/KMS_VL_ALL_AIO/
