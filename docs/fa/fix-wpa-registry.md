@@ -36,7 +36,6 @@ head:
 
 ## آموزش ویدیویی
 
-<br/>
 
 <video class="video-js vjs-default-skin vjs-fluid" controls preload="auto" data-setup='{}'>
   <source src="/Fix_WPA_Registry.mp4" type="video/mp4" />
