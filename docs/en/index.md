@@ -20,7 +20,7 @@ head:
       content: A full open-source guide to activating Windows 10/11 and Microsoft Office using reliable tools like HWID, KMS, and TSforge.
 ---
 
-# freedom to Dream
+# Freedom to Dream
 
 ### Welcome to the ultimate guide for activating Windows and Office
 
