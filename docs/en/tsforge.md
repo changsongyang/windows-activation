@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 title: 'TSforge'
 description: 'A comparison of activation methods for Microsoft Corporation like windows and office.'
-date: 2025-03-06
+date: 2025-05-04
 editLink: true
 head:
   - - meta
@@ -36,8 +36,6 @@ head:
 -	In addition to activation, it can reset the rearm count and evaluation period, clear the tamper state, and remove the evaluation key lock.
 
 :::
-
-</br>    
 
 ## How does it work?   
 
@@ -145,9 +143,9 @@ This activation method can activate any of the following products if a phone lic
 
 ::: tip Note
 
-> All architectures (x86, x64 and arm64) are supported.  
-> For Windows, the script's key preference is: OEM_DM > OEM_COA_SLP > OEM_COA_NSLP > MAK > RETAIL  
-> For Office, the script's key preference is: OEM_COA_NSLP > MAK > RETAIL
+- All architectures (x86, x64 and arm64) are supported.  
+- For Windows, the script's key preference is: OEM_DM > OEM_COA_SLP > OEM_COA_NSLP > MAK > RETAIL  
+- For Office, the script's key preference is: OEM_COA_NSLP > MAK > RETAIL
 
 :::
 
@@ -164,6 +162,8 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 5e9f548a-c8a9-44e6-a6c2-3f8d0a7a99dd   ServerComputeClusterV
 ```
 
+<br/>
+
 ### Windows Vista 
 | Edition      | Generic Key                   | Key Type |
 |--------------|-------------------------------|----------|
@@ -179,6 +179,7 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 | Ultimate     | VMCB9-FDRV6-6CDQM-RV23K-RP8F7 | Retail   |
 | UltimateN    | CVX38-P27B4-2X8BT-RXD4J-V7CKX | Retail   |
 
+<br/>
 
 ### Windows Server 2008
 | Edition                        | Generic Key                   | Key Type   |
@@ -207,15 +208,21 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 | ServerWinSB                    | HPH76-FHFPP-DRW9D-7W2V4-HWGKT | Retail     |
 | ServerWinSBV                   | 2V8G6-KRXYR-MMGXJ-6RWM3-GXCCG | Retail     |
 
+<br/>
+
 ### Windows Server 2008 ESU
 | ESU Version   | Blocked key sourced from the Internet | Key Type   |
 |---------------|---------------------------------------|------------|
 | Server-ESU-PA | 9FPV7-MWGT8-7XPDF-JC23W-WT7TW         | Volume:MAK |
 
+<br/>
+
 ### KMS Host - Windows Vista
 | Editions                                  | Blocked keys sourced from the Internet | Key Type     |
 |-------------------------------------------|----------------------------------------|--------------|
 | Business, Enterprise and their N editions | TWVG3-9Q4P8-W9XJF-Y76FJ-DWQ4R          | Volume:CSVLK |
+
+<br/>
 
 ### KMS Host - Windows Server 2008
 | Editions                                                                                                                                            | Blocked keys sourced from the Internet | Key Type     |
@@ -224,12 +231,12 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 | ServerComputeCluster, ServerEnterprise, <br /> ServerStandard, ServerWeb <br /> and their V editions                                                | PVGKG-2R7XQ-7WTFD-FXTJR-DQBQ3          | Volume:CSVLK |
 | ServerComputeCluster, ServerWeb                                                                                                                     | KH4PC-KJFX6-XFVHQ-GDK2G-JCJY9          | Volume:CSVLK |
 
-----
+<hr/><br/>
 
 ::: warning
 
-> **Unsupported Products**  
-> This activation method does not work if a phone license is not available or if licensing is not managed by the system's SPP.  
+- **Unsupported Products**  
+- This activation method does not work if a phone license is not available or if licensing is not managed by the system's SPP.  
 
 - **Office on Windows 7**
   - Its licensing is based on OSPP, not SPP.
@@ -258,7 +265,7 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 
 :::
 
-----
+<hr/><br/>
 
 ## ZeroCID / KMS4k / AVMA4k
 
@@ -273,7 +280,8 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 | KMS4k   | Offline KMS activation for over 4000 years / until reinstall/feature upgrade                         |
 | AVMA4k  | Offline AVMA activation for over 4000 years (Server 2012 R2+ only) / until reinstall/feature upgrade |
 
-----
+<hr/><br/>
+
 ## Windows ESU
 
 - Microsoft offers paid [Extended Security Updates][7] (ESU) for several Windows versions after their product lifecycle ends.
@@ -303,10 +311,10 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 
 
 ::: tip Notes
-> 
-> **Use this activation only when necessary.**  
-> On Windows 10/11, the system may randomly change the Windows edition later. This is a Windows issue and can be safely ignored.  
-> KMS host license causes the sppsvc service to run continuously.
+
+- **Use this activation only when necessary.**  
+- On Windows 10/11, the system may randomly change the Windows edition later. This is a Windows issue and can be safely ignored.  
+- KMS host license causes the sppsvc service to run continuously.
 
 :::
 
@@ -321,8 +329,8 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 
 ::: tip Note
 
-> **Use this activation only when necessary.**  
-> KMS host license causes the sppsvc service to run continuously.  
+- **Use this activation only when necessary.**  
+- KMS host license causes the sppsvc service to run continuously.  
 
 :::
 
@@ -363,8 +371,7 @@ All links given below are official links hosted by Microsoft.
    - If you are using 64-bit or ARM64 Windows, run `cscript "%programfiles(x86)%\MSECache\OfficeKMS\kms_host.vbs"`
 
 :::
-
-<br/><br/> 
+ 
 
 ::: details Workaround to install on Non-Volume licensed Windows
 
@@ -385,19 +392,15 @@ All links given below are official links hosted by Microsoft.
 | Clear Tamper State         | Clear the tamper state set due to store corruption or deletion     |
 | Remove Evaluation Key Lock | Remove the product key change lock set for evaluation product keys |
 
-----
+<hr/><br/> 
 
 ## How to remove TSforge?
 
-::: danger How to remove TSforge
-
-> This activation method doesn't modify any Windows components and doesn't install any new files.  
-> Instead, it appends data to one of data files used by Software Protection Platform.  
-> If you want to reset the activation status,   
-> In MAS script, goto Troubleshoot and apply Fix Licensing option.
-> Done ✔️ 
-
-:::
+- This activation method doesn't modify any Windows components and doesn't install any new files.  
+- Instead, it appends data to one of data files used by Software Protection Platform.  
+- If you want to reset the activation status,   
+- In MAS script, goto Troubleshoot and apply Fix Licensing option.
+- Done ✔️ 
 
 
 ## Manual Activation
@@ -416,7 +419,6 @@ Thank you for providing this excellent work 🤍
 
 [massgrave.dev][2]
 
-----
 
 [N]: https://github.com/NiREvil/windows-activation/
 [1]: https://github.com/UMSKT/writeups/blob/main/PKEY2005.md
