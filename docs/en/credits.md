@@ -2,7 +2,7 @@
 layout: doc
 outline: deep
 title: 'Credits'
-description: 'Thos project wouldn't be possible without the kind help and use of other honorable developers' tools and scripts'
+description: 'Thos project wouldnt be possible without the kind help and use of other honorable developers tools and scripts'
 date: 2022-02-02
 editLink: true
 ---
