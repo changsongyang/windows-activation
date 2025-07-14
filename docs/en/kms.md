@@ -217,7 +217,7 @@ slmgr /ato
 
 ## Step 5. Check Activation Status
 
-**You're all set!!** <Badge type="warning" text="Done ✔️" />
+**You're all set!!** <Badge type="danger" text="Done" />
 
 To check the activation status of "Windows 10" Navigate to:  
 Settings > Update & Security > Activation. [^7]
@@ -236,7 +236,7 @@ Settings > System > Activation. [^8]
 
 **Error 0xC004F074:** This usually means your internet connection is unstable or the server is busy. Ensure you are online and try the `slmgr /ato` command again. <br/> 
 
-**Method Not Working?** If you're still having trouble, try the **HWID method** from the [Main guide](./index). <br/>
+**Method Not Working?** If you're still having trouble, try the **HWID method** from the [Main guide](./index). or [Online KMS](./online_kms) from MAS. <br/>
 
 **If you have any questions**, first review the [**FAQ section**](./faq) - your answer will most likely be there. <br/>
 
@@ -244,11 +244,7 @@ Settings > System > Activation. [^8]
 
 :::
 
-<h3 align="left">$$\color{#a5a5a5} \Large \text{Be curious 🤍}$$</h3>
-
-<h3 align="left">Be curious 🤍</h3>
-
-<p align="left"> Be curious 🩶🪐</p><br/>
+<h3 align="left">Be curious 🪐🩶</h3>
 
 
 
