@@ -22,9 +22,9 @@ head:
 
 # HWID Activation
 
-## Overview
+### Overview
 
-- How to use it? Please find the instructions [here](/en/index).
+- How to use it? Please find the instructions [here](./index).
 - This activation method supports Windows 10/11 only.
 - This activation method does not store or modify any files in your system.
 - This activation method gives you permanent Windows activation for your system hardware.
@@ -37,11 +37,7 @@ head:
   - The system will auto-activate only if Retail (Consumer) media was used for installing Windows.
   - The system will NOT auto-activate if VL (Business) media was used for the installation. In this case, the user will have to insert the generic Retail/OEM key corresponding to the Windows edition currently running to activate if the user doesn't want to use the script again. (Those keys can be found below on this page)
 
-<br/><br/>
-
-## HWID History
-
-## How does it work?
+## HWID History — How does it work?
 
 #### HWID 1 (Now defunct) (Summer of 2018 - Sep 26 2023)
 
@@ -50,11 +46,11 @@ head:
 - So, if we can convince the gatherosstate.exe file that the conditions are met for ticket generation by fooling it, it will generate a valid ticket, which can be used to get the valid digital license.
 - How to convince gatherosstate.exe that Windows is activated?  
   There are two methods for it.  
-  **1-** Place a [custom slc.dll](https://github.com/asdcorp/Integrated_Patcher_3) file beside gatherosstate.exe:  
+  **1-** Place a [custom slc.dll][1] file beside gatherosstate.exe:  
   gatherosstate.exe uses the system's `C:\Windows\System32\slc.dll` file to gather the system's info. If we place a custom slc.dll file beside gatherosstate.exe, it can send rubbish data to it, then it will simply accept it and generate a valid ticket.  
-  **2-** [Modify](https://github.com/asdcorp/GamersOsState) the gatherosstate.exe file directly so that it doesn't check the system's activation status at all and create a valid ticket.
-- You can find the workings of this old method here: [MAS-Legacy-Methods][1]
-- Microsoft [made][2] server-side changes to their licensing servers to block the free upgrade, and with that server-side change, this method stopped working. To be clear, only new activation requests coming from new hardware were blocked, already established digital licenses with this method are fine.
+  **2-** [Modify][2] the gatherosstate.exe file directly so that it doesn't check the system's activation status at all and create a valid ticket.
+- You can find the workings of this old method here: [MAS-Legacy-Methods][3]
+- Microsoft [made][4] server-side changes to their licensing servers to block the free upgrade, and with that server-side change, this method stopped working. To be clear, only new activation requests coming from new hardware were blocked, already established digital licenses with this method are fine.
 
 #### HWID 2 (Currently working) (03 Oct 2023 - Current)
 
@@ -65,8 +61,6 @@ head:
 Now a question, can Microsoft block the new requests or revoke already established digital licenses?
 
 - Revoking the licenses would be too extreme and will face many complications and create a risk of voiding valid licenses. However, they can very easily block the new activation requests for new hardware coming from the methods mentioned here.
-
-<br/>
 
 ## Supported Products
 
@@ -107,7 +101,7 @@ Now a question, can Microsoft block the new requests or revoke already establish
 ::: tip Info
 
 - Systems in all architectures (x86, x64 and arm64) are supported.
-- Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) [cannot be activated](/en/evaluation_editions) beyond the evaluation period. You can use TSforge option in MAS to reset the activation any given time.
+- Any evaluation version of Windows (i.e. 'EVAL' LTSB/C) [cannot be activated](/evaluation_editions) beyond the evaluation period. You can use TSforge option in MAS to reset the activation any given time.
 - IoTEnterpriseS (LTSC) 2021 key will be used to activate the unsupported EnterpriseS (LTSC) 2021 edition.
 - IoTEnterpriseS (LTSC) 2024 key will be used to activate the unsupported EnterpriseS (LTSC) 2024 edition.
 - Windows Server does not support HWID activation.
@@ -117,7 +111,7 @@ Now a question, can Microsoft block the new requests or revoke already establish
 
 <br/>
 
-## How to remove HWID?
+## How to remove HWID
 
 - **HWID (Digital license) activation cannot be removed** because the license is stored in the Microsoft servers and not in the user's system.
 - Microsoft checks the hardware ID (HWID) and if a license is found in their database, the system will automatically activate. This is how the official digital license activation process works.
@@ -128,7 +122,7 @@ Now a question, can Microsoft block the new requests or revoke already establish
 
 **What if you just want to keep Windows in the unactivated stage?**
 
-- To do that, you can install the [KMS key](/en/kms38#supported-products) in the Windows settings activation page  
+- To do that, you can install the [KMS key](/kms38#supported-products) in the Windows settings activation page  
   Or
 - Change the edition using Change Windows edition option in MAS.
 - **Note:**
@@ -139,13 +133,13 @@ Now a question, can Microsoft block the new requests or revoke already establish
 
 ### Command line Switches
 
-- Check [here - Command line switches](/en/command_line_switches).
+- Check [here - Command line switches](/command_line_switches).
 
 <br/>
 
 ### Manual Activation
 
-- Check [here - Manual hwid activation](/en/manual_hwid_activation).
+- Check [here - Manual hwid activation](/manual_hwid_activation).
 
 <br/>
 
@@ -252,14 +246,21 @@ C:\Files\gatherosstatemodified.exe /c Pfn=$value`;PKeyIID=4651452171313143042643
 ## Setup Preactivate
 
 - Check the Extract OEM option in the MAS `Extras` section if you want pre-activated Windows installation.
-- Further, read [here - OEM Folder](/en/oem-folder).
+- Further, read [here - OEM Folder](/oem-folder).
 
-<hr/><br/>
+<hr/>
 
 ## Troubleshooting
 
-- Check [here](/en/troubleshoot).
+::: danger Troubleshooting
 
-[1]: https://github.com/massgravel/MAS-Legacy-Methods
-[2]: https://devicepartner.microsoft.com/en-us/communications/comm-windows-ends-installation-path-for-free-windows-7-8-upgrade
-[3]: https://github.com/asdcorp/GamersOsState
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If your issue persists - [**contact us**](./troubleshoot).
+
+:::
+
+[1]: https://github.com/asdcorp/Integrated_Patcher_3
+[2]: https://github.com/asdcorp/GamersOsState
+[3]: https://github.com/massgravel/MAS-Legacy-Methods
+[4]: https://devicepartner.microsoft.com/en-us/communications/comm-windows-ends-installation-path-for-free-windows-7-8-upgrade
+[5]: https://github.com/asdcorp/GamersOsState
