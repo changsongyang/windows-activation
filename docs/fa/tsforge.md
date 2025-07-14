@@ -385,7 +385,7 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 
 <hr/><br/> 
 
-## چگونه TSforge را حذف کنیم؟
+## چگونه TSforge را حذف کنیم
 
 ::: danger چگونه TSforge را حذف کنیم
 
