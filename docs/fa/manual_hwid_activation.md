@@ -115,7 +115,8 @@ Settings → System → Activation. [^3]
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/da52f1bb-79c9-45db-bade-a0f56cd0a739" alt="activated" width="540px" /></p><br/><br/>  
+  <img src="https://github.com/user-attachments/assets/da52f1bb-79c9-45db-bade-a0f56cd0a739" alt="activated" width="540px" />
+</p>
 
 ::: info رفع خطا
 
@@ -164,11 +165,13 @@ Settings → System → Activation. [^3]
 
 ::: tip Tip
 
-اگر به دنبال روش آسان‌تر هستید، می‌توانید از [ابزار فعال‌سازی خودکار](./index-fa) استفاده کنید.
+- اگر به دنبال روش آسان‌تر هستید، می‌توانید از [ابزار فعال‌سازی خودکار](./intro) استفاده کنید.
+
+- اگر سوالی دارید، ابتدا صفحه [**سوالات پرتکرار**](./faq) را مرور کنید — به احتمال زیاد جواب‌تان اینجاست.  
+- اگر همچنان مشکل پابرجا بود — با ما [**در تماس**](./troubleshoot) باشید.
 
 :::
 
-<hr/><br/> 
 
 [^1]: ساده‌ترین روش دیگر برای اجرای **PowerShell** از طریق **Power User Menu** می‌باشد. <br/> - 1. روی آیکون `Windows Start` در `Taskbar` کلیک راست کنید تا منوی حاوی میانبرهای ابزارهای پرکاربرد باز شود، همچنین می‌توانید این منو را با `Win (⊞) + x` باز کنید.<br/> - 2. سپس بر روی گزینه **Windows Terminal (Admin)** در ویندوز 11 و یا **Windows PowerShell (Admin)** در ویندوز 10 کلیک کنید.
 
