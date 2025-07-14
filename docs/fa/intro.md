@@ -54,8 +54,7 @@ head:
 | **Online KMS** |    ویندوز / آفیس     | ۱۸۰ روز (مادام‌العمر با تمدید) |            بله             | [جزئیات](./online_kms) |
 
 <p style="text-align: center;">
-  برای مقایسه دقیق تمام روش‌ها، به <a href="./chart"> جدول مقایسه روش‌های فعال‌سازی</a> مراجعه کنید.
-</p>
+  برای مقایسه دقیق تمام روش‌ها، به <a href="./chart">جدول مقایسه روش‌های فعال‌سازی</a> مراجعه کنید. </p>
 
 # روش 1. فعال‌سازی دائمی با HWID
 
@@ -67,13 +66,13 @@ head:
 
 1. روی دکمه "Start" یا آیکون "Search" در نوار وظیف کلیک کنید
 2. تایپ کنید: `powershell`.
-3. در نهایت روی `Run as administrator` کلیک کنید. <br/>
+3. در نهایت روی `Run as administrator` کلیک کنید.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="اجرای-پاورشل-با-حالت-ادمین" width="540px" />
 </p>
   
-<p align="center"> برای بزرگنمایی تصویر بر روی آن کلیک کنید
+<p align="center"> برای بزرگنمایی تصویر بر روی آن کلیک کنید </p>
 
 ::: tip روش‌های دیگر برای اجرای PowerShell
 
