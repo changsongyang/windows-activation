@@ -48,11 +48,11 @@ head:
 - بنابراین، اگر بتوانیم فایل gatherosstate.exe را متقاعد کنیم که شرایط برای تولید بلیط با فریب آن فراهم شده است، یک بلیط معتبر تولید می‌کند که می‌توان از آن برای دریافت مجوز دیجیتال معتبر استفاده کرد.
 - چگونه gatherosstate.exe را متقاعد کنیم که ویندوز فعال شده است؟
   دو روش برای آن وجود دارد.
-  **1-** قرار دادن یک فایل [slc.dll سفارشی](https://github.com/asdcorp/Integrated_Patcher_3) در کنار gatherosstate.exe:
+  **1-** قرار دادن یک فایل [slc.dll سفارشی][1] در کنار gatherosstate.exe:
   gatherosstate.exe از فایل `C:\Windows\System32\slc.dll` سیستم برای جمع‌آوری اطلاعات سیستم استفاده می‌کند. اگر یک فایل slc.dll سفارشی را در کنار gatherosstate.exe قرار دهیم، می‌تواند داده‌های بیهوده به آن ارسال کند، سپس به سادگی آن را می‌پذیرد و یک بلیط معتبر تولید می‌کند.
-  **2-** [تغییر](https://github.com/asdcorp/GamersOsState) مستقیم فایل gatherosstate.exe به طوری که اصلاً وضعیت فعال‌سازی سیستم را بررسی نکند و یک بلیط معتبر ایجاد کند.
-- می‌توانید عملکرد این روش قدیمی را در اینجا پیدا کنید: [MAS-Legacy-Methods][1]
-- مایکروسافت تغییرات سمت سرور را در سرورهای صدور مجوز خود برای [مسدود کردن][2] ارتقاء رایگان اعمال کرد و با این تغییر سمت سرور، این روش از کار افتاد. برای روشن شدن، فقط درخواست‌های فعال‌سازی جدید از سخت‌افزارهای جدید مسدود شدند، مجوزهای دیجیتال قبلاً ایجاد شده با این روش خوب هستند.
+  **2-** [تغییر][2] مستقیم فایل gatherosstate.exe به طوری که اصلاً وضعیت فعال‌سازی سیستم را بررسی نکند و یک بلیط معتبر ایجاد کند.
+- می‌توانید عملکرد این روش قدیمی را در اینجا پیدا کنید: [MAS-Legacy-Methods][3]
+- مایکروسافت تغییرات سمت سرور را در سرورهای صدور مجوز خود برای [مسدود کردن][4] ارتقاء رایگان اعمال کرد و با این تغییر سمت سرور، این روش از کار افتاد. برای روشن شدن، فقط درخواست‌های فعال‌سازی جدید از سخت‌افزارهای جدید مسدود شدند، مجوزهای دیجیتال قبلاً ایجاد شده با این روش خوب هستند.
 
 #### HWID 2 (در حال حاضر کار می‌کند) (3 اکتبر 2023 - اکنون)
 
@@ -147,7 +147,7 @@ head:
 - یک پوشه به نام `Files` در ریشه درایو C: (`C:\Files`) ایجاد کرده و فایل `gatherosstate.exe` را در آن پوشه کپی کنید.
 - مطمئن شوید که اتصال به اینترنت کار می‌کند.
 - ویندوز پاورشل را به عنوان مدیر باز کرده و دستورات زیر را وارد کنید.
-- کل بلوک کد زیر را کپی کرده و در پاورشل وارد کنید تا فایل `gatherosstate.exe` را پچ کنید. پچ‌ها بر اساس [GamersOsState][3] هستند.
+- کل بلوک کد زیر را کپی کرده و در پاورشل وارد کنید تا فایل `gatherosstate.exe` را پچ کنید. پچ‌ها بر اساس [GamersOsState][5] هستند.
 
 ```yaml
 $bytes  = [System.IO.File]::ReadAllBytes("C:\Files\gatherosstate.exe")
@@ -242,11 +242,15 @@ C:\Files\gatherosstatemodified.exe /c Pfn=$value`;PKeyIID=4651452171313143042643
 - گزینه Extract OEM را در بخش `Extras` MAS بررسی کنید اگر می‌خواهید نصب ویندوز پیش‌فعال‌شده داشته باشید.  
 - بیشتر، [اینجا را بخوانید - پوشه OEM](./oem-folder).
 
-## رفع مشکلات
+::: danger رفع مشکلات
 
 اگر سوالی دارید، ابتدا صفحه [**سوالات پرتکرار**](./faq) را مرور کنید — به احتمال زیاد جواب‌تان اینجاست.  
-اگر همچنان مشکل پابرجا بود — با ما [**در تماس**](./troubleshoot) باشید.
+اگر همچنان مشکل پابرجا بود — با ما [**در ارتباط**](./troubleshoot) باشید.
 
-[1]: https://github.com/massgravel/MAS-Legacy-Methods
-[2]: https://devicepartner.microsoft.com/en-us/communications/comm-windows-ends-installation-path-for-free-windows-7-8-upgrade
-[3]: https://github.com/asdcorp/GamersOsState
+::: 
+
+[1]: https://github.com/asdcorp/Integrated_Patcher_3
+[2]: https://github.com/asdcorp/GamersOsState
+[3]: https://github.com/massgravel/MAS-Legacy-Methods
+[4]: https://devicepartner.microsoft.com/en-us/communications/comm-windows-ends-installation-path-for-free-windows-7-8-upgrade
+[5]: https://github.com/asdcorp/GamersOsState
