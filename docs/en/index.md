@@ -2,8 +2,8 @@
 layout: doc
 outline: deep
 title: 'All-in-One Windows & Office Activation Guide: HWID, KMS, TSforge and More.'
-description: 'Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons.'
-date: 2025-05-05
+description: 'Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons'
+date: 2025-06-05
 editLink: true
 head:
   - - meta
@@ -20,7 +20,7 @@ head:
       content: A full open-source guide to activating Windows 10/11 and Microsoft Office using reliable tools like HWID, KMS, and TSforge.
 ---
 
-# A E G
+# freedom to Dream
 
 ### Welcome to the ultimate guide for activating Windows and Office
 
@@ -35,12 +35,10 @@ head:
 ::: details Click here to see the details
 
 - **For Windows:** I personally use the **KMS method** [[see guides](./kms)] for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.
-- **For Office:** I use Ohook, TSforge, or Online KMS. The small differences are noted in the summary table above.
-- **Need Help?** If you run into any issues, feel free to ask in the [GitHub Discussions][3] or [Email me][4] directly.
+- **For Office:** I use Ohook, or TSforge, The small differences are noted in the summary table above
 
 :::
 
-<br/>
 
 ## Activation Methods Summary
 
@@ -50,13 +48,13 @@ For a quick overview, here is a summary of the activation methods available:
 | :-------------: | :--------------------- | :------------------------------- | :-------------------- | :---------------------- |
 |    **HWID**     | Windows 10-11          | Permanent                        | Yes                   | [Details](./hwid)       |
 |     **KMS**     | Windows 10-11          | 180 Days (Manual)                | Yes                   | [Details](./kms)        |
-|    **Ohook**    | Office                 | Permanent                        | No                    | -                       |
+|    **Ohook**    | Office                 | Permanent                        | No                    | [Details](./ohook)                     |
 |   **TSforge**   | Windows / ESU / Office | Permanent                        | Yes (on build 19041+) | [Details](./tsforge)    |
 |    **KMS38**    | Windows 10-11-Server   | Until 2038                       | No                    | [Details](./kms38)      |
 | **Online KMS**  | Windows / Office       | 180 Days (Lifetime with Renewal) | Yes                   | [Details](./online_kms) |
 
 <p style="text-align: center;">
-  For a detailed comparison of all methods, check out the <a href="./chart">Activation Methods Chart</a>.</p><br/>
+  For a detailed comparison of all methods, check out the <a href="./chart">Activation Methods Chart</a>.</p>
 
 # Method 1. Permanent Activation with HWID
 
@@ -70,7 +68,8 @@ For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the 
 3. Select `Run as administrator` <br/>  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="540px" />
+</p>
   
 ::: tip Another ways to run PowerShell
 
@@ -86,7 +85,7 @@ For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the 
 ### Option C: Using Power User Menu
 
 1. Right-click on the "Start menu" (or press `Win (⊞) + X`)  
-2. Select "Windows Terminal (Admin)" on Windows 11 or "Windows PowerShell (Admin)" on Windows 10 <br/>  
+2. Select "Windows Terminal (Admin)" on Windows 11 or "Windows PowerShell (Admin)" on Windows 10
 
 Or You can visit [this Link][1] to see 10 ways to run **PowerShell** And [this link][2] For Running CMD in your windows.
 
@@ -108,17 +107,18 @@ irm https://massgrave.dev/get | iex
 
 :::
 
-<br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="Paste command in PowerShell" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="Paste command in PowerShell" width="540px" />
+</p>
 
 ## Step 3. Choose the HWID Option
 
 A menu will appear in a new window. Press `1` number on your keyboard to select **HWID Activation** and wait a few moments for the process to complete.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="540px" />
+</p>
 
 <Badge type="tip" text="Congratulations!" />  
 Your Windows is now permanently activated with a digital license. <br/>
@@ -141,7 +141,6 @@ Settings > System > Activation [^2] <br/>
 
 :::
 
-<br/>
 
 ::: info Supported Windows 10/11 Products for HWID
 
@@ -183,7 +182,14 @@ _A generic key is automatically applied by the script where needed._
 
 :::
 
-<hr/><br/>
+::: danger Troubleshooting
+
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+
+If your issue persists - [**Contact us**](./troubleshoot).
+
+:::
+
 
 [^1]: To check the activation status of Windows 10, <br/> navigate to Settings → Update & Security → Activation. You will see your activation status listed there. <br/> If Windows is activated, you should see "Activated" with a green checkmark.
 
