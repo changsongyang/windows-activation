@@ -16,8 +16,6 @@ editLink: true
 
 :::
 
-<br/>
-
 ## راهنمای نصب سفارشی
 
 -   اگر آفیس قبلاً نصب شده بود،
@@ -35,7 +33,7 @@ editLink: true
 -   روی دکمه export کلیک کنید، گزینه "Keep Current Settings" را انتخاب کنید و فایلی به نام `Configuration.xml` دانلود می‌شود (اگر نام چیز دیگری بود، آن را به `Configuration.xml` تغییر دهید)
 -   فایل دانلود شده `Configuration.xml` را در آن پوشه آفیس که ایجاد کرده‌اید کپی کنید، به عنوان مثال `C:\Office\Configuration.xml`
 
--   **خط فرمان** (نه Powershell) را **به عنوان مدیر** باز کرده و دستورات زیر را اجرا کنید.
+-   **خط فرمان** <Badge type="info" text="فقط Command prompt" /> را به عنوان <Badge type="tip" text="Administrator" /> باز کرده و دستورات زیر را اجرا کنید.
     ```
     cd /d C:\Office\
     setup.exe /configure Configuration.xml
@@ -66,11 +64,16 @@ editLink: true
 
 :::
 
-<br/>
-
 ### روش‌های جایگزین
 -  [YAOCTRU][7] (دانلودر آفیس) و [YAOCTRI][8] (نصب‌کننده آفیس)
 -  [Office Tool Plus][9].
+
+::: danger رفع مشکلات
+
+اگر سوالی دارید، ابتدا صفحه [**سوالات پرتکرار**](./faq) را مرور کنید — به احتمال زیاد جواب‌تان اینجاست.  
+اگر همچنان مشکل پابرجا بود — با ما [**در ارتباط**](./troubleshoot) باشید.
+
+::: 
 
 [1]: https://gravesoft.dev/office_c2r_links
 [2]: https://github.com/abbodi1406/WHD/raw/master/scripts/OfficeScrubber_13.zip
