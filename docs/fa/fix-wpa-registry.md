@@ -19,8 +19,9 @@ head:
 
 ## مراحل تعمیر رجیستری WPA
 
--   https://github.com/asdcorp/rearm/archive/refs/heads/principalis.zip را دانلود کنید
--   این فایل فشرده را استخراج کنید.
+- ابتدا این فایل زیپ را دانلود کنید:
+- [github.com/archive/principalis.zip][1]
+-   فایل را از حالت فشرده را خارج کنید.
 -   فایل `rearm.cmd` را در ریشه درایو C کپی کنید، مانند `C:\rearm.cmd`
 -   خط فرمان را به عنوان مدیر باز کنید و دستور زیر را وارد کنید
     `Shutdown /f /r /o /t 0`
@@ -41,3 +42,5 @@ head:
   <source src="/Fix_WPA_Registry.mp4" type="video/mp4" />
   <p class="vjs-no-js"></p>
 </video>
+
+[1]: https://github.com/asdcorp/rearm/archive/refs/heads/principalis.zip
