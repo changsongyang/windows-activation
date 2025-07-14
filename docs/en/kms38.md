@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 title: 'KMS38 Activation'
 description: 'Discover KMS38 Activation – a secure, open-source solution for activating Windows and Office products.'
-date: 2025-05-06
+date: 2025-04-06
 editLink: true
 ---
 
@@ -15,8 +15,6 @@ editLink: true
 >
 > Learn how this clever method extends Microsoft's KMS technology for permanent offline activation.
 
-<br/>
-
 ::: tip Overview
 
 - This activation method activates Windows 10/11 and Windows Server (14393 and later builds), until January 19, 2038, 03:14:07 UTC.
@@ -25,8 +23,6 @@ editLink: true
 - Unlike HWID and Online KMS activation options, KMS38 does not match with any official activation method.
 
 :::
-
-<br/>
 
 ## How does it work?
 
@@ -43,8 +39,6 @@ editLink: true
     - **1-** Place a [custom slc.dll][3] file beside gatherosstate.exe: gatherosstate.exe uses the system's `C:\Windows\System32\slc.dll` file to gather the system's info. If we place a custom slc.dll file beside gatherosstate.exe which can send the rubbish data to it, then it will simply accept it and generate a valid ticket allowing activation up to January 19, 2038, 03:14:07 UTC.
     - **2-** [Modify][4] the gatherosstate.exe file itself so that it doesn't check the system's activation status and we can put the activation period as we wish.
 
-<br/>
-
  ### Important
 
 ::: important **To be Clear,**
@@ -56,8 +50,6 @@ editLink: true
     - **A:** Not directly. They could only update Clipup to allow for a maximum activation period of 180 days. Not much besides that can be done on their part. The tickets are not sent to Microsoft at all, so they can't block them or take action directly.
    
 :::
-
-<br/>
 
 ## Supported Products
 
@@ -191,19 +183,15 @@ editLink: true
 
 :::
 
-<br/> 
-
 ## How to remove kms38
 
 ::: danger How to remove KMS38
 
 - In AEG, go to KMS38 Activation and apply the Remove KM38 Protection option.
 - After that, In MAS, go to Troubleshoot and apply the Fix Licensing option.
-- Done ✔️
+  - Done ✔️
 
 :::
-
-<br/>
 
 ## KMS38 - Server Cor/Acor
 
@@ -214,8 +202,6 @@ editLink: true
    This file has digital signatures that can be verified. You can also get this file from the official [Windows Server 2016 x64 RTM ISO.download][6].
 - Put the `ClipUp.exe` file beside the KMS38 Activation script. That would be either `MAS_AIO.cmd` or `KMS38_Activation.cmd`  
    The activation script will check for `ClipUp.exe` in the current folder (from where the script is running) and will use it accordingly.
-
-<br/>
 
 ### KMS38 Protection
 
@@ -232,6 +218,16 @@ editLink: true
   - Protect the below Registry from edit and delete  
     `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\55c92734-d682-4d71-983e-d6ec3f16059f\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\`
 - Done ✔️
+
+----
+
+::: danger Troubleshooting
+
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If your issue persists - [**Contact us**](./troubleshoot).
+
+:::
+
 
 [1]: https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee939272(v=technet.10)?redirectedfrom=MSDN#kms-overview
 [2]: https://en.wikipedia.org/wiki/Year_2038_problem
