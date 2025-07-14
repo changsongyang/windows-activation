@@ -24,7 +24,7 @@ head:
 
 ### Official KMS Activation Guide — 180 Days, Renewable
 
-> This guide walks you through activating Windows for <Badge type="tip" text="180 Days" /> using Microsoft’s official Key Management Service <Badge type="tip" text="KMS" /> method.
+> This guide walks you through activating Windows for <Badge type="tip" text="180 Days" /> using Microsoft’s official Key Management Service <Badge type="tip" text="KMS" /> method
 > 
 > It is a safe and trusted activation approach for volume-licensed products, and can be renewed indefinitely. <br/>
 
@@ -32,12 +32,10 @@ head:
 
 ::: tip Prerequisites
 
-A stable internet connection.  
-Administrator privileges for CMD on your computer.
+- A stable internet connection.
+- Administrator privileges for CMD on your computer.
 
 :::
-
-<br/>
 
 ## Step 1. Open Command Prompt as Administrator
 
@@ -45,10 +43,11 @@ Administrator privileges for CMD on your computer.
 
 1. Click the "Start" button or "Search" icon in the taskbar
 2. Type `cmd` or `Command Prompt`
-3. Select "Run as administrator" <br/>
+3. Select "Run as administrator"  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4465a2d3-6c93-4ee1-bb63-94ab7b8e06ac" alt="run-cmd-as-dmin" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/4465a2d3-6c93-4ee1-bb63-94ab7b8e06ac" alt="run-cmd-as-dmin" width="580px" />
+</p>
 
 ::: tip Another ways to run CMD
 
@@ -73,7 +72,7 @@ Or You can visit [this Link][2] to see 8 ways to run **cmd**, And  [This Link][1
 ## Step 2. Install a Generic KMS Client Key
 
 In the Command Prompt window, run the following command.  
-You must replace `Your-License-Key` with the key from the table below that matches your Windows edition. <br/>
+You must replace `Your-License-Key` with the key from the table below that matches your Windows edition.  
 
 ```reg
 slmgr /ipk Your-License-Key
@@ -84,59 +83,66 @@ slmgr /ipk Your-License-Key
 ### Option A: Using keyboard shortcuts <Badge type="danger" text="Recommend" />
 
 1. Open the Run dialog box: Press `Win (⊞) + Pause/Break` keys Simultaneously
-2. This will open the "About" section in "Settings" directly. and you will see the Edition of your Windows under "Windows specifications". <br/>
+2. This will open the "About" section in "Settings" directly. and you will see the Edition of your Windows under "Windows specifications"  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/647ef16b-9208-4ff3-a94b-825ffa99721f" alt="about-system" width="420px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/647ef16b-9208-4ff3-a94b-825ffa99721f" alt="about-system" width="540px" />
+</p>
   
 ::: details Click here to see more ways
 
 ### Option B: Using System Settings
 
-1. Click the "🪟 Start" button and then click "⚙️ Settings"
-2. Click on "💻 System"
-3. Scroll down and click on "ℹ️ About"
-4. Under `Windows specifications`, you will see the Edition of your Windows. <br/>
+1. Click the "🪟 Start" button and then click `⚙️ Settings`
+2. Click on `💻 System`
+3. Scroll down and click on `ℹ️ About`
+4. Under `Windows specifications`, you will see the Edition of your Windows
 
 ### Option C: Using Run Box
 
 1. Open the Run dialog box: Press `Win (⊞) + R` keys Simultaneously
-2. Type `winver` or `msinfo32` or `ms-settings:about` and press Enter key.
-3. A window will appear showing the Windows version and build number, Done <br/>
+2. Type `winver` or `msinfo32` or `ms-settings:about` and press Enter key
+3. A window will appear showing the Windows version and build number, Done✔️   
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f764797a-e07f-4c58-b932-bfe7b359a7bd" alt="winver-command" width="480px" /></p>
+  <img src="https://github.com/user-attachments/assets/f764797a-e07f-4c58-b932-bfe7b359a7bd" alt="winver-command" width="540px" />
+</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4c7edc15-1c02-4d7b-ab5f-df70eaff8ad7" alt="winver-response" width="480px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/4c7edc15-1c02-4d7b-ab5f-df70eaff8ad7" alt="winver-response" width="540px" />
+</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a6360712-0ad0-4be4-b0a4-01171d293d83" alt="msinfo32-command" width="480px" /></p>
+  <img src="https://github.com/user-attachments/assets/a6360712-0ad0-4be4-b0a4-01171d293d83" alt="msinfo32-command" width="540px" />
+</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8592c1bd-4a1a-47c1-bd21-0eb17049db31" alt="msinfo32-response" width="480px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/8592c1bd-4a1a-47c1-bd21-0eb17049db31" alt="msinfo32-response" width="540px" />
+</p>
   
 ### Option D: Using CMD or PowerShell [^2]  
 1. Click on windows "Start" button or "Search" icon
 2. Type `cmd` or `Command Prompt`
-3. in running terminal, type: `systeminfo` or `systeminfo | findstr /B /C:"OS Name" /B /C:"OS Version"` and press "Enter" key.
+3. in running terminal, type: `systeminfo` or `systeminfo | findstr /B /C:"OS Name" /B /C:"OS Version"` and press "Enter" key
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/16e8f49a-0cec-4836-b841-0cbd9344fbb1" alt="findstdr command" width="420px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/16e8f49a-0cec-4836-b841-0cbd9344fbb1" alt="findstdr command" width="540px" />
+</p>
 
 ### Option E: Using CMD like option D
 
 1. Also, run "PowerShell" or "CMD"
 2. Type `slmgr /dlv`, and press "Enter" key
-3. The `/dlv` command displays the detailed licensing information.
+3. The `/dlv` command displays the detailed licensing information
 4. Notice the output displays "Home" as seen in the following image:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86925e56-7cac-4b53-8ccf-6addcd799ece" alt="slmgr-command" width="420px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/86925e56-7cac-4b53-8ccf-6addcd799ece" alt="slmgr-command" width="540px" />
+</p>
 
 :::
 
-Please select one of the "license keys" from the list that "matches your version of Windows" and replace it (via Right-click) with the phrase `Your-License-Key` in the command. <br/>
+Please select one of the "license keys" from the list that "matches your version of Windows" and replace it (via Right-click) with the phrase `Your-License-Key` in the command.
 
 ### Generic Volume License Keys <Badge type="danger" text="GVLK" />
 
@@ -160,13 +166,13 @@ Please select one of the "license keys" from the list that "matches your version
 | V3WVW-N2PV2-CGWC3-34QGF-VMJ2C | S                |
 | KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W | SE               |
 
-<br/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d5d93702-7865-4552-85d0-6916b1331bc0" alt="Install-KMS-Key" width="540px" />
+</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d5d93702-7865-4552-85d0-6916b1331bc0" alt="Install-KMS-Key" width="580px" /></p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/50c23cad-7690-49fb-bf1c-d1c7cc66f0fe" alt="install-KMS-keyy" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/50c23cad-7690-49fb-bf1c-d1c7cc66f0fe" alt="install-KMS-keyy" width="540px" />
+</p>
  
 ::: details An alternative license keys
 
@@ -194,7 +200,8 @@ slmgr /skms kms8.msguides.com
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/edd0835f-c314-4ef8-a87d-a33e29f3f7c0" alt="set-kms-server" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/edd0835f-c314-4ef8-a87d-a33e29f3f7c0" alt="set-kms-server" width="580px" />
+</p>
 
 ## Step 4. Activate Windows
 
@@ -205,11 +212,12 @@ slmgr /ato
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/95e014e5-8946-4036-84ca-77ebb6122b1b" alt="active-windows" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/95e014e5-8946-4036-84ca-77ebb6122b1b" alt="active-windows" width="580px" />
+</p>
 
 ## Step 5. Check Activation Status
 
-<Badge type="tip" text="You're all set!!" />
+**You're all set!!** <Badge type="warning" text="Done ✔️" />
 
 To check the activation status of "Windows 10" Navigate to:  
 Settings > Update & Security > Activation. [^7]
@@ -218,15 +226,31 @@ To check the activation status of "Windows 11" Navigate to:
 Settings > System > Activation. [^8]
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/da52f1bb-79c9-45db-bade-a0f56cd0a739" alt="activated" width="580px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/da52f1bb-79c9-45db-bade-a0f56cd0a739" alt="activated" width="580px" />
+</p>
 
 ### Troubleshooting
 
-- **Error 0xC004F074:** This usually means your internet connection is unstable or the server is busy. Ensure you are online and try the `slmgr /ato` command again.
-- **Method Not Working?** If you're still having trouble, try the **HWID method** from the [Main guide](./index).
-  - For additional help, visit the **[Discussion Section][3]** Or send [Email][4] Directly to me. <br/>
+-
+::: danger Troubleshooting
 
-<p align="left"><Huge> Be curious 🤍</Huge></p><br/>
+**Error 0xC004F074:** This usually means your internet connection is unstable or the server is busy. Ensure you are online and try the `slmgr /ato` command again. <br/> 
+
+**Method Not Working?** If you're still having trouble, try the **HWID method** from the [Main guide](./index). <br/>
+
+**If you have any questions**, first review the [**FAQ section**](./faq) - your answer will most likely be there. <br/>
+
+**If your issue persists** - [**Contact us**](./troubleshoot).
+
+:::
+
+<h3 align="left">$$\color{#a5a5a5} \Large \text{Be curious 🤍}$$</h3>
+
+<h3 align="left">Be curious 🤍</h3>
+
+<p align="left"> Be curious 🩶🪐</p><br/>
+
+
 
 ## About Hotkeys <Badge type="danger" text="For enthusiasts" />
 
@@ -236,7 +260,8 @@ Settings > System > Activation. [^8]
 So, you can quickly access those tools through the Power user menu.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7fa52188-2ac2-4b4d-9600-cf3f92e11d3d" alt="windows-plus-x-menu" width="480px" /></p><br/>
+  <img src="https://github.com/user-attachments/assets/7fa52188-2ac2-4b4d-9600-cf3f92e11d3d" alt="windows-plus-x-menu" width="460px" />
+</p>
   
 The default programs in the Power User Menu have a corresponding hotkey. Familiarity with the hotkeys of common programs can save a lot of time and improve efficiency.  
 For example:
@@ -272,7 +297,7 @@ The following are the hotkeys corresponding to each program:
 
 :::
 
-<hr/><br/> 
+----
 
 [^1]: 10 Ways to run PowerShell in windows [read here][1].
 
@@ -286,9 +311,9 @@ The following are the hotkeys corresponding to each program:
 
 [^6]: Professional N for Workstations.
 
-[^7]: To check the activation status of Windows 10, navigate to Settings → Update & Security → Activation. You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.
+[^7]: To check the activation status of Windows 10, navigate to <br/> Settings → Update & Security → Activation. <br/> You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.
 
-[^8]: To check the activation status of Windows 11, open Settings by clicking the Start button and then selecting Settings → System → Activation. The activation status will be displayed, showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
+[^8]: To check the activation status of Windows 11, open <br/> Settings → System → Activation. <br/> The activation status will be displayed, showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
 
 [1]: https://www.minitool.com/news/open-windows-11-powershell.html
 [2]: https://www.minitool.com/news/open-command-prompt-windows-11.html
