@@ -31,13 +31,13 @@ head:
 
 #### For SPP based Office:
 
-![](/mas_befote_ohook.svg)
+![beforohook](/mas_before_ohook.svg)
 
 
 
 -   As illustrated in the above 1st image, in the Official activation process of SPP based Office, Office asks `C:\Windows\System32\sppc.dll` about the activation status and that file asks the same thing to SPP (Software Protection Platform) `C:\Windows\System32\sppsvc.exe` and returns the message back to Office.
 
-![](/mas_after_ohook.svg)
+![afterohook](/mas_after_ohook.svg)
 
 -   As illustrated in the above 2nd image, we modify this behavior by placing a custom `sppc.dll` file in Office folder without touching system's `C:\Windows\System32\sppc.dll` file and that custom file always returns the message that Office is activated. This is how ohook activation works.
 -   You can find the source code of ohook custom sppc.dll file [here][1].
