@@ -94,9 +94,10 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d Ente
 همیشه از روش‌های رسمی برای ارتقاء یا تمدید استفاده کنید.
 
 
-### نیاز به راهنمایی؟
+## رفع مشکلات
 
-در صورت نیاز می‌توانید برای دریافت راهنمایی با ما در ارتباط باشید. [Troubleshooting][./troubleshoot]
+اگر سوالی دارید، ابتدا صفحه [**سوالات پرتکرار**](./faq) را مرور کنید — به احتمال زیاد جواب‌تان اینجاست.  
+اگر همچنان مشکل پابرجا بود — با ما [**در تماس**](./troubleshoot) باشید.
 
 
 [1]: https://www.microsoft.com/en-us/evalcenter
