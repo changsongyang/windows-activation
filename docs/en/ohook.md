@@ -1,30 +1,47 @@
+---
+layout: doc
+outline: deep
+title: 'Ohook Activation'
+description: 'Ohook activation method can activate all kinds of Office versions on Windows Vista and higher and their Server equivalent except Office UWP apps.'
+date: 2025-05-04
+editLink: true
+head:
+  - - meta
+    - name: description
+      content: ohook, activation office, office 365, office 2013, office 2019, office 2021, activate all kinds of Office versions
+---
+
 # Ohook Activation
 
 ## Overview
 
--   How to use it? Please find the instructions [here](intro.md#how-to-activate-windows--office).
--   This activation method can activate all kinds of Office versions on Windows Vista and higher and their Server equivalent except Office UWP apps.
--   This activation method works offline and activates Office permanently.
--   This activation method can survive Office repairs, Office updates, and even Windows major feature upgrades. You do not need to reactivate in these cases.
--   For the O365 subscription version, you can't get server side O365 specific features such as 1TB storage in Onedrive. However, almost all other features and 5GB storage in free onedrive account would work fine.
--   This activation method does not modify/patch any onboard system files, instead it installs a custom SPPC.dll (open source) file for the activation to work. Check further details in below "How does it work?" section.
+::: tip How to use it?
 
-------------------------------------------------------------------------
+- Please find the instructions [here](index#how-to-activate-windows--office). <br/>
+
+- This activation method can activate all kinds of Office versions on Windows Vista and higher and their Server equivalent except Office UWP apps.
+- This activation method works offline and activates Office permanently.
+- This activation method can survive Office repairs, Office updates, and even Windows major feature upgrades. You do not need to reactivate in these cases.
+- For the O365 subscription version, you can't get server side O365 specific features such as 1TB storage in Onedrive. However, almost all other features and 5GB storage in free onedrive account would work fine.
+- This activation method does not modify/patch any onboard system files, instead it installs a custom SPPC.dll (open source) file for the activation to work. Check further details in below "How does it work?" section.
+
+:::
 
 ## How does it work?
 
 #### For SPP based Office:
 
-![](/img/MAS-before-ohook.svg)
+![](/mas_befote_ohook.svg)
+
+
 
 -   As illustrated in the above 1st image, in the Official activation process of SPP based Office, Office asks `C:\Windows\System32\sppc.dll` about the activation status and that file asks the same thing to SPP (Software Protection Platform) `C:\Windows\System32\sppsvc.exe` and returns the message back to Office.
 
-![](/img/MAS-after-ohook.svg)
+![](/mas_after_ohook.svg)
 
 -   As illustrated in the above 2nd image, we modify this behavior by placing a custom `sppc.dll` file in Office folder without touching system's `C:\Windows\System32\sppc.dll` file and that custom file always returns the message that Office is activated. This is how ohook activation works.
--   You can find the source code of ohook custom sppc.dll file [here](https://github.com/asdcorp/ohook).
+-   You can find the source code of ohook custom sppc.dll file [here][1].
 
-------------------------------------------------------------------------
 
 ## Supported Products
 
@@ -32,7 +49,13 @@ TL;DR all kinds of Office products are supported on Windows Vista and higher and
 
 ### Office 2010 (14.0)
 
-**Note:** You can use this `FJ44M-DX23P-QRWQ8-RXY39-HFQTC` ltFree OEM key to install any retail version of Office 2010.
+::: warning Note
+
+You can use this `FJ44M-DX23P-QRWQ8-RXY39-HFQTC` ltFree OEM key to install any retail version of Office 2010.
+
+:::
+
+<br/> 
 
 | Office Version | Office Product                                                      | Blocked keys sourced from the Internet | Key Type |
 |----------------|---------------------------------------------------------------------|----------------------------------------|----------|
@@ -89,6 +112,8 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 533b656a-4425-480b-8e30-1a2358898350    MAK         MondoVL
 ```
 
+<br/> 
+
 ### Office 2013 (15.0)
 
 | Office Version | Office Product           | Generated Generic Key         | Key Type     |
@@ -142,6 +167,8 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v15.0 (2013)   | WordRetail               | NB77V-RPFQ6-PMMKQ-T87DV-M4D84 | Retail       |
 | v15.0 (2013)   | WordVolume               | RPHPB-Y7NC4-3VYFM-DW7VD-G8YJ8 | MAK          |
 
+<br/> 
+
 ### Office 365 (15.0)
 
 | Office Version | Office Product         | Generated Generic Key         | Key Type      |
@@ -150,6 +177,8 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v15.0 (O365)   | O365HomePremRetail     | 3NMDC-G7C3W-68RGP-CB4MH-4CXCH | SubTest1      |
 | v15.0 (O365)   | O365ProPlusRetail      | H8DN8-Y2YP3-CR9JT-DHDR9-C7GP3 | Subscription2 |
 | v15.0 (O365)   | O365SmallBusPremRetail | 2QCNB-RMDKJ-GC8PB-7QGQV-7QTQJ | Subscription2 |
+
+<br/> 
 
 ### Office 365 (16.0)
 
@@ -161,6 +190,8 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (O365)   | O365HomePremRetail     | 3NMDC-G7C3W-68RGP-CB4MH-4CXCH | SubTest1      |
 | v16.0 (O365)   | O365ProPlusRetail      | H8DN8-Y2YP3-CR9JT-DHDR9-C7GP3 | Subscription2 |
 | v16.0 (O365)   | O365SmallBusPremRetail | 2QCNB-RMDKJ-GC8PB-7QGQV-7QTQJ | Subscription2 |
+
+<br/> 
 
 ### Office 2016 (16.0)
 
@@ -215,6 +246,8 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2016)   | WordRetail                  | P8K82-NQ7GG-JKY8T-6VHVY-88GGD | Retail       |
 | v16.0 (2016)   | WordVolume                  | YHMWC-YN6V9-WJPXD-3WQKP-TMVCV | MAK          |
 
+<br/> 
+
 ### Office 2019 (16.0)
 
 | Office Version | Office Product                  | Generated Generic Key         | Key Type     |
@@ -253,6 +286,8 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2019)   | VisioStd2019Volume              | BGNHX-QTPRJ-F9C9G-R8QQG-8T27F | MAK-AE       |
 | v16.0 (2019)   | Word2019Retail                  | JXR8H-NJ3MK-X66W8-78CWD-QRVR2 | Retail       |
 | v16.0 (2019)   | Word2019Volume                  | 9F36R-PNVHH-3DXGQ-7CD2H-R9D3V | MAK-AE       |
+
+<br/> 
 
 ### Office 2021 (16.0)
 
@@ -295,6 +330,8 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2021)   | Word2021Retail             | VNCC4-CJQVK-BKX34-77Y8H-CYXMR | Retail       |
 | v16.0 (2021)   | Word2021Volume             | BJG97-NW3GM-8QQQ7-FH76G-686XM | MAK-AE       |
 
+<br/> 
+
 ### Office 2024 (16.0)
 
 | Office Version | Office Product             | Generated Generic Key         | Key Type |
@@ -324,46 +361,47 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2024)   | Word2024Retail             | XN33R-RP676-GMY2F-T3MH7-GCVKR | Retail   |
 | v16.0 (2024)   | Word2024Volume             | WD8CQ-6KNQM-8W2CX-2RT63-KK3TP | MAK-AE   |
 
+<br/> 
 
-:::info
 
--   For the O365 subscription version, you can't get server side O365 specific features such as 1TB storage in Onedrive. However, almost all other features and 5GB storage in free onedrive account would work fine.
--   Script doesn't convert any product to Volume or vice-versa. All products are activated with their own licence.
--   For Office 2013 and later, key preference is given in this order, Retail:TB:Sub > Retail > OEM:NONSLP > Volume:MAK > Volume:GVLK
--   For Office 2010, key preference is given in this order, Retail > Volume:MAK
+::: info Info
+
+- For the O365 subscription version, you can't get server side O365 specific features such as 1TB storage in Onedrive. However, almost all other features and 5GB storage in free onedrive account would work fine.
+- Script doesn't convert any product to Volume or vice-versa. All products are activated with their own licence.
+- For Office 2013 and later, key preference is given in this order, Retail:TB:Sub > Retail > OEM:NONSLP > Volume:MAK > Volume:GVLK
+- For Office 2010, key preference is given in this order, Retail > Volume:MAK
 
 :::
 
-------------------------------------------------------------------------
-
-## Unsupported Products
-
--   Office UWP (Store apps)  
-    Use TSforge activation option for this.
-
-------------------------------------------------------------------------
 
 ## How to remove Ohook?
 
--   In MAS, goto Ohook Activation and apply Uninstall option.
--   After that, In MAS, goto Troubleshoot and apply Fix Licensing option. (Optional)
--   Done.
+::: tip In MAS
 
-------------------------------------------------------------------------
+- goto Ohook Activation and apply Uninstall option.
+- After that, In MAS, goto Troubleshoot and apply Fix Licensing option. (Optional)
+- Done ✔️
+
+<hr/><br/>
+
+## Unsupported Products
+
+- Office UWP (Store apps)  
+  Use TSforge activation option for this.
 
 ## Custom sppc.dll Info
 
--   Custom sppc.dll source code (Ohook 0.5) is available [here](https://github.com/asdcorp/ohook/archive/refs/tags/0.5.zip).
--   SHA-256 checksums:  
+- Custom sppc.dll source code (Ohook 0.5) is available [here][2].
+- SHA-256 checksums:  
 ```         
 09865ea5993215965e8f27a74b8a41d15fd0f60f5f404cb7a8b3c7757acdab02 *sppc32.dll
 393a1fa26deb3663854e41f2b687c188a9eacd87b23f17ea09422c4715cb5a9f *sppc64.dll
 ```
--   In MAS AIO version, these 2 files are encoded in base64 to make MAS AIO version. In AIO script, [instructions](https://stackoverflow.com/a/35335273) are mentioned on how to decode files from Base64 format.  
+- In MAS AIO version, these 2 files are encoded in base64 to make MAS AIO version. In AIO script, [instructions][3] are mentioned on how to decode files from Base64 format.  
 **How to create identical sppc.dll files from scratch?**  
--   Download ohook 0.5 source code file from [here](https://github.com/asdcorp/ohook/archive/refs/tags/0.5.zip)
+- Download ohook 0.5 source code file from [here][4]
 -   Extract this zip file to a folder named `C:\ohook`
--   Now download these two compiler archives, [mingw32](https://github.com/brechtsanders/winlibs_mingw/releases/download/11.4.0-11.0.0-ucrt-r1/winlibs-i686-posix-dwarf-gcc-11.4.0-mingw-w64ucrt-11.0.0-r1.7z) and [mingw64](https://github.com/brechtsanders/winlibs_mingw/releases/download/11.4.0-11.0.0-ucrt-r1/winlibs-x86_64-posix-seh-gcc-11.4.0-mingw-w64ucrt-11.0.0-r1.7z)
+-   Now download these two compiler archives, [mingw32][5] and [mingw64][5]
 -   Extract both archives with 7-zip in C drive, so that path would look like this,  
     `C:\mingw32`
     `C:\mingw64`
@@ -375,24 +413,22 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 -   Calculate the SHA-256 of the created sppc64.dll and sppc32.dll files using 7-zip or Powershell, it would be same as mentioned above.
 -   Done, you can now close Powershell windows and correct the date now.
 
-------------------------------------------------------------------------
+<hr/><br/>
 
-## Manual Activation
+### Manual Activation
 
 -   Check [here](./manual_ohook_activation)
 
-------------------------------------------------------------------------
 
-## Command line Switches
+### Command line Switches
 
--   Check [here](./command_line_switches).
+- Check [here](./command_line_switches).
 
-------------------------------------------------------------------------
 
-## Setup Preactivate
+### Setup Preactivate
 
--   Check the Extract OEM option in the MAS `Extras` section if you want pre-activated Windows installation.
--   Further read [here](./oem-folder).
+- Check the Extract OEM option in the MAS `Extras` section if you want pre-activated Windows installation.
+- Further read [here](./oem-folder).
 
 <hr/><br/> 
 
@@ -402,3 +438,10 @@ If you have any questions, first review the [**FAQ section**](./faq) - your answ
 If your issue persists - [**Contact us**](./troubleshoot).
 
 :::
+
+
+[1]: https://github.com/asdcorp/ohook
+[2]: https://stackoverflow.com/a/35335273
+[3]: https://github.com/asdcorp/ohook/archive/refs/tags/0.5.zip
+[4]: https://github.com/brechtsanders/winlibs_mingw/releases/download/11.4.0-11.0.0-ucrt-r1/winlibs-i686-posix-dwarf-gcc-11.4.0-mingw-w64ucrt-11.0.0-r1.7z
+[5]: https://github.com/brechtsanders/winlibs_mingw/releases/download/11.4.0-11.0.0-ucrt-r1/winlibs-x86_64-posix-seh-gcc-11.4.0-mingw-w64ucrt-11.0.0-r1.7z
