@@ -16,27 +16,27 @@ All download links available on our website lead to genuine files only.
 :::
 
 ## Download Windows
--  [Windows 11][win11]                                                                                                                                                            
--  [Windows 10][win10]                                                                                                                                                              
--  [Windows 10 / 11 Enterprise **LTSC**][winen]                                                                                                                                   
--  [Windows ARM64][winarm]                                                                                                                                                           
--  [Windows 8.1][win8]                                                                                                                                                            
--  [Windows 7][7]                                                                                                                                                                
--  [Windows Vista][winvist]    
--  [Windows XP][winxp]                                                                                                                                                              
--  [Windows Server][winserv]                                                                                                                                                      
+-  [Windows 11][win11]
+-  [Windows 10][win10]
+-  [Windows 10 / 11 Enterprise **LTSC**][winen]
+-  [Windows ARM64][winarm]
+-  [Windows 8.1][win8]
+-  [Windows 7][7]
+-  [Windows Vista][winvist]
+-  [Windows XP][winxp]
+-  [Windows Server][winserv]
 -  Windows Insider [10-11][1] - [Server][2] / [Registration][3] is needed to download.
 
 ## Download Office
 
 Activation with [MAS](./index#step-2-run-the-activation-script) is required after the installation of Office.
 
--  [Office C2R Installers][4] 🤍 (O365 / 2024 / 2021 / 2019 / 2016 / 2013)  
+-  [Office C2R Installers][4] 🤍 (O365 / 2024 / 2021 / 2019 / 2016 / 2013)
 -  [Office C2R Custom Install][5] (O365 / 2024 / 2021 / 2019 / 2016)
 -  [Office MSI VL (Old versions)][winmsi] (2016 / 2013 / 2010 / 2007)
--  [Office For **Mac**][winmac]                            
+-  [Office For **Mac**][winmac]
 
-<hr/><br/> 
+<hr/><br/>
 
 ## FAQ
 
@@ -68,7 +68,7 @@ You can check [here](./genuine-installation-media#verify-authenticity-of-files) 
 
 ::: details Click here for info
 
-For Windows 10/11 General Availability Channel (GAC) releases (i.e., Home and Pro), Microsoft produces two types of ISO files: Consumer and Business. 
+For Windows 10/11 General Availability Channel (GAC) releases (i.e., Home and Pro), Microsoft produces two types of ISO files: Consumer and Business.
 
 The Consumer ISO includes all editions such as Home, Pro, and Education, but excludes the Enterprise edition. In contrast, the Business ISO contains all editions except for the Home-level editions, and these ISO files come with a KMS key pre-installed (not activated) by default.
 
@@ -105,26 +105,26 @@ Microsoft's Official free links for checksums:
 
 ::: details More info on Official links!
 
-**MVS**  
-On MVS, you need to login and click on 'All Downloads' button and then search the product name.  
+**MVS**
+On MVS, you need to login and click on 'All Downloads' button and then search the product name.
 
-**MVS Limitations:**  
- -	They used to publish only SHA-1, but later started publishing SHA-1 and SHA-256 both and from 2022 they now publish only SHA-256.  
- -	However they removed all the SHA-1 data and as a result, old files checksums are simply not available on MVS site.  
- -	Also, around the time when they were publishing SHA-1 and SHA-256 both, they messed up some SHA-256 data, for example 
- 
+**MVS Limitations:**
+ -	They used to publish only SHA-1, but later started publishing SHA-1 and SHA-256 both and from 2022 they now publish only SHA-256.
+ -	However they removed all the SHA-1 data and as a result, old files checksums are simply not available on MVS site.
+ -	Also, around the time when they were publishing SHA-1 and SHA-256 both, they messed up some SHA-256 data, for example
+
 ```
- 	Incorrect SHA-256 example
- 	SHA256: BDB3D0C5C933B201ECE736A172FB604AA5D7D0705DD75681F9FCC4B1EE79FAC8
- 	File name: en-uk_windows_10_enterprise_ltsc_2019_x64_dvd_723dfbc1.iso
+	Incorrect SHA-256 example
+	SHA256: BDB3D0C5C933B201ECE736A172FB604AA5D7D0705DD75681F9FCC4B1EE79FAC8
+	File name: en-uk_windows_10_enterprise_ltsc_2019_x64_dvd_723dfbc1.iso
 ```
 
  -	So its useful only for the latest files.
 
-**Windows 11**  
+**Windows 11**
 SHA-256 list will appear if you download the ISO file.
 
-**Windows 10**  
+**Windows 10**
 Microsoft doesn't allow you to download ISO file directly if browser's useragent is Windows OS. So you need to change it to something else like Android or IOS and then download the ISO file to see the list.
 
 :::
@@ -141,7 +141,7 @@ Microsoft doesn't allow you to download ISO file directly if browser's useragent
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 
 If your issue persists - [**Contact Us**](./troubleshoot).
 

@@ -18,10 +18,10 @@ To discourage the use of pirated Office, the Office team began implementing chec
 
 - Office Click-to-Run builds (since February 2021) that are activated with KMS check the existence of a KMS server name in the registry. If the KMS server is not present, a banner is shown in Office programs notifying that "Office isn't licensed properly"
 - If 32-bit Office is installed on 64-bit Windows, Office checks the KMS server existence in the corresponding WOW6432Node registry key as well.
-- Apart from this, they also detect if a registered KMS server is on their blacklist or not. As far as I know, the below 3 addresses are blacklisted.  
-  `km-s8.MSG-uides.com` `km-s9.MSG-uides.com` `0.0.0.0` (Remove hyphen)  
+- Apart from this, they also detect if a registered KMS server is on their blacklist or not. As far as I know, the below 3 addresses are blacklisted.
+  `km-s8.MSG-uides.com` `km-s9.MSG-uides.com` `0.0.0.0` (Remove hyphen)
   The first two are public KMS servers and the last one is not a real IP.
-- These above checks are not performed by Office if the proper installation of the Volume version of Office is done with the PerpetualVL2019 / PerpetualVL2021 channel.  
+- These above checks are not performed by Office if the proper installation of the Volume version of Office is done with the PerpetualVL2019 / PerpetualVL2021 channel.
     However, with the release of the Office PerpetualVL2024 channel, they haven't updated the checks yet, and as a result, if any of the above conditions are met then Office will show a banner, even to the genuine customers.
 
 ---
@@ -41,15 +41,15 @@ Below, you can find various ways of avoiding this banner. The simplest option fo
 
 In this section, I'm only going to mention how to set up the KMS server in the registry properly.
 
--   **If using Public KMS server:**  
+-   **If using Public KMS server:**
     Since they can put any public KMS server on the blacklist, as a permanent solution, we can instead use server IP instead of hostname.
 
--   **If using private KMS server IP:**  
+-   **If using private KMS server IP:**
     Make sure to use a valid private IP address.
 
 Below, you can find how to set the KMS server address in the registry. For example, with a private IP `10.0.0.10`
 
-```         
+```
 reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\0ff1ce15-a989-479d-af46-f275c6370663" /f
 
 reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\0ff1ce15-a989-479d-af46-f275c6370663" /f /reg:32
@@ -74,7 +74,7 @@ You can find this option in [MAS](./index#step-2-run-the-activation-script) unde
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 
 If your issue persists - [**Contact us**](./troubleshoot).
 

@@ -22,15 +22,15 @@ KMS38 activation is only supported on Windows 10/11 Client and Server editions.
 
 To manually activate Windows, follow these steps:
 
-- **step 1:** Open Windows Powershell as administrator and enter the below commands  
+- **step 1:** Open Windows Powershell as administrator and enter the below commands
 ::: tip To run Powershell
 
-::: details Click here to see details 
+::: details Click here to see details
 
-### Option A: Using Search Bar <Badge type="danger" text="Recommend" />  
-1. Click on windows "Start" button or "Search" icon in the taskbar  
-2. Type `powershell`  
-3. Select `Run as administrator` <br/>  
+### Option A: Using Search Bar <Badge type="danger" text="Recommend" />
+1. Click on windows "Start" button or "Search" icon in the taskbar
+2. Type `powershell`
+3. Select `Run as administrator` <br/>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="540px" />
@@ -38,31 +38,31 @@ To manually activate Windows, follow these steps:
 
 ### Option B: Using Run Box
 
-1. Open the Run dialog box: Press `Win (⊞) + R` keys simultaneously  
-2. Type `powershell`  
-3. Press `Ctrl + Shift + Enter` to run as administrator  
-4. If prompted by User Account Control, click `Yes` <br/>  
+1. Open the Run dialog box: Press `Win (⊞) + R` keys simultaneously
+2. Type `powershell`
+3. Press `Ctrl + Shift + Enter` to run as administrator
+4. If prompted by User Account Control, click `Yes` <br/>
 
 ### Option C: Using Power User Menu
 
-1. Right-click on the "Start menu" (or press `Win (⊞) + X`)  
+1. Right-click on the "Start menu" (or press `Win (⊞) + X`)
 2. Select "Windows Terminal (Admin)" on Windows 11 or "Windows PowerShell (Admin)" on Windows 10
 
 Or You can visit [this Link][1] to see 10 ways to run **PowerShell** And [this link][2] For Running CMD in your windows.
 
 :::
 
-- **step 2:** Install the generic key which matches your Windows edition and version:   
+- **step 2:** Install the generic key which matches your Windows edition and version:
 
 ``` reg
 slmgr /ipk <key>
-``` 
+```
 
 *(Refer to the table below for the appropriate key.)*
 
 - **Step 3:** Download the [KMS38 ticket file][3].
 - **Step 4:** Copy the downloaded ticket file to the root of the C: drive.
-- **Step 5:** Migrate the ticket to a license and activate Windows by running the commands:  
+- **Step 5:** Migrate the ticket to a license and activate Windows by running the commands:
 
 ```reg
 clipup -v -o -altto C:\
@@ -73,16 +73,16 @@ clipup -v -o -altto C:\
 
 ::: tip Notes
 
-- For Windows Server Cor/Acor editions, the system does not have the `clipup.exe` file.  
-    To activate it using KMS38, download the missing `ClipUp.exe` file from [this link][4].  
-    `File: ClipUp.exe`  
-    `SHA-256: 0d6e9f6bbd0321eda149658d96040cb4f79e0bd93ba60061f25b28fecbf4d4ef`  
-  The file is digitally signed and verifiable. You can also obtain this file from the official [Windows Server 2016 x64 RTM ISO][5].  
+- For Windows Server Cor/Acor editions, the system does not have the `clipup.exe` file.
+    To activate it using KMS38, download the missing `ClipUp.exe` file from [this link][4].
+    `File: ClipUp.exe`
+    `SHA-256: 0d6e9f6bbd0321eda149658d96040cb4f79e0bd93ba60061f25b28fecbf4d4ef`
+  The file is digitally signed and verifiable. You can also obtain this file from the official [Windows Server 2016 x64 RTM ISO][5].
   Place the `ClipUp.exe` file in the `C:\Windows\System32` folder and perform the KMS38 activation process. Once the activation is complete, you can remove the file.
 
 :::
 
-<br/> 
+<br/>
 
 ### Windows 10 / 11
 | Product Names                                          | Generic Volume License Key    |
@@ -119,7 +119,7 @@ clipup -v -o -altto C:\
 | SE                                                     | 37D7F-N49CB-WQR8W-TBJ73-FM8RX |
 | SE N                                                   | 6XN7V-PCBDC-BDBRH-8DQY7-G6R44 |
 
-<br/> 
+<br/>
 
 ### Windows Server 2025 (LTSC)
 | Product Names                        | Generic Volume License Key    |
@@ -129,7 +129,7 @@ clipup -v -o -altto C:\
 | Windows Server 2025 Azure Core       | FCNV3-279Q9-BQB46-FTKXX-9HPRH |
 | Windows Server 2025 Azure Datacenter | XGN3F-F394H-FD2MY-PP6FD-8MCRC |
 
-<br/> 
+<br/>
 
 ### Windows Server 2022 (LTSC)
 | Product Names                        | Generic Volume License Key    |
@@ -139,7 +139,7 @@ clipup -v -o -altto C:\
 | Windows Server 2022 Azure Core       | 6N379-GGTMK-23C6M-XVVTC-CKFRQ |
 | Windows Server 2022 Azure Datacenter | NTBV8-9K7Q8-V27C6-M2BTV-KHMXV |
 
-<br/> 
+<br/>
 
 ### Windows Server 2019 (LTSC)
 | Product Names                  | Generic Volume License Key    |
@@ -150,7 +150,7 @@ clipup -v -o -altto C:\
 | Windows Server 2019 Azure Core | FDNH6-VW9RW-BXPJ7-4XTYG-239TB |
 | Windows Server 2019 ARM64      | GRFBW-QNDC4-6QBHG-CCK3B-2PR88 |
 
-<br/> 
+<br/>
 
 ### Windows Server 2016 (LTSC)
 | Product Names                     | Generic Volume License Key    |
@@ -162,14 +162,14 @@ clipup -v -o -altto C:\
 | Windows Server 2016 Cloud Storage | QN4C6-GBJD2-FB422-GHWJK-GJG2R |
 | Windows Server 2016 Azure Core    | VP34G-4NPPG-79JTQ-864T4-R3MQX |
 
-<br/> 
+<br/>
 
 ### Windows Server 23H2 (Annual Channel)
 | Product Names             | Generic Volume License Key    |
 |---------------------------|-------------------------------|
 | Windows Server Datacenter | WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
 
-<br/> 
+<br/>
 
 ### Windows Server 20H2, 2004, 1909, 1903, and 1809 (Semi-Annual Channel)
 | Product Names             | Generic Volume License Key    |
@@ -177,7 +177,7 @@ clipup -v -o -altto C:\
 | Windows Server Datacenter | 6NMRW-2C8FM-D24W7-TQWMY-CWH2D |
 | Windows Server Standard   | N2KJX-J94YW-TQVFB-DG9YT-724CC |
 
-<br/> 
+<br/>
 
 ### Windows Server 1803 (Semi-Annual Channel)
 | Product Names             | Generic Volume License Key    |
@@ -185,7 +185,7 @@ clipup -v -o -altto C:\
 | Windows Server Datacenter | 2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG |
 | Windows Server Standard   | PTXN8-JFHJM-4WC78-MPCBR-9W4KR |
 
-<br/> 
+<br/>
 
 ### Windows Server 1709 (Semi-Annual Channel)
 | Product Names             | Generic Volume License Key    |
@@ -194,11 +194,11 @@ clipup -v -o -altto C:\
 | Windows Server Standard   | DPCNP-XQFKJ-BJF7R-FRC8D-GF6G4 |
 
 
-## Troubleshoot  
+## Troubleshoot
 
 ::: danger Troubleshoot
 
-- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.
 
 - If your issue persists — You can [**Contact us**](./troubleshoot).
 

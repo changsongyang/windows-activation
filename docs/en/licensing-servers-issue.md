@@ -12,7 +12,7 @@ editLink: true
 In some cases, **HWID activation** may fail because the system couldn't connect to HWID licensing servers. The activation script will inform you about this if that is the case.
 We suggest following the below guide only when the script tells you to do so.
 
-<hr/><br/> 
+<hr/><br/>
 
 ## Network Reset
 
@@ -50,7 +50,7 @@ ipconfig /flushdns
 
 ## VPN / Another Internet Connection
 
-- Install Cloudflare WARP VPN - https://1.1.1.1/  
+- Install Cloudflare WARP VPN - https://1.1.1.1/
   Connect the VPN and try HWID activation.
 
 - If it's not working, try a different internet connection or use your phone's internet through USB tethering.
@@ -58,7 +58,7 @@ ipconfig /flushdns
 
 ::: danger Troubleshoot
 
-- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.
 
 - If HWID activation is still not working — You can [**Contact us**](./troubleshoot).
 

@@ -470,9 +470,9 @@ Key Management Service (KMS) is a genuine activation method provided by Microsof
 
 ::: tip How are we getting it for free?
 
-Developers reverse-engineered the KMS Host Server setup, so now anyone can host a KMS server and activate the systems without any limitations. KMS activators such as KMSpico, MTK, KMS_VL_ALL, etc., locally create an emulated KMS Host Server and activate Windows and Office.  
+Developers reverse-engineered the KMS Host Server setup, so now anyone can host a KMS server and activate the systems without any limitations. KMS activators such as KMSpico, MTK, KMS_VL_ALL, etc., locally create an emulated KMS Host Server and activate Windows and Office.
 
-This locally-emulated KMS server requires you to run binary files which often cause anti-virus alerts (false positives).  
+This locally-emulated KMS server requires you to run binary files which often cause anti-virus alerts (false positives).
 
 Another method of KMS activation is a publicly-available Online KMS Host Server. In this method, the site hosts the emulated KMS server, and anyone can simply use this server to activate their systems, there is no requirement for running any software on your system.
 
@@ -482,7 +482,7 @@ Another method of KMS activation is a publicly-available Online KMS Host Server.
 
 ## Is Online KMS activation safe?
 
-Yes.  
+Yes.
 Let's go into the details. In the KMS protocol, there is a relationship between host and client. The client system asks the host system to grant the activation, and the host system grants the activation if it's eligible. In this process, the client system shares some of the system's data, which is not sensitive in nature. According to the [technet.microsoft.com/aspx#kms-overview][7], the client system shares the following data with the host system: Client FQDN, CMID, time-stamp, Product license state, expiration time, and IP address
   In this shared info, the important part is your IP address. Below are some things regarding it which you should know.
   - Sharing your IP while going online is not a security concern. You can not go online to visit any website without having to share your IP address.
@@ -537,7 +537,7 @@ If you don't want the script to convert the Retail Office to Volume, you can tur
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 If your issue persists - [**Contact us**](./troubleshoot).
 
 :::

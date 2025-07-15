@@ -9,7 +9,7 @@ editLink: true
 
 # Windows 10 Updates After End-Of-Life
 
-This document explains how users can receive official updates after the retirement date of Windows 10 on October 14, 2025.  
+This document explains how users can receive official updates after the retirement date of Windows 10 on October 14, 2025.
 
 ::: tip For many people
 
@@ -22,7 +22,7 @@ and would like to stay on Windows 10 as long as they can.
 
 ## Windows 10 ESU updates 🤍
 
-Microsoft announced [Extended Security Updates (ESU)][1] where users can buy the ESU subscription to receive Windows updates. These updates will begin to roll out in November 2025. 
+Microsoft announced [Extended Security Updates (ESU)][1] where users can buy the ESU subscription to receive Windows updates. These updates will begin to roll out in November 2025.
 
 **You can use [TSforge option in MAS](./index#step-2-run-the-activation-script) to activate 3 Years ESU (Oct 2025 to Oct 2028).**
 
@@ -32,32 +32,32 @@ Microsoft announced [Extended Security Updates (ESU)][1] where users can buy the
 
 Microsoft releases Windows 10/11 in two servicing channels.
 
-1- GAC (General Availability Channel) (i.e. Home, Pro, Enterprise). It will reach the end of support on [October 14, 2025][2].  
-2- LTSC (Long-Term Servicing Channel) (i.e. Enterprise LTSC, IoT Enterprise LTSC). Windows 10 Enterprise LTSC 2021 will reach the end of support on [Jan 12, 2027][3]  
-and Windows 10 IoT Enterprise LTSC 2021 will reach the end of support on [Jan 13, 2032][4]  
+1- GAC (General Availability Channel) (i.e. Home, Pro, Enterprise). It will reach the end of support on [October 14, 2025][2].
+2- LTSC (Long-Term Servicing Channel) (i.e. Enterprise LTSC, IoT Enterprise LTSC). Windows 10 Enterprise LTSC 2021 will reach the end of support on [Jan 12, 2027][3]
+and Windows 10 IoT Enterprise LTSC 2021 will reach the end of support on [Jan 13, 2032][4]
 
 The solution is simple. You can just use the Official Windows 10 IoT Enterprise LTSC 2021 edition to get updates till Jan 13, 2032.
 
-::: details Clean install Windows 10 (IoT) Enterprise LTSC 2021 
+::: details Clean install Windows 10 (IoT) Enterprise LTSC 2021
 
-The IoT edition ISO is available in English language only, but don't worry. 
+The IoT edition ISO is available in English language only, but don't worry.
 
 - Download [Enterprise LTSC 2021][5] ISO in your desired language.
-- Install Windows using this [clean installation guide](./clean_install_windows).  
+- Install Windows using this [clean installation guide](./clean_install_windows).
 - After installing Windows, to change the edition, enter the IoT LTSC 2021 key `QPM6N-7J2WJ-P88HH-P3YRH-YY74H` on the activation page in the Windows settings.
 
 :::
 
-::: details Upgrade Windows 10 Home, Pro, etc editions to Windows 10 IoT Enterprise LTSC 2021 while keeping files and apps 
+::: details Upgrade Windows 10 Home, Pro, etc editions to Windows 10 IoT Enterprise LTSC 2021 while keeping files and apps
 
 - Download Windows 10 Enterprise LTSC ISO from [here][5] in the **same Windows language and architecture**.
-  - To check the installed Windows architecture, open Powershell as admin and enter,  
+  - To check the installed Windows architecture, open Powershell as admin and enter,
 
 ```reg
 Get-WmiObject -Class Win32_OperatingSystem | Format-List OSArchitecture
 ```
 
-x64 means 64 Bit, x86 means 32 Bit  
+x64 means 64 Bit, x86 means 32 Bit
   - To check the installed Windows Language, open Powershell as admin and enter;
 
 ```
@@ -120,9 +120,9 @@ The IoT edition is available in English language only, but don't worry.
 ```reg
 Get-WmiObject -Class Win32_OperatingSystem | Format-List OSArchitecture
 ```
- 
-x64 means 64 Bit, x86 means 32 Bit  
-  - To check the installed Windows Language, open Powershell as admin and enter,  
+
+x64 means 64 Bit, x86 means 32 Bit
+  - To check the installed Windows Language, open Powershell as admin and enter,
 
 ```reg
 dism /english /online /get-intl | find /i "Default system UI language"
@@ -133,12 +133,12 @@ dism /english /online /get-intl | find /i "Default system UI language"
 - Now open the command prompt as admin and enter:
 
 **For GAC**
-  
+
 ```reg
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTEnterprise /f
 ```
 
-**For LTSC**  
+**For LTSC**
 
 ```reg
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTEnterpriseS /f
@@ -151,11 +151,11 @@ That's all.
 
 :::
 
-::: details Notes 
+::: details Notes
 
 - Many tools can let you install Windows 11 if the hardware is not supported and monthly updates would work fine. However yearly feature updates will fail to install if hardware requirements are not met.
 - This is why IoT (24H2/2024) editions are mentioned so that you can get official support on future feature upgrades.
-- LTSC editions do not have Store apps installed by default. However, if you upgrade from GAC to LTSC, all your Store apps will be retained. In contrast, if you perform a clean installation of Windows LTSC, Store apps will not be installed. For instructions on how to install them manually, please refer to this [page][6]  
+- LTSC editions do not have Store apps installed by default. However, if you upgrade from GAC to LTSC, all your Store apps will be retained. In contrast, if you perform a clean installation of Windows LTSC, Store apps will not be installed. For instructions on how to install them manually, please refer to this [page][6]
 - Windows 11 24H2 / 2024 requires CPUs that support SSE4.2 and POPCNT instructions.
 - IoT editions are [binary identical][12] to Enterprise editions. The difference is in licensing. You can use it just fine on a general-purpose device.
 
@@ -166,7 +166,7 @@ That's all.
 
 ::: danger Troubleshoot
 
-- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.
 
 - If your issue persists — You can [**Contact us**](./troubleshoot).
 

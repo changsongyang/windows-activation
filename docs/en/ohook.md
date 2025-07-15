@@ -55,7 +55,7 @@ You can use this `FJ44M-DX23P-QRWQ8-RXY39-HFQTC` ltFree OEM key to install any r
 
 :::
 
-<br/> 
+<br/>
 
 | Office Version | Office Product                                                      | Blocked keys sourced from the Internet | Key Type |
 |----------------|---------------------------------------------------------------------|----------------------------------------|----------|
@@ -112,7 +112,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 533b656a-4425-480b-8e30-1a2358898350    MAK         MondoVL
 ```
 
-<br/> 
+<br/>
 
 ### Office 2013 (15.0)
 
@@ -167,7 +167,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v15.0 (2013)   | WordRetail               | NB77V-RPFQ6-PMMKQ-T87DV-M4D84 | Retail       |
 | v15.0 (2013)   | WordVolume               | RPHPB-Y7NC4-3VYFM-DW7VD-G8YJ8 | MAK          |
 
-<br/> 
+<br/>
 
 ### Office 365 (15.0)
 
@@ -178,7 +178,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v15.0 (O365)   | O365ProPlusRetail      | H8DN8-Y2YP3-CR9JT-DHDR9-C7GP3 | Subscription2 |
 | v15.0 (O365)   | O365SmallBusPremRetail | 2QCNB-RMDKJ-GC8PB-7QGQV-7QTQJ | Subscription2 |
 
-<br/> 
+<br/>
 
 ### Office 365 (16.0)
 
@@ -191,7 +191,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (O365)   | O365ProPlusRetail      | H8DN8-Y2YP3-CR9JT-DHDR9-C7GP3 | Subscription2 |
 | v16.0 (O365)   | O365SmallBusPremRetail | 2QCNB-RMDKJ-GC8PB-7QGQV-7QTQJ | Subscription2 |
 
-<br/> 
+<br/>
 
 ### Office 2016 (16.0)
 
@@ -246,7 +246,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2016)   | WordRetail                  | P8K82-NQ7GG-JKY8T-6VHVY-88GGD | Retail       |
 | v16.0 (2016)   | WordVolume                  | YHMWC-YN6V9-WJPXD-3WQKP-TMVCV | MAK          |
 
-<br/> 
+<br/>
 
 ### Office 2019 (16.0)
 
@@ -287,7 +287,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2019)   | Word2019Retail                  | JXR8H-NJ3MK-X66W8-78CWD-QRVR2 | Retail       |
 | v16.0 (2019)   | Word2019Volume                  | 9F36R-PNVHH-3DXGQ-7CD2H-R9D3V | MAK-AE       |
 
-<br/> 
+<br/>
 
 ### Office 2021 (16.0)
 
@@ -330,7 +330,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2021)   | Word2021Retail             | VNCC4-CJQVK-BKX34-77Y8H-CYXMR | Retail       |
 | v16.0 (2021)   | Word2021Volume             | BJG97-NW3GM-8QQQ7-FH76G-686XM | MAK-AE       |
 
-<br/> 
+<br/>
 
 ### Office 2024 (16.0)
 
@@ -361,7 +361,7 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 | v16.0 (2024)   | Word2024Retail             | XN33R-RP676-GMY2F-T3MH7-GCVKR | Retail   |
 | v16.0 (2024)   | Word2024Volume             | WD8CQ-6KNQM-8W2CX-2RT63-KK3TP | MAK-AE   |
 
-<br/> 
+<br/>
 
 
 ::: info Info
@@ -386,29 +386,29 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 
 ## Unsupported Products
 
-- Office UWP (Store apps)  
+- Office UWP (Store apps)
   Use TSforge activation option for this.
 
 ## Custom sppc.dll Info
 
 - Custom sppc.dll source code (Ohook 0.5) is available [here][2].
-- SHA-256 checksums:  
-```         
+- SHA-256 checksums:
+```
 09865ea5993215965e8f27a74b8a41d15fd0f60f5f404cb7a8b3c7757acdab02 *sppc32.dll
 393a1fa26deb3663854e41f2b687c188a9eacd87b23f17ea09422c4715cb5a9f *sppc64.dll
 ```
-- In MAS AIO version, these 2 files are encoded in base64 to make MAS AIO version. In AIO script, [instructions][3] are mentioned on how to decode files from Base64 format.  
-**How to create identical sppc.dll files from scratch?**  
+- In MAS AIO version, these 2 files are encoded in base64 to make MAS AIO version. In AIO script, [instructions][3] are mentioned on how to decode files from Base64 format.
+**How to create identical sppc.dll files from scratch?**
 - Download ohook 0.5 source code file from [here][4]
 -   Extract this zip file to a folder named `C:\ohook`
 -   Now download these two compiler archives, [mingw32][5] and [mingw64][5]
--   Extract both archives with 7-zip in C drive, so that path would look like this,  
+-   Extract both archives with 7-zip in C drive, so that path would look like this,
     `C:\mingw32`
     `C:\mingw64`
--   Open Powershell as admin and enter below command to set the time and date,  
+-   Open Powershell as admin and enter below command to set the time and date,
     `Set-TimeZone -Id 'UTC'; $date=[datetime]'2023/8/7 12:00';while($true){set-date $date; start-sleep -milliseconds 10;}`
--   Now open another window for Powershell and enter below commands to create sppc.dll files,  
-    `Set-Location -Path C:\ohook`  
+-   Now open another window for Powershell and enter below commands to create sppc.dll files,
+    `Set-Location -Path C:\ohook`
     `C:\mingw64\bin\mingw32-make.exe`
 -   Calculate the SHA-256 of the created sppc64.dll and sppc32.dll files using 7-zip or Powershell, it would be same as mentioned above.
 -   Done, you can now close Powershell windows and correct the date now.
@@ -430,11 +430,11 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 - Check the Extract OEM option in the MAS `Extras` section if you want pre-activated Windows installation.
 - Further read [here](./oem-folder).
 
-<hr/><br/> 
+<hr/><br/>
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 If your issue persists - [**Contact us**](./troubleshoot).
 
 :::

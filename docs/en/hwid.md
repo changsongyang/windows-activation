@@ -46,7 +46,7 @@ head:
 - So, if we can convince the gatherosstate.exe file that the conditions are met for ticket generation by fooling it, it will generate a valid ticket, which can be used to get the valid digital license.
 - How to convince gatherosstate.exe that Windows is activated?  
   There are two methods for it.  
-  **1-** Place a [custom slc.dll][1] file beside gatherosstate.exe:  
+  **1-** Place a [custom slc.dll][1] file beside gatherosstate.exe:
   gatherosstate.exe uses the system's `C:\Windows\System32\slc.dll` file to gather the system's info. If we place a custom slc.dll file beside gatherosstate.exe, it can send rubbish data to it, then it will simply accept it and generate a valid ticket.  
   **2-** [Modify][2] the gatherosstate.exe file directly so that it doesn't check the system's activation status at all and create a valid ticket.
 - You can find the workings of this old method here: [MAS-Legacy-Methods][3]
@@ -122,7 +122,7 @@ Now a question, can Microsoft block the new requests or revoke already establish
 
 **What if you just want to keep Windows in the unactivated stage?**
 
-- To do that, you can install the [KMS key](/kms38#supported-products) in the Windows settings activation page  
+- To do that, you can install the [KMS key](/kms38#supported-products) in the Windows settings activation page
   Or
 - Change the edition using Change Windows edition option in MAS.
 - **Note:**
@@ -254,7 +254,7 @@ C:\Files\gatherosstatemodified.exe /c Pfn=$value`;PKeyIID=4651452171313143042643
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 If your issue persists - [**contact us**](./troubleshoot).
 
 :::

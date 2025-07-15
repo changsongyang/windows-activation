@@ -223,7 +223,7 @@ editLink: true
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 If your issue persists - [**Contact us**](./troubleshoot).
 
 :::

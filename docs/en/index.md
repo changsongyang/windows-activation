@@ -26,13 +26,13 @@ head:
 
 ::: tip Info
 
-::: details Why "Freedom to Dream"? 
+::: details Why "Freedom to Dream"?
 
-Freedom to Dream isn’t just a name—it’s the spirit behind this project, This isn’t only about activating Windows or Office. 
-It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator—to unlock their full potential.  
+Freedom to Dream isn’t just a name—it’s the spirit behind this project, This isn’t only about activating Windows or Office.
+It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator—to unlock their full potential.
 
 We believe everyone deserves access to essential tools, regardless of where they live or what they can afford.
-When your tools are free, your ideas are free, too.  
+When your tools are free, your ideas are free, too.
 
 This project reflects our mission to enable creativity, productivity, and ambition by removing digital barriers—so you can focus on what truly matters: your work, your goals, and your dreams.
 
@@ -118,7 +118,7 @@ A menu will appear in a new window. Press `1` number on your keyboard to select 
   <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="540px" />
 </p>
 
-**Congratulations!** <Badge type="tip" text="Done" />  
+**Congratulations!** <Badge type="tip" text="Done" />
 Your Windows is now permanently activated with a digital license. <br/>
 
 To check the activation status of "Windows 10" Navigate to:  
@@ -142,11 +142,11 @@ Settings > System > Activation [^2] <br/>
 ::: details See details
 
 - **HWID:**
-  A digital license is stored on Microsoft's servers and tied to your hardware. It cannot be "removed" in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid#how-to-remove-hwid)  
+  A digital license is stored on Microsoft's servers and tied to your hardware. It cannot be "removed" in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid#how-to-remove-hwid)
 - **Online KMS / Ohook / KMS38:**
-   Use the corresponding "Uninstall" or "Remove" option within the MAS script menu, then run the "Fix Licensing" option from the Troubleshoot menu. [Online KMS Details](./online_kms#how-to-remove-online-kms) and [KMS38 details](./kms38#how-to-remove-kms38)  
+   Use the corresponding "Uninstall" or "Remove" option within the MAS script menu, then run the "Fix Licensing" option from the Troubleshoot menu. [Online KMS Details](./online_kms#how-to-remove-online-kms) and [KMS38 details](./kms38#how-to-remove-kms38)
 - **TSforge:**
-  This method only appends data and doesn't install files. To reset it, simply run the "Fix Licensing" option from the Troubleshoot menu in the MAS script. [Ohook](./ohook#how-to-remove-ohook) [TSforge details](./tsforge#how-to-remove-tsforge)  
+  This method only appends data and doesn't install files. To reset it, simply run the "Fix Licensing" option from the Troubleshoot menu in the MAS script. [Ohook](./ohook#how-to-remove-ohook) [TSforge details](./tsforge#how-to-remove-tsforge)
 
 :::
 
@@ -193,7 +193,7 @@ _A generic key is automatically applied by the script where needed._
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 
 If your issue persists - [**Contact Us**](./troubleshoot).
 

@@ -14,29 +14,29 @@ head:
 ## Prerequisites  
 
 - A genuine Windows ISO file, you can download:
-  - from [Dear Gravesoft][1]  
-  - OR Directly from [Microsoft][2]  
+  - from [Dear Gravesoft][1]
+  - OR Directly from [Microsoft][2]
 - The latest version of Rufus from [rufus][3]  
 - A minimum 8GB USB drive   
 - Follow this [guide](./remove_malware) before making a bootable USB if you think the system has malware.
 
 ::: details Another clean system if your current system is infected with File infector malware
 
-**Why?**   
-Because file infector malware can copy itself to the bootable USB that you are going to make to perform a clean installation.  
+**Why?**
+Because file infector malware can copy itself to the bootable USB that you are going to make to perform a clean installation.
 
-You need to use another clean system to make a bootable USB and plug it into the current infected system only when it's not running live Windows.  
+You need to use another clean system to make a bootable USB and plug it into the current infected system only when it's not running live Windows.
 
-**How to check if you have file infector malware?**  
-Open PowerShell as admin and enter  
+**How to check if you have file infector malware?**
+Open PowerShell as admin and enter
 
 ```reg
 sc.exe start "sppsvc" > $null 2>&1; Write-Host "Error code: $LASTEXITCODE"
 ```
 
-If the output is 577 or 225, then most likely chances are that the system is infected with File infector malware. 
+If the output is 577 or 225, then most likely chances are that the system is infected with File infector malware.
   
-**What if you don't have another clean system?**   
+**What if you don't have another clean system?**
 You can try Dr.Web [free.drweb.com/download][4] to remove file infector malware. However in some cases, it may miss to remove all, that's why its best to make bootable USB on another clean system.
 
 :::
@@ -61,7 +61,7 @@ IF you have `C:\ drive only`
   - Create another partition using this [guide][5]      
   - Save your data onto that other newly created partition.  
 
-<br/> 
+<br/>
 
 ::: danger It's highly recommend
 
@@ -72,7 +72,7 @@ To backup your critical data on some online drive as well, for example,
 - [Mega][8] → 20GB Free    
 - [Filen][9] → 10GB Free
 
-::: 
+:::
 
 ## Create a bootable USB with Rufus
 
@@ -113,9 +113,9 @@ To backup your critical data on some online drive as well, for example,
 Alternatively, if you don't want to do that, you can install Windows normally and later change the edition to IoT Enterprise.  
 :::
 
-## Edition List During Windows Installation  
+## Edition List During Windows Installation
 
-::: tip If your system has an OEM license  
+::: tip If your system has an OEM license
 
 - If your system has an OEM license installed by the manufacturer on the motherboard, then the Windows setup will not show the edition list and will automatically select the edition based on the license on the motherboard.  
 - If you have such hardware and want to view the list of available editions for Windows installation, follow the steps below.  
@@ -146,7 +146,7 @@ NoKeyChannel
 
 ::: danger Troubleshoot
 
-- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.
 
 - If your issue persists — You can [**Contact us**](./troubleshoot).
 

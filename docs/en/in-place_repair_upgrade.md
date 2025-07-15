@@ -7,7 +7,7 @@ In-place repair upgrade using Windows ISO file is a good way to fix system error
 
 -   Download the Windows ISO, preferably from [MSDL][1] in the **same Windows language, and architecture**.
 
-    -   To check the installed Windows architecture, open Powershell as admin and enter,  
+    -   To check the installed Windows architecture, open Powershell as admin and enter,
 
         ```
 
@@ -17,7 +17,7 @@ In-place repair upgrade using Windows ISO file is a good way to fix system error
 
         AMD64/x64 means 64 Bit, x86 means 32 Bit
 
-    -   To check the installed Windows Language, enter this command,  
+    -   To check the installed Windows Language, enter this command,
 
         ```
 
@@ -25,7 +25,7 @@ In-place repair upgrade using Windows ISO file is a good way to fix system error
 
 		```
 
-		Alternatively, you can use this command,  
+		Alternatively, you can use this command,
 
 		```
 
@@ -43,15 +43,15 @@ In-place repair upgrade using Windows ISO file is a good way to fix system error
 
 - If you're using Windows 11 or upgrading from Windows 10, you may encounter errors due to unsupported hardware.
 
-- To resolve this, you need to install IoT Enterprise 24H2 (2024) edition which is [officially supported][2] on unsupported hardware. 
+- To resolve this, you need to install IoT Enterprise 24H2 (2024) edition which is [officially supported][2] on unsupported hardware.
 
   - To do that, open the command prompt as admin and,
 
-  - Enter the below command if you are using normal Windows 11 24H2 ISO  
+  - Enter the below command if you are using normal Windows 11 24H2 ISO
 
 `reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTEnterprise /f`
 
-  - Enter the below command if you are using Windows 11 LTSC 2024 ISO  
+  - Enter the below command if you are using Windows 11 LTSC 2024 ISO
 
 `reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTEnterpriseS /f`
 

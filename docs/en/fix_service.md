@@ -18,11 +18,11 @@ editLink: true
 - If the issue persists, contact us [here](./troubleshoot).
 
 
-## Corrupt service  
+## Corrupt service
 
 ::: danger - Null
 
-- The script may show that `Null service is not running, script may crash...` 
+- The script may show that `Null service is not running, script may crash...`
 - Follow these steps only if the script crashes after that.
 - Download and extract this Null service registry zip [file][3].
 - Run the file, restart the system (using the restart button), and try the activation script again.

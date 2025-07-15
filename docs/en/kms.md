@@ -43,7 +43,7 @@ head:
 
 1. Click the "Start" button or "Search" icon in the taskbar
 2. Type `cmd` or `Command Prompt`
-3. Select "Run as administrator"  
+3. Select "Run as administrator"
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4465a2d3-6c93-4ee1-bb63-94ab7b8e06ac" alt="run-cmd-as-dmin" width="580px" />
@@ -72,7 +72,7 @@ Or You can visit [this Link][2] to see 8 ways to run **cmd**, And  [This Link][1
 ## Step 2. Install a Generic KMS Client Key
 
 In the Command Prompt window, run the following command.  
-You must replace `Your-License-Key` with the key from the table below that matches your Windows edition.  
+You must replace `Your-License-Key` with the key from the table below that matches your Windows edition.
 
 ```reg
 slmgr /ipk Your-License-Key
@@ -83,7 +83,7 @@ slmgr /ipk Your-License-Key
 ### Option A: Using keyboard shortcuts <Badge type="danger" text="Recommend" />
 
 1. Open the Run dialog box: Press `Win (⊞) + Pause/Break` keys Simultaneously
-2. This will open the "About" section in "Settings" directly. and you will see the Edition of your Windows under "Windows specifications"  
+2. This will open the "About" section in "Settings" directly. and you will see the Edition of your Windows under "Windows specifications"
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/647ef16b-9208-4ff3-a94b-825ffa99721f" alt="about-system" width="540px" />
@@ -102,7 +102,7 @@ slmgr /ipk Your-License-Key
 
 1. Open the Run dialog box: Press `Win (⊞) + R` keys Simultaneously
 2. Type `winver` or `msinfo32` or `ms-settings:about` and press Enter key
-3. A window will appear showing the Windows version and build number, Done✔️   
+3. A window will appear showing the Windows version and build number, Done✔️
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f764797a-e07f-4c58-b932-bfe7b359a7bd" alt="winver-command" width="540px" />
@@ -234,7 +234,7 @@ Settings > System > Activation. [^8]
 -
 ::: danger Troubleshooting
 
-**Error 0xC004F074:** This usually means your internet connection is unstable or the server is busy. Ensure you are online and try the `slmgr /ato` command again. <br/> 
+**Error 0xC004F074:** This usually means your internet connection is unstable or the server is busy. Ensure you are online and try the `slmgr /ato` command again. <br/>
 
 **Method Not Working?** If you're still having trouble, try the **HWID method** from the [Main guide](./index). or [Online KMS](./online_kms) from MAS. <br/>
 

@@ -42,20 +42,20 @@ C02D8FE6-5242-4DA8-972F-82EE55E00671  -  Microsoft2024 VL     -  Microsoft::LTSC
 ```
 
 - The script has the above list in its database and only offers officially supported upgrades.
-- Learn more about Office update channels here https://learn.microsoft.com/en-us/microsoft-365-apps/updates/overview-update-channels  
-- You can fetch the latest Office build numbers here https://github.com/ItzLevvie/Office16/blob/master/defconfig  
-- The script uses an official method to change the update channel:  
+- Learn more about Office update channels here https://learn.microsoft.com/en-us/microsoft-365-apps/updates/overview-update-channels
+- You can fetch the latest Office build numbers here https://github.com/ItzLevvie/Office16/blob/master/defconfig
+- The script uses an official method to change the update channel:
 https://techcommunity.microsoft.com/t5/office-365-blog/how-to-manage-office-365-proplus-channels-for-it-pros/ba-p/795813
 
 ### VL (LTSC) channel limitations
 (Applicable to 2019/21/24 VL)
 
-Officially, the update channel can not be changed to or from a VL (LTSC) channel, so if the installed channel is a VL (LTSC) channel, only that channel will appear in the script.  
+Officially, the update channel can not be changed to or from a VL (LTSC) channel, so if the installed channel is a VL (LTSC) channel, only that channel will appear in the script.
 Also, if the installed channel is not an LTSC channel, the script won't offer to change to LTSC.
 
 ### Windows 7/8/8.1 limitations
 
-Office C2R is no longer supported on Windows [7][1], [8][2], and [8.1][3].  
+Office C2R is no longer supported on Windows [7][1], [8][2], and [8.1][3].
 The last available build is fixed and won't get any updates. VL (LTSC) channels are not supported on these Windows versions so they won't appear in the script.
 
 ---
@@ -64,7 +64,7 @@ The last available build is fixed and won't get any updates. VL (LTSC) channels 
 
 ::: danger Troubleshooting
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
+If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
 
 If your issue persists - [**Contact us**](./troubleshoot).
 

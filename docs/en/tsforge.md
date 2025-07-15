@@ -143,8 +143,8 @@ This activation method can activate any of the following products if a phone lic
 
 ::: tip Note
 
-- All architectures (x86, x64 and arm64) are supported.  
-- For Windows, the script's key preference is: OEM_DM > OEM_COA_SLP > OEM_COA_NSLP > MAK > RETAIL  
+- All architectures (x86, x64 and arm64) are supported.
+- For Windows, the script's key preference is: OEM_DM > OEM_COA_SLP > OEM_COA_NSLP > MAK > RETAIL
 - For Office, the script's key preference is: OEM_COA_NSLP > MAK > RETAIL
 
 :::
@@ -235,8 +235,8 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 
 ::: warning
 
-- **Unsupported Products**  
-- This activation method does not work if a phone license is not available or if licensing is not managed by the system's SPP.  
+- **Unsupported Products**
+- This activation method does not work if a phone license is not available or if licensing is not managed by the system's SPP.
 
 - **Office on Windows 7**
   - Its licensing is based on OSPP, not SPP.
@@ -312,8 +312,8 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 
 ::: tip Notes
 
-- **Use this activation only when necessary.**  
-- On Windows 10/11, the system may randomly change the Windows edition later. This is a Windows issue and can be safely ignored.  
+- **Use this activation only when necessary.**
+- On Windows 10/11, the system may randomly change the Windows edition later. This is a Windows issue and can be safely ignored.
 - KMS host license causes the sppsvc service to run continuously.
 
 :::
@@ -329,8 +329,8 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 
 ::: tip Note
 
-- **Use this activation only when necessary.**  
-- KMS host license causes the sppsvc service to run continuously.  
+- **Use this activation only when necessary.**
+- KMS host license causes the sppsvc service to run continuously.
 
 :::
 
@@ -371,7 +371,7 @@ All links given below are official links hosted by Microsoft.
    - If you are using 64-bit or ARM64 Windows, run `cscript "%programfiles(x86)%\MSECache\OfficeKMS\kms_host.vbs"`
 
 :::
- 
+
 
 ::: details Workaround to install on Non-Volume licensed Windows
 
@@ -392,15 +392,15 @@ All links given below are official links hosted by Microsoft.
 | Clear Tamper State         | Clear the tamper state set due to store corruption or deletion     |
 | Remove Evaluation Key Lock | Remove the product key change lock set for evaluation product keys |
 
-<hr/><br/> 
+<hr/><br/>
 
 ## How to remove TSforge?
 
-- This activation method doesn't modify any Windows components and doesn't install any new files.  
-- Instead, it appends data to one of data files used by Software Protection Platform.  
-- If you want to reset the activation status,   
+- This activation method doesn't modify any Windows components and doesn't install any new files.
+- Instead, it appends data to one of data files used by Software Protection Platform.
+- If you want to reset the activation status,
 - In MAS script, goto Troubleshoot and apply Fix Licensing option.
-- Done ✔️ 
+- Done ✔️
 
 
 ## Manual Activation

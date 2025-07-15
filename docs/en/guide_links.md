@@ -6,7 +6,7 @@ description: 'If you are facing any error, the script should tell you which guid
 date: 2024-06-09
 ---
 
-# Guides 
+# Guides
 
 ::: danger If you are facing any error
 
@@ -28,6 +28,6 @@ The script should tell you which guide you need to follow. If you are unsure, we
 - [Remove Malware](./remove_malware)
 - [Clean Install Windows](./clean_install_windows)
 
-<hr/> 
+<hr/>
 
 [1]: https://gravesoft.dev/bypass-russian-geoblock
