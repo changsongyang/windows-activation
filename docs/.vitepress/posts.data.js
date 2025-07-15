@@ -2,6 +2,8 @@ import { createContentLoader } from 'vitepress'
 
 const base = '/windows-activation/';
 const EXCERPT_MAX_LENGTH = 150;
+const MAX_POSTS_PER_LANG = 5;
+const MAX_TOTAL_POSTS = 10;
 
 function stripHtmlAndTruncate(html, maxLength) {
   if (!html) return '';
@@ -33,7 +35,7 @@ function formatDate(raw, lang = 'en') {
 export default createContentLoader(['{en,fa}/*.md'], {
   excerpt: true,
   transform(raw) {
-    return raw
+    const sortedPosts = raw
       .filter(({ frontmatter }) => frontmatter?.title)
       .map(({ url, frontmatter, excerpt }) => {
         const lang = url.includes('/fa/') ? 'fa' : 'en';
@@ -47,5 +49,12 @@ export default createContentLoader(['{en,fa}/*.md'], {
         };
       })
       .sort((a, b) => b.date.time - a.date.time);
+
+    const faPosts = sortedPosts.filter(post => post.lang === 'fa').slice(0, MAX_POSTS_PER_LANG);
+    const enPosts = sortedPosts.filter(post => post.lang === 'en').slice(0, MAX_POSTS_PER_LANG);
+
+    return [...faPosts, ...enPosts]
+      .sort((a, b) => b.date.time - a.date.time)
+      .slice(0, MAX_TOTAL_POSTS);
   }
 });
