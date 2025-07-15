@@ -22,7 +22,7 @@ features:
   - title: "🏆 Ohook & TSforge"
     details: "Permanent, offline activation methods for various editions of Microsoft Office for windows 7 / 11"
   - title: "📦 All-in-one"
-  - details: "All-in One, This comprehensive guide walks you through reliable, open-source methods"
+    details: "All-in One, This comprehensive guide walks you through reliable, open-source methods"
 ---
 
 <script setup>
