@@ -27,8 +27,6 @@ editLink: true
 - **پس از اتمام دوره:** هشدار فعال‌سازی نمایش داده می‌شود و سیستم ممکن است به صورت خودکار ری‌استارت شود
 - **فعال‌سازی دائم:** روی نسخه‌های ارزیابی پشتیبانی نمی‌شود
 
----
-
 ### تبدیل نسخه ارزیابی به نسخه کامل
 
 > ویندوز 10/11 اینترپرایز
@@ -42,7 +40,7 @@ editLink: true
 ۲. روی فایل ISO راست‌کلیک و گزینه Open with Windows Explorer را انتخاب کنید  
 ۳. خط فرمان را با دسترسی ادمین باز کنید و دستور زیر را بزنید:
 
-```
+```reg
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d EnterpriseS /f
 ```
 
@@ -57,7 +55,7 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d Ente
 ۲. آن را مانت کنید  
 ۳. خط فرمان ادمین اجرا و دستور زیر را بزنید:
 
-```
+```reg
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d Enterprise /f
 ```
 
@@ -70,9 +68,7 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d Ente
 
 #### ویندوز سرور
 
-تبدیل رسمی پشتیبانی می‌شود. [راهنمای مایکروسافت][4] را ببینید یا از [اسکریپت MAS](./index) استفاده کنید.
-
-<br/> 
+تبدیل رسمی پشتیبانی می‌شود. [راهنمای مایکروسافت][4] را ببینید یا از [اسکریپت MAS](./intro#مرحله-۲) استفاده کنید.
 
 ### افزایش دوره ارزیابی
 
