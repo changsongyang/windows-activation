@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "A E G"
+  name: "Freedom to Dream"
   text: "Instant Windows & Office Activation"
   tagline: "A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more. Activate in under 40 seconds!"
   actions:
