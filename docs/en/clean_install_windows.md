@@ -2,39 +2,44 @@
 layout: doc
 outline: deep
 title: 'Clean Install Windows'
-description: 'Guide on how to backup your data and clean install Windows.'
-date: 2025-05-07
+description: 'Guide on how to backup your data and clean install Windows'
+date: 2025-03-07
 editLink: true
 head:
   - - meta
     - name: keywords
-      content: clean install, windows
+      content: clean install, infection, infected windows, malware, genuine, remove malware
 ---
 
 ## Prerequisites  
 
 - A genuine Windows ISO file, you can download:
-  -   from [Dear Gravesoft][1]  
-  -   OR Directly from [Microsoft][2]  
+  - from [Dear Gravesoft][1]  
+  - OR Directly from [Microsoft][2]  
 - The latest version of Rufus from [rufus][3]  
 - A minimum 8GB USB drive   
 - Follow this [guide](./remove_malware) before making a bootable USB if you think the system has malware.
 
 ::: details Another clean system if your current system is infected with File infector malware
 
-  **Why?**  
-  Because file infector malware can copy itself to the bootable USB that you are going to make to perform a clean installation.  
-  You need to use another clean system to make a bootable USB and plug it into the current infected system only when it's not running live Windows.  
-  **How to check if you have file infector malware?**  
-  Open PowerShell as admin and enter  
-  `sc.exe start "sppsvc" > $null 2>&1; Write-Host "Error code: $LASTEXITCODE"`  
-  If the output is 577 or 225, then most likely chances are that the system is infected with File infector malware. 
-  
-  **What if you don't have another clean system?**  
-  You can try Dr.Web [free.drweb.com/download][4] to remove file infector malware. However in some cases, it may miss to remove all, that's why its best to make bootable USB on another clean system.  
-:::
+**Why?**   
+Because file infector malware can copy itself to the bootable USB that you are going to make to perform a clean installation.  
 
-<br/>  
+You need to use another clean system to make a bootable USB and plug it into the current infected system only when it's not running live Windows.  
+
+**How to check if you have file infector malware?**  
+Open PowerShell as admin and enter  
+
+```reg
+sc.exe start "sppsvc" > $null 2>&1; Write-Host "Error code: $LASTEXITCODE"
+```
+
+If the output is 577 or 225, then most likely chances are that the system is infected with File infector malware. 
+  
+**What if you don't have another clean system?**   
+You can try Dr.Web [free.drweb.com/download][4] to remove file infector malware. However in some cases, it may miss to remove all, that's why its best to make bootable USB on another clean system.
+
+:::
 
 ## Back up your data  
 
@@ -56,18 +61,18 @@ IF you have `C:\ drive only`
   - Create another partition using this [guide][5]      
   - Save your data onto that other newly created partition.  
 
+<br/> 
+
 ::: danger It's highly recommend
 
-It's highly recommended to backup your critical data on some online drive as well, for example,
+To backup your critical data on some online drive as well, for example,
 
 - [GoogleDrive][6] → 15GB Free   
 - [OneDrive][7] → 5GB Free    
 - [Mega][8] → 20GB Free    
 - [Filen][9] → 10GB Free
 
-:::
-
-<hr/><br/>  
+::: 
 
 ## Create a bootable USB with Rufus
 
@@ -78,8 +83,6 @@ It's highly recommended to backup your critical data on some online drive as wel
   - Click "SELECT" and choose your Windows ISO file. Rufus will auto-configure optimal settings.
 - Click "START."
 - Wait for Rufus to create the bootable USB. It may take several minutes. You'll see "READY" when done.   
-
-<br/>
 
 ## Windows 11 on Unsupported Hardware   
 
@@ -110,11 +113,9 @@ It's highly recommended to backup your critical data on some online drive as wel
 Alternatively, if you don't want to do that, you can install Windows normally and later change the edition to IoT Enterprise.  
 :::
 
-<br/>  
+## Edition List During Windows Installation  
 
-::: tip Edition List During Windows Installation  
-
-::: details If your system has an OEM license  
+::: tip If your system has an OEM license  
 
 - If your system has an OEM license installed by the manufacturer on the motherboard, then the Windows setup will not show the edition list and will automatically select the edition based on the license on the motherboard.  
 - If you have such hardware and want to view the list of available editions for Windows installation, follow the steps below.  
@@ -132,8 +133,6 @@ NoKeyChannel
 - If you are using PID.txt, please note that it will take precedence over ei.cfg.      
 :::
 
-<br/>  
-
 ## Clean Install Windows  
 
 - Disconnect all external or non-boot internal drives to reduce installation risks.  
@@ -143,11 +142,15 @@ NoKeyChannel
   - Delete all partitions on the boot drive, or if you want to save data partitions then delete only the C drive and other small system partitions, and select the unallocated space created.  
   - Click "Next" to start the installation. Windows will auto-create the necessary partitions.
 
-<br/>  
-
 ## Troubleshoot  
 
-You can connect with us for help from [Discussion][11] if you need.   
+::: danger Troubleshoot
+
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+
+- If your issue persists — You can [**Contact us**](./troubleshoot).
+
+:::
 
 
 [1]: https://msdl.gravesoft.dev/
