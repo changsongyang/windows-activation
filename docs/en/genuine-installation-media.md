@@ -16,27 +16,27 @@ All download links available on our website lead to genuine files only.
 :::
 
 ## Download Windows
--  [Windows 11](./windows_11_links)                                                                                                                                                              
--  [Windows 10](./windows_10_links)                                                                                                                                                              
--  [Windows 10 / 11 Enterprise **LTSC**](./windows_ltsc_links)                                                                                                                                   
--  [Windows ARM64](./windows_arm_links)                                                                                                                                                          
--  [Windows 8.1](./windows_8.1_links)                                                                                                                                                            
--  [Windows 7](./windows_7_links)                                                                                                                                                                
--  [Windows Vista](./windows_vista__links)    
--  [Windows XP](./windows_xp_links)                                                                                                                                                              
--  [Windows Server](./windows_server_links)                                                                                                                                                      
+-  [Windows 11][win11]                                                                                                                                                            
+-  [Windows 10][win10]                                                                                                                                                              
+-  [Windows 10 / 11 Enterprise **LTSC**][winen]                                                                                                                                   
+-  [Windows ARM64][winarm]                                                                                                                                                           
+-  [Windows 8.1][win8]                                                                                                                                                            
+-  [Windows 7][7]                                                                                                                                                                
+-  [Windows Vista][winvist]    
+-  [Windows XP][winxp]                                                                                                                                                              
+-  [Windows Server][winserv]                                                                                                                                                      
 -  Windows Insider [10-11][1] - [Server][2] / [Registration][3] is needed to download.
 
 ## Download Office
 
 Activation with [MAS](./index#step-2-run-the-activation-script) is required after the installation of Office.
 
--  [Office C2R Installers][4] ❤️ (O365 / 2024 / 2021 / 2019 / 2016 / 2013)  
+-  [Office C2R Installers][4] 🤍 (O365 / 2024 / 2021 / 2019 / 2016 / 2013)  
 -  [Office C2R Custom Install][5] (O365 / 2024 / 2021 / 2019 / 2016)
--  [Office MSI VL (Old versions)](./office_msi_links) (2016 / 2013 / 2010 / 2007)
--  [Office For **Mac**](./office_for_mac)                             
+-  [Office MSI VL (Old versions)][winmsi] (2016 / 2013 / 2010 / 2007)
+-  [Office For **Mac**][winmac]                            
 
----
+<hr/><br/> 
 
 ## FAQ
 
@@ -60,7 +60,7 @@ Microsoft provides consumer ISOs for free on their [site][6], but business, ente
 
 ::: details Click here for info
 
-You can check [here][./genuine-installation-media#verify-authenticity-of-files] on how to be sure that files are genuine by verifying the checksum available on the official Microsoft website.
+You can check [here](./genuine-installation-media#verify-authenticity-of-files) on how to be sure that files are genuine by verifying the checksum available on the official Microsoft website.
 
 :::
 
@@ -112,11 +112,13 @@ On MVS, you need to login and click on 'All Downloads' button and then search th
  -	They used to publish only SHA-1, but later started publishing SHA-1 and SHA-256 both and from 2022 they now publish only SHA-256.  
  -	However they removed all the SHA-1 data and as a result, old files checksums are simply not available on MVS site.  
  -	Also, around the time when they were publishing SHA-1 and SHA-256 both, they messed up some SHA-256 data, for example 
- 	```
+ 
+```
  	Incorrect SHA-256 example
  	SHA256: BDB3D0C5C933B201ECE736A172FB604AA5D7D0705DD75681F9FCC4B1EE79FAC8
  	File name: en-uk_windows_10_enterprise_ltsc_2019_x64_dvd_723dfbc1.iso
- 	```
+```
+
  -	So its useful only for the latest files.
 
 **Windows 11**  
@@ -135,7 +137,7 @@ Microsoft doesn't allow you to download ISO file directly if browser's useragent
   <p class="vjs-no-js"></p>
 </video>
 
----
+<hr/><br/>
 
 ::: danger Troubleshooting
 
@@ -164,3 +166,14 @@ If your issue persists - [**Contact Us**](./troubleshoot).
 [17]: https://my.visualstudio.com/Downloads
 [18]: https://www.microsoft.com/en-us/software-download/windows11
 [19]: https://www.microsoft.com/en-us/software-download/windows10
+[win11]: https://massgrave.dev/windows_11_links
+[win10]: https://massgrave.dev/windows_10_links
+[winen]: https://massgrave.dev/windows_ltsc_links
+[winarm]: https://massgrave.dev/windows_arm_links
+[win8]: https://massgrave.dev/windows_8.1_links
+[win7]: https://massgrave.dev/windows_7_links
+[winvist]: https://massgrave.dev/windows_vista__links
+[winxp]: https://massgrave.dev/windows_xp_links
+[winserv]: https://massgrave.dev/windows_server_links
+[winmsi]: https://massgrave.dev/office_msi_links
+[winmac]: https://massgrave.dev/office_for_mac
