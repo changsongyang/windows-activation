@@ -6,15 +6,16 @@ Welcome guys! This guide provides comprehensive instructions for activating Micr
 
 <hr/></br>
 
-## 🟢 Latest Documentation  
+## 🟢 Latest Documentation 
+Recommend ✔️   
 For the most up-to-date activation methods, please visit:  
-[https://nirevil.github.io/windows-activation/][1]  
+[nirevil.github.io/windows-activation/][1]  
 
 </br>
 
 ### 🔴 Legacy Documentation (Old Methods)  
 If you prefer the previous activation guide, you can still access the untouched legacy version here:  
-[https://github.com/NiREvil/windows-activation/Old][2]  
+[github.com/NiREvil/windows-activation/Old][2]  
 
 </br>
 
@@ -29,6 +30,8 @@ Feel free to open an issue or contribute to the project. Your feedback is apprec
 </br>
 
 This version is clean, professional, and suitable for an international audience. Let me know if you'd like any modifications!  
+
+
 
 [1]: https://nirevil.github.io/windows-activation/
 
