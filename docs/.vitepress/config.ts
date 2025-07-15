@@ -60,6 +60,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en-US',
+      dir: 'ltr',
       title: 'Freedom to Dream',
       description: 'Instant Windows and Office Activation Tools',
       themeConfig: {
@@ -90,8 +91,6 @@ export default defineConfig({
                 { text: 'Online KMS Method Details', link: '/en/online_kms' },
                 { text: 'Change Windows Edition', link: '/en/change_windows_edition.' },
                 { text: 'Change Office Edition', link: '/en/change_office_edition' },
-                { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
-                { text: 'Fix Powershell', link: '/en/fix_powershell' },
                 { text: '$OEM$ Folders', link: '/en/oem-folder' },
                 { text: 'Switches in Command line', link: '/en/command_line_switches' },
                 { text: 'Download Windows / Office', link: '/en/genuine-installation-media' },
@@ -166,6 +165,7 @@ export default defineConfig({
     fa: {
       label: 'فارسی',
       lang: 'fa-IR',
+      dir: 'rtl',
       title: 'Freedom to Dream',
       description: 'ابزارهای فعال‌سازی فوری ویندوز و آفیس',
       themeConfig: {
@@ -195,8 +195,6 @@ export default defineConfig({
               { text: 'جزئیات روش Online KMS', link: '/fa/online_kms' },
               { text: 'تغییر نسخه ویندوز', link: '/fa/change_windows_edition' },
               { text: 'تغییر نسخه آفیس', link: '/fa/change_office_edition' },
-              { text: 'رفع مشکل رجیستری WPA', link: '/fa/fix-wpa-registry' },
-              { text: 'رفع مشکل پاورشل', link: '/fa/fix_powershell' },
               { text: 'پوشه‌های $OEM$', link: '/fa/oem-folder' },
               { text: 'سوئیچ‌ها در خط فرمان', link: '/fa/command_line_switches' },
               { text: 'دانلود ویندوز / آفیس', link: '/fa/genuine-installation-media' },
