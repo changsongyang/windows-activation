@@ -20,13 +20,13 @@ head:
       content: A full open-source guide to activating Windows 10/11 and Microsoft Office using reliable tools like HWID, KMS, and TSforge.
 ---
 
-# Freedom to Dream
-
-### Welcome to the ultimate guide for activating Windows and Office
+## Welcome to the ultimate guide for activating Windows and Office
 
 > All-in One, This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently in under 40 seconds. Includes troubleshooting tips and detailed comparisons.
 
-::: tip Why "Freedom to Dream"?
+::: tip Info
+
+::: details Why "Freedom to Dream"? 
 
 Freedom to Dream isn’t just a name—it’s the spirit behind this project, This isn’t only about activating Windows or Office. 
 It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator—to unlock their full potential.  
@@ -37,17 +37,6 @@ When your tools are free, your ideas are free, too.
 This project reflects our mission to enable creativity, productivity, and ambition by removing digital barriers—so you can focus on what truly matters: your work, your goals, and your dreams.
 
 :::
-
-
-::: info Notes
-
-::: details Click here to see the details
-
-- **For Windows:** I personally use the **KMS method** [[see guides](./kms)] or [[Online KMS](./online_kms) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.
-- **For Office:** I use Ohook, or TSforge, The small differences are noted in the summary table 👇🏿
-
-:::
-
 
 ## Activation Methods Summary
 
@@ -138,22 +127,33 @@ Settings > Update & Security > Activation [^1]
 To check the activation status of "Windows 11" Navigate to:  
 Settings > System > Activation [^2] <br/>
 
-## Additional Information
-
-::: danger How to Remove Activations
+::: info Notes
 
 ::: details Click here to see the details
 
-- **HWID:** A digital license is stored on Microsoft's servers and tied to your hardware. It cannot be "removed" in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid)
-- **Online KMS / Ohook / KMS38:** Use the corresponding "Uninstall" or "Remove" option within the MAS script menu, then run the "Fix Licensing" option from the Troubleshoot menu. [KMS details](./kms) and [KMS38 details](./kms38)
-- **TSforge:** This method only appends data and doesn't install files. To reset it, simply run the "Fix Licensing" option from the Troubleshoot menu in the MAS script. [TSforge details](./tsforge)
+- **For Windows:** I personally use the **KMS method** [[see guides](./kms)] or [[Online KMS](./online_kms) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.
+- **For Office:** I use Ohook, or TSforge, The small differences are noted in the [summary table 👆🏿](#activation-methods-summary)
+
+:::
+
+## How to Remove Activations
+::: danger Additional Information
+
+::: details See details
+
+- **HWID:**
+  A digital license is stored on Microsoft's servers and tied to your hardware. It cannot be "removed" in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid#how-to-remove-hwid)  
+- **Online KMS / Ohook / KMS38:**
+   Use the corresponding "Uninstall" or "Remove" option within the MAS script menu, then run the "Fix Licensing" option from the Troubleshoot menu. [Online KMS Details](./online_kms#how-to-remove-online-kms) and [KMS38 details](./kms38#how-to-remove-kms38)  
+- **TSforge:**
+  This method only appends data and doesn't install files. To reset it, simply run the "Fix Licensing" option from the Troubleshoot menu in the MAS script. [Ohook](./ohook#how-to-remove-ohook) [TSforge details](./tsforge#how-to-remove-tsforge)  
 
 :::
 
 
 ::: info Supported Windows 10/11 Products for HWID
 
-::: details Click here to see the products
+::: details Click here to see products
 
 |      Windows 10/11 Product Names      |        EditionID         |  Generic Retail/OEM/MAK Key   |
 | :-----------------------------------: | :----------------------: | :---------------------------: |
