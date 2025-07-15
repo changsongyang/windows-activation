@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Freedom to Dream"
+  name: "Freedom to Dream 🦋"
   text: "Instant Windows & Office Activation"
   tagline: "A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more. Activate in under 40 seconds!"
   actions:
@@ -15,12 +15,14 @@ hero:
       link: https://github.com/sahar-km/windows-activation
 
 features:
-  - title: 🔰 HWID Activation
-    details: Get a permanent digital license for Windows 10 & 11. Tied to your hardware, it survives reinstalls.
-  - title: ⚙️ KMS & Online KMS
-    details: Activate Windows and Office for 180 days, with an auto-renewal task for lifetime activation.
-  - title: 🛡️ Ohook & TSforge
-    details: Permanent, offline activation methods for various editions of Microsoft Office.
+  - title: "🔐 HWID Activation"
+    details: "Get a permanent digital license for Windows 10 & 11. Tied to your hardware, it survives reinstalls."
+  - title: "⚙️ KMS & Online KMS"
+    details: "Activate Windows and Office for 180 days, with an auto-renewal task for lifetime activation."
+  - title: "🏆 Ohook & TSforge"
+    details: "Permanent, offline activation methods for various editions of Microsoft Office for windows 7 / 11"
+  - title: "📦 All-in-one"
+  - details: "All-in One, This comprehensive guide walks you through reliable, open-source methods"
 ---
 
 <script setup>
