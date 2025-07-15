@@ -10,7 +10,7 @@ editLink: true
 
 # KMS38
 
-This page is intended for users who do not want to use the script for any reason and would rather perform the KMS38 activation process themselves. If you'd like to use a tool for this instead, please check [here](intro.md#how-to-activate-windows--office).
+This page is intended for users who do not want to use the script for any reason and would rather perform the KMS38 activation process themselves. If you'd like to use a tool for this instead, please check [here](./index#step-2-run-the-activation-script).
 
 ::: info Note
 
@@ -20,24 +20,69 @@ KMS38 activation is only supported on Windows 10/11 Client and Server editions.
 
 ## Manually Activate Windows
 
-To manually activate Windows, follow these steps:  
--   Open Windows Powershell as administrator and enter the below commands.
--   Install the generic key which matches your Windows edition and version:   
-    `slmgr /ipk <key>`  
-    *(Refer to the table below for the appropriate key.)*
--   Download the [KMS38 ticket file](https://github.com/massgravel/hwid-kms38-tickets/releases/download/2.0/KMS38.xml).
--   Copy the downloaded ticket file to the root of the C: drive.
--   Migrate the ticket to a license and activate Windows by running the commands:    
-    `clipup -v -o -altto C:\`  
--   After waiting for a few seconds, Windows should be activated.
+To manually activate Windows, follow these steps:
 
-**Notes:**
--   For Windows Server Cor/Acor editions, the system does not have the `clipup.exe` file.  
-    To activate it using KMS38, download the missing `ClipUp.exe` file from [this link](https://app.box.com/s/cwoxub9tqyowhnyva6ign6qnogb6vk0o).  
+- **step 1:** Open Windows Powershell as administrator and enter the below commands  
+::: tip To run Powershell
+
+::: details Click here to see details 
+
+### Option A: Using Search Bar <Badge type="danger" text="Recommend" />  
+1. Click on windows "Start" button or "Search" icon in the taskbar  
+2. Type `powershell`  
+3. Select `Run as administrator` <br/>  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="540px" />
+</p>
+
+### Option B: Using Run Box
+
+1. Open the Run dialog box: Press `Win (⊞) + R` keys simultaneously  
+2. Type `powershell`  
+3. Press `Ctrl + Shift + Enter` to run as administrator  
+4. If prompted by User Account Control, click `Yes` <br/>  
+
+### Option C: Using Power User Menu
+
+1. Right-click on the "Start menu" (or press `Win (⊞) + X`)  
+2. Select "Windows Terminal (Admin)" on Windows 11 or "Windows PowerShell (Admin)" on Windows 10
+
+Or You can visit [this Link][1] to see 10 ways to run **PowerShell** And [this link][2] For Running CMD in your windows.
+
+:::
+
+- **step 2:** Install the generic key which matches your Windows edition and version:   
+
+``` reg
+slmgr /ipk <key>
+``` 
+
+*(Refer to the table below for the appropriate key.)*
+
+- **Step 3:** Download the [KMS38 ticket file][3].
+- **Step 4:** Copy the downloaded ticket file to the root of the C: drive.
+- **Step 5:** Migrate the ticket to a license and activate Windows by running the commands:  
+
+```reg
+clipup -v -o -altto C:\
+```
+
+- **Finally** After waiting for a few seconds, Windows should be activated.
+
+
+::: tip Notes
+
+- For Windows Server Cor/Acor editions, the system does not have the `clipup.exe` file.  
+    To activate it using KMS38, download the missing `ClipUp.exe` file from [this link][4].  
     `File: ClipUp.exe`  
     `SHA-256: 0d6e9f6bbd0321eda149658d96040cb4f79e0bd93ba60061f25b28fecbf4d4ef`  
-    The file is digitally signed and verifiable. You can also obtain this file from the official [Windows Server 2016 x64 RTM ISO](https://download.microsoft.com/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO).  
-    Place the `ClipUp.exe` file in the `C:\Windows\System32` folder and perform the KMS38 activation process. Once the activation is complete, you can remove the file.
+  The file is digitally signed and verifiable. You can also obtain this file from the official [Windows Server 2016 x64 RTM ISO][5].  
+  Place the `ClipUp.exe` file in the `C:\Windows\System32` folder and perform the KMS38 activation process. Once the activation is complete, you can remove the file.
+
+:::
+
+<br/> 
 
 ### Windows 10 / 11
 | Product Names                                          | Generic Volume License Key    |
@@ -74,6 +119,8 @@ To manually activate Windows, follow these steps:
 | SE                                                     | 37D7F-N49CB-WQR8W-TBJ73-FM8RX |
 | SE N                                                   | 6XN7V-PCBDC-BDBRH-8DQY7-G6R44 |
 
+<br/> 
+
 ### Windows Server 2025 (LTSC)
 | Product Names                        | Generic Volume License Key    |
 |--------------------------------------|-------------------------------|
@@ -81,6 +128,8 @@ To manually activate Windows, follow these steps:
 | Windows Server 2025 Datacenter       | D764K-2NDRG-47T6Q-P8T8W-YP6DF |
 | Windows Server 2025 Azure Core       | FCNV3-279Q9-BQB46-FTKXX-9HPRH |
 | Windows Server 2025 Azure Datacenter | XGN3F-F394H-FD2MY-PP6FD-8MCRC |
+
+<br/> 
 
 ### Windows Server 2022 (LTSC)
 | Product Names                        | Generic Volume License Key    |
@@ -90,6 +139,8 @@ To manually activate Windows, follow these steps:
 | Windows Server 2022 Azure Core       | 6N379-GGTMK-23C6M-XVVTC-CKFRQ |
 | Windows Server 2022 Azure Datacenter | NTBV8-9K7Q8-V27C6-M2BTV-KHMXV |
 
+<br/> 
+
 ### Windows Server 2019 (LTSC)
 | Product Names                  | Generic Volume License Key    |
 |--------------------------------|-------------------------------|
@@ -98,6 +149,8 @@ To manually activate Windows, follow these steps:
 | Windows Server 2019 Essentials | WVDHN-86M7X-466P6-VHXV7-YY726 |
 | Windows Server 2019 Azure Core | FDNH6-VW9RW-BXPJ7-4XTYG-239TB |
 | Windows Server 2019 ARM64      | GRFBW-QNDC4-6QBHG-CCK3B-2PR88 |
+
+<br/> 
 
 ### Windows Server 2016 (LTSC)
 | Product Names                     | Generic Volume License Key    |
@@ -109,10 +162,14 @@ To manually activate Windows, follow these steps:
 | Windows Server 2016 Cloud Storage | QN4C6-GBJD2-FB422-GHWJK-GJG2R |
 | Windows Server 2016 Azure Core    | VP34G-4NPPG-79JTQ-864T4-R3MQX |
 
+<br/> 
+
 ### Windows Server 23H2 (Annual Channel)
 | Product Names             | Generic Volume License Key    |
 |---------------------------|-------------------------------|
 | Windows Server Datacenter | WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
+
+<br/> 
 
 ### Windows Server 20H2, 2004, 1909, 1903, and 1809 (Semi-Annual Channel)
 | Product Names             | Generic Volume License Key    |
@@ -120,11 +177,15 @@ To manually activate Windows, follow these steps:
 | Windows Server Datacenter | 6NMRW-2C8FM-D24W7-TQWMY-CWH2D |
 | Windows Server Standard   | N2KJX-J94YW-TQVFB-DG9YT-724CC |
 
+<br/> 
+
 ### Windows Server 1803 (Semi-Annual Channel)
 | Product Names             | Generic Volume License Key    |
 |---------------------------|-------------------------------|
 | Windows Server Datacenter | 2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG |
 | Windows Server Standard   | PTXN8-JFHJM-4WC78-MPCBR-9W4KR |
+
+<br/> 
 
 ### Windows Server 1709 (Semi-Annual Channel)
 | Product Names             | Generic Volume License Key    |
@@ -143,13 +204,9 @@ To manually activate Windows, follow these steps:
 
 :::
 
-[1]: 
-[2]: 
-[3]: 
-[4]: 
-[5]: 
-[6]: 
-[7]: 
-[8]: 
-[9]: 
-[10]: 
+
+[1]: https://www.minitool.com/news/open-windows-11-powershell.html
+[2]: https://www.minitool.com/news/open-command-prompt-windows-11.html
+[3]: https://github.com/massgravel/hwid-kms38-tickets/releases/download/2.0/KMS38.xml
+[4]: https://app.box.com/s/cwoxub9tqyowhnyva6ign6qnogb6vk0o
+[5]: https://download.microsoft.com/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO
