@@ -8,12 +8,14 @@ editLink: true
 head:
   - - meta
     - name: keywords
-      content: chart, something, which one is the best for me, hwid or kms, kms, hwid, tsforge
+      content: chart, comparison, which one is the best, hwid or kms, kms, hwid, tsforge, ohook, online kms
 ---
 
 # Activation Methods Chart
 
 > Below is a comparison of activation methods offered by Microsoft Activation Scripts.
+
+<br/>
 
 ## Basics
 
@@ -23,6 +25,8 @@ head:
 | Activation is permanent                                              |  🟢  |  🟢   | 🟢[^2] |   🟢[^3]   |     🟢      |      🟢       |  🟢[^4]   |
 | Does not leave any files in the system to maintain activation status |  🟢  |  🔴   |   🟢   |     🔴     |     🟢      |      🟢       |    🟢     |
 
+<br/> 
+
 ## Persistence
 
 |                                                           | HWID | Ohook | KMS38 | Online KMS | ZeroCID[^1] | StaticCID[^1] | KMS4k[^1] |
@@ -30,6 +34,8 @@ head:
 | Persists between hardware changes                         |  🔴  |  🟢   |  🔴   |     🟢     |     🟢      |      🔴       |    🟢     |
 | Persists between clean installations on the same hardware |  🟢  |  🔴   |  🔴   |     🔴     |     🔴      |      🔴       |    🔴     |
 | Persists between Windows 10 / 11 feature upgrades         |  🟢  |  🟢   |  🟢   |     🟢     |     🔴      |      🔴       |    🔴     |
+
+<br/> 
 
 ## Support
 
@@ -48,7 +54,7 @@ head:
 | Windows Extended Security Updates |  🔴  |  🔴   |   🔴   |     🔴     |     🟢      |      🟢       |     🔴      |
 | OCUR / RP / APPXLOB addons        |  🔴  |  🔴   |   🔴   |     🔴     |     🟢      |      🟢       |     🔴      |
 
-[^1]: Provided by [TSforge](/tsforge).
+[^1]: Provided by [TSforge](./tsforge).
 
 [^2]: Valid until the year 2038.
 
