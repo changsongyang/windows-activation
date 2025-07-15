@@ -9,13 +9,12 @@ editLink: true
 
 # Frequently Asked Questions (FAQ)
 
-Welcome to the AEG FAQ! Here you'll find answers to the most common questions. If you don't see your question here, feel free to [contact us](#contact-us) — we're happy to help!
+Welcome to the MAS FAQ! Here you'll find answers to the most common questions. If you don't see your question here, feel free to [Contact Us](#contact-us) — we're happy to help!
 
-<br/>
+<br/><br/>
 
 ## Getting Started
 
-<br/> 
 
 ### How do I use AEG?
 
@@ -31,7 +30,7 @@ Follow the steps in the [genuine installation media guide](./genuine-installatio
 
 ### How do I activate Office permanently?
 
-Choose the Ohook activation method within AEG.
+Choose the Ohook activation method within MAS.
 
 <br/>
 
@@ -41,7 +40,7 @@ Choose the Ohook activation method within AEG.
 
 See our [troubleshooting guide](./troubleshoot) for common solutions.
 
-### Is AEG safe? How do I know it’s not malware?
+### Is MAS safe? How do I know it’s not malware?
 
 MAS is fully open-source, with over 125K stars on [GitHub][1] and millions of users worldwide. You can inspect the batch files in any text editor, or use ChatGPT for code review.  
 If you prefer, you can also perform manual activation — see [this guide](./manual_hwid_activation).
@@ -50,11 +49,11 @@ If you prefer, you can also perform manual activation — see [this guide](./man
 
 Check out these guides for removing each activation type:
 
-- [Remove HWID](./hwid#how-to-remove-hwid)
-- [Remove Ohook](./ohook#how-to-remove-ohook)
-- [Remove TSforge](./tsforge#how-to-remove-tsforge)
-- [Remove KMS38](./kms38#how-to-remove-kms38)
-- [Remove Online KMS](./online_kms#how-to-remove-online-kms)
+- [❌Remove HWID](./hwid#how-to-remove-hwid)
+- [❌Remove Ohook](./ohook#how-to-remove-ohook)
+- [❌Remove TSforge](./tsforge#how-to-remove-tsforge)
+- [❌Remove KMS38](./kms38#how-to-remove-kms38)
+- [❌Remove Online KMS](./online_kms#how-to-remove-online-kms)
 
 <br/>
 
@@ -66,7 +65,7 @@ Refer to the [genuine installation media guide](./genuine-installation-media).
 
 ### Can I upgrade Windows from Home to Pro?
 
-Yes! In AEG, select the “Change Windows Edition” option.
+Yes! In MAS, select the “Change Windows Edition” option.
 
 ### Will I lose my files when upgrading from Home to Pro?
 
@@ -76,7 +75,7 @@ No, your data will remain safe.
 
 Just run HWID activation again. Each Windows edition needs its own activation.
 
-### Is it safe to connect my Microsoft account after activating with AEG?
+### Is it safe to connect my Microsoft account after activating with MAS?
 
 Absolutely, it’s safe.
 
@@ -98,19 +97,17 @@ See [this guide][2] for bypassing regional restrictions.
 
 Yes, with the `Ohook` activation. Note: AEG does not unlock server-side Office 365 features such as 1TB OneDrive, but you get almost all other features and 5GB of free OneDrive storage.
 
-### Can I get the Copilot feature in Office with AEG?
+### Can I get the Copilot feature in Office with MAS?
 
 No. [Copilot][3] is an add-on available only to official Microsoft 365 subscribers.
 
-### Can I use Python in Excel after AEG activation?
+### Can I use Python in Excel after MAS activation?
 
 No. [Python in Excel][4] is a cloud feature for Microsoft 365 subscribers.
 
 ### I see an “Office is not genuine” banner — what should I do?
 
 Simply re-run the Ohook activation from the latest AEG version.
-
-<hr/><br/>
 
 ## Other Common Questions
 
@@ -120,11 +117,11 @@ Simply re-run the Ohook activation from the latest AEG version.
 
 Yes, it’s safe to delete the MAS folder once activation is complete.
 
-### How does AEG activation actually work?
+### How does MAS activation actually work?
 
 See the Docs section for detailed info.
 
-### Does AEG work for Windows Vista/7/8.1?
+### Does MAS work for Windows Vista/7/8.1?
 
 Yes, TSforge, Ohook, and Online KMS options work for these versions.
 
@@ -132,17 +129,12 @@ Yes, TSforge, Ohook, and Online KMS options work for these versions.
 
 This project doesn’t accept donations and is completely free. It’s a community-driven project, and profiting from piracy is not supported.
 
-<br/>
 
-### contact us
+::: danger Troubleshoot
 
-::: tip
-
-Still have questions? feel free to ask in the [GitHub Discussions][5] or [Email me][6] directly.
+- Need any help regarding this — feel free to [**Contact Us**](./troubleshoot), We're happy to help!
 
 :::
-
-<hr/><br/>
 
 [1]: https://github.com/massgravel/Microsoft-Activation-Scripts
 [2]: https://gravesoft.dev/bypass-russian-geoblock
