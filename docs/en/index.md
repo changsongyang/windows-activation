@@ -1,8 +1,8 @@
 ---
 layout: doc
 outline: deep
-title: 'All-in-One Windows & Office Activation Guide: HWID, KMS, TSforge and More.'
-description: 'Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons'
+title: 'All-in-One — Microsoft Activation Scripts'
+description: 'MAS: Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons'
 date: 2025-06-05
 editLink: true
 head:
@@ -26,16 +26,25 @@ head:
 
 > All-in One, This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently in under 40 seconds. Includes troubleshooting tips and detailed comparisons.
 
-::: tip Notes
+::: tip Why "Freedom to Dream"?
 
-- After permanent activation via the `HWID` method, you may encounter issues signing into your Microsoft account in **Microsoft Edge** browser settings!
-- **Solution 1:** Skip this activation method< and use [KMS](./kms) instead (takes less than 2 minutes and requires renewal every 6 months).
-- **Solution 2:** Avoid Edge and switch to alternative browsers like **Chrome** or **Firefox**.
+Freedom to Dream isn’t just a name—it’s the spirit behind this project, This isn’t only about activating Windows or Office. 
+It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator—to unlock their full potential.  
+
+We believe everyone deserves access to essential tools, regardless of where they live or what they can afford.
+When your tools are free, your ideas are free, too.  
+
+This project reflects our mission to enable creativity, productivity, and ambition by removing digital barriers—so you can focus on what truly matters: your work, your goals, and your dreams.
+
+:::
+
+
+::: info Notes
 
 ::: details Click here to see the details
 
-- **For Windows:** I personally use the **KMS method** [[see guides](./kms)] for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.
-- **For Office:** I use Ohook, or TSforge, The small differences are noted in the summary table above
+- **For Windows:** I personally use the **KMS method** [[see guides](./kms)] or [[Online KMS](./online_kms) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.
+- **For Office:** I use Ohook, or TSforge, The small differences are noted in the summary table 👇🏿
 
 :::
 
@@ -120,7 +129,7 @@ A menu will appear in a new window. Press `1` number on your keyboard to select 
   <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="Select HWID Activation" width="540px" />
 </p>
 
-<Badge type="tip" text="Congratulations!" />  
+**Congratulations!** <Badge type="tip" text="Done" />  
 Your Windows is now permanently activated with a digital license. <br/>
 
 To check the activation status of "Windows 10" Navigate to:  
@@ -186,14 +195,14 @@ _A generic key is automatically applied by the script where needed._
 
 If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.  
 
-If your issue persists - [**Contact us**](./troubleshoot).
+If your issue persists - [**Contact Us**](./troubleshoot).
 
 :::
 
 
-[^1]: To check the activation status of Windows 10, <br/> navigate to Settings → Update & Security → Activation. You will see your activation status listed there. <br/> If Windows is activated, you should see "Activated" with a green checkmark.
+[^1]: To check the activation status of Windows 10, Navigate to <br/> Settings → Update & Security → Activation. <br/> You will see your activation status listed there. <br/> If Windows is activated, you should see "Activated" with a green checkmark.
 
-[^2]: To check the activation status of Windows 11, <br/> open Settings by clicking the **Start button** and then selecting Settings → System → Activation. The activation status will be displayed, <br/> showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
+[^2]: To check the activation status of Windows 11, Navigate to <br/> Settings → System → Activation. <br/> The activation status will be displayed, Showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
 
 [^3]: Home China Country Specific version.
 
