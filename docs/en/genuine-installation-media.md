@@ -16,20 +16,20 @@ All download links available on our website lead to genuine files only.
 :::
 
 ## Download Windows
--  [Windows 11][win11]
--  [Windows 10][win10]
--  [Windows 10 / 11 Enterprise **LTSC**][winen]
--  [Windows ARM64][winarm]
--  [Windows 8.1][win8]
--  [Windows 7][7]
+-  [Windows 11](./windows_11_links)
+-  [Windows 10](./windows_10_links)
+-  [Windows 10 / 11 Enterprise **LTSC**](./windows_ltsc_links)
+-  [Windows ARM64](./windows_arm_links)
+-  [Windows 8.1](./windows_8.1_links)
+-  [Windows 7](./windows_7_links)
 -  [Windows Vista][winvist]
--  [Windows XP][winxp]
+-  [Windows XP](./windows_xp_links)
 -  [Windows Server][winserv]
 -  Windows Insider [10-11][1] - [Server][2] / [Registration][3] is needed to download.
 
 ## Download Office
 
-Activation with [MAS](./index#step-2-run-the-activation-script) is required after the installation of Office.
+Activation with [MAS](./index#step2) is required after the installation of Office.
 
 -  [Office C2R Installers][4] 🤍 (O365 / 2024 / 2021 / 2019 / 2016 / 2013)
 -  [Office C2R Custom Install][5] (O365 / 2024 / 2021 / 2019 / 2016)
@@ -100,32 +100,34 @@ Microsoft's Official free links for checksums:
 
 - [MVS][17]
 - [Windows 11][18]
--	[Windows 10][19]
+- [Windows 10][19]
 
 
 ::: details More info on Official links!
 
-**MVS**
-On MVS, you need to login and click on 'All Downloads' button and then search the product name.
+**MVS**  
+- On MVS, you need to login and click on 'All Downloads' button and then search the product name.
 
-**MVS Limitations:**
- -	They used to publish only SHA-1, but later started publishing SHA-1 and SHA-256 both and from 2022 they now publish only SHA-256.
- -	However they removed all the SHA-1 data and as a result, old files checksums are simply not available on MVS site.
- -	Also, around the time when they were publishing SHA-1 and SHA-256 both, they messed up some SHA-256 data, for example
+**MVS Limitations:**  
+- They used to publish only SHA-1, but later started publishing SHA-1 and SHA-256 both and from 2022 they now publish only SHA-256.
 
+- However they removed all the SHA-1 data and as a result, old files checksums are simply not available on MVS site.
+
+- Also, around the time when they were publishing SHA-1 and SHA-256 both, they messed up some SHA-256 data, for example
+
+```shell
+Incorrect SHA-256 example
+SHA256: BDB3D0C5C933B201ECE736A172FB604AA5D7D0705DD75681F9FCC4B1EE79FAC8
+File name: en-uk_windows_10_enterprise_ltsc_2019_x64_dvd_723dfbc1.iso
 ```
-	Incorrect SHA-256 example
-	SHA256: BDB3D0C5C933B201ECE736A172FB604AA5D7D0705DD75681F9FCC4B1EE79FAC8
-	File name: en-uk_windows_10_enterprise_ltsc_2019_x64_dvd_723dfbc1.iso
-```
 
- -	So its useful only for the latest files.
+- So its useful only for the latest files.
 
 **Windows 11**
-SHA-256 list will appear if you download the ISO file.
+- SHA-256 list will appear if you download the ISO file.
 
 **Windows 10**
-Microsoft doesn't allow you to download ISO file directly if browser's useragent is Windows OS. So you need to change it to something else like Android or IOS and then download the ISO file to see the list.
+- Microsoft doesn't allow you to download ISO file directly if browser's useragent is Windows OS. So you need to change it to something else like Android or IOS and then download the ISO file to see the list.
 
 :::
 
@@ -137,13 +139,11 @@ Microsoft doesn't allow you to download ISO file directly if browser's useragent
   <p class="vjs-no-js"></p>
 </video>
 
-<hr/><br/>
+::: danger Troubleshoot
 
-::: danger Troubleshooting
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
-
-If your issue persists - [**Contact Us**](./troubleshoot).
+- If your issue persists — You can [**Contact us**](./troubleshoot).
 
 :::
 
