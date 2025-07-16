@@ -25,7 +25,7 @@ editLink: true
 
 Build - 26100.1742 (RTM)
 
-**Download Links:** [MSDL ❤](https://msdl.gravesoft.dev/#3113) / [Microsoft](https://www.microsoft.com/en-us/software-download/windows11)
+**Download Links:** [MSDL 🤍][MSDL] / [Microsoft][1]
 
 == Windows 11 Consumer 24H2
 
@@ -140,10 +140,10 @@ Check [here](./windows_ltsc_links)
 
 == Other Versions
 
-- [MVS Bot](https://discord.gg/FajfGaH3nD)
-- https://os.click/
-- https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5
-- Download the [Official Microsoft ESD file](https://worproject.com/esd) and [ESD>ISO Converter](https://github.com/abbodi1406/WHD/raw/master/scripts/esd-decrypter-wimlib-65.7z) by [abbodi1406](https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/),
+- [MVS Bot][2]
+- [os.click/][3]
+- [files.rg-adguard.net/version/216fefbe94c5][4]
+- Download the [Official Microsoft ESD file][5] and [ESD>ISO Converter][6] by [abbodi1406][7],
   - Put the ESD file beside `decrypt.cmd` and run that script.
   - It will create the ISO file.
   - This process is same as how Official MCT tool creates Windows 10 and 11 ISOs.
@@ -254,4 +254,15 @@ Build - 22631.2428 (31-Oct-2023) (This ISO file is not updated every month)
 |:---|:---|:---|
 | English | x64 | [en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso) |
 
+----
+
 :::
+
+[MSDL]: https://msdl.gravesoft.dev/#3113
+[1]: https://www.microsoft.com/en-us/software-download/windows11
+[2]: https://discord.gg/FajfGaH3nD
+[3]: https://os.click/
+[4]: https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5
+[5]: https://worproject.com/esd
+[6]: https://github.com/abbodi1406/WHD/raw/master/scripts/esd-decrypter-wimlib-65.7z
+[7]: https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/
