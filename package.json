@@ -1,5 +1,5 @@
 {
-  "name": "AEG",
+  "name": "Freedom to Dream",
   "version": "0.0.0",
   "description": "Instant Windows and Office Activation, A profes>",
   "scripts": {
@@ -16,7 +16,7 @@
     "guide",
     "toolkit"
   ],
-  "author": "REvil",
+  "author": "Diana",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
