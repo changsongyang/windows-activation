@@ -12,19 +12,19 @@ editLink: true
 ::: info
 
 - On this page, only those product activation methods are mentioned that are **not supported by [MAS](./index) script**.
-- If you are unsure, run [MAS](./index) script activation options first.
+- If you are unsure, run [MAS](./index#step2) script activation options first.
 
 :::
 
 ## MS Office For Mac
 
--   Check [here][1].
+- Check [here][1].
 
-------------------------------------------------------------------------
+---
 
 ## Windows XP Pro VL
 
--   Download Windows XP Pro VL - [Link](./windows_xp_links)
+- Download Windows XP Pro VL - [Link](./windows_xp_links)
 -	32-bit (x86) Windows XP Pro VL SP3 ISO Activation key - `XCYBK-2B3KV-G8T8F-WXJM7-WCTYT`
 -	64-bit (x64) Windows XP Pro VL SP2 ISO Activation key - `VCFQD-V9FX9-46WVH-K3CD4-4J3JM`
 
@@ -32,16 +32,16 @@ editLink: true
 
 ## Office 2010 VL on Windows XP
 
--   Download Office 2010 VL - [Link][2]
+- Download Office 2010 VL - [Link][2]
 -	Activate with KMS-VL-ALL by qewlpal [Official thread][3] | [Mirror][4] (Use 7.2RC2 version from the mirror link)
 
-**Note:** MAS supports Office on Windows Vista and later versions.
+> -  MAS supports Office on Windows Vista and later versions.
 
 ----
 
 ## Office 2007 Enterprise
 
--   Download Office 2007 Enterprise - [Link][5]
+- Download Office 2007 Enterprise - [Link][5]
 -	Activation key - `BQDQB-KRRY9-43DBR-4P9J4-DH7D8`
 
 ----
@@ -52,7 +52,7 @@ editLink: true
 
 ::: details Click here for info
 
--  Sign into the server you want to use as the license server using an administrator account.
+- Sign into the server you want to use as the license server using an administrator account.
 -  In Server Manager, select Manage > Add Roles and Features.
 -  On the Select installation type page, select Role-based or feature-based installation.
 -  Specify the server on which you install the licensing role.
@@ -100,7 +100,7 @@ Source code and details:
 Download link: [app.box.com/s/rozw][10] 
 Alternatively, you can download AppxBundle installer from [store.rg-adguard.net][11] search `9nmzlz57r3t7` in ProductId.
 
------
+---
 
 ## Visual Studio
 
@@ -123,7 +123,7 @@ Microsoft DaRT (Diagnostics and Recovery Toolset, formerly ERD Commander) is an 
 This product is no longer under active development.
 
 **Download Link:** Microsoft Desktop Optimization Pack 2015  
-[mu_microsoft_desktop_optimization_pack_2015_x86_x64_dvd_5975282.iso][13]
+[mu_microsoft_desktop_optimization_pack_2015_x86_x64.iso][13]
 
 **Guide:** [woshub.com/create-dart-10-recovery-image/][14]
 
