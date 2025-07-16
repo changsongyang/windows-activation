@@ -20,7 +20,7 @@ head:
       content: A full open-source guide to activating Windows 10/11 and Microsoft Office using reliable tools like HWID, KMS, and TSforge.
 ---
 
-## Welcome to the ultimate guide for activating Windows and Office
+# Welcome to the ultimate guide for activating Windows and Office
 
 > All-in One, This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently in under 40 seconds. Includes troubleshooting tips and detailed comparisons.
 
@@ -89,7 +89,7 @@ Or You can visit [this Link][1] to see 10 ways to run **PowerShell** And [this l
 
 :::
 
-## Step 2. Run the Activation Script
+## Step 2. Run the Activation Script {#step2}
 
 Copy the following command, paste it (via Right-click) into the PowerShell window and press `Enter` key.
 
@@ -104,7 +104,6 @@ irm https://massgrave.dev/get | iex
 ```
 
 :::
-
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="Paste command in PowerShell" width="540px" />
@@ -137,6 +136,7 @@ Settings > System > Activation [^2] <br/>
 :::
 
 ## How to Remove Activations
+
 ::: danger Additional Information
 
 ::: details See details
@@ -191,16 +191,16 @@ _A generic key is automatically applied by the script where needed._
 
 :::
 
-::: danger Troubleshooting
+::: danger Troubleshoot
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
 
-If your issue persists - [**Contact Us**](./troubleshoot).
+- If your issue persists — You can [**Contact us**](./troubleshoot).
 
 :::
 
 
-[^1]: To check the activation status of Windows 10, Navigate to <br/> Settings → Update & Security → Activation. <br/> You will see your activation status listed there. <br/> If Windows is activated, you should see "Activated" with a green checkmark.
+[^1]: To check the activation status of Windows 10, Navigate to <br/> Settings → Update & Security → Activation. <br/> You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.
 
 [^2]: To check the activation status of Windows 11, Navigate to <br/> Settings → System → Activation. <br/> The activation status will be displayed, Showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
 
