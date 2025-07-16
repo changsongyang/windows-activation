@@ -51,7 +51,7 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d Ente
 </TabItem>
 <TabItem value="GAC-fa" label="GAC">
 
-۱. فایل ISO نسخه عادی را از [MSDL][3] دانلود کنید  
+۱. ف۱. فایل ISO نسخه عادی را از [MSDL][3] دانلود کنید  
 ۲. آن را مانت کنید  
 ۳. خط فرمان ادمین اجرا و دستور زیر را بزنید:
 
@@ -73,10 +73,12 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d Ente
 ### افزایش دوره ارزیابی
 
 - **پیش‌فرض:** ۹۰ روز (Enterprise)، قابل تمدید تا ۲۷۰ روز با دستور
-  ```
+
+  ```reg
   slmgr /rearm
   ```
-- **روش دیگر:** استفاده از گزینه TSforge در MAS یا ریست رجیستری WPA ([gravesoft.dev][5])
+  
+- **روش دیگر:** استفاده از گزینه TSforge در MAS یا ریست رجیستری WP[gravesoft.dev](./fix-wpa-registry)
 
 ### پرهیز از تغییر فایل لایسنس
 
