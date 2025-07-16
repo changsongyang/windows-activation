@@ -9,7 +9,7 @@ editLink: true
 
 # Windows 11 Download
 
-> - All download links lead to genuine files only.
+> - All download links lead to genuine files only
 >
 > - [FAQ](./genuine-installation-media#faq)
 
@@ -22,16 +22,12 @@ editLink: true
 :::tabs
 
 == Windows 11 Consumer 24H2 🤍
-**Windows 11 Consumer 24H2**
 
 Build - 26100.1742 (RTM)
 
 **Download Links:** [MSDL ❤](https://msdl.gravesoft.dev/#3113) / [Microsoft](https://www.microsoft.com/en-us/software-download/windows11)
 
-----
-
 == Windows 11 Consumer 24H2
-**Windows 11 Consumer 24H2**
 
 Build - 26100.4652 (July 2025)
 
@@ -79,7 +75,6 @@ Build - 26100.4652 (July 2025)
 ----
 
 == Windows 11 Business 24H2
-**Windows 11 Business 24H2**
 
 Build - 26100.4652 (July 2025)
 
@@ -124,11 +119,10 @@ Build - 26100.4652 (July 2025)
 | Chinese-Simplified | x64 | [zh-cn_windows_11_business_editions_version_24h2_updated_july_2025_x64_dvd_272dc7af.iso](https://drive.massgrave.dev/zh-cn_windows_11_business_editions_version_24h2_updated_july_2025_x64_dvd_272dc7af.iso) |
 | Chinese-Traditional | x64 | [zh-tw_windows_11_business_editions_version_24h2_updated_july_2025_x64_dvd_283d8a64.iso](https://drive.massgrave.dev/zh-tw_windows_11_business_editions_version_24h2_updated_july_2025_x64_dvd_283d8a64.iso) |
 
-----
-
 == Windows 11 IoT Enterprise 24H2
-**Windows 11 IoT Enterprise 24H2**
-**(Not LTSC)**
+
+**(Not LTSC)**  
+
 Build - 26100.1742 (RTM) (This ISO file is not updated every month)
 IoT Enterprise ISO is available only in English language.
 
@@ -136,24 +130,15 @@ IoT Enterprise ISO is available only in English language.
 |:---|:---|:---|
 | English | x64 | [en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso) |
 
-----
-
 == Windows 11 ARM64 24H2
-**Windows 11 ARM64 24H2**
 
-Check [here](./windows_arm_links).
-
-----
+Check [here](./windows_arm_links)
 
 == Windows 11 (IoT) Enterprise LTSC 2024
-**Windows 11 IoT Enterprise LTSC 2024**
 
-Check [here](./windows_ltsc_links).
-
-----
+Check [here](./windows_ltsc_links)
 
 == Other Versions
-**Other Versions**
 
 - [MVS Bot](https://discord.gg/FajfGaH3nD)
 - https://os.click/
@@ -163,16 +148,13 @@ Check [here](./windows_ltsc_links).
   - It will create the ISO file.
   - This process is same as how Official MCT tool creates Windows 10 and 11 ISOs.
 
-----
-
 :::
 
 ### Windows 11 23H2 (Old)
 
 :::tabs
-== Windows 11 Consumer 23H2
 
-::: details Windows 11 Consumer 23H2
+== Windows 11 Consumer 23H2
 
 Build - 22631.5624 (July 2025)
 
@@ -217,12 +199,7 @@ Build - 22631.5624 (July 2025)
 | Chinese-Simplified | x64 | [zh-cn_windows_11_consumer_editions_version_23h2_updated_july_2025_x64_dvd_ff40e38d.iso](https://drive.massgrave.dev/zh-cn_windows_11_consumer_editions_version_23h2_updated_july_2025_x64_dvd_ff40e38d.iso) |
 | Chinese-Traditional | x64 | [zh-tw_windows_11_consumer_editions_version_23h2_updated_july_2025_x64_dvd_ff40e38d.iso](https://drive.massgrave.dev/zh-tw_windows_11_consumer_editions_version_23h2_updated_july_2025_x64_dvd_ff40e38d.iso) |
 
-:::
-
-------------------------------------------------------------------------
-
 == Windows 11 Business 23H2
-**Windows 11 Business 23H2**
 
 Build - 22631.5624 (July 2025)
 
@@ -267,17 +244,14 @@ Build - 22631.5624 (July 2025)
 | Chinese-Simplified | x64 | [zh-cn_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_34457911.iso](https://drive.massgrave.dev/zh-cn_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_34457911.iso) |
 | Chinese-Traditional | x64 | [zh-tw_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_e12e35d1.iso](https://drive.massgrave.dev/zh-tw_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_e12e35d1.iso) |
 
----
+== Windows 11 IoT Enterprise 23H2  
 
-== Windows 11 IoT Enterprise 23H2
-**Windows 11 IoT Enterprise 23H2**
 **(Not LTSC)**
+
 Build - 22631.2428 (31-Oct-2023) (This ISO file is not updated every month)
 
 | Language | Arch | Link |
 |:---|:---|:---|
 | English | x64 | [en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso) |
-
-----
 
 :::
