@@ -1,7 +1,7 @@
 ---
 layout: doc
 outline: deep
-title: 'Official KMS Activation Guide — 180 Days, Renewable'
+title: 'Official KMS Activation Guide'
 description: 'Step-by-step guide to activating Windows using the official KMS method for volume licensing.'
 date: 2025-05-04
 editLink: true
@@ -93,7 +93,7 @@ slmgr /ipk Your-License-Key
 
 ### Option B: Using System Settings
 
-1. Click the "🪟 Start" button and then click `⚙️ Settings`
+1. Click the `🪟 Start` button and then click `⚙️ Settings`
 2. Click on `💻 System`
 3. Scroll down and click on `ℹ️ About`
 4. Under `Windows specifications`, you will see the Edition of your Windows
@@ -238,17 +238,20 @@ Settings > System > Activation. [^8]
 
 **Method Not Working?** If you're still having trouble, try the **HWID method** from the [Main guide](./index). or [Online KMS](./online_kms) from MAS. <br/>
 
-**If you have any questions**, first review the [**FAQ section**](./faq) - your answer will most likely be there. <br/>
+:::
 
-**If your issue persists** - [**Contact us**](./troubleshoot).
+::: danger Troubleshoot
+
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+
+- If your issue persists — You can [**Contact us**](./troubleshoot).
 
 :::
 
+
 <h3 align="left">Be curious 🪐🩶</h3>
 
-
-
-## About Hotkeys <Badge type="danger" text="For enthusiasts" />
+## About Hotkeys <Badge type="danger" text="For Enthusiasts" />
 
 ::: details Use the hotkeys to open default programs in the Win+X Menu
 
@@ -293,8 +296,6 @@ The following are the hotkeys corresponding to each program:
 
 :::
 
-----
-
 [^1]: 10 Ways to run PowerShell in windows [read here][1].
 
 [^2]: Another easiest way to run **PowerShell** is **Using Power User Menu**. <br/> - 1. **Right-click** the **Windows Start** icon on the Taskbar to open the menu containing shortcuts to frequently used tools. Also you can open this menu with **`Win (⊞) + x`**. <br/> - 2. Select **Windows Terminal (admin)** at windows 11 Or **Windows PowerShell (admin)** at Windows 10.
@@ -309,10 +310,9 @@ The following are the hotkeys corresponding to each program:
 
 [^7]: To check the activation status of Windows 10, navigate to <br/> Settings → Update & Security → Activation. <br/> You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.
 
-[^8]: To check the activation status of Windows 11, open <br/> Settings → System → Activation. <br/> The activation status will be displayed, showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
+[^8]: To check the activation status of Windows 11, Navigate to <br/> Settings → System → Activation. <br/> The activation status will be displayed, showing whether Windows is activated, along with details about the activation method and any linked Microsoft account.
 
 [1]: https://www.minitool.com/news/open-windows-11-powershell.html
 [2]: https://www.minitool.com/news/open-command-prompt-windows-11.html
 [3]: https://github.com/NiREvil/windows-activation/discussions/
 [4]: mailto:diana.clk01@gmail.com
-[rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256
