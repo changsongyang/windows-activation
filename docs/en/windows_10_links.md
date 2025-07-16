@@ -23,12 +23,12 @@ All download links lead to genuine files only.
 <details>
   <summary>Info on Official links</summary>
 
-Microsoft provides Official public links for Windows 10 22H2 (Build 19045.2965) and that build is old and has an issue where Windows update may fail to install [KB5028997](https://support.microsoft.com/topic/kb5028997-instructions-to-manually-resize-your-partition-to-install-the-winre-update-400faa27-9343-461c-ada9-24c8229763bf).  
+Microsoft provides Official public links for Windows 10 22H2 (Build 19045.2965) and that build is old and has an issue where Windows update may fail to install [KB5028997][1].  
 That is why we recommend getting the latest Windows 10 ISO file from the table below, those ISOs are taken from the Official MVS site.
 
 However, if you want direct Official links only then check
-MSDL https://msdl.gravesoft.dev/#2618 It provides Official links straight from Microsoft and works even if Microsoft is blocking the download to Russian/VPN users.
-Windows 10 download from https://www.microsoft.com/en-us/software-download isn't recommended because it uses an ESD file to generate ISO and that process sometimes may generate corrupt ISO which can not be verified with known checksums.
+[MSDL] It provides Official links straight from Microsoft and works even if Microsoft is blocking the download to Russian/VPN users.
+Windows 10 download from [microsoft.com/en-us/software-download][8] isn't recommended because it uses an ESD file to generate ISO and that process sometimes may generate corrupt ISO which can not be verified with known checksums.
 
 </details>
 
@@ -235,11 +235,24 @@ Check [Windows ltsc links](./windows_ltsc_links).
 
 **Other Versions**
 
-- [MVS Bot](https://discord.gg/FajfGaH3nD)
-- https://os.click/
-- https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5
-- Download the [Official Microsoft ESD file](https://worproject.com/esd) and [ESD>ISO Converter](https://github.com/abbodi1406/WHD/raw/master/scripts/esd-decrypter-wimlib-65.7z) by [abbodi1406](https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/),
-   - Put the ESD file beside `decrypt.cmd` and run that script.
-   - It will create the ISO file.
-   - This process is same as how Official MCT tool creates Windows 10 and 11 ISOs.
+- [MVS Bot][2]
+- [os.click/][3]
+- [files.rg-adguard.net/version/216fefbe94c5][4]
+- Download the [Official Microsoft ESD file][5] and [ESD>ISO Converter][6] by [abbodi1406][7],
+  - Put the ESD file beside `decrypt.cmd` and run that script.
+  - It will create the ISO file.
+  - This process is same as how Official MCT tool creates Windows 10 and 11 ISOs.
+
+----
+
 :::
+
+[1]: https://support.microsoft.com/topic/kb5028997-instructions-to-manually-resize-your-partition-to-install-the-winre-update-400faa27-9343-461c-ada9-24c8229763bf
+[2]: https://discord.gg/FajfGaH3nD
+[3]: https://os.click/
+[4]: https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5
+[5]: https://worproject.com/esd
+[6]: https://github.com/abbodi1406/WHD/raw/master/scripts/esd-decrypter-wimlib-65.7z
+[7]: https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/
+[8]: https://www.microsoft.com/en-us/software-download
+[MSDL]: https://msdl.gravesoft.dev/#2618
