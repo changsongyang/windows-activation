@@ -22,13 +22,13 @@ All download links lead to genuine files only.
 
 ### Windows 11 24H2
 
-== Windows 11 Consumer 24H2 ❤
+== Windows 11 Consumer 24H2 🤍
 
 **Windows 11 Consumer 24H2**
 
 Build - 26100.1742
 
-**Download Links:** [MSDL ❤][1] / [Microsoft][2]
+**Download Links:** [MSDL 🤍][1] / [Microsoft][2]
 
 ----
 
