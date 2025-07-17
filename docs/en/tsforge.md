@@ -13,12 +13,12 @@ head:
 
 # TSforge Activation  
 
-### Welcome to the `tsforge` document. This has some details about the TSForge activation method.
+> Welcome to the `tsforge` document. This has some details about the TSForge activation method.
 
 ::: tip Notes
 
 > How to use it?  
-> Please find the instructions [Intro](./index/#step-2-run-the-activation-script)
+> Please find the instructions [Intro](./index#step2)
 
 ## Overview  
 -   This activation is permanent until a Windows reinstall or a major feature upgrade (not to be confused with small enablement upgrades or monthly cumulative updates).  
@@ -90,8 +90,6 @@ head:
 - Unlike via normal KMS emulators, this method can arbitrarily set the activation expiration up to a maximum of 2147483640 (2^31 - 8) minutes, or 4083 years.
 - This allows for offline KMS activation that is effectively infinite for all practical purposes.
 
----
-
 ## Supported Products
 
 This activation method can activate any of the following products if a phone license is available and licensing is managed by the system's SPP.
@@ -149,15 +147,14 @@ This activation method can activate any of the following products if a phone lic
 
 :::
 
-----
-
 ### Keys
 
 TSforge activation generates keys for PKey2009-based products and sets product key data for PKey2005-based products.  
 However, it cannot handle keys for Windows Vista and Windows Server 2008. That is why only the keys for these products are listed here.  
 
 Keys aren't available for these editions, but since the editions themselves aren't publicly available, it doesn't matter.  
-```
+
+```reg
 a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 5e9f548a-c8a9-44e6-a6c2-3f8d0a7a99dd   ServerComputeClusterV
 ```
@@ -231,9 +228,9 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 | ServerComputeCluster, ServerEnterprise, <br /> ServerStandard, ServerWeb <br /> and their V editions                                                | PVGKG-2R7XQ-7WTFD-FXTJR-DQBQ3          | Volume:CSVLK |
 | ServerComputeCluster, ServerWeb                                                                                                                     | KH4PC-KJFX6-XFVHQ-GDK2G-JCJY9          | Volume:CSVLK |
 
-<hr/><br/>
+<br/>
 
-::: warning
+::: danger Important
 
 - **Unsupported Products**
 - This activation method does not work if a phone license is not available or if licensing is not managed by the system's SPP.
@@ -259,13 +256,12 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
  
 :::
 
-::: danger Note
+::: info Note
 
 **OSPP based Office:** Physical store is stored in the registry in a format that has not yet been reverse engineered.
 
 :::
 
-<hr/><br/>
 
 ## ZeroCID / KMS4k / AVMA4k
 
@@ -280,7 +276,7 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 | KMS4k   | Offline KMS activation for over 4000 years / until reinstall/feature upgrade                         |
 | AVMA4k  | Offline AVMA activation for over 4000 years (Server 2012 R2+ only) / until reinstall/feature upgrade |
 
-<hr/><br/>
+<br/>
 
 ## Windows ESU
 
@@ -310,7 +306,7 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 - This option is for the advanced users, you can [check the guides][8] to understand more about it.  
 
 
-::: tip Notes
+::: warning Notes
 
 - **Use this activation only when necessary.**
 - On Windows 10/11, the system may randomly change the Windows edition later. This is a Windows issue and can be safely ignored.
@@ -327,7 +323,7 @@ a797d61e-1475-470b-86c8-f737a72c188d   StarterN
 - With Office KMS host, you can activate the Office KMS client in your network. 
 - This option is for the advanced users, you can [check the guides][9] to understand more about it.  
 
-::: tip Note
+::: danger Note
 
 - **Use this activation only when necessary.**
 - KMS host license causes the sppsvc service to run continuously.
@@ -353,8 +349,6 @@ All links given below are official links hosted by Microsoft.
  - If installing multiple license packs on the same machine, make sure to install older versions before newer versions (ex. Install Office 2016 before Office 2024).
 
 :::
-
-<br><br/> 
 
 ::: details  Office 2010 KMS Host Installer Workaround
 
@@ -392,9 +386,8 @@ All links given below are official links hosted by Microsoft.
 | Clear Tamper State         | Clear the tamper state set due to store corruption or deletion     |
 | Remove Evaluation Key Lock | Remove the product key change lock set for evaluation product keys |
 
-<hr/><br/>
 
-## How to remove TSforge?
+## How to remove TSforge
 
 - This activation method doesn't modify any Windows components and doesn't install any new files.
 - Instead, it appends data to one of data files used by Software Protection Platform.
@@ -402,23 +395,24 @@ All links given below are official links hosted by Microsoft.
 - In MAS script, goto Troubleshoot and apply Fix Licensing option.
 - Done ✔️
 
-
 ## Manual Activation
 
 See the [TSforge README][2] for information on manually using TSforge.
-
 
 ## Setup Preactivation
 
 -   Check the Extract OEM option in the MAS Extras section if you want pre-activated Windows installation.
 -   Read more [here](./oem-folder).
 
+## Troubleshoot  
 
-## Credits   
-Thank you for providing this excellent work 🤍  
+::: danger Troubleshoot
 
-[massgrave.dev][2]
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
 
+- If your issue persists — You can [**Contact Us**](./troubleshoot).
+
+:::
 
 [N]: https://github.com/NiREvil/windows-activation/
 [1]: https://github.com/UMSKT/writeups/blob/main/PKEY2005.md
