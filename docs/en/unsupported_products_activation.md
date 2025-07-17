@@ -20,46 +20,40 @@ editLink: true
 
 - Check [here][1].
 
----
-
 ## Windows XP Pro VL
 
 - Download Windows XP Pro VL - [Link](./windows_xp_links)
--	32-bit (x86) Windows XP Pro VL SP3 ISO Activation key - `XCYBK-2B3KV-G8T8F-WXJM7-WCTYT`
--	64-bit (x64) Windows XP Pro VL SP2 ISO Activation key - `VCFQD-V9FX9-46WVH-K3CD4-4J3JM`
+- 32-bit (x86) Windows XP Pro VL SP3 ISO Activation key - `XCYBK-2B3KV-G8T8F-WXJM7-WCTYT`
+- 64-bit (x64) Windows XP Pro VL SP2 ISO Activation key - `VCFQD-V9FX9-46WVH-K3CD4-4J3JM`
 
 ----
 
 ## Office 2010 VL on Windows XP
 
 - Download Office 2010 VL - [Link][2]
--	Activate with KMS-VL-ALL by qewlpal [Official thread][3] | [Mirror][4] (Use 7.2RC2 version from the mirror link)
+- Activate with KMS-VL-ALL by qewlpal [Official thread][3] | [Mirror][4] (Use 7.2RC2 version from the mirror link)
 
-> -  MAS supports Office on Windows Vista and later versions.
-
-----
+> - MAS supports Office on Windows Vista and later versions.
 
 ## Office 2007 Enterprise
 
 - Download Office 2007 Enterprise - [Link][5]
--	Activation key - `BQDQB-KRRY9-43DBR-4P9J4-DH7D8`
-
-----
+- Activation key - `BQDQB-KRRY9-43DBR-4P9J4-DH7D8`
 
 ## Remote Desktop Services / Client Access Licenses (RDS CALs)
 
 **Installation**  
 
-::: details Click here for info
+::: details Click here to see info
 
 - Sign into the server you want to use as the license server using an administrator account.
--  In Server Manager, select Manage > Add Roles and Features.
--  On the Select installation type page, select Role-based or feature-based installation.
--  Specify the server on which you install the licensing role.
--  On the Server Roles page, check the box for Remote Desktop Services, then select Next until you see the Remote Desktop Services page.
--  Select the roles you want to install. Make sure you include the Remote Desktop Licensing role.
--  In the Add Roles and Features Wizard dialog box, select Add Features.
--  Select Next until you see the Confirmation page, then select Install.
+- In Server Manager, select Manage > Add Roles and Features.
+- On the Select installation type page, select Role-based or feature-based installation.
+- Specify the server on which you install the licensing role.
+- On the Server Roles page, check the box for Remote Desktop Services, then select Next until you see the Remote Desktop Services page.
+- Select the roles you want to install. Make sure you include the Remote Desktop Licensing role.
+- In the Add Roles and Features Wizard dialog box, select Add Features.
+- Select Next until you see the Confirmation page, then select Install.
 
 ::: 
 
@@ -67,17 +61,17 @@ editLink: true
 
 There is no validation during the activation of RDS licenses.
 
--  Open "Remote Desktop Licensing Manager"
--  Right-click the server and click "Activate Server"
--  Select the connection method of choice and click next (default is fine)
--  Fill the first company information with garbage and click next
--  Leave the next page blank and click next
--  The wizard should complete and say "The license server has been successfully activated"
--  Keep "Start Install Licenses Wizard" checked and click next until it asks you to select a "License program"
--  Change the License Program to "Service Provider License Agreement" in the dropdown and click next
--  Set the agreement number to `1234567` and click next
--  Fill out the next page with your chosen values and click next
--  The license wizard should report "The requested licenses have been successfully installed"
+- Open "Remote Desktop Licensing Manager"
+- Right-click the server and click "Activate Server"
+- Select the connection method of choice and click next (default is fine)
+- Fill the first company information with garbage and click next
+- Leave the next page blank and click next
+- The wizard should complete and say "The license server has been successfully activated"
+- Keep "Start Install Licenses Wizard" checked and click next until it asks you to select a "License program"
+- Change the License Program to "Service Provider License Agreement" in the dropdown and click next
+- Set the agreement number to `1234567` and click next
+- Fill out the next page with your chosen values and click next
+- The license wizard should report "The requested licenses have been successfully installed"
 
 Alternatively, you can generate a key on the page below. Use web browser option in activation process to get Product ID. It works on old Server versions as well.  
 
@@ -90,22 +84,18 @@ Source code and details:
 
 [gist.github.com/WitherOrNot][8]
 
-----
-
 ## HEVC Video Extensions
 
--	It's a [paid Microsoft extension][9] to play High Efficiency Video Coding (HEVC) videos in any video app on your Windows 10/11 device.
--	Microsoft provides digitally signed installers to M365 Admin Center subscribers, you can download them below.
+- It's a [paid Microsoft extension][9] to play High Efficiency Video Coding (HEVC) videos in any video app on your Windows 10/11 device.
+- Microsoft provides digitally signed installers to M365 Admin Center subscribers, you can download them below.
 
 Download link: [app.box.com/s/rozw][10] 
 Alternatively, you can download AppxBundle installer from [store.rg-adguard.net][11] search `9nmzlz57r3t7` in ProductId.
 
----
-
 ## Visual Studio
 
--	Download - [visualstudio.microsoft.com/downloads/][12]
--	Activation keys:
+- Download - [visualstudio.microsoft.com/downloads/][12]
+- Activation keys:
 
 | Editions                        | Activation Key                |
 |---------------------------------|-------------------------------|
@@ -113,8 +103,6 @@ Alternatively, you can download AppxBundle installer from [store.rg-adguard.net]
 | Visual Studio 2022 Enterprise   | VHF9H-NXBBB-638P6-6JHCY-88JWH |
 | Visual Studio 2019 Professional | NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y |
 | Visual Studio 2019 Enterprise   | BF8Y8-GN2QH-T84XB-QVY3B-RC4DF |
-
-----
 
 ## Microsoft DaRT
 
@@ -127,12 +115,10 @@ This product is no longer under active development.
 
 **Guide:** [woshub.com/create-dart-10-recovery-image/][14]
 
------
-
 ## SQL Server
 
--	Download - [microsoft.com/evaluate-sql-server-2022][15]
--	Activation keys:
+- Download - [microsoft.com/evaluate-sql-server-2022][15]
+- Activation keys:
 
 | Editions                        | Activation Key                |
 |---------------------------------|-------------------------------|
@@ -144,8 +130,6 @@ This product is no longer under active development.
 | SQL Server 2019 Enterprise      | HMWJ3-KY3J2-NMVD7-KG4JR-X2G8G |
 | SQL Server 2019 Standard        | PMBDC-FXVM3-T777P-N4FY8-PKFF4 |
 
----
-
 ## Microsoft Configuration Manager
 
 Also known as ConfigMgr, Microsoft Endpoint Configuration Manager (MECM).  
@@ -155,8 +139,6 @@ Formerly known as Systems Management Server (SMS), System Center Configuration M
 
 Download - [microsoft.com/evaluate-endpoint-config-manager][17]   
 Activation Key - `BXH69-M62YX-QQD6R-3GPWX-8WMFY`
-
-----
 
 ## Troubleshoot  
 
