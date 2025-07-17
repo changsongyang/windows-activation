@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "Instant Windows & Office Activation"
   text: ""
-  tagline: "A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more. Activate in under 40 seconds!"
+  tagline: "A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more. Activate in under 40–seconds!"
   actions:
     - theme: brand
       text: Get Started
       link: ./wa/
     - theme: alt
       text: View on Github
-      link: https://github.com/sahar-km/windows-activation
+      link: https://github.com/NiREvil/windows-activation
 
 features:
   - title: "🔐 HWID Activation"
