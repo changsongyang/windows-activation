@@ -28,7 +28,7 @@ import { data as posts } from '../.vitepress/posts.data.js'
 </script>
 
 <div class="latest-posts-section">
-  <h2 class="section-title">آخرین مطالب</h2>
+  <h2 class="section-title">مطالب اخیر</h2>
   <div class="posts-grid" v-if="posts && posts.length > 0">
     <article v-for="post of posts.filter(p => p.lang === 'fa')" :key="post.url" class="post-card">
       <div class="post-content">
