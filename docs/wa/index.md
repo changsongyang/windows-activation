@@ -2,8 +2,8 @@
 layout: doc
 outline: deep
 title: 'All-in-One — Microsoft Activation Scripts'
-description: 'MAS: Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons'
-date: 2025-06-05
+description: 'MAS: Microsoft Activation Script — Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons'
+date: 2025-05-05
 editLink: true
 head:
   - - meta
@@ -22,11 +22,11 @@ head:
 
 # Welcome to the ultimate guide for activating Windows and Office
 
-> All-in One, This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more — to activate your `Windows` and `Office` safely and permanently in under 40 seconds. Includes troubleshooting tips and detailed comparisons.
+> All-in One, This comprehensive guide walks you through reliable, open-source methods — like HWID, KMS, TSforge, and more to activate your `Windows` and `Office` safely and permanently in under 40–seconds. Includes troubleshooting tips and detailed comparisons.
 
-::: tip Info
+<br/>
 
-::: details Why "Freedom to Dream"?
+::: danger Why **`Freedom to Dream`**
 
 Freedom to Dream isn’t just a name—it’s the spirit behind this project, This isn’t only about activating Windows or Office.
 It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator—to unlock their full potential.
@@ -38,7 +38,9 @@ This project reflects our mission to enable creativity, productivity, and ambiti
 
 :::
 
-## Activation Methods Summary
+<br/>
+
+## Activation Methods Summary {#summary}
 
 For a quick overview, here is a summary of the activation methods available:
 
@@ -54,9 +56,13 @@ For a quick overview, here is a summary of the activation methods available:
 <p style="text-align: center;">
   For a detailed comparison of all methods, check out the <a href="./chart">Activation Methods Chart</a>.</p>
 
+<br/>
+
 # Method 1. Permanent Activation with HWID
 
-For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the simplest way to get a permanent digital license for Windows 10 and 11. <br/>
+For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the simplest way to get a permanent digital license for Windows 10 and 11. 
+
+<br/>
 
 ## Step 1. Open PowerShell as Administrator
 
@@ -68,30 +74,40 @@ For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="540px" />
 </p>
-  
-::: tip Another ways to run PowerShell
 
-::: details Click here to see more waysa
+<br/>
+  
+::: tip  To run PowerShell
+
+::: details To view additional methods, please click here 
 
 ### Option B: Using Run Box
 
 1. Open the Run dialog box: Press `Win (⊞) + R` keys simultaneously  
 2. Type `powershell`  
 3. Press `Ctrl + Shift + Enter` to run as administrator  
-4. If prompted by User Account Control, click `Yes` <br/>  
+4. If prompted by User Account Control, click `Yes`
+
+<br/>  
 
 ### Option C: Using Power User Menu
 
 1. Right-click on the "Start menu" (or press `Win (⊞) + X`)  
 2. Select "Windows Terminal (Admin)" on Windows 11 or "Windows PowerShell (Admin)" on Windows 10
 
+<br/>
+
 Or You can visit [this Link][1] to see 10 ways to run **PowerShell** And [this link][2] For Running CMD in your windows.
 
 :::
 
+<br/>
+
 ## Step 2. Run the Activation Script {#step2}
 
-Copy the following command, paste it (via Right-click) into the PowerShell window and press `Enter` key.
+Copy the following command, paste it (via Right-click) into the PowerShell window and press `Enter` key
+
+<br/>
 
 ::: code-group
 
@@ -109,6 +125,8 @@ irm https://massgrave.dev/get | iex
   <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="Paste command in PowerShell" width="540px" />
 </p>
 
+<br/>
+
 ## Step 3. Choose the HWID Option
 
 A menu will appear in a new window. Press `1` number on your keyboard to select **HWID Activation** and wait a few moments for the process to complete.
@@ -118,38 +136,45 @@ A menu will appear in a new window. Press `1` number on your keyboard to select 
 </p>
 
 **Congratulations!** <Badge type="tip" text="Done" />
-Your Windows is now permanently activated with a digital license. <br/>
+Your Windows is now permanently activated with a digital license.
+
+<br/>
 
 To check the activation status of "Windows 10" Navigate to:  
 Settings > Update & Security > Activation [^1]
 
 To check the activation status of "Windows 11" Navigate to:  
-Settings > System > Activation [^2] <br/>
+Settings > System > Activation [^2]
+
+<br/>
 
 ::: info Notes
 
 ::: details Click here to see the details
 
 - **For Windows:** I personally use the **KMS method** [[see guides](./kms)] or [[Online KMS](./online_kms) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.
-- **For Office:** I use Ohook, or TSforge, The small differences are noted in the [summary table 👆🏿](#activation-methods-summary)
+- **For Office:** I use Ohook, or TSforge, The small differences are noted in the [summary table 👆🏿](#summary)
 
 :::
+
+<br/>
 
 ## How to Remove Activations
 
 ::: danger Additional Information
 
-::: details See details
-
 - **HWID:**
-  A digital license is stored on Microsoft's servers and tied to your hardware. It cannot be "removed" in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid#how-to-remove-hwid)
+A digital license is stored on Microsoft's servers and tied to your hardware. It `cannot be removed` in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid#how-to-remove-hwid)
+
 - **Online KMS / Ohook / KMS38:**
-   Use the corresponding "Uninstall" or "Remove" option within the MAS script menu, then run the "Fix Licensing" option from the Troubleshoot menu. [Online KMS Details](./online_kms#how-to-remove-online-kms) and [KMS38 details](./kms38#how-to-remove-kms38)
+Use the corresponding `Uninstall` or `Remove` option within the [MAS script](#step2) menu, then run the "Fix Licensing" option from the Troubleshoot menu. [Online KMS Details](./online_kms#how-to-remove-online-kms) and [KMS38 details](./kms38#how-to-remove-kms38)
+
 - **TSforge:**
-  This method only appends data and doesn't install files. To reset it, simply run the "Fix Licensing" option from the Troubleshoot menu in the MAS script. [Ohook](./ohook#how-to-remove-ohook) [TSforge details](./tsforge#how-to-remove-tsforge)
+This method only appends data and doesn't install files. To reset it, simply run the `Fix Licensing` option from the Troubleshoot menu in the MAS script. [Ohook](./ohook#how-to-remove-ohook) [TSforge details](./tsforge#how-to-remove-tsforge)
 
 :::
 
+<br/>
 
 ::: info Supported Windows 10/11 Products for HWID
 
@@ -191,6 +216,8 @@ _A generic key is automatically applied by the script where needed._
 
 :::
 
+<hr/><br/>
+
 ::: danger Troubleshoot
 
 - If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
@@ -198,7 +225,6 @@ _A generic key is automatically applied by the script where needed._
 - If your issue persists — You can [**Contact us**](./troubleshoot).
 
 :::
-
 
 [^1]: To check the activation status of Windows 10, Navigate to <br/> Settings → Update & Security → Activation. <br/> You will see your activation status listed there. If Windows is activated, you should see "Activated" with a green checkmark.
 
