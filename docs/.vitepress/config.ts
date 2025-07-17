@@ -12,6 +12,8 @@ export default defineConfig({
   base: base,
   cleanUrls: true,
   ignoreDeadLinks: true,
+  title: 'Freedom to Dream 🦋',
+  description: 'Instant Windows and Office Activation Tools',
 
   head: [
     ['link', { rel: 'icon', href: `${base}favicon.ico` }],
@@ -61,220 +63,179 @@ export default defineConfig({
       label: 'English',
       lang: 'en-US',
       dir: 'ltr',
-      title: 'Freedom to Dream',
-      description: 'Instant Windows and Office Activation Tools',
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Docs', link: '/en/' },
-          { text: 'FAQ', link: '/en/faq' },
+          { text: '🏠 Home', link: '/' },
+          { text: '🗂️ Notes', link: '/wa/' },
+          { text: '⚙️ FAQ', link: '/wa/faq' },
         ],
         sidebar: {
-          '/en/': [
+          '/wa/': [
             {
               text: 'Activation Guides',
               collapsed: false,
               items: [
-                { text: 'HWID Activation', link: '/en/' },
-                { text: 'KMS Activation', link: '/en/kms' },
-                { text: 'Methods Chart', link: '/en/chart' },
+                { text: 'HWID Activation', link: '/wa/index' },
+                { text: 'KMS Activation', link: '/wa/kms' },
+                { text: 'Methods Chart', link: '/wa/chart' },
+                { text: 'Download Windows / Office', link: '/wa/genuine-installation-media' },
               ],
             },
             {
-              text: 'Docs',
-              collapsed: false,
+              text: 'Activation Methods',
+              collapsed: true,
               items: [
-                { text: 'HWID Method Details', link: '/en/hwid' },
-                { text: 'Ohook Method Details', link: '/en/ohook' },
-                { text: 'TSforge Method Details', link: '/en/tsforge' },
-                { text: 'KMS38 Method Details', link: '/en/kms38' },
-                { text: 'Online KMS Method Details', link: '/en/online_kms' },
-                { text: 'Change Windows Edition', link: '/en/change_windows_edition.' },
-                { text: 'Change Office Edition', link: '/en/change_office_edition' },
-                { text: '$OEM$ Folders', link: '/en/oem-folder' },
-                { text: 'Switches in Command line', link: '/en/command_line_switches' },
-                { text: 'Download Windows / Office', link: '/en/genuine-installation-media' },
+                { text: 'HWID Method Details', link: '/wa/hwid' },
+                { text: 'Ohook Method Details', link: '/wa/ohook' },
+                { text: 'TSforge Method Details', link: '/wa/tsforge' },
+                { text: 'KMS38 Method Details', link: '/wa/kms38' },
+                { text: 'Online KMS Method Details', link: '/wa/online_kms' },
+                { text: 'Change Windows Edition', link: '/wa/change_windows_edition' },
+                { text: 'Change Office Edition', link: '/wa/change_office_edition' },
+                { text: '$OEM$ Folders', link: '/wa/oem-folder' },
+                { text: 'Switches in Command line', link: '/wa/command_line_switches' },
               ],
             },
             {
               text: 'Technical Details',
               collapsed: true,
               items: [
-                { text: 'Win 10 After End-Of-Life', link: '/en/windows10_eol' },
-                { text: 'Remove Malware', link: '/en/remove_malware' },
-                { text: 'Clean Install Windows', link: '/en/clean_install_windows' },
-                {
-                  text: 'Office License Is Not Genuine',
-                  link: '/en/office-license-is-not-genuine',
-                },
-                { text: 'Licensing Servers Issue', link: '/en/licensing-servers-issue' },
-                {
-                  text: 'Issues Due To Gaming Spoofers',
-                  link: '/en/issues_due_to_gaming_spoofers',
-                },
-                { text: 'Change Edition Issues', link: '/en/change_edition_issues' },
-                { text: 'Evaluation Editions', link: '/en/evaluation_editions' },
-                { text: 'Fix Powershell', link: '/en/fix_powershell' },
-                { text: 'Fix Windows Services', link: '/en/fix_service' },
-                { text: 'Fix WPA Registry', link: '/en/fix-wpa-registry' },
-                { text: 'In-place Repair Upgrade ', link: '/en/in-place_repair_upgrade' },
-                { text: 'Office c2r Custom Install', link: '/en/office_c2r' },
-                {
-                  text: 'Bypass Russian Geoblock',
-                  link: 'https://gravesoft.dev/bypass-russian-geoblock',
-                },
+                { text: 'Win 10 After End-Of-Life', link: '/wa/windows10_eol' },
+                { text: 'Remove Malware', link: '/wa/remove_malware' },
+                { text: 'Clean Install Windows', link: '/wa/clean_install_windows' },
+                { text: 'Office License Is Not Genuine', link: '/wa/office-license-is-not-genuine' },
+                { text: 'Licensing Servers Issue', link: '/wa/licensing-servers-issue' },
+                { text: 'Issues Due To Gaming Spoofers', link: '/wa/issues_due_to_gaming_spoofers' },
+                { text: 'Change Edition Issues', link: '/wa/change_edition_issues' },
+                { text: 'Evaluation Editions', link: '/wa/evaluation_editions' },
+                { text: 'Fix Powershell', link: '/wa/fix_powershell' },
+                { text: 'Fix Windows Services', link: '/wa/fix_service' },
+                { text: 'Fix WPA Registry', link: '/wa/fix-wpa-registry' },
+                { text: 'In-place Repair Upgrade', link: '/wa/in-place_repair_upgrade' },
+                { text: 'Office c2r Custom Install', link: '/wa/office_c2r' },
               ],
             },
             {
               text: 'Manual Activation Guides',
               collapsed: true,
               items: [
-                { text: 'Manual HWID activation', link: '/en/manual_hwid_activation' },
-                { text: 'Manual Ohook activation', link: '/en/manual_ohook_activation' },
-                { text: 'Manual KMS38 activation', link: '/en/manual_kms38_activation' },
+                { text: 'Manual HWID activation', link: '/wa/manual_hwid_activation' },
+                { text: 'Manual Ohook activation', link: '/wa/manual_ohook_activation' },
+                { text: 'Manual KMS38 activation', link: '/wa/manual_kms38_activation' },
               ],
             },
             {
-              text: 'Contact Us',
+              text: 'Support',
               collapsed: true,
               items: [
-                { text: 'Troubleshoot', link: '/en/troubleshoot' },
-                { text: 'FAQ', link: '/en/faq' },
-                { text: 'Credits', link: '/en/credits' },
+                { text: 'Troubleshoot', link: '/wa/troubleshoot' },
+                { text: 'FAQ', link: '/wa/faq' },
+                { text: 'Credits', link: '/wa/credits' },
               ],
             },
           ],
         },
-        editLink: {
-          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/docs/:path',
-          text: 'Edit this page on GitHub',
+        logo: '/logo-h.svg',
+        search: { provider: 'local' },
+        docFooter: { prev: 'Previous page', next: 'Next page' },
+        lastUpdated: { text: 'Last updated', formatOptions: { dateStyle: 'medium', timeStyle: 'short' } },
+        editLink: { pattern: 'https://github.com/NiREvil/windows-activation/edit/main/docs/:path', text: 'Edit this page on GitHub' },
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/Diana-Cl/' },
+          { icon: 'telegram', link: 'https://t.me/F_NiREvil/6448' },
+        ],
+        footer: {
+          copyright: '© 2025 REvil — Sharing knowledge, one note at a time',
+          message: 'Made with using VitePress',
         },
-        docFooter: {
-          prev: 'Previous page',
-          next: 'Next page',
-        },
-        lastUpdated: {
-          text: 'Last updated',
-          formatOptions: {
-            dateStyle: 'medium',
-            timeStyle: 'short',
-          },
-        },
-      },
+      }
     },
     fa: {
       label: 'فارسی',
       lang: 'fa-IR',
       dir: 'rtl',
-      title: 'Freedom to Dream',
-      description: 'ابزارهای فعال‌سازی فوری ویندوز و آفیس',
       themeConfig: {
         nav: [
-          { text: 'خانه', link: '/fa/index' },
-          { text: 'مستندات', link: '/fa/intro' },
-          { text: 'سوالات متداول', link: '/fa/faq' },
+          { text: '🏠 خانه', link: '/fa/' },
+          { text: '🗂️ مستندات', link: '/fa/wa/' },
+          { text: '⚙️ سوالات متداول', link: '/fa/wa/faq' },
         ],
-        sidebar: [
-          {
-            text: 'راهنمای فعال‌سازی',
-            collapsed: false,
-            items: [
-              { text: 'فعال‌سازی با روش HWID', link: '/fa/intro' },
-              { text: 'فعال‌سازی با روش KMS', link: '/fa/kms' },
-              { text: 'مقایسه انواع روش‌ها', link: '/fa/chart' },
-            ],
-          },
-          {
-            text: 'مستندات',
-            collapsed: false,
-            items: [
-              { text: 'جزئیات روش HWID', link: '/fa/hwid' },
-              { text: 'جزئیات روش Ohook', link: '/fa/ohook' },
-              { text: 'جزئیات روش TSforge', link: '/fa/tsforge' },
-              { text: 'جزئیات روش KMS38', link: '/fa/kms38' },
-              { text: 'جزئیات روش Online KMS', link: '/fa/online_kms' },
-              { text: 'تغییر نسخه ویندوز', link: '/fa/change_windows_edition' },
-              { text: 'تغییر نسخه آفیس', link: '/fa/change_office_edition' },
-              { text: 'پوشه‌های $OEM$', link: '/fa/oem-folder' },
-              { text: 'سوئیچ‌ها در خط فرمان', link: '/fa/command_line_switches' },
-              { text: 'دانلود ویندوز / آفیس', link: '/fa/genuine-installation-media' },
-            ],
-          },
-          {
-            text: 'جزئیات فنی',
-            collapsed: true,
-            items: [
-              { text: 'ویندوز ۱۰ بعد از پایان پشتیبانی', link: '/fa/windows10_eol' },
-              { text: 'حذف بدافزارها', link: '/fa/remove_malware' },
-              { text: 'نصب تمیز ویندوز', link: '/fa/clean_install_windows' },
-              { text: 'لایسنس آفیس اصل نیست', link: '/fa/office-license-is-not-genuine' },
-              { text: 'مشکل سرورهای لایسنس', link: '/fa/licensing-servers-issue' },
-              { text: 'مشکلات ناشی از اسپوفرهای گیم', link: '/fa/issues_due_to_gaming_spoofers' },
-              { text: 'مشکلات تغییر نسخه', link: '/fa/change_edition_issues' },
-              { text: 'نسخه‌های ارزیابی', link: '/fa/evaluation_editions' },
-              { text: 'رفع مشکل پاورشل', link: '/fa/fix_powershell' },
-              { text: 'رفع مشکل سرویس‌های ویندوز', link: '/fa/fix_service' },
-              { text: 'رفع مشکل رجیستری WPA', link: '/fa/fix-wpa-registry' },
-              { text: 'آپگرید تعمیری در محل', link: '/fa/in-place_repair_upgrade' },
-              { text: 'نصب سفارشی Office c2r', link: '/fa/office_c2r' },
-              {
-                text: 'دور زدن مسدودسازی جغرافیایی روسیه',
-                link: 'https://gravesoft.dev/bypass-russian-geoblock',
-              },
-            ],
-          },
-          {
-            text: 'راهنمای فعال‌سازی دستی',
-            collapsed: true,
-            items: [
-              { text: 'نصب دستی HWID', link: '/fa/manual_hwid_activation' },
-              { text: 'نصب دستی Ohook', link: '/fa/manual_ohook_activation' },
-              { text: 'نصب دستی KMS38', link: '/fa/manual_kms38_activation' },
-            ],
-          },
-          {
-            text: 'ارتباط با ما',
-            collapsed: true,
-            items: [
-              { text: 'گزارش مشکلات', link: '/fa/troubleshoot' },
-              { text: 'سوالات متداول', link: '/fa/faq' },
-              { text: 'منابع', link: '/fa/credits' },
-            ],
-          },
-        ],
-        editLink: {
-          pattern: 'https://github.com/sahar-km/windows-activation/edit/main/docs/:path',
-          text: 'این صفحه را در گیت‌هاب ویرایش کنید',
+        sidebar: {
+          '/fa/wa/': [
+            {
+              text: 'راهنمای فعال‌سازی',
+              collapsed: false,
+              items: [
+                { text: 'فعال‌سازی با روش HWID', link: '/fa/wa/index' },
+                { text: 'فعال‌سازی با روش KMS', link: '/fa/wa/kms' },
+                { text: 'مقایسه انواع روش‌ها', link: '/fa/wa/chart' },
+                { text: 'دانلود ویندوز / آفیس', link: '/fa/wa/genuine-installation-media' },
+              ],
+            },
+            {
+              text: 'روش‌های فعال‌سازی',
+              collapsed: true,
+              items: [
+                { text: 'جزئیات روش HWID', link: '/fa/wa/hwid' },
+                { text: 'جزئیات روش Ohook', link: '/fa/wa/ohook' },
+                { text: 'جزئیات روش TSforge', link: '/fa/wa/tsforge' },
+                { text: 'جزئیات روش KMS38', link: '/fa/wa/kms38' },
+                { text: 'جزئیات روش Online KMS', link: '/fa/wa/online_kms' },
+                { text: 'تغییر نسخه ویندوز', link: '/fa/wa/change_windows_edition' },
+                { text: 'تغییر نسخه آفیس', link: '/fa/wa/change_office_edition' },
+                { text: 'پوشه‌های $OEM$', link: '/fa/wa/oem-folder' },
+                { text: 'سوئیچ‌ها در خط فرمان', link: '/fa/wa/command_line_switches' },
+              ],
+            },
+            {
+              text: 'جزئیات فنی',
+              collapsed: true,
+              items: [
+                { text: 'ویندوز ۱۰ بعد از پایان پشتیبانی', link: '/fa/wa/windows10_eol' },
+                { text: 'حذف بدافزارها', link: '/fa/wa/remove_malware' },
+                { text: 'نصب تمیز ویندوز', link: '/fa/wa/clean_install_windows' },
+                { text: 'لایسنس آفیس اصل نیست', link: '/fa/wa/office-license-is-not-genuine' },
+                { text: 'مشکل سرورهای لایسنس', link: '/fa/wa/licensing-servers-issue' },
+                { text: 'مشکلات ناشی از اسپوفرهای گیم', link: '/fa/wa/issues_due_to_gaming_spoofers' },
+                { text: 'مشکلات تغییر نسخه', link: '/fa/wa/change_edition_issues' },
+                { text: 'نسخه‌های ارزیابی', link: '/fa/wa/evaluation_editions' },
+                { text: 'رفع مشکل پاورشل', link: '/fa/wa/fix_powershell' },
+                { text: 'رفع مشکل سرویس‌های ویندوز', link: '/fa/wa/fix_service' },
+                { text: 'رفع مشکل رجیستری WPA', link: '/fa/wa/fix-wpa-registry' },
+                { text: 'آپگرید تعمیری در محل', link: '/fa/wa/in-place_repair_upgrade' },
+                { text: 'نصب سفارشی Office c2r', link: '/fa/wa/office_c2r' },
+              ],
+            },
+            {
+              text: 'راهنمای فعال‌سازی دستی',
+              collapsed: true,
+              items: [
+                { text: 'نصب دستی HWID', link: '/fa/wa/manual_hwid_activation' },
+                { text: 'نصب دستی Ohook', link: '/fa/wa/manual_ohook_activation' },
+                { text: 'نصب دستی KMS38', link: '/fa/wa/manual_kms38_activation' },
+              ],
+            },
+            {
+              text: 'پشتیبانی',
+              collapsed: true,
+              items: [
+                { text: 'گزارش مشکلات', link: '/fa/wa/troubleshoot' },
+                { text: 'سوالات متداول', link: '/fa/wa/faq' },
+                { text: 'منابع', link: '/fa/wa/credits' },
+              ],
+            },
+          ],
         },
-        docFooter: {
-          prev: 'صفحه قبلی',
-          next: 'صفحه بعدی',
-        },
-        lastUpdated: {
-          text: 'آخرین بروزرسانی',
-        },
-      },
-    },
-  },
-
-  themeConfig: {
-    logo: '/logo-h.svg',
-    search: {
-      provider: 'local',
-    },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/NiREvil/' },
-      { icon: 'telegram', link: 'https://t.me/F_NiREvil/6448' },
-    ],
-    footer: {
-      message: 'Made with using VitePress',
-      copyright: '© 2025 REvil — Sharing knowledge, one note at a time',
-    },
+        editLink: { pattern: 'https://github.com/NiREvil/windows-activation/edit/main/docs/:path', text: 'این صفحه را در گیت‌هاب ویرایش کنید' },
+        docFooter: { prev: 'صفحه قبلی', next: 'صفحه بعدی' },
+        lastUpdated: { text: 'آخرین بروزرسانی' },
+      }
+    }
   },
 
   vite: {
     optimizeDeps: {
-      include: ['video.js'],
-    },
-  },
-});
+      exclude: ['video.js']
+    }
+  }
+})

@@ -18,31 +18,31 @@ function stripHtmlAndTruncate(html, maxLength) {
 function formatDate(raw, lang = 'en') {
   const date = raw ? new Date(raw) : new Date();
   if (isNaN(date.getTime())) return { time: 0, string: 'N/A' };
-  
+
   const locale = lang === 'fa' ? 'fa-IR' : 'en-US';
   const options = {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
   };
-  
+
   return {
     time: +date,
     string: date.toLocaleDateString(locale, options)
   };
 }
 
-export default createContentLoader(['{en,fa}/*.md'], {
+export default createContentLoader(['fa/wa/*.md', 'wa/*.md'], {
   excerpt: true,
   transform(raw) {
     const sortedPosts = raw
       .filter(({ frontmatter }) => frontmatter?.title)
       .map(({ url, frontmatter, excerpt }) => {
-        const lang = url.includes('/fa/') ? 'fa' : 'en';
-        
+        const lang = url.includes('/fa/wa/') ? 'fa' : 'en';
+
         return {
           title: frontmatter.title,
-          url: `${base}${url.startsWith('/') ? url.substring(1) : url}`,
+          url: `${base}${url.startsWith('/wa') ? url.substring(1) : url}`,
           excerpt: stripHtmlAndTruncate(frontmatter.description || excerpt, EXCERPT_MAX_LENGTH),
           date: formatDate(frontmatter.date, lang),
           lang
