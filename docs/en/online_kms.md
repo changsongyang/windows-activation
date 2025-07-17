@@ -2,7 +2,7 @@
 layout: doc
 outline: deep
 title: 'Online KMS Activation'
-description: 'online kms activation'
+description: 'KMS activates Windows – Office for 180 Days, For Windows Core – ProWMC editions it is 30 – 45 Days'
 date: 2025-05-05
 editLink: true
 ---
@@ -11,7 +11,7 @@ editLink: true
 
 ## Overview
 
-- How to use it? Please find the instructions [Intro](./index).
+- How to use it? Please find the instructions [intro](./index#step2).
 - KMS activates Windows / Office for 180 Days. For Windows Core / ProWMC editions it is 30 / 45 Days.
 - This script can activate both Retail and Volume Windows installation.
 - This script can activate C2R Retail and VL Office, UWP Office, but not 2010 / 2013 MSI Retail Office.
@@ -443,8 +443,6 @@ If you don't want to install this renewal task, you can turn off the "Renewal Ta
 
 :::
 
-<br/>
-
 ## Unsupported Products
 
 - Office MSI Retail 2010/2013, Office 2010 C2R Retail
@@ -457,7 +455,6 @@ If you don't want to install this renewal task, you can turn off the "Renewal Ta
   Windows 10 (Cloud "S", IoTEnterprise, ProfessionalSingleLanguage... etc)  
   Windows Server (Server Foundation, Storage Server, Home Server 2011... etc)
 
-
 ## How does it work?
 
 ::: tip What is KMS activation?
@@ -466,9 +463,7 @@ Key Management Service (KMS) is a genuine activation method provided by Microsof
 
 :::
 
-<br/>
-
-::: tip How are we getting it for free?
+::: tip How are we getting it for free
 
 Developers reverse-engineered the KMS Host Server setup, so now anyone can host a KMS server and activate the systems without any limitations. KMS activators such as KMSpico, MTK, KMS_VL_ALL, etc., locally create an emulated KMS Host Server and activate Windows and Office.
 
@@ -478,9 +473,7 @@ Another method of KMS activation is a publicly-available Online KMS Host Server.
 
 :::
 
-<br/>
-
-## Is Online KMS activation safe?
+## Is Online KMS activation safe
 
 Yes.
 Let's go into the details. In the KMS protocol, there is a relationship between host and client. The client system asks the host system to grant the activation, and the host system grants the activation if it's eligible. In this process, the client system shares some of the system's data, which is not sensitive in nature. According to the [technet.microsoft.com/aspx#kms-overview][7], the client system shares the following data with the host system: Client FQDN, CMID, time-stamp, Product license state, expiration time, and IP address
@@ -535,10 +528,13 @@ If you don't want the script to convert the Retail Office to Volume, you can tur
 - Check the Extract OEM option in the MAS `Extras` section if you want pre-activated Windows installation.
 - Further read [OEM Folder](./oem-folder).
 
-::: danger Troubleshooting
+## Troubleshoot  
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
-If your issue persists - [**Contact us**](./troubleshoot).
+::: danger Troubleshoot
+
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+
+- If your issue persists — You can [**Contact Us**](./troubleshoot).
 
 :::
 
