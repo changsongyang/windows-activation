@@ -9,7 +9,7 @@ editLink: true
 
 # Windows 10 Updates After End-Of-Life
 
-This document explains how users can receive official updates after the retirement date of Windows 10 on October 14, 2025.
+> This document explains how users can receive official updates after the retirement date of Windows 10 on October 14, 2025.
 
 ::: tip For many people
 
@@ -24,9 +24,7 @@ and would like to stay on Windows 10 as long as they can.
 
 Microsoft announced [Extended Security Updates (ESU)][1] where users can buy the ESU subscription to receive Windows updates. These updates will begin to roll out in November 2025.
 
-**You can use [TSforge option in MAS](./index#step-2-run-the-activation-script) to activate 3 Years ESU (Oct 2025 to Oct 2028).**
-
-<br><br/>
+**You can use [TSforge option in MAS](./index#step2) to activate 3 Years ESU (Oct 2025 to Oct 2028).**
 
 ## Windows 10 (IoT) Enterprise LTSC 2021
 
@@ -58,9 +56,9 @@ Get-WmiObject -Class Win32_OperatingSystem | Format-List OSArchitecture
 ```
 
 x64 means 64 Bit, x86 means 32 Bit
-  - To check the installed Windows Language, open Powershell as admin and enter;
+- To check the installed Windows Language, open Powershell as admin and enter;
 
-```
+```reg
 dism /english /online /get-intl | find /i "Default system UI language"
 ```
 
@@ -88,6 +86,7 @@ That's all.
 :::
 
 ## Windows 11 IoT Enterprise 24H2
+
 ## Windows 11 IoT Enterprise LTSC 2024
 
 Many users choose not to use Windows 11 due to hardware limitations, such as a lack of TPM, Secure Boot, or UEFI support. While it is possible to bypass these limitations, doing so is officially unsupported and may lead to issues with future updates.
@@ -98,7 +97,9 @@ In 2024, Microsoft released Windows 11 IoT Enterprise 24H2 (GAC) / IoT Enterpris
 
 You can officially install these Windows 11 editions without meeting the usual hardware requirements, such as TPM, Secure Boot, and UEFI, while still receiving continued support in the future.
 
-::: details Clean install Windows 11 IoT Enterprise (GAC/LTSC) 2024
+::: details Clean install Windows
+
+Clean install Windows 11 IoT Enterprise (GAC/LTSC) 2024
 
 The IoT edition ISO is available in English language only, but don't worry.
 
