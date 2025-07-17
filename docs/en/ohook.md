@@ -17,7 +17,7 @@ head:
 
 ::: tip How to use it?
 
-- Please find the instructions [here](index#how-to-activate-windows--office). <br/>
+- Please find the instructions [here](index#step2).
 
 - This activation method can activate all kinds of Office versions on Windows Vista and higher and their Server equivalent except Office UWP apps.
 - This activation method works offline and activates Office permanently.
@@ -32,8 +32,6 @@ head:
 #### For SPP based Office:
 
 ![beforohook](/mas_before_ohook.svg)
-
-
 
 -   As illustrated in the above 1st image, in the Official activation process of SPP based Office, Office asks `C:\Windows\System32\sppc.dll` about the activation status and that file asks the same thing to SPP (Software Protection Platform) `C:\Windows\System32\sppsvc.exe` and returns the message back to Office.
 
@@ -363,7 +361,6 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 
 <br/>
 
-
 ::: info Info
 
 - For the O365 subscription version, you can't get server side O365 specific features such as 1TB storage in Onedrive. However, almost all other features and 5GB storage in free onedrive account would work fine.
@@ -373,7 +370,6 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 
 :::
 
-
 ## How to remove Ohook?
 
 ::: tip In MAS
@@ -382,14 +378,14 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 - After that, In MAS, goto Troubleshoot and apply Fix Licensing option. (Optional)
 - Done ✔️
 
-<hr/><br/>
+:::
 
 ## Unsupported Products
 
 - Office UWP (Store apps)
   Use TSforge activation option for this.
 
-## Custom sppc.dll Info
+## Custom sppc.dll Info {#custom}
 
 - Custom sppc.dll source code (Ohook 0.5) is available [here][2].
 - SHA-256 checksums:
@@ -413,11 +409,9 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 -   Calculate the SHA-256 of the created sppc64.dll and sppc32.dll files using 7-zip or Powershell, it would be same as mentioned above.
 -   Done, you can now close Powershell windows and correct the date now.
 
-<hr/><br/>
-
 ### Manual Activation
 
--   Check [here](./manual_ohook_activation)
+- Check [here](./manual_ohook_activation)
 
 
 ### Command line Switches
@@ -430,12 +424,13 @@ e98ef0c0-71c4-42ce-8305-287d8721e26c    SubPrepid   ProPlusSubR
 - Check the Extract OEM option in the MAS `Extras` section if you want pre-activated Windows installation.
 - Further read [here](./oem-folder).
 
-<hr/><br/>
+## Troubleshoot  
 
-::: danger Troubleshooting
+::: danger Troubleshoot
 
-If you have any questions, first review the [**FAQ section**](./faq) - your answer will most likely be there.
-If your issue persists - [**Contact us**](./troubleshoot).
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.  
+
+- If your issue persists — You can [**Contact Us**](./troubleshoot).
 
 :::
 
