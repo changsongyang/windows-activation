@@ -18,7 +18,7 @@ For the most up-to-date activation methods, please visit:
 
 [🇮🇷 Persian – github.io/windows-activation][1]  
 
-[🇦🇺 English — github.io/activation][2]
+[🇦🇺 English — github.io/windows-activation][2]
 
 </br>
 
