@@ -26,10 +26,10 @@ head:
 
 <br/>
 
-::: danger Why **`Freedom to Dream`**
+::: tip **Why Freedom to Dream**
 
-Freedom to Dream isn’t just a name—it’s the spirit behind this project, This isn’t only about activating Windows or Office.
-It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator—to unlock their full potential.
+Freedom to Dream isn’t just a name, It’s the spirit behind this project, This isn’t only about activating Windows or Office.
+It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator to unlock their full potential.
 
 We believe everyone deserves access to essential tools, regardless of where they live or what they can afford.
 When your tools are free, your ideas are free, too.
