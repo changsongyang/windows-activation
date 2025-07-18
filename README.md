@@ -1,49 +1,39 @@
-# Instant Windows and Office Activation: 40–Second Solution
+# ⚡ Instant Windows and Office Activation: 40–Second Solution
 
 > [!NOTE]
->
-> A reliable, open-source activation toolkit for Windows and Office, featuring HWID, KMS, Ohook, and more. Activate in under 40 seconds!  
->
-> 
-> Welcome guys! This guide provides comprehensive instructions for activating Microsoft products.
->
-> <br/> 
+> A reliable, open-source activation toolkit for Windows and Office — featuring HWID, KMS, Ohook, TS-Forge, and more.  
+> Activate your system in under **40 seconds** with clear and safe instructions!
 
-</br>
+---
 
-## 🌠 Documentation 
-Recommend ✔️ 
+## 📚 Documentation
 
-For the most up-to-date activation methods, please visit:
+For the most up-to-date activation methods, check out the documentation:
 
-[🇮🇷 Persian – github.io/windows-activation][1]  
+- 🇮🇷 [Persian – nirevil.github.io/windows-activation/fa](https://nirevil.github.io/windows-activation/fa/)
+- 🇦🇺 [English – nirevil.github.io/windows-activation](https://nirevil.github.io/windows-activation/)
 
-[🇦🇺 English — github.io/windows-activation][2]
+---
 
-</br>
+## 🗂️ Legacy Documentation
 
-## 🌌 Legacy Documentation
+Looking for the original guide? The untouched legacy version is still available:
 
-If you prefer the previous activation guide, you can still access the untouched legacy version here:
+➡️ [github.com/windows-activation/Old](https://github.com/NiREvil/windows-activation/tree/Old)
 
-[github.com/windows-activation/Old][3]  
+---
 
-</br>
+## ⚠️ Disclaimer
 
-## 🌱 
-This repository is intended for educational purposes only. Ensure you comply with Microsoft's licensing terms when activating Windows.  
+This repository is intended **for educational purposes only**.  
+Please ensure you comply with Microsoft’s licensing terms when activating Windows or Office.
 
-</br>
+---
 
-## 💭 Need Help?
+## 🙋 Need Help?
 
-Feel free to open an issue or contribute to the project. Your feedback is appreciated!  
+Open an issue or contribute to the repo — your feedback is welcome!
 
-<br/>
+---
 
-### [✨ Credits – Read Here][4]
-
-[1]: https://nirevil.github.io/windows-activation/fa/
-[2]: https://nirevil.github.io/windows-activation/
-[3]: https://github.com/NiREvil/windows-activation/tree/Old
-[4]: https://NiREvil.github.io/windows-activation/wa/credits
+### ✨ [Credits – Read Here](https://NiREvil.github.io/windows-activation/wa/credits)
