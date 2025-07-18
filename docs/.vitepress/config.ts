@@ -61,7 +61,7 @@ export default defineConfig({
       label: 'English',
       lang: 'en-US',
       dir: 'ltr',
-      title: 'Freedom to Dream🪽',
+      title: 'Freedom to Dream',
       description: 'Instant Windows & Office Activation: 40–Second Solution',
       themeConfig: {
         nav: [
@@ -75,7 +75,7 @@ export default defineConfig({
               text: 'Activation Guides',
               collapsed: false,
               items: [
-                { text: 'HWID Activation', link: '/wa/index' },
+                { text: 'HWID Activation', link: '/wa/' },
                 { text: 'KMS Activation', link: '/wa/kms' },
                 { text: 'Methods Chart', link: '/wa/chart' },
                 { text: 'Download Windows / Office', link: '/wa/genuine-installation-media' },
@@ -180,7 +180,7 @@ export default defineConfig({
               text: 'راهنمای فعال‌سازی',
               collapsed: false,
               items: [
-                { text: 'فعال‌سازی با روش HWID', link: '/fa/wa/index' },
+                { text: 'فعال‌سازی با روش HWID', link: '/fa/wa/' },
                 { text: 'فعال‌سازی با روش KMS', link: '/fa/wa/kms' },
                 { text: 'مقایسه انواع روش‌ها', link: '/fa/wa/chart' },
                 { text: 'دانلود ویندوز – آفیس', link: '/fa/wa/genuine-installation-media' },
