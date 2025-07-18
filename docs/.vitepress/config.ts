@@ -166,7 +166,7 @@ export default defineConfig({
       label: 'فارسی',
       lang: 'fa-IR',
       dir: 'rtl',
-      title: 'رهایی خیال 🌠',
+      title: 'رهایی 🌠',
       description: '‌فعال‌سازی فوری ویندوز و آفیس: راه حل ۴۰ ثانیه‌ای',
       themeConfig: {
         nav: [
