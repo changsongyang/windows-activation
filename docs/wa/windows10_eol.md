@@ -24,7 +24,15 @@ and would like to stay on Windows 10 as long as they can.
 
 Microsoft announced [Extended Security Updates (ESU)][1] where users can buy the ESU subscription to receive Windows updates. These updates will begin to roll out in November 2025.
 
-**You can use [TSforge option in MAS](./index#step2) to activate 3 Years ESU (Oct 2025 to Oct 2028).**
+### Consumer ESU Program (1 Year)
+
+- Microsoft is offering free consumer ESU Program (1 Year) for Windows 10 Home, Professional, Pro Education, or Workstation editions.
+- To get this free ESU, you need to login your Microsoft account and [sync your PC settings](https://support.microsoft.com/windows/deebcba2-5bc0-4e63-279a-329926955708#id0ebd=windows_10). 
+- [More info](https://support.microsoft.com/en-us/windows/windows-10-consumer-extended-security-updates-esu-program-33e17de9-36b3-43bb-874d-6c53d2e4bf42).
+
+### Commercial ESU Program (3 Years) 🤍
+
+- You can use [TSforge option in MAS](./index#step2) to activate [3 Years ESU](https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates) (Oct 2025 to Oct 2028).
 
 ## Windows 10 (IoT) Enterprise LTSC 2021
 
@@ -40,7 +48,7 @@ The solution is simple. You can just use the Official Windows 10 IoT Enterprise 
 
 The IoT edition ISO is available in English language only, but don't worry.
 
-- Download [Enterprise LTSC 2021][5] ISO in your desired language.
+- Download [Enterprise LTSC 2021](./windows_ltsc_links) ISO in your desired language.
 - Install Windows using this [clean installation guide](./clean_install_windows).
 - After installing Windows, to change the edition, enter the IoT LTSC 2021 key `QPM6N-7J2WJ-P88HH-P3YRH-YY74H` on the activation page in the Windows settings.
 
@@ -48,7 +56,9 @@ The IoT edition ISO is available in English language only, but don't worry.
 
 ::: details Upgrade Windows 10 Home, Pro, etc editions to Windows 10 IoT Enterprise LTSC 2021 while keeping files and apps
 
-- Download Windows 10 Enterprise LTSC ISO from [here][5] in the **same Windows language and architecture**.
+The IoT edition is available in English language only, but don't worry.
+
+- Download Windows 10 Enterprise LTSC ISO from [here](./windows_ltsc_links) in the **same Windows language and architecture**.
   - To check the installed Windows architecture, open Powershell as admin and enter,
 
 ```reg
@@ -81,7 +91,7 @@ That's all.
 
 - LTSC editions do not have Store apps installed by default. However, if you upgrade from GAC to LTSC, all your Store apps will be retained. In contrast, if you perform a clean installation of Windows LTSC, Store apps will not be installed. For instructions on how to install them manually, please refer to this [page][6]
 - IoT editions are [binary identical][7] to Enterprise editions. The difference is in licensing. You can use it just fine on a general-purpose device.
-- To learn about the advantages and disadvantages of LTSC, click [here][8]
+- To learn about the advantages and disadvantages of LTSC, click [here](./windows_ltsc_links#microsoft-store-app-installation-on-ltsc)
 
 :::
 
@@ -103,7 +113,7 @@ Clean install Windows 11 IoT Enterprise (GAC/LTSC) 2024
 
 The IoT edition ISO is available in English language only, but don't worry.
 
-- Download any [Windows 11 24H2][10] (For GAC) or [Enterprise LTSC 2024][11] (For LTSC) ISO in your desired language.
+- Download any [Windows 11 24H2](./windows_11_links) (For GAC) or [Enterprise LTSC 2024](./windows_ltsc_links) (For LTSC) ISO in your desired language.
 - Follow [normal clean installation guide](./clean_install_windows) if you are using IoT edition English language ISO.
 - Follow [PID.txt method](./clean_install_windows#windows-11-on-unsupported-hardware) to install IoT edition from scratch if you are using Non-IoT ISO.
 
@@ -115,7 +125,7 @@ Alternatively, you can install any Windows 11 24H2 (For GAC) or Enterprise LTSC 
 
 The IoT edition is available in English language only, but don't worry.
 
-- Download any [Windows 11 24H2][10] (For GAC) or [Enterprise LTSC 2024][11] (For LTSC) ISO in the **same Windows language and architecture**.
+- Download any [Windows 11 24H2](./windows_11_links) (For GAC) or [Enterprise LTSC 2024](./windows_ltsc_links) (For LTSC) ISO in the **same Windows language and architecture**.
   - To check the installed Windows architecture, open Powershell as admin and enter:
 
 ```reg

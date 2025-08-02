@@ -39,6 +39,11 @@ Choose the Ohook activation method within MAS.
 
 <br/>
 
+#### How to receive security updates for Windows 10 after October 2025?
+You can use [TSforge option in MAS](index#step2) to activate 3 Years ESU (Oct 2025 to Oct 2028). [More info](./windows10_eol).
+
+<br/>
+
 ## Troubleshooting
 
 ### Activation failed — what should I do?
@@ -49,7 +54,7 @@ See our [troubleshooting guide](./troubleshoot) for common solutions.
 
 ### Is MAS safe? How do I know it’s not malware?
 
-MAS is fully open-source, with over 125K stars on [GitHub][1] and millions of users worldwide. You can inspect the batch files in any text editor, or use ChatGPT for code review.  
+MAS is fully open-source, with over 140K stars on [GitHub][1] and millions of users worldwide. You can inspect the batch files in any text editor, or use ChatGPT for code review.  
 If you prefer, you can also perform manual activation — see [this guide](./manual_hwid_activation).
 
 <br/>
@@ -176,4 +181,3 @@ This project doesn’t accept donations and is completely free. It’s a communi
 [4]: https://support.microsoft.com/en-us/office/introduction-to-python-in-excel-55643c2e-ff56-4168-b1ce-9428c8308545
 [5]: https://github.com/NiREvil/windows-activation/discussions
 [6]: mailto:diana.clk01@gmail.com
-[rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256

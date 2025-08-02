@@ -1,7 +1,7 @@
 ---
 layout: doc
 outline: deep
-title: 'Download Windows / Office'
+title: 'Download Windows — Office'
 description: 'All download links available on our website lead to genuine files only'
 date: 2025-01-05
 editLink: true
@@ -11,7 +11,8 @@ editLink: true
 
 ::: info Note
 
-All download links available on our website lead to genuine files only.
+- All download links available on our website lead to genuine files only.
+- If your downloads are slow or keep interrupting, try using a download manager like [FDM]
 
 :::
 
@@ -31,9 +32,9 @@ All download links available on our website lead to genuine files only.
 
 Activation with [MAS](./index#step2) is required after the installation of Office.
 
--  [Office C2R Installers][4] 🤍 (O365 / 2024 / 2021 / 2019 / 2016 / 2013)
--  [Office C2R Custom Install][5] (O365 / 2024 / 2021 / 2019 / 2016)
--  [Office MSI VL (Old versions)][winmsi] (2016 / 2013 / 2010 / 2007)
+-  [Office C2R Installers][4] 🤍 (O365, 2024, 2021, 2019, 2016, 2013)
+-  [Office C2R Custom Install][5] (O365, 2024, 2021, 2019, 2016)
+-  [Office MSI VL (Old versions)][winmsi] (2016, 2013, 2010, 2007)
 -  [Office For **Mac**][winmac]
 
 <hr/><br/>
@@ -85,7 +86,7 @@ You can request the file [Discord][9].
 
 ## Verify Authenticity Of Files
 
-You can use the [file hashing method][10] to verify if a file is genuine. This can be done using tools like [7-Zip][11] (After installing 7-Zip, right-click on the ISO file and go to 7-Zip > CRC SHA).
+You can use the [file hashing method][10] to verify if a file is genuine. This can be done using tools like [7-Zip][11] (After installing 7-Zip, right-click on the ISO file and go to 7-Zip > SHA-256).
 
 There are many places where you can find these checksums for verification. Examples can be found below.
 
@@ -96,7 +97,7 @@ There are many places where you can find these checksums for verification. Examp
 - [sha1.rg-adguard][16]
 - Google
 
-Microsoft's Official free links for checksums:
+#### Microsoft's Official free links for checksums:
 
 - [MVS][17]
 - [Windows 11][18]
@@ -105,10 +106,10 @@ Microsoft's Official free links for checksums:
 
 ::: details More info on Official links!
 
-**MVS**  
+**MVS**
 - On MVS, you need to login and click on 'All Downloads' button and then search the product name.
 
-**MVS Limitations:**  
+**MVS Limitations:**
 - They used to publish only SHA-1, but later started publishing SHA-1 and SHA-256 both and from 2022 they now publish only SHA-256.
 
 - However they removed all the SHA-1 data and as a result, old files checksums are simply not available on MVS site.
@@ -177,3 +178,4 @@ File name: en-uk_windows_10_enterprise_ltsc_2019_x64_dvd_723dfbc1.iso
 [winserv]: https://massgrave.dev/windows_server_links
 [winmsi]: https://massgrave.dev/office_msi_links
 [winmac]: https://massgrave.dev/office_for_mac
+[FDM]: https://www.freedownloadmanager.org

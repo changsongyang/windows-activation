@@ -121,7 +121,7 @@ Build - 26100.4652 (July 2025)
 
 == Windows 11 IoT Enterprise 24H2
 
-**(Not LTSC)**  
+**(Not LTSC)**
 
 Build - 26100.1742 (RTM) (This ISO file is not updated every month)
 IoT Enterprise ISO is available only in English language.
@@ -129,6 +129,19 @@ IoT Enterprise ISO is available only in English language.
 | Language | Arch | Link |
 |:---|:---|:---|
 | English | x64 | [en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso) |
+
+Note for IoT Enterprise (GAC) **Not LTSC**:
+
+- If your system has an OEM license on the motherboard for Pro or higher-level edition
+- And the edition key in Windows setup is OEM as well
+
+In that case, during the final stages in Windows installation, setup will install the OEM key that is installed on your motherboard.
+As a result, you can install IoT Enterprise according to the relaxed hardware requirements. However, after the Windows installation is complete, it will show that the Pro edition is installed.
+
+This situation cannot be avoided because IoT Enterprise (GAC) only has an OEM key. However, don't worry, you can just change the edition to IoT Enterprise later using the command below as admin.
+
+`slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD`
+
 
 == Windows 11 ARM64 24H2
 
@@ -244,7 +257,7 @@ Build - 22631.5624 (July 2025)
 | Chinese-Simplified | x64 | [zh-cn_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_34457911.iso](https://drive.massgrave.dev/zh-cn_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_34457911.iso) |
 | Chinese-Traditional | x64 | [zh-tw_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_e12e35d1.iso](https://drive.massgrave.dev/zh-tw_windows_11_business_editions_version_23h2_updated_july_2025_x64_dvd_e12e35d1.iso) |
 
-== Windows 11 IoT Enterprise 23H2  
+== Windows 11 IoT Enterprise 23H2
 
 **(Not LTSC)**
 
@@ -253,6 +266,20 @@ Build - 22631.2428 (31-Oct-2023) (This ISO file is not updated every month)
 | Language | Arch | Link |
 |:---|:---|:---|
 | English | x64 | [en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso) |
+
+Note for IoT Enterprise (GAC) **Not LTSC**:
+
+- If your system has an OEM license on the motherboard for Pro or higher-level edition
+- And the edition key in Windows setup is OEM as well
+
+In that case, during the final stages in Windows installation, setup will install the OEM key that is installed on your motherboard.
+As a result, you can install IoT Enterprise as per its features. However, after the Windows installation is complete, it will show that the Pro edition is installed.
+
+This situation cannot be avoided because IoT Enterprise (GAC) only has an OEM key. However, don't worry, you can just change the edition to IoT Enterprise later using the command below as admin.
+
+`slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD`
+
+
 
 ----
 

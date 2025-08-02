@@ -26,7 +26,9 @@ head:
 
 <br/>
 
-::: tip **Why Freedom to Dream**
+::: tip Freedom to Dream
+
+::: details Why Freedom to Dream
 
 Freedom to Dream isn’t just a name, It’s the spirit behind this project, This isn’t only about activating Windows or Office.
 It’s about breaking artificial limitations, and empowering every user—student, freelancer, or creator to unlock their full potential.
@@ -68,15 +70,15 @@ For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the 
 
 ### Option A: Using Search Bar <Badge type="danger" text="Recommend" />  
 1. Click on windows "Start" button or "Search" icon in the taskbar  
-2. Type `powershell`  
-3. Select `Run as administrator` <br/>  
+2. Type `powershell`
+3. Select `Run as administrator` <br/>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="open-powershell-as-admin" width="540px" />
 </p>
 
 <br/>
-  
+
 ::: tip  To run PowerShell
 
 ::: details To view additional methods, please click here 
@@ -84,15 +86,15 @@ For most users, the HWID <Badge type="info" text="Hardware ID" /> method is the 
 ### Option B: Using Run Box
 
 1. Open the Run dialog box: Press `Win (⊞) + R` keys simultaneously  
-2. Type `powershell`  
-3. Press `Ctrl + Shift + Enter` to run as administrator  
+2. Type `powershell`
+3. Press `Ctrl + Shift + Enter` to run as administrator
 4. If prompted by User Account Control, click `Yes`
 
-<br/>  
+<br/>
 
 ### Option C: Using Power User Menu
 
-1. Right-click on the "Start menu" (or press `Win (⊞) + X`)  
+1. Right-click on the "Start menu" (or press `Win (⊞) + X`)
 2. Select "Windows Terminal (Admin)" on Windows 11 or "Windows PowerShell (Admin)" on Windows 10
 
 <br/>
