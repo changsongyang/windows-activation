@@ -9,9 +9,10 @@ const base = '/windows-activation/';
 const siteUrl = `https://NiREvil.github.io${base}`;
 
 export default defineConfig({
-  base: base,
+  base,
   cleanUrls: true,
   ignoreDeadLinks: true,
+  lastUpdated: true,
 
   head: [
     ['link', { rel: 'icon', href: `${base}favicon.ico` }],
@@ -64,6 +65,7 @@ export default defineConfig({
       title: 'Freedom to Dream',
       description: 'Instant Windows & Office Activation: 40–Second Solution',
       themeConfig: {
+        logo: '/logo-h.svg',
         nav: [
           { text: '🏠 Home', link: '/' },
           { text: '📚 Docs', link: '/wa/' },
@@ -141,7 +143,6 @@ export default defineConfig({
             },
           ],
         },
-        logo: '/logo-h.svg',
         search: { provider: 'local' },
         docFooter: { prev: 'Previous page', next: 'Next page' },
         lastUpdated: {
@@ -166,9 +167,10 @@ export default defineConfig({
       label: 'فارسی',
       lang: 'fa-IR',
       dir: 'rtl',
-      title: 'رهایی 🌠',
+      title: '',
       description: '‌فعال‌سازی فوری ویندوز و آفیس: راه حل ۴۰ ثانیه‌ای',
       themeConfig: {
+        logo: '/logo-h.svg',
         nav: [
           { text: '🏠 خانه', link: '/fa/' },
           { text: '📚 مستندات', link: '/fa/wa/' },
@@ -243,12 +245,16 @@ export default defineConfig({
             },
           ],
         },
+        search: { provider: 'local' },
+        docFooter: { prev: 'صفحه قبلی', next: 'صفحه بعدی' },
+        lastUpdated: {
+          text: 'آخرین بروزرسانی',
+          formatOptions: { dateStyle: 'full', timeStyle: 'short' },
+        },
         editLink: {
           pattern: 'https://github.com/NiREvil/windows-activation/edit/main/docs/:path',
           text: 'این صفحه را در گیت‌هاب ویرایش کنید',
         },
-        docFooter: { prev: 'صفحه قبلی', next: 'صفحه بعدی' },
-        lastUpdated: { text: 'آخرین بروزرسانی' },
       },
     },
   },
