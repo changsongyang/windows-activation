@@ -245,16 +245,12 @@ export default defineConfig({
             },
           ],
         },
-        search: { provider: 'local' },
-        docFooter: { prev: 'صفحه قبلی', next: 'صفحه بعدی' },
-        lastUpdated: {
-          text: 'آخرین بروزرسانی',
-          formatOptions: { dateStyle: 'full', timeStyle: 'short' },
-        },
         editLink: {
           pattern: 'https://github.com/NiREvil/windows-activation/edit/main/docs/:path',
           text: 'این صفحه را در گیت‌هاب ویرایش کنید',
         },
+        docFooter: { prev: 'صفحه قبلی', next: 'صفحه بعدی' },
+        lastUpdated: { text: 'آخرین بروزرسانی' },
       },
     },
   },
