@@ -9,7 +9,7 @@ const base = '/windows-activation/';
 const siteUrl = `https://NiREvil.github.io${base}`;
 
 export default defineConfig({
-  base,
+  base: base,
   cleanUrls: true,
   ignoreDeadLinks: true,
   lastUpdated: true,
