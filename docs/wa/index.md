@@ -1,9 +1,11 @@
 ---
 layout: doc
 outline: deep
+lang: en-US
+dir: ltr
 title: 'All-in-One — Microsoft Activation Scripts'
 description: 'MAS: Microsoft Activation Script — Comprehensive open-source guide to safely activate Windows 10/11 and Office using HWID, KMS, TSforge, Ohook in under 40 seconds. Includes troubleshooting tips and detailed comparisons'
-date: 2025-05-05
+date: 2025-09-07
 editLink: true
 head:
   - - meta
@@ -113,12 +115,16 @@ Copy the following command, paste it (via Right-click) into the PowerShell windo
 
 ::: code-group
 
-```reg [Recommended]
+```powershell [For Windows 8, 10, 11]
 irm https://get.activated.win | iex
 ```
 
-```reg [Alternative]
-irm https://massgrave.dev/get | iex
+```powershell [For Windows 7 and later]
+iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+```
+
+```powershell [Script not launching]
+iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
 ```
 
 :::
@@ -128,6 +134,8 @@ irm https://massgrave.dev/get | iex
 </p>
 
 <br/>
+
+To activate additional products such as Office for macOS, Visual Studio, RDS CALs, and Windows XP, check [here](./unsupported_products_activation).
 
 ## Step 3. Choose the HWID Option
 
@@ -150,12 +158,22 @@ Settings > System > Activation [^2]
 
 <br/>
 
-::: info Notes
+::: info Note
 
 ::: details Click here to see the details
 
 - **For Windows:** I personally use the **KMS method** [[see guides](./kms)] or [[Online KMS](./online_kms) for my Windows 10/11 activations. It's official, leaves no files on the system, and takes less than 3 minutes. If for some reason that fails, HWID is my go-to, as it's also official and file-less.
 - **For Office:** I use Ohook, or TSforge, The small differences are noted in the [summary table 👆🏿](#summary)
+
+:::
+
+::: info Note
+
+::: details Click here to see the details
+
+- The IRM command in PowerShell downloads a script from a specified URL, and the IEX command executes it.
+- Always double-check the URL before executing the command and verify the source is trustworthy when manually downloading files.
+- Be cautious, as some spread malware disguised as MAS by changing the URL in the IRM command.
 
 :::
 
