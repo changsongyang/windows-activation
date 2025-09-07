@@ -95,9 +95,13 @@ That's all.
 
 :::
 
-## Windows 11 IoT Enterprise 24H2
+## Windows 11 IoT Enterprise Editions
 
-## Windows 11 IoT Enterprise LTSC 2024
+Applies to:  
+- Windows 11 IoT Enterprise, beginning with version 24H2 (Build 26100 and newer)
+- Windows 11 IoT Enterprise LTSC 2024 (Build 26100)
+
+<hr/><br/>
 
 Many users choose not to use Windows 11 due to hardware limitations, such as a lack of TPM, Secure Boot, or UEFI support. While it is possible to bypass these limitations, doing so is officially unsupported and may lead to issues with future updates.
 
