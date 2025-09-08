@@ -1,9 +1,11 @@
 ---
 layout: doc
 outline: deep
+lang: en-US
+dir: ltr
 title: 'Windows 10 Download'
 description: 'All download links lead to genuine files only'
-date: 2025-04-19
+date: 2025-05-19
 editLink: true
 ---
 
@@ -219,17 +221,28 @@ Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
 
 <br/>
 
-**Note** for IoT Enterprise (GAC) **Not LTSC**:
+### Note for IoT Enterprise 
 
-- If your system has an OEM license on the motherboard for Pro or higher-level edition
-- And the edition key in Windows setup is OEM as well
+::: danger `(GAC) **Not LTSC**:`
 
-In that case, during the final stages in Windows installation, setup will install the OEM key that is installed on your motherboard.
-As a result, you can install IoT Enterprise as per its features. However, after the Windows installation is complete, it will show that the Pro edition is installed.
+- When installing Windows IoT Enterprise (GAC):
+- If your system has an **OEM license** in the motherboard (Pro or higher),
+- And the key used in Setup is **OEM**
+- then Windows Setup will apply the OEM key from the motherboard during the final stage.
 
-This situation cannot be avoided because IoT Enterprise (GAC) only has an OEM key. However, don't worry, you can just change the edition to IoT Enterprise later using the command below as admin.
+### What this means
 
-`slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD`
+- You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
+- After installation, the system will show Pro edition, not IoT Enterprise.
+- This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
+- This behavior is normal and cannot be avoided.
+
+### Fix
+After installation, switch the edition by running the following in command prompt as admin.
+
+```
+slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
+```
 
 ---
 
@@ -258,8 +271,6 @@ Check [Windows ltsc links](./windows_ltsc_links).
   - Put the ESD file beside `decrypt.cmd` and run that script.
   - It will create the ISO file.
   - This process is same as how Official MCT tool creates Windows 10 and 11 ISOs.
-
-----
 
 :::
 
