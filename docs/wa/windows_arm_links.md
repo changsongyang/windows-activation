@@ -15,7 +15,7 @@ editLink: true
 
 - [FAQ](./genuine-installation-media#faq)
 
-- You need an ARM64 processor (CPU) to install Windows ARM64 architecture OS.
+> _You need an ARM64 processor (CPU) to install Windows ARM64 architecture OS._
 
 :::
 
@@ -23,11 +23,13 @@ editLink: true
 
 ## Download Links
 
-:::tabs
-
 ### Windows 11 24H2
 
+:::tabs
+
 == Windows 11 Consumer 24H2 🤍
+
+**Windows 11 Consumer 24H2**
 
 Build - 26100.1742
 
@@ -35,16 +37,19 @@ Build - 26100.1742
 
 == Windows 11 IoT Enterprise 24H2
 
-**(Not LTSC)**  
+**Windows 11 IoT Enterprise 24H2**
 
-Build - 26100.1742  
-These ISOs contain below editions,  
+(Not LTSC)
 
-Windows 11 Enterprise  
-Windows 11 IoT Enterprise  
-Windows 11 IoT Enterprise Subscription  
+Build - 26100.1742
 
-ARM64 version for IoT Enterprise ISO is available only in English language.  
+These ISOs contain below editions: 
+
+- Windows 11 Enterprise  
+- Windows 11 IoT Enterprise  
+- Windows 11 IoT Enterprise Subscription  
+
+> _ARM64 version for IoT Enterprise ISO is available only in English language._ 
 
 | Language | Arch  | Link                                                                                                                                                                   |
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -71,13 +76,15 @@ then Windows Setup will apply the OEM key from the motherboard during the final 
 ### Fix
 After installation, switch the edition by running the following in command prompt as admin.
 
-```
+```shell
 slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 ```
 
 == Windows 11 IoT Enterprise LTSC 2024
 
-**Build - 26100.1742**
+**Windows 11 IoT Enterprise LTSC 2024**
+
+Build - 26100.1742
 
 These ISOs contain below editions:
 
@@ -85,29 +92,35 @@ These ISOs contain below editions:
 - Windows 11 IoT Enterprise LTSC
 - Windows 11 IoT Enterprise l Subscription LTSC
 
-> ARM64 version for LTSC is available only in English language.
+> _ARM64 version for LTSC is available only in English language._
 
 
 | Language | Arch  | Link                                                                                                                                                             |
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | ARM64 | [en-us_windows_11_iot_enterprise_ltsc_2024_arm64_dvd_ec517836.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_arm64_dvd_ec517836.iso) |
 
-------------------------------------------------------------------------
 
 == Other Version
 
-- Download the [official Microsoft ESD file][3] and [ESD>ISO Converter][4] by [abbodi1406][5],
+**Other Versions**
+
+- Download the [official Microsoft ESD file][3]
+- And [ESD>ISO Converter][4] by [abbodi][5],
 - Put the ESD file beside `decrypt.cmd` and run that script.
 - It will create the ISO file.
 - This process is the same as how the official MCT tool creates Windows 10 and 11 ISOs.
 
 :::
 
+<br/> 
+
 ### Windows 10
 
 :::tabs
 
 == Windows 10 Business 22H2
+
+**Windows 10 Business 22H2**
 
 Build - 19045.5854
 
@@ -155,10 +168,13 @@ Build - 19045.5854
 
 == Windows 10 IoT Enterprise 22H2
 
-**(Not LTSC)**  
+**Windows 10 IoT Enterprise 22H2**
 
-Build - 19045.2006  
-ARM64 version for IoT Enterprise ISO is available only in English language.  
+(Not LTSC)
+
+Build - 19045.2006
+
+_ARM64 version for IoT Enterprise ISO is available only in English language._
 
 | Language | Arch  | Link                                                                                                                                                                   |
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -167,9 +183,11 @@ ARM64 version for IoT Enterprise ISO is available only in English language.
 
 == Windows 10 IoT Enterprise LTSC 2021
 
+**Windows 10 IoT Enterprise LTSC 2021**
+
 Build - 19044.1288
 
-ARM64 version for LTSC is available only in English language.
+> _ARM64 version for LTSC is available only in English language._
 
 
 | Language | Arch  | Link                                                                                                                                                             |
@@ -202,13 +220,15 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 
 == Other Versions
 
-- Download an [official Microsoft ESD file][6] and [ESD>ISO Converter][7] by [abbodi1406][8],
+**Other Versions**
+
+- Download an [official Microsoft ESD file][6]
+- And [ESD>ISO Converter][7] by [abbodi][8],
 - Put the ESD file beside `decrypt.cmd` and run that script.
 - It will create the ISO file.
 - This process is the same as how the official MCT tool creates Windows 10 and 11 ISOs.
 
 :::
-
 
 [1]: https://msdl.gravesoft.dev/#3131
 [2]: https://www.microsoft.com/en-us/software-download/windows11arm64
