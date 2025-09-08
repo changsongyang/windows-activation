@@ -5,7 +5,7 @@ lang: fa-IR
 dir: rtl
 title: 'راهنمای جامع فعال‌سازی ویندوز با روش‌های رسمی'
 description: 'یک جعبه ابزار متن‌باز و ایمن حاوی آموزش گام‌به‌گام فعال‌سازی دائم ویندوز ۱۰/۱۱. بررسی تفاوت روش‌ها، حل مشکلات احتمالی، و روش‌های حذف فعال‌سازی نیز پوشش داده شده است.'
-date: 2025-05-07
+date: 2025-09-07
 editLink: true
 head:
   - - meta
@@ -61,7 +61,7 @@ head:
 3. در نهایت روی `Run as administrator` کلیک کنید
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="اجرای-پاورشل-با-حالت-ادمین" width="540px" />
+  <img src="https://github.com/user-attachments/assets/9b27cd4b-21d8-4970-98bb-3c97010e09bf" alt="اجرای-پاورشل-با-حالت-ادمین" width="840px" />
 </p>
 
 <p style="text-align: center;">
@@ -116,20 +116,20 @@ iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win |
 :::
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="جای‌گذاری-دستور-در-PowerShell" width="540px" />
+  <img src="https://github.com/user-attachments/assets/6b72787e-f5ad-47a2-ab2b-ae93de9f70bc" alt="جای‌گذاری-دستور-در-PowerShell" width="840px" />
 </p>
 
 <br/>
 
-## مرحله ۳. انتخاب گزینه HWID
+## مرحله ۳. انتخاب روش HWID
 
 در منوی ظاهر شده. عدد `1` را فشار دهید تاHWID" Activation" انتخاب شود، سپس چند لحظه منتظر بمانید تا فرآیند کامل شود.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="انتخاب-متود-hwid" width="580px" />
+  <img src="https://github.com/user-attachments/assets/8b119e05-d506-4c42-91cb-ac58c9a2f189" alt="انتخاب-متود-hwid" width="880px" />
 </p>
 
-تبریک! <Badge type="info" text="Done" />
+تبریک 🎉
  
 ویندوز شما اکنون با لایسنس دیجیتال به صورت دائمی فعال شده است.
 
