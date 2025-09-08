@@ -11,11 +11,17 @@ editLink: true
 
 # Windows 10 Download
 
-All download links lead to genuine files only.
+::: info All download links lead to `genuine files only`
 
 - [**FAQ**](./genuine-installation-media#faq)
-- [Windows 10 updates after End-Of-Life.](./windows10_eol)- [How to ensure that these files are genuine?](genuine-installation-media.md#verify-authenticity-of-files)
-- The Consumer ISO includes all editions, such as Home, Pro, and Education, but excludes the Enterprise edition. In contrast, the Business ISO includes all editions except for the Home versions.
+
+- [Windows 10 updates after End-Of-Life.](./windows10_eol)
+
+- [How to ensure that these files are genuine?](genuine-installation-media.md#verify-authenticity-of-files)
+
+The Consumer ISO includes all editions, such as Home, Pro, and Education, but excludes the Enterprise edition. In contrast, the Business ISO includes all editions except for the Home versions.
+
+:::
 
 ## Download Links
 
@@ -223,7 +229,7 @@ Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
 
 ### Note for IoT Enterprise 
 
-::: danger `(GAC) **Not LTSC**:`
+::: danger **(GAC) Not LTSC**
 
 - When installing Windows IoT Enterprise (GAC):
 - If your system has an **OEM license** in the motherboard (Pro or higher),
