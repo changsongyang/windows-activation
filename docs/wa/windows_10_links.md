@@ -11,7 +11,7 @@ editLink: true
 
 # Windows 10 Download
 
-::: info All download links lead to `genuine files only`
+::: info All download links lead to **`genuine files`**
 
 - [**FAQ**](./genuine-installation-media#faq)
 
@@ -41,7 +41,7 @@ Windows 10 download from [microsoft.com/en-us/software-download][8] isn't recomm
 
 </details>
 
-**Windows 10 Consumer 22H2**
+Windows 10 Consumer 22H2
 
 Build - 19045.6093 (July 2025)
 
@@ -124,11 +124,8 @@ Build - 19045.6093 (July 2025)
 | Chinese-Traditional    | x64  | [zh-tw_windows_10_consumer_editions_version_22h2_updated_july_2025_x64_dvd_f841fba5.iso](https://drive.massgrave.dev/zh-tw_windows_10_consumer_editions_version_22h2_updated_july_2025_x64_dvd_f841fba5.iso) |
 | Chinese-Traditional    | x86  | [zh-tw_windows_10_consumer_editions_version_22h2_updated_july_2025_x86_dvd_f841fba5.iso](https://drive.massgrave.dev/zh-tw_windows_10_consumer_editions_version_22h2_updated_july_2025_x86_dvd_f841fba5.iso) |
 
----
 
 == Windows 10 Business 22H2
-
-**Windows 10 Business 22H2**
 
 Build - 19045.6093 (July 2025)
 
@@ -215,8 +212,6 @@ Build - 19045.6093 (July 2025)
 
 == Windows 10 IoT Enterprise 22H2
 
-**Windows 10 IoT Enterprise 22H2**
-
 **(Not LTSC)**
 
 Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
@@ -225,11 +220,9 @@ Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
 |:---------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | x64  | [en-us_windows_10_iot_enterprise_version_22h2_x64_dvd_51cc370f.iso](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_version_22h2_x64_dvd_51cc370f.iso) |
 
-<br/>
-
 ### Note for IoT Enterprise 
 
-::: danger **(GAC) Not LTSC**
+::: danger **(GAC) Not  LTSC:**
 
 - When installing Windows IoT Enterprise (GAC):
 - If your system has an **OEM license** in the motherboard (Pro or higher),
@@ -237,7 +230,6 @@ Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
 - then Windows Setup will apply the OEM key from the motherboard during the final stage.
 
 ### What this means
-
 - You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
 - After installation, the system will show Pro edition, not IoT Enterprise.
 - This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
@@ -246,34 +238,26 @@ Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
 ### Fix
 After installation, switch the edition by running the following in command prompt as admin.
 
-```
+```shell
 slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 ```
 
----
-
 == Windows 10 ARM64 22H2
 
-**Windows 10 ARM64 22H2**
-
-Check [Windows arm links](./windows_arm_links).
+Check here for [Windows arm links](./windows_arm_links).
 
 
 == Windows 10 Enterprise LTSC
 
-**Windows 10 Enterprise LTSC**
-
-Check [Windows ltsc links](./windows_ltsc_links).
-
+Check here for [Windows ltsc links](./windows_ltsc_links).
 
 == Other Versions
 
-**Other Versions**
-
 - [MVS Bot][2]
 - [os.click/][3]
-- [files.rg-adguard.net/version/216fefbe94c5][4]
-- Download the [Official Microsoft ESD file][5] and [ESD>ISO Converter][6] by [abbodi1406][7],
+- [files.rg-adguard.net/version/][4]
+- Download the [Microsoft ESD file][5]
+- And [ESD>ISO Converter][6] by [abbodi][7],
   - Put the ESD file beside `decrypt.cmd` and run that script.
   - It will create the ISO file.
   - This process is same as how Official MCT tool creates Windows 10 and 11 ISOs.
