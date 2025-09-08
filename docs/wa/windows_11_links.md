@@ -136,7 +136,7 @@ IoT Enterprise ISO is available only in English language.
 
 ### Note for IoT Enterprise
 
-::: danger `(GAC) **Not LTSC**:`
+::: danger **(GAC) Not LTSC:**
 
 - When installing Windows IoT Enterprise (GAC):
 
@@ -158,8 +158,6 @@ After installation, switch the edition by running the following in command promp
 ```shell
 slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 ```
-
-:::
 
 
 == Windows 11 ARM64 24H2
@@ -288,7 +286,7 @@ Build - 22631.2428 (31-Oct-2023) (This ISO file is not updated every month)
 
 ### Note for IoT Enterprise
 
-::: danger `(GAC) **Not LTSC**:`
+::: danger **(GAC) Not LTSC:**
 
 - When installing Windows IoT Enterprise (GAC):
 
