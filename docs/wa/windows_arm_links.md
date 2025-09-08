@@ -1,6 +1,8 @@
 ---
 layout: doc
 outline: deep
+lang: en-US
+dir: ltr
 title: 'Windows ARM64 Download'
 description: 'All download links lead to genuine files only'
 date: 2025-04-19
@@ -9,12 +11,15 @@ editLink: true
 
 # Windows ARM64 Download
 
-All download links lead to genuine files only.
+::: info All download links lead to **`genuine files`**
 
-> - [FAQ](./genuine-installation-media#faq)
-> - You need an ARM64 processor (CPU) to install Windows ARM64 architecture OS.
+- [FAQ](./genuine-installation-media#faq)
 
-----
+- You need an ARM64 processor (CPU) to install Windows ARM64 architecture OS.
+
+:::
+
+<br/>
 
 ## Download Links
 
@@ -24,17 +29,11 @@ All download links lead to genuine files only.
 
 == Windows 11 Consumer 24H2 🤍
 
-**Windows 11 Consumer 24H2**
-
 Build - 26100.1742
 
 **Download Links:** [MSDL 🤍][1] / [Microsoft][2]
 
-----
-
 == Windows 11 IoT Enterprise 24H2
-
-**Windows 11 IoT Enterprise 24H2**  
 
 **(Not LTSC)**  
 
@@ -51,32 +50,43 @@ ARM64 version for IoT Enterprise ISO is available only in English language.
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | ARM64 | [en-us_windows_11_iot_enterprise_version_24h2_arm64_dvd_e9155a10.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_24h2_arm64_dvd_e9155a10.iso) |
 
-**Note** for IoT Enterprise (GAC) **Not LTSC**:
 
-- If your system has an OEM license on the motherboard for Pro or higher-level edition
-- And the edition key in Windows setup is OEM as well
+### Note for IoT Enterprise
 
-In that case, during the final stages in Windows installation, setup will install the OEM key that is installed on your motherboard.
-As a result, you can install IoT Enterprise according to the relaxed hardware requirements. However, after the Windows installation is complete, it will show that the Pro edition is installed.
+::: danger **(GAC) Not  LTSC:**
 
-This situation cannot be avoided because IoT Enterprise (GAC) only has an OEM key. However, don't worry, you can just change the edition to IoT Enterprise later using the command below as admin.
+- When installing Windows IoT Enterprise (GAC):
 
-`slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD`
+- If your system has an **OEM license** in the motherboard (Pro or higher),
+- And the key used in Setup is **OEM**,
 
----
+then Windows Setup will apply the OEM key from the motherboard during the final stage.
+
+### What this means
+- You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
+- After installation, the system will show Pro edition, not IoT Enterprise.
+- This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
+- This behavior is normal and cannot be avoided.
+
+### Fix
+After installation, switch the edition by running the following in command prompt as admin.
+
+```
+slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
+```
 
 == Windows 11 IoT Enterprise LTSC 2024
 
-**Windows 11 IoT Enterprise LTSC 2024**
+**Build - 26100.1742**
 
-Build - 26100.1742  
-These ISOs contain below editions.  
+These ISOs contain below editions:
 
-Windows 11 Enterprise LTSC  
-Windows 11 IoT Enterprise LTSC   
-Windows 11 IoT Enterprise Subscription LTSC
+- Windows 11 Enterprise LTSC
+- Windows 11 IoT Enterprise LTSC
+- Windows 11 IoT Enterprise l Subscription LTSC
 
-ARM64 version for LTSC is available only in English language.  
+> ARM64 version for LTSC is available only in English language.
+
 
 | Language | Arch  | Link                                                                                                                                                             |
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -86,14 +96,10 @@ ARM64 version for LTSC is available only in English language.
 
 == Other Version
 
-**Other Versions**
-
 - Download the [official Microsoft ESD file][3] and [ESD>ISO Converter][4] by [abbodi1406][5],
 - Put the ESD file beside `decrypt.cmd` and run that script.
 - It will create the ISO file.
 - This process is the same as how the official MCT tool creates Windows 10 and 11 ISOs.
-
----
 
 :::
 
@@ -102,8 +108,6 @@ ARM64 version for LTSC is available only in English language.
 :::tabs
 
 == Windows 10 Business 22H2
-
-**Windows 10 Business 22H2**
 
 Build - 19045.5854
 
@@ -148,11 +152,8 @@ Build - 19045.5854
 | Turkish        | ARM64 | [SW_DVD9_Win_Pro_10_22H2.31_Arm64_Turkish_Pro_Ent_EDU_N_MLF_X24-05100.ISO](https://drive.massgrave.dev/SW_DVD9_Win_Pro_10_22H2.31_Arm64_Turkish_Pro_Ent_EDU_N_MLF_X24-05100.ISO) |
 | Ukrainian      | ARM64 | [SW_DVD9_Win_Pro_10_22H2.31_Arm64_Ukrainian_Pro_Ent_EDU_N_MLF_X24-05101.ISO](https://drive.massgrave.dev/SW_DVD9_Win_Pro_10_22H2.31_Arm64_Ukrainian_Pro_Ent_EDU_N_MLF_X24-05101.ISO) |
 
----
 
 == Windows 10 IoT Enterprise 22H2
-
-**Windows 10 IoT Enterprise 22H2**  
 
 **(Not LTSC)**  
 
@@ -163,11 +164,8 @@ ARM64 version for IoT Enterprise ISO is available only in English language.
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | ARM64 | [en-us_windows_10_iot_enterprise_version_22h2_arm64_dvd_39566b6b.iso](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_version_22h2_arm64_dvd_39566b6b.iso) |
 
-----
 
 == Windows 10 IoT Enterprise LTSC 2021
-
-**Windows 10 IoT Enterprise LTSC 2021**
 
 Build - 19044.1288
 
@@ -178,34 +176,39 @@ ARM64 version for LTSC is available only in English language.
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | ARM64 | [en-us_windows_10_iot_enterprise_ltsc_2021_arm64_dvd_e8d4fc46.iso](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_arm64_dvd_e8d4fc46.iso) |
 
-Note for IoT Enterprise (GAC) **Not LTSC**:
+### Note for IoT Enterprise
 
-- If your system has an OEM license on the motherboard for Pro or higher-level edition
-- And the edition key in Windows setup is OEM as well
+::: danger **(GAC) Not  LTSC:**
 
-In that case, during the final stages in Windows installation, setup will install the OEM key that is installed on your motherboard.
-As a result, you can install IoT Enterprise as per its features. However, after the Windows installation is complete, it will show that the Pro edition is installed.
+- When installing Windows IoT Enterprise (GAC):
 
-This situation cannot be avoided because IoT Enterprise (GAC) only has an OEM key. However, don't worry, you can just change the edition to IoT Enterprise later using the command below as admin.
+- If your system has an **OEM license** in the motherboard (Pro or higher),
+- And the key used in Setup is **OEM**,
 
-`slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD`
+then Windows Setup will apply the OEM key from the motherboard during the final stage.
 
+### What this means
+- You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
+- After installation, the system will show Pro edition, not IoT Enterprise.
+- This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
+- This behavior is normal and cannot be avoided.
 
+### Fix
+After installation, switch the edition by running the following in command prompt as admin.
 
-----
+```shell
+slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
+```
 
 == Other Versions
-
-**Other Versions**
 
 - Download an [official Microsoft ESD file][6] and [ESD>ISO Converter][7] by [abbodi1406][8],
 - Put the ESD file beside `decrypt.cmd` and run that script.
 - It will create the ISO file.
 - This process is the same as how the official MCT tool creates Windows 10 and 11 ISOs.
 
----
-
 :::
+
 
 [1]: https://msdl.gravesoft.dev/#3131
 [2]: https://www.microsoft.com/en-us/software-download/windows11arm64
