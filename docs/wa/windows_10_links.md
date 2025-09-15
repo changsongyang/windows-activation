@@ -17,7 +17,7 @@ editLink: true
 
 - [**FAQ**](./genuine-installation-media#faq)
 
-- [Windows 10 updates after End-Of-Life.](./windows10_eol)
+- [**Windows 10 Updates after —End Of Life—**](./windows10_eol)
 
 - [**How to ensure that these files are genuine?**][genuine]
 
@@ -27,14 +27,14 @@ The Consumer ISO includes all editions, such as Home, Pro, and Education, but ex
 
 <br/>
 
-## Download Links
+# Download Links
 
 :::tabs
 
 == Windows 10 Consumer 22H2 🤍
 
 <details>
-  <summary>Info on Official links</summary>
+<summary>Info on Official links</summary>
 
 Microsoft provides Official public links for Windows 10 22H2 (Build 19045.2965) and that build is old and has an issue where Windows update may fail to install [KB5028997][1].  
 That is why we recommend getting the latest Windows 10 ISO file from the table below, those ISOs are taken from the Official MVS site.
@@ -216,15 +216,14 @@ Windows 10 download from [microsoft.com/en-us/software-download][8] isn't recomm
 | Chinese-Traditional    | x64  | [zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x64_dvd_3bcee6f7.iso](https://drive.massgrave.dev/zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x64_dvd_3bcee6f7.iso) |
 | Chinese-Traditional    | x86  | [zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x86_dvd_4c18674b.iso](https://drive.massgrave.dev/zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x86_dvd_4c18674b.iso) |
 
----
-
 == Windows 10 IoT Enterprise 22H2
 
 **Windows 10 IoT Enterprise 22H2**
 
-> - Not LTSC
-
-Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
+> **Not LTSC**
+> 
+> - Updated Oct 2022 (Build - 19045.2006)
+> - Only English RTM ISO is available
 
 | Language | Arch | Link                                                                                                                                                               |
 |:---------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
