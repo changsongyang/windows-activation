@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 title: 'Windows 7 Download'
 description: 'All download links lead to genuine files only'
-date: 2023-01-19
+date: 20234-01-19
 editLink: true
 ---
 
@@ -544,3 +544,4 @@ editLink: true
 [3]: https://discord.gg/FajfGaH3nD
 [4]: https://os.click/
 [5]:  https://files.rg-adguard.net/language/a9e697fb-a83e-ef89-8279-5e876ce4d2c3
+[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files
