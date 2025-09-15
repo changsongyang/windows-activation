@@ -1,6 +1,8 @@
 ---
 layout: doc
 outline: deep
+lang: fa-IR
+dir: rtl
 title: 'به‌روزرسانی‌های ویندوز 10 پس از پایان عمر'
 description: 'این سند توضیح می‌دهد که چگونه کاربران می‌توانند پس از تاریخ بازنشستگی ویندوز 10 در 14 اکتبر 2025، به‌روزرسانی‌های رسمی را دریافت کنند.'
 date: 2025-04-30
@@ -57,10 +59,11 @@ ISO نسخه IoT فقط به زبان انگلیسی موجود است، اما 
 Get-WmiObject -Class Win32_OperatingSystem | Format-List OSArchitecture
 ```
 
-x64 به معنای 64 بیتی، x86 به معنای 32 بیتی است.
-  - برای بررسی زبان ویندوز نصب شده، Powershell را به عنوان مدیر باز کنید و دستور زیر را وارد کنید؛
+‏  - x64 به معنای 64 بیتی، x86 به معنای 32 بیتی است.
+  - برای بررسی زبان ویندوز نصب شده، Powershell را به عنوان مدیر باز کنید و دستور زیر را وارد کنید:
 
-```
+
+```powerahell
 dism /english /online /get-intl | find /i "Default system UI language"
 ```
 
@@ -68,7 +71,7 @@ dism /english /online /get-intl | find /i "Default system UI language"
 - یک درایو DVD جدید در Windows Explorer ظاهر می‌شود، که به این معنی است که ایمیج نصب با موفقیت مونت شده است.
 - اکنون command prompt را به عنوان مدیر باز کنید و دستور زیر را وارد کنید:
 
-```reg
+```powershell
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTEnterpriseS /f
 ```
 
@@ -87,8 +90,11 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTE
 
 :::
 
-## ویندوز 11 IoT Enterprise 24H2
-## ویندوز 11 IoT Enterprise LTSC 2024
+## ویندوز 11 IoT Enterprise Editions
+
+قابل اجرا برای:
+- ویندوز ۱۱ اینترنت اشیا سازمانی، از نسخه ۲۴H2 (بیلد ۲۶۱۰۰ و جدیدتر)
+- ویندوز ۱۱ اینترنت اشیا سازمانی LTSC 2024 (بیلد ۲۶۱۰۰)
 
 بسیاری از کاربران به دلیل محدودیت‌های سخت‌افزاری، مانند عدم وجود TPM، Secure Boot یا پشتیبانی از UEFI، از ویندوز 11 استفاده نمی‌کنند. در حالی که امکان دور زدن این محدودیت‌ها وجود دارد، انجام این کار به طور رسمی پشتیبانی نمی‌شود و ممکن است منجر به مشکلاتی در به‌روزرسانی‌های آینده شود.
 
@@ -117,14 +123,14 @@ ISO نسخه IoT فقط به زبان انگلیسی موجود است، اما 
 - هر ISO [ویندوز 11 24H2][10] (برای GAC) یا [Enterprise LTSC 2024][11] (برای LTSC) را با **همان زبان و معماری ویندوز** دانلود کنید.
   - برای بررسی معماری ویندوز نصب شده، Powershell را به عنوان مدیر باز کنید و دستور زیر را وارد کنید:
 
-```reg
+```powershell
 Get-WmiObject -Class Win32_OperatingSystem | Format-List OSArchitecture
 ```
 
 x64 به معنای 64 بیتی، x86 به معنای 32 بیتی است.
   - برای بررسی زبان ویندوز نصب شده، Powershell را به عنوان مدیر باز کنید و دستور زیر را وارد کنید،
 
-```reg
+```powershell
 dism /english /online /get-intl | find /i "Default system UI language"
 ```
 
@@ -134,13 +140,13 @@ dism /english /online /get-intl | find /i "Default system UI language"
 
 **برای GAC**
 
-```reg
+```powershell
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTEnterprise /f
 ```
 
 **برای LTSC**
 
-```reg
+```powershell
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTEnterpriseS /f
 ```
 
@@ -149,9 +155,7 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /d IoTE
 
 همین.
 
-:::
-
-::: details نکات
+::: danger نکات مهم
 
 - بسیاری از ابزارها می‌توانند به شما اجازه دهند ویندوز 11 را نصب کنید اگر سخت‌افزار پشتیبانی نشود و به‌روزرسانی‌های ماهانه به خوبی کار کنند. با این حال، به‌روزرسانی‌های ویژگی سالانه در صورت عدم برآورده شدن نیازمندی‌های سخت‌افزاری، نصب نخواهند شد.
 - به همین دلیل است که نسخه‌های IoT (24H2/2024) ذکر شده‌اند تا بتوانید از پشتیبانی رسمی در ارتقاءهای ویژگی آینده برخوردار شوید.
