@@ -15,7 +15,9 @@ editLink: true
 
 - تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.
 - [سوالات متداول](./genuine-installation-media#سوالات-متداول)
+
 - [ویندوز 10 پس از پایان عمر](./windows10_eol)
+
 - [چگونه اصالت این فایل‌ها رو تایید کنیم؟][Genuine]
 
 <br/>
@@ -226,7 +228,7 @@ editLink: true
 
 ## نکته مهم برای نسخه IoT Enterprise (GAC): 
 
-::: tip `این نسخه، LTSC نیست`
+::: danger `این نسخه، LTSC نیست`
 
 هنگام نصب ویندوز نسخه IoT Enterprise (GAC) توجه کنید:
 - اگر سیستم شما دارای **مجوز OEM** در مادربرد (نسخه Pro یا بالاتر) باشد،
@@ -280,3 +282,4 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 [8]: https://www.microsoft.com/en-us/software-download
 [MSDL]: https://msdl.gravesoft.dev/#2618
 [genuine]: https://nirevil.github.io/windows-activation/fa/wa/genuine-installation-media#%D8%AA%D8%A7%D9%94%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B5%D8%A7%D9%84%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7
+
