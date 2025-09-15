@@ -17,8 +17,6 @@ editLink: true
 
 - [**How to ensure that these files are genuine?**][genuine]
 
-Microsoft provides Evaluation ISO public [links][1] for Windows LTSC releases, but as the name states, those ISOs are for evaluation purposes and can not be activated for more than 90 days. Below listed ISOs are full version that can be activated.
-
 :::
 
 <br/> 
@@ -674,4 +672,4 @@ Check [Windows ARM links](./windows_arm_links)
 [6]: https://www.elevenforum.com/t/enable-or-disable-background-apps-in-windows-11.923/
 [7]: https://gist.github.com/ave9858/a2153957afb053f7d0e7ffdd6c3dcb89
 [8]: https://apps.microsoft.com/detail/9nblggh4nns1
-[genuine]: https://nirevil.github.io/windows-activation/fa/wa/genuine-installation-media#%D8%AA%D8%A7%D9%94%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B5%D8%A7%D9%84%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7
+[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files
