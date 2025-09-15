@@ -1,20 +1,32 @@
 ---
 layout: doc
 outline: deep
+lang: fa-IR
+dir: rtl
 title: 'دانلود ویندوز 11'
-description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.'
-date: 2025-01-19
+description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند'
+date: 2025-07-19
 editLink: true
 ---
 
 # دانلود ویندوز 11
 
-> - تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.
-> - [سوالات متداول](./genuine-installation-media#سوالات-متداول)
+::: info نکته
 
-----
+- تمام لینک‌های دانلود فقط به `فایل‌های اصلی` منتهی می‌شوند.
+- [سوالات متداول](./genuine-installation-media#سوالات-متداول)
 
-## لینک‌های دانلود
+- [ویندوز 10 پس از پایان عمر](./windows10_eol)
+
+- [چگونه اصالت این فایل‌ها رو تایید کنیم؟][Genuine]
+
+ایزوی مخصوص مصرف‌کنندگان شامل همه نسخه‌ها، مانند خانگی، حرفه‌ای و آموزشی می‌شود، اما نسخه سازمانی را شامل نمی‌شود. در مقابل، ایزوی مخصوص کسب‌وکار شامل همه نسخه‌ها به جز نسخه‌های خانگی است.
+
+:::
+
+<br/>
+
+## لینک های دانلود
 
 ### ویندوز ۱۱ نسخه 24H2
 
@@ -127,6 +139,29 @@ editLink: true
 | زبان | معماری | لینک |
 |:---|:---|:---|
 | انگلیسی | x64 | [en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso) |
+
+<br/> 
+
+## نکته مهم برای نسخه IoT Enterprise (GAC): 
+
+::: danger `این نسخه، LTSC نیست`
+
+هنگام نصب ویندوز نسخه IoT Enterprise (GAC) توجه کنید:
+- اگر سیستم شما دارای **مجوز OEM** در مادربرد (نسخه Pro یا بالاتر) باشد،
+- و کلید مورد استفاده در Setup **OEM** باشد، آنگاه Windows Setup در مرحله نهایی، کلید OEM را از مادربرد اعمال خواهد کرد.
+
+### این به چه معناست؟  
+- شما می‌توانید **IoT Enterprise** را با ویژگی‌های آن (از جمله الزامات سخت‌افزاری ساده در ویندوز ۱۱ نسخه ۲۴H2 و غیره) نصب کنید.
+- پس از نصب، سیستم نسخه Pro را نشان می‌دهد، نه IoT Enterprise.
+- این اتفاق می‌افتد زیرا IoT Enterprise (GAC) فقط با یک کلید OEM توزیع می‌شود.
+- این رفتار طبیعی است و نمی‌توان از آن اجتناب کرد.
+
+### رفع مشکل  
+پس از نصب، با اجرای دستور زیر در خط فرمان به عنوان ادمین، نسخه را تغییر دهید.  
+
+```shell
+slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
+```
 
 == ویندوز ۱۱ ARM64 نسخه 24H2
 
@@ -252,7 +287,28 @@ editLink: true
 |:---|:---|:---|
 | انگلیسی | x64 | [en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso) |
 
-----
+<br/> 
+
+## نکته مهم برای نسخه IoT Enterprise (GAC): 
+
+::: danger `این نسخه، LTSC نیست`
+
+هنگام نصب ویندوز نسخه IoT Enterprise (GAC) توجه کنید:
+- اگر سیستم شما دارای **مجوز OEM** در مادربرد (نسخه Pro یا بالاتر) باشد،
+- و کلید مورد استفاده در Setup **OEM** باشد، آنگاه Windows Setup در مرحله نهایی، کلید OEM را از مادربرد اعمال خواهد کرد.
+
+### این به چه معناست؟  
+- شما می‌توانید **IoT Enterprise** را با ویژگی‌های آن (از جمله الزامات سخت‌افزاری ساده در ویندوز ۱۱ نسخه ۲۴H2 و غیره) نصب کنید.
+- پس از نصب، سیستم نسخه Pro را نشان می‌دهد، نه IoT Enterprise.
+- این اتفاق می‌افتد زیرا IoT Enterprise (GAC) فقط با یک کلید OEM توزیع می‌شود.
+- این رفتار طبیعی است و نمی‌توان از آن اجتناب کرد.
+
+### رفع مشکل  
+پس از نصب، با اجرای دستور زیر در خط فرمان به عنوان ادمین، نسخه را تغییر دهید.  
+
+```shell
+slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
+```
 
 :::
 
@@ -264,3 +320,4 @@ editLink: true
 [5]: https://worproject.com/esd
 [6]: https://github.com/abbodi1406/WHD/raw/master/scripts/esd-decrypter-wimlib-65.7z
 [7]: https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/
+[genuine]: https://nirevil.github.io/windows-activation/fa/wa/genuine-installation-media#%D8%AA%D8%A7%D9%94%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B5%D8%A7%D9%84%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7
