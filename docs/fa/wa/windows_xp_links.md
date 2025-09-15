@@ -1,31 +1,50 @@
 ---
 layout: doc
 outline: deep
+lang: fa-IR
+dir: rtl
 title: 'دانلود ویندور XP'
-description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.'
+description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند'
 date: 2024-04-19
 editLink: true
 ---
 
-
 # دانلود ویندور XP
 
-> - تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند..
-> 
-> - [FAQ](./genuine-installation-media#سوالات-متداول)
-> -   For x86, SP3 and for x64, SP2 are the last released ISOs available. x64 SP2 version was released in English language only.
-> -   x86 VL ISOs can be activated with the key `XCYBK-2B3KV-G8T8F-WXJM7-WCTYT`
-> -   x64 VL ISOs can be activated with the key `VCFQD-V9FX9-46WVH-K3CD4-4J3JM`
+::: info نکته
 
-----
+- تمام لینک‌های دانلود فقط به `فایل‌های اصلی` منتهی می‌شوند.
+
+- [سوالات متداول](./genuine-installation-media#سوالات-متداول)
+
+- [چگونه اصالت این فایل‌ها رو تایید کنیم؟][Genuine]
+
+
+**برای x86، SP3 و برای x64، SP2 آخرین ISO های منتشر شده موجود هستند. نسخه x64 SP2 فقط به زبان انگلیسی منتشر شد.**
+
+- فایل‌های ISO مربوط به x86 VL را می‌توان با کلید زیر فعال کرد:  
+  ```shell
+  XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
+  ```
+
+- فایل‌های ISO نسخه x64 VL را می‌توان با کلید زیر فعال کرد:  
+  ```shell
+  VCFQD-V9FX9-46WVH-K3CD4-4J3JM
+  ```
+
+:::
+
+<br/> 
+
+## لینک های دانلود
 
 :::tabs
 
 == Windows XP SP3 VL (x86)
 
-**Windows XP SP3 VL (x86)**
+**ویندوز XP SP3 VL (x86)**
 
-| Language              | Arch | Link                                                                                                                                                                                   |
+| زبان              | معماری | لینک                                                                                                                                                                                   |
 |:----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Arabic                | x86  | [ar_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74065.iso](https://drive.massgrave.dev/ar_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74065.iso)           |
 | Czech                 | x86  | [cs_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73965.iso](https://drive.massgrave.dev/cs_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73965.iso)           |
@@ -53,14 +72,15 @@ editLink: true
 | Chinese-Hong Kong SAR | x86  | [zh-hk_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74075.iso](https://drive.massgrave.dev/zh-hk_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74075.iso)     |
 | Chinese-Traditional   | x86  | [zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74140.iso](https://drive.massgrave.dev/zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74140.iso)     |
 
-----
 
 == Windows XP SP2 VL (x64)
 
-**Windows XP SP2 VL (x64)**
+**ویندوز XP SP2 VL (x64)**
 
-| Language | Arch | Link                                                                                                                   |
+| زبان | معماری | لینک                                                                                                                   |
 |:---------|:-----|:-----------------------------------------------------------------------------------------------------------------------|
 | English  | x64  | [en_win_xp_pro_x64_with_sp2_vl_x13-41611.iso](https://drive.massgrave.dev/en_win_xp_pro_x64_with_sp2_vl_x13-41611.iso) |
 
 :::
+
+[genuine]: https://nirevil.github.io/windows-activation/fa/wa/genuine-installation-media#%D8%AA%D8%A7%D9%94%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B5%D8%A7%D9%84%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7
