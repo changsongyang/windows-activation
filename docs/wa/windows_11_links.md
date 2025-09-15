@@ -17,8 +17,6 @@ editLink: true
 
 - [**FAQ**](./genuine-installation-media#faq)
 
-- [Windows 10 updates after End-Of-Life.](./windows10_eol)
-
 - [**How to ensure that these files are genuine?**][genuine]
 
 The Consumer ISO includes all editions, such as Home, Pro, and Education, but excludes the Enterprise edition. In contrast, the Business ISO includes all editions except for the Home versions.
