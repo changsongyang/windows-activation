@@ -34,7 +34,7 @@ If you're uncertain, avoid LTSC and choose the general availability channel and 
 ### Microsoft releases Windows 10 and 11 through two servicing channels.
 
 
-1. **GAC** (General Availability Channel)   
+1. **GAC** — General Availability Channel  
 
 - It is intended for both general and enterprise customers.
 - Edition examples include options such as Home, Pro, and Enterprise.
@@ -43,7 +43,7 @@ If you're uncertain, avoid LTSC and choose the general availability channel and 
 - This is the main servicing channel and other software and games usually follow this channel's life cycle to provide support.
 
 
-2. **LTSC** (Long-Term Servicing Channel)
+2. **LTSC** — Long-Term Servicing Channel
 
 - It is designed for devices where functionality and features must remain constant over time, such as medical systems, industrial controllers, and air traffic control devices.
 - Examples of editions include: Enterprise LTSC and IoT Enterprise LTSC.
@@ -137,6 +137,7 @@ https://github.com/stdin82/htfx/releases/tag/v0.0.24
 | IoT Enterprise LTSC 2024 | IoTEnterpriseS | KBN8V-HFGQ4-MGXVD-347P6-PDQGT |
 | Enterprise LTSC 2024     | EnterpriseS    | M7XTQ-FN8P6-TTKYV-9D4CC-J462D |
 
+
 == Windows 10 LTSC 2021
 
 **Windows 10 LTSC 2021**
@@ -173,7 +174,7 @@ The installed key is the only difference. There is no real, different IoT editio
 
 ::: details Click here for info
 
-You might want to check **[Windows 10 EOL guide](./windows10_eol)**
+You might want to check [**Windows 10 EOL guide**](./windows10_eol)
 
 ::: 
 
@@ -184,7 +185,7 @@ You might want to check **[Windows 10 EOL guide](./windows10_eol)**
 IoT LTSC edition ISOs are available in English language only. However, you can follow the below steps to clean install it.
 
 - Download the non-IoT LTSC 2024 ISO in the desired language from the section below.
-- Follow [PID.txt method](./clean_install_windows#windows-11-on-unsupported-hardware) to install IoT version from scratch
+- Follow [**PID.txt method**](./clean_install_windows#windows-11-on-unsupported-hardware) to install IoT version from scratch
 
 Alternatively, You can install Non-IoT LTSC in another language and later install IoT LTSC 2024 key
 
@@ -207,10 +208,10 @@ When installing Windows 11 IoT Enterprise LTSC 2024 from scratch, one advantage 
 ### Our recommendation is as follows:
 
 - Download the non-IoT LTSC 2021 ISO in the desired language from the section below.
-- Install Windows using this [clean installation guide](./clean_install_windows).
+- Install Windows using this [**clean installation guide**](./clean_install_windows).
 - After installing Windows, to change the edition, enter the IoT LTSC 2021 key on the activation page in the Windows settings:
 
-```shell
+```powershell
 QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 ```
 
@@ -660,7 +661,7 @@ QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 
 **Windows 10/11 IoT Enterprise LTSC ARM64**
 
-Check [Windows ARM links](./windows_arm_links)
+Check [**Windows ARM links**](./windows_arm_links)
 
 :::
 
