@@ -11,30 +11,53 @@ editLink: true
 
 # دانلود ویندوز 8.1
 
-::: info نکته
+::: info تمام لینک‌های دانلود فقط به **`فایل‌های اصلی`** منتهی می‌شوند
 
-- تمام لینک‌های دانلود فقط به `فایل‌های اصلی` منتهی می‌شوند.
+- [**سوالات متداول**](./genuine-installation-media#سوالات-متداول)
 
-- [سوالات متداول](./genuine-installation-media#سوالات-متداول)
+- [**چگونه اصالت این فایل‌ها رو تایید کنیم؟**][Genuine]
 
-- [ویندوز 10 پس از پایان عمر](./windows10_eol)
-
-- [چگونه اصالت این فایل‌ها رو تایید کنیم؟][Genuine]
-
-- در فرآیند نصب فایل ISO ویندوز ۸.۱ (Core / Pro)، از شما خواسته می‌شود که کلید را وارد کنید، می‌توانید کلیدهای عمومی زیر را برای نسخه مورد نظر وارد کنید.
+- در فرآیند نصب فایل ISO ویندوز ۸.۱ (Core / Pro)، از شما خواسته می‌شود که کلید را وارد کنید، می‌توانید کلیدهای عمومی زیر را برای نسخه مورد نظر وارد کنید.  
+> 
+> **Windows 8.1 Core:**
+> 
+> ```shell
+> 334NH-RXG76-64THK-C7CKG-D3VPT
+> ```
+>
+> 
+> **Windows 8.1 Core N:**
+> 
+> ```shell
+> 6NPQ8-PK64X-W4WMM-MF84V-RGB89
+> ```
+>
+> 
+> **Windows 8.1 Core Single Language:**
+> 
+> ```shell
+> Y9NXP-XT8MV-PT9TG-97CT3-9D6TC
+> ```
+>
+> 
+> **Windows 8.1 Pro:**
+>
+> ```shell
+> XHQ8N-C3MCJ-RQXB6-WCHYG-C9WKB
+> ```
+>
+> 
+> **Windows 8.1 Pro N:**
+> 
+> ```shell
+> JRBBN-4Q997-H4RM2-H3B7W-Q68KC
+> ```
+> 
+> - **ویندوز ۸.۱ را می‌توان با [گزینه TSforge در MAS](./index#مرحله-۲) به طور دائم فعال کرد.**
+> - نسخه‌های ویندوز ۸.۱ (Embedded) با برنامه‌های از پیش نصب‌شده‌ی فروشگاه ارائه نمی‌شوند.
+> 
 
 :::
-
-<br/>
-
-> - `Windows 8.1 Core: 334NH-RXG76-64THK-C7CKG-D3VPT`  
-> - `Windows 8.1 Core N: 6NPQ8-PK64X-W4WMM-MF84V-RGB89`  
-> - `Windows 8.1 Core Single Language: Y9NXP-XT8MV-PT9TG-97CT3-9D6TC`  
-> - `Windows 8.1 Pro: XHQ8N-C3MCJ-RQXB6-WCHYG-C9WKB`  
-> - `Windows 8.1 Pro N: JRBBN-4Q997-H4RM2-H3B7W-Q68KC`
-> 
-> **ویندوز ۸.۱ را می‌توان با گزینه TSforge در MAS به طور دائم فعال کرد.**
-> نسخه‌های ویندوز ۸.۱ (Embedded) با برنامه‌های از پیش نصب‌شده‌ی فروشگاه ارائه نمی‌شوند.
 
 <br/>
 
@@ -218,7 +241,6 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_8.1_pro_vl_with_update_x64_dvd_6050907.iso](https://drive.massgrave.dev/uk_windows_8.1_pro_vl_with_update_x64_dvd_6050907.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_pro_vl_with_update_x86_dvd_6050945.iso](https://drive.massgrave.dev/uk_windows_8.1_pro_vl_with_update_x86_dvd_6050945.iso)           |
 
-----
 
 == Windows 8.1 Enterprise
 
@@ -303,13 +325,12 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_8.1_enterprise_with_update_x64_dvd_6050618.iso](https://drive.massgrave.dev/uk_windows_8.1_enterprise_with_update_x64_dvd_6050618.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_enterprise_with_update_x86_dvd_6050870.iso](https://drive.massgrave.dev/uk_windows_8.1_enterprise_with_update_x86_dvd_6050870.iso)           |
 
-----
 
 == Windows 8.1 Embedded Pro
 
 **ویندوز 8.1 Embedded Pro**  
 
-> - Build - 9600.17415
+> - بیلد 9600.17415
 
 | Language               | Arch | Link                                                                                                                                                                               |
 |:-----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -388,13 +409,11 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_embedded_8.1_industry_pro_with_update_x64_dvd_6052113.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_pro_with_update_x64_dvd_6052113.iso)           |
 | Ukrainian              | x86  | [uk_windows_embedded_8.1_industry_pro_with_update_x86_dvd_6052150.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_pro_with_update_x86_dvd_6052150.iso)           |
 
-----
-
 == Windows 8.1 Embedded Enterprise
 
 **ویندوز 8.1  Embedded Enterprise**
 
-> - Build - 9600.17415  
+> بیلد 9600.17415  
 
 | Language               | Arch | Link                                                                                                                                                                                             |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
