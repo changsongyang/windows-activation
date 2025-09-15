@@ -1,34 +1,44 @@
 ---
 layout: doc
 outline: deep
+lang: fa-IR
+dir: rtl
 title: 'دانلود ویندوز 7'
-description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.'
+description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند'
 date: 2023-01-19
 editLink: true
 ---
 
 # دانلود ویندوز 7
 
-> - تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.
-> 
-> - [سوالات متداول](./genuine-installation-media#سوالات-متداول)
-> -   **شما می‌توانید ویندوز ۷ را با [گزینه TSforge در MAS](./index#مرحله-۲)** به طور دائم فعال کنید.
-> -   فایل‌های ISO نسخه‌های Ultimate، Professional، Home Premium، Home Basic و Starter شامل همه نسخه‌ها به جز Enterprise هستند، اما به طور پیش‌فرض هنگام نصب ویندوز نمایش داده نمی‌شوند. می‌توانید به راحتی هر یک از آنها را هنگام نصب انتخاب کنید و برای این کار باید فایل `sources\ei.cfg` را در USB یا ISO قابل بوت خود حذف یا ویرایش کنید.
-> -   برای دریافت آخرین به‌روزرسانی‌ها در نصب ویندوز ۷، می‌توانید از [Simplix Pack][1] استفاده کنید و ESU را با گزینه TSforge در MAS فعال کنید.
+::: info نکته
 
-----
+- تمام لینک‌های دانلود فقط به `فایل‌های اصلی` منتهی می‌شوند.
 
-## لینک‌های دانلود
+- [سوالات متداول](./genuine-installation-media#سوالات-متداول)
+
+- [چگونه اصالت این فایل‌ها رو تایید کنیم؟][Genuine]
+
+- **شما می‌توانید ویندوز ۷ را با [گزینه TSforge در MAS](./index#مرحله-۲)** به طور دائم فعال کنید.
+
+فایل‌های ISO نسخه‌های Ultimate، Professional، Home Premium، Home Basic و Starter شامل همه نسخه‌ها به جز Enterprise هستند، اما به طور پیش‌فرض هنگام نصب ویندوز نمایش داده نمی‌شوند. می‌توانید به راحتی هر یک از آنها را هنگام نصب انتخاب کنید و برای این کار باید فایل `sources\ei.cfg` را در USB یا ISO قابل بوت خود حذف یا ویرایش کنید.
+
+برای دریافت آخرین به‌روزرسانی‌ها در نصب ویندوز ۷، می‌توانید از [Simplix Pack][1] استفاده کنید و ESU را با گزینه TSforge در MAS فعال کنید.
+:::
+
+<br/>
+
+## لینک های دانلود
 
 **ویندوز 7 SP1**
 
-**بیلد - 7601.17514**
+> - بیلد 7601.17514
 
 :::tabs
 
 == ویندوز 7 Ultimate SP1 🤍
 
-**ویندوز 7 Ultimate SP1**
+**ویندوز 7 Ultimate SP1**  
 
 | زبان | معماری | لینک |
 |:---|:---|:---|
@@ -103,9 +113,7 @@ editLink: true
 | چینی (سنتی) | x64 | [tw_windows_7_ultimate_with_sp1_x64_dvd_u_677414.iso](https://drive.massgrave.dev/tw_windows_7_ultimate_with_sp1_x64_dvd_u_677414.iso) |
 | چینی (سنتی) | x86 | [tw_windows_7_ultimate_with_sp1_x86_dvd_u_677488.iso](https://drive.massgrave.dev/tw_windows_7_ultimate_with_sp1_x86_dvd_u_677488.iso) |
 | اوکراینی | x64 | [uk_windows_7_ultimate_with_sp1_x64_dvd_u_677406.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x64_dvd_u_677406.iso) |
-| اوکراینی | x86 | [uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso) |
-
-----
+| اوکراینی | x86 | [uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso) |  
 
 == Windows 7 Enterprise SP1
 
@@ -186,13 +194,11 @@ editLink: true
 | اوکراینی | x64 | [uk_windows_7_enterprise_with_sp1_x64_dvd_u_677683.iso](https://drive.massgrave.dev/uk_windows_7_enterprise_with_sp1_x64_dvd_u_677683.iso) |
 | اوکراینی | x86 | [uk_windows_7_enterprise_with_sp1_x86_dvd_u_677712.iso](https://drive.massgrave.dev/uk_windows_7_enterprise_with_sp1_x86_dvd_u_677712.iso) |
 
-----
-
 == Windows 7 Professional VL SP1
 
 **Windows 7 Professional VL SP1**
 
-> این نسخه فقط شامل فهرست نسخه حرفه‌ای است
+> - این نسخه فقط شامل فهرست نسخه حرفه‌ای است.  
 
 | زبان | معماری | لینک |
 |:---|:---|:---|
@@ -269,11 +275,9 @@ editLink: true
 | اوکراینی | x64 | [uk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677811.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677811.iso) |
 | اوکراینی | x86 | [uk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677928.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677928.iso) |
 
-----
+== نسخه‌های دیگر
 
-== Other Versions
-
-**Other Versions**
+**نسخه‌های دیگر**
 
 > - [archive.isdn/artifacts][2]
 > - [MVS Bot][3]
@@ -287,3 +291,4 @@ editLink: true
 [3]: https://discord.gg/FajfGaH3nD
 [4]: https://os.click/
 [5]:  https://files.rg-adguard.net/language/a9e697fb-a83e-ef89-8279-5e876ce4d2c3
+[genuine]: https://nirevil.github.io/windows-activation/fa/wa/genuine-installation-media#%D8%AA%D8%A7%D9%94%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B5%D8%A7%D9%84%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7
