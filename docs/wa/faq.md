@@ -54,7 +54,10 @@ See our [troubleshooting guide](./troubleshoot) for common solutions.
 
 ### Is MAS safe? How do I know it’s not malware?
 
-MAS is fully open-source, with over 140K stars on [GitHub][1] and millions of users worldwide. You can inspect the batch files in any text editor, or use ChatGPT for code review.  
+MAS is fully open-source, with over 140K stars on [GitHub][1] and millions of users worldwide. You can inspect the [batch files][8] in any text editor, or use this ai's for code review.
+
+[Gemini] - [Jules] - [Claude] - [ChatGPT] - [Grok] - [Perplexity] - [Qwen] - [GenSpark]
+
 If you prefer, you can also perform manual activation — see [this guide](./manual_hwid_activation).
 
 <br/>
@@ -205,12 +208,6 @@ Yes, [TSforge](./tsforge), [Ohook](./ohook), and [Online KMS](./online_kms) opti
 
 <br/>
 
-### Can I donate or support the project?
-
-This project doesn’t accept donations and is completely free. It’s a community-driven project, and profiting from piracy is not supported.
-
-<br/>
-
 ### How can I donate or contribute to the project?
 This project doesn't accept donations and it's completely free. We don't earn money from donations, ads, or any other sources and we are commited to keeping it this way.
 
@@ -238,5 +235,14 @@ At the moment, we don't need any help with coding.
 [3]: https://gravesoft.dev/bypass-russian-geoblock
 [4]: https://support.microsoft.com/en-us/office/introduction-to-python-in-excel-55643c2e-ff56-4168-b1ce-9428c8308545
 [5]: https://github.com/NiREvil/windows-activation/discussions
-[6]: mailto:dianashariati.cl@gmail.com 
+[6]: mailto:dianashariati.cl@gmail.com
 [7]: https://massgrave.dev/contribute
+[8]: https://github.com/massgravel/Microsoft-Activation-Scripts/blob/master/MAS/All-In-One-Version-KL/MAS_AIO.cmd
+[Gemini]: https://aistudio.google.com/prompt
+[Jules]: https://jules.google/
+[Claude]: https://claude.ai/chat/
+[ChatGPT]: https://chat.openai.com/auth/login
+[Grok]: https://grok.com
+[GenSpark]: https://www.genspark.ai/
+[Perplexity]: http://perplexity.ai/
+[Qwen]: https://chat.qwen.ai/
