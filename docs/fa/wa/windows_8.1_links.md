@@ -1,8 +1,6 @@
 ---
 layout: doc
 outline: deep
-lang: fa-IR
-dir: rtl
 title: 'دانلود ویندوز 8.1'
 description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند'
 date: 2024-04-19
@@ -11,75 +9,39 @@ editLink: true
 
 # دانلود ویندوز 8.1
 
-::: info تمام لینک‌های دانلود فقط به **`فایل‌های اصلی`** منتهی می‌شوند
+تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.
+> [سوالات متداول](./genuine-installation-media#سوالات-متداول)
+> در فرآیند نصب فایل ISO ویندوز ۸.۱ (Core / Pro)، از شما خواسته می‌شود که کلید را وارد کنید، می‌توانید کلیدهای عمومی زیر را برای نسخه مورد نظر وارد کنید.
+> 
+> - `Windows 8.1 Core: 334NH-RXG76-64THK-C7CKG-D3VPT`
+> - `Windows 8.1 Core N: 6NPQ8-PK64X-W4WMM-MF84V-RGB89`
+> - `Windows 8.1 Core Single Language: Y9NXP-XT8MV-PT9TG-97CT3-9D6TC`
+> - `Windows 8.1 Pro: XHQ8N-C3MCJ-RQXB6-WCHYG-C9WKB`
+> - `Windows 8.1 Pro N: JRBBN-4Q997-H4RM2-H3B7W-Q68KC`
+> **ویندوز ۸.۱ را می‌توان با گزینه TSforge در MAS به طور دائم فعال کرد.**
+> نسخه‌های ویندوز ۸.۱ (Embedded) با برنامه‌های از پیش نصب‌شده‌ی فروشگاه ارائه نمی‌شوند.
 
-- [**سوالات متداول**](./genuine-installation-media#سوالات-متداول)
-
-- [**چگونه اصالت این فایل‌ها رو تایید کنیم؟**][Genuine]
-
-- در فرآیند نصب فایل ISO ویندوز ۸.۱ (Core / Pro)، از شما خواسته می‌شود که کلید را وارد کنید، می‌توانید کلیدهای عمومی زیر را برای نسخه مورد نظر وارد کنید.  
-> 
-> **Windows 8.1 Core:**
-> 
-> ```shell
-> 334NH-RXG76-64THK-C7CKG-D3VPT
-> ```
->
-> 
-> **Windows 8.1 Core N:**
-> 
-> ```shell
-> 6NPQ8-PK64X-W4WMM-MF84V-RGB89
-> ```
->
-> 
-> **Windows 8.1 Core Single Language:**
-> 
-> ```shell
-> Y9NXP-XT8MV-PT9TG-97CT3-9D6TC
-> ```
->
-> 
-> **Windows 8.1 Pro:**
->
-> ```shell
-> XHQ8N-C3MCJ-RQXB6-WCHYG-C9WKB
-> ```
->
-> 
-> **Windows 8.1 Pro N:**
-> 
-> ```shell
-> JRBBN-4Q997-H4RM2-H3B7W-Q68KC
-> ```
-> 
-> - **ویندوز ۸.۱ را می‌توان با [گزینه TSforge در MAS](./index#مرحله-۲) به طور دائم فعال کرد.**
-> - نسخه‌های ویندوز ۸.۱ (Embedded) با برنامه‌های از پیش نصب‌شده‌ی فروشگاه ارائه نمی‌شوند.
-> 
-
-:::
-
-<br/>
+----
 
 ## لینک‌های دانلود
-
-### ویندوز 8.1
+### Windows 8.1
 
 :::tabs
 
 == Windows 8.1 Core / Pro 🤍
 
-**ویندوز 8.1 پرو**  
-
-> - بیلد 9600.17415   
+**Windows 8.1 Core / Pro**
+(Build - 9600.17415)
 
 [MSDL][MSDL] پیوندهای رسمی را مستقیماً از مایکروسافت ارائه می‌دهد.
 
+----
+
 == Windows 8.1 Core / Pro
 
-**ویندوز 8.1 پرو**  
+**Windows 8.1 Core / Pro**
 
-> - بیلد 9600.17415
+(Build - 9600.17415)
 
 | Language               | Arch | Link                                                                                                                                   |
 |:-----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------|
@@ -158,11 +120,13 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_8.1_with_update_x64_dvd_6051508.iso](https://drive.massgrave.dev/uk_windows_8.1_with_update_x64_dvd_6051508.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_with_update_x86_dvd_6051671.iso](https://drive.massgrave.dev/uk_windows_8.1_with_update_x86_dvd_6051671.iso)           |
 
+----
+
 == Windows 8.1 Pro VL
 
-**ویندوز 8.1 پرو VL**
+**Windows 8.1 Pro VL**
 
-> - بیلد 9600.17415
+(Build - 9600.17415)
 
 | Language               | Arch | Link                                                                                                                                                 |
 |:-----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -241,12 +205,13 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_8.1_pro_vl_with_update_x64_dvd_6050907.iso](https://drive.massgrave.dev/uk_windows_8.1_pro_vl_with_update_x64_dvd_6050907.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_pro_vl_with_update_x86_dvd_6050945.iso](https://drive.massgrave.dev/uk_windows_8.1_pro_vl_with_update_x86_dvd_6050945.iso)           |
 
+----
 
 == Windows 8.1 Enterprise
 
-**ویندوز 8.1 Enterprise**
+**Windows 8.1 Enterprise**
 
-> - بیلد 9600.17415
+(Build - 9600.17415)
 
 | Language               | Arch | Link                                                                                                                                                         |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -325,12 +290,13 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_8.1_enterprise_with_update_x64_dvd_6050618.iso](https://drive.massgrave.dev/uk_windows_8.1_enterprise_with_update_x64_dvd_6050618.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_enterprise_with_update_x86_dvd_6050870.iso](https://drive.massgrave.dev/uk_windows_8.1_enterprise_with_update_x86_dvd_6050870.iso)           |
 
+----
 
 == Windows 8.1 Embedded Pro
 
-**ویندوز 8.1 Embedded Pro**  
+**Windows 8.1 Embedded Pro**
 
-> - بیلد 9600.17415
+(Build - 9600.17415)
 
 | Language               | Arch | Link                                                                                                                                                                               |
 |:-----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -409,11 +375,13 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_embedded_8.1_industry_pro_with_update_x64_dvd_6052113.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_pro_with_update_x64_dvd_6052113.iso)           |
 | Ukrainian              | x86  | [uk_windows_embedded_8.1_industry_pro_with_update_x86_dvd_6052150.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_pro_with_update_x86_dvd_6052150.iso)           |
 
+----
+
 == Windows 8.1 Embedded Enterprise
 
-**ویندوز 8.1  Embedded Enterprise**
+**Windows 8.1 Embedded Enterprise**
 
-> بیلد 9600.17415  
+(Build - 9600.17415)
 
 | Language               | Arch | Link                                                                                                                                                                                             |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -492,14 +460,18 @@ editLink: true
 | Ukrainian              | x64  | [uk_windows_embedded_8.1_industry_enterprise_with_update_x64_dvd_6052210.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_enterprise_with_update_x64_dvd_6052210.iso)           |
 | Ukrainian              | x86  | [uk_windows_embedded_8.1_industry_enterprise_with_update_x86_dvd_6052328.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_enterprise_with_update_x86_dvd_6052328.iso)           |
 
+----
+
 == Other Versions
 
-**نسخه‌های دیگر**
+**Other Versions**
 
 - [archive.isdn/artifacts][1]
 - [os.click][2]
 - [files.rg-adguard.net/language/a7c44b76e808][3]
 - [MVS Bot][4]
+
+----
 
 :::
 
@@ -508,4 +480,3 @@ editLink: true
 [2]: https://os.click/
 [3]: https://files.rg-adguard.net/language/1c50237d-03ef-617b-41f0-a7c44b76e808
 [4]: https://discord.gg/FajfGaH3nD
-[genuine]: https://nirevil.github.io/windows-activation/fa/wa/genuine-installation-media#%D8%AA%D8%A7%D9%94%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B5%D8%A7%D9%84%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7

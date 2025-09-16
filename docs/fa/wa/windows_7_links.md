@@ -1,45 +1,34 @@
 ---
 layout: doc
 outline: deep
-lang: fa-IR
-dir: rtl
 title: 'دانلود ویندوز 7'
-description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند'
+description: 'تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.'
 date: 2023-01-19
 editLink: true
 ---
 
 # دانلود ویندوز 7
 
-<br/> 
+> - تمام لینک‌های دانلود فقط به فایل‌های اصلی منتهی می‌شوند.
+>
+> - [سوالات متداول](./genuine-installation-media#سوالات-متداول)
+> -   **شما می‌توانید ویندوز ۷ را با [گزینه TSforge در MAS](./index#مرحله-۲)** به طور دائم فعال کنید.
+> -   فایل‌های ISO نسخه‌های Ultimate، Professional، Home Premium، Home Basic و Starter شامل همه نسخه‌ها به جز Enterprise هستند، اما به طور پیش‌فرض هنگام نصب ویندوز نمایش داده نمی‌شوند. می‌توانید به راحتی هر یک از آنها را هنگام نصب انتخاب کنید و برای این کار باید فایل `sources\ei.cfg` را در USB یا ISO قابل بوت خود حذف یا ویرایش کنید.
+> -   برای دریافت آخرین به‌روزرسانی‌ها در نصب ویندوز ۷، می‌توانید از [Simplix Pack][1] استفاده کنید و ESU را با گزینه TSforge در MAS فعال کنید.
 
-::: info تمام لینک‌های دانلود فقط به **`فایل‌های اصلی`** منتهی می‌شوند
+----
 
-- [**سوالات متداول**](./genuine-installation-media#سوالات-متداول)
-
-- [**چگونه اصالت این فایل‌ها رو تایید کنیم؟**][Genuine]
-
-
-- **شما می‌توانید ویندوز ۷ را با [**گزینه TSforge در MAS**](./index#مرحله-۲)** به طور دائم فعال کنید.
-
-- فایل‌های ISO نسخه‌های Ultimate، Professional، Home Premium، Home Basic و Starter شامل همه نسخه‌ها به جز Enterprise هستند، اما به طور پیش‌فرض هنگام نصب ویندوز نمایش داده نمی‌شوند. می‌توانید به راحتی هر یک از آنها را هنگام نصب انتخاب کنید و برای این کار باید فایل `sources\ei.cfg` را در USB یا ISO قابل بوت خود حذف یا ویرایش کنید.
-
-- برای دریافت آخرین به‌روزرسانی‌ها در نصب ویندوز ۷، می‌توانید از [**Simplix Pack**][1] استفاده کنید و ESU را با گزینه TSforge در MAS فعال کنید.
-:::
-
-<br/>
-
-## لینک های دانلود
+## لینک‌های دانلود
 
 **ویندوز 7 SP1**
 
-> - بیلد 7601.17514
+**بیلد - 7601.17514**
 
 :::tabs
 
 == ویندوز 7 Ultimate SP1 🤍
 
-**ویندوز 7 Ultimate SP1**  
+**ویندوز 7 Ultimate SP1**
 
 | زبان | معماری | لینک |
 |:---|:---|:---|
@@ -69,8 +58,8 @@ editLink: true
 | فرانسوی | x86 | [fr_windows_7_ultimate_with_sp1_x86_dvd_u_677434.iso](https://drive.massgrave.dev/fr_windows_7_ultimate_with_sp1_x86_dvd_u_677434.iso) |
 | عبری | x64 | [he_windows_7_ultimate_with_sp1_x64_dvd_u_677312.iso](https://drive.massgrave.dev/he_windows_7_ultimate_with_sp1_x64_dvd_u_677312.iso) |
 | عبری | x86 | [he_windows_7_ultimate_with_sp1_x86_dvd_u_677436.iso](https://drive.massgrave.dev/he_windows_7_ultimate_with_sp1_x86_dvd_u_677436.iso) |
-| چینی (هنگ کنگ) | x64 | [hk_windows_7_ultimate_with_sp1_x64_dvd_u_677411.iso](https://drive.massgrave.dev/hk_windows_7_ultimate_with_sp1_x64_dvd_u_677411.iso) |
-| چینی (هنگ کنگ) | x86 | [hk_windows_7_ultimate_with_sp1_x86_dvd_u_677487.iso](https://drive.massgrave.dev/hk_windows_7_ultimate_with_sp1_x86_dvd_u_677487.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x64 | [hk_windows_7_ultimate_with_sp1_x64_dvd_u_677411.iso](https://drive.massgrave.dev/hk_windows_7_ultimate_with_sp1_x64_dvd_u_677411.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x86 | [hk_windows_7_ultimate_with_sp1_x86_dvd_u_677487.iso](https://drive.massgrave.dev/hk_windows_7_ultimate_with_sp1_x86_dvd_u_677487.iso) |
 | کروات | x64 | [hr_windows_7_ultimate_with_sp1_x64_dvd_u_677324.iso](https://drive.massgrave.dev/hr_windows_7_ultimate_with_sp1_x64_dvd_u_677324.iso) |
 | کروات | x86 | [hr_windows_7_ultimate_with_sp1_x86_dvd_u_677438.iso](https://drive.massgrave.dev/hr_windows_7_ultimate_with_sp1_x86_dvd_u_677438.iso) |
 | مجارستانی | x64 | [hu_windows_7_ultimate_with_sp1_x64_dvd_u_677338.iso](https://drive.massgrave.dev/hu_windows_7_ultimate_with_sp1_x64_dvd_u_677338.iso) |
@@ -114,11 +103,13 @@ editLink: true
 | چینی (سنتی) | x64 | [tw_windows_7_ultimate_with_sp1_x64_dvd_u_677414.iso](https://drive.massgrave.dev/tw_windows_7_ultimate_with_sp1_x64_dvd_u_677414.iso) |
 | چینی (سنتی) | x86 | [tw_windows_7_ultimate_with_sp1_x86_dvd_u_677488.iso](https://drive.massgrave.dev/tw_windows_7_ultimate_with_sp1_x86_dvd_u_677488.iso) |
 | اوکراینی | x64 | [uk_windows_7_ultimate_with_sp1_x64_dvd_u_677406.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x64_dvd_u_677406.iso) |
-| اوکراینی | x86 | [uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso) |  
+| اوکراینی | x86 | [uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso) |
+
+----
 
 == Windows 7 Enterprise SP1
 
-**ویندوز ۷ Enterprise SP1**
+**Windows 7 Enterprise SP1**
 
 | زبان | معماری | لینک |
 |:---|:---|:---|
@@ -148,8 +139,8 @@ editLink: true
 | فرانسوی | x86 | [fr_windows_7_enterprise_with_sp1_x86_dvd_u_677727.iso](https://drive.massgrave.dev/fr_windows_7_enterprise_with_sp1_x86_dvd_u_677727.iso) |
 | عبری | x64 | [he_windows_7_enterprise_with_sp1_x64_dvd_u_677657.iso](https://drive.massgrave.dev/he_windows_7_enterprise_with_sp1_x64_dvd_u_677657.iso) |
 | عبری | x86 | [he_windows_7_enterprise_with_sp1_x86_dvd_u_677733.iso](https://drive.massgrave.dev/he_windows_7_enterprise_with_sp1_x86_dvd_u_677733.iso) |
-| چینی (هنگ کنگ) | x64 | [hk_windows_7_enterprise_with_sp1_x64_dvd_u_677687.iso](https://drive.massgrave.dev/hk_windows_7_enterprise_with_sp1_x64_dvd_u_677687.iso) |
-| چینی (هنگ کنگ) | x86 | [hk_windows_7_enterprise_with_sp1_x86_dvd_u_677720.iso](https://drive.massgrave.dev/hk_windows_7_enterprise_with_sp1_x86_dvd_u_677720.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x64 | [hk_windows_7_enterprise_with_sp1_x64_dvd_u_677687.iso](https://drive.massgrave.dev/hk_windows_7_enterprise_with_sp1_x64_dvd_u_677687.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x86 | [hk_windows_7_enterprise_with_sp1_x86_dvd_u_677720.iso](https://drive.massgrave.dev/hk_windows_7_enterprise_with_sp1_x86_dvd_u_677720.iso) |
 | کروات | x64 | [hr_windows_7_enterprise_with_sp1_x64_dvd_u_677658.iso](https://drive.massgrave.dev/hr_windows_7_enterprise_with_sp1_x64_dvd_u_677658.iso) |
 | کروات | x86 | [hr_windows_7_enterprise_with_sp1_x86_dvd_u_677739.iso](https://drive.massgrave.dev/hr_windows_7_enterprise_with_sp1_x86_dvd_u_677739.iso) |
 | مجارستانی | x64 | [hu_windows_7_enterprise_with_sp1_x64_dvd_u_677659.iso](https://drive.massgrave.dev/hu_windows_7_enterprise_with_sp1_x64_dvd_u_677659.iso) |
@@ -195,11 +186,13 @@ editLink: true
 | اوکراینی | x64 | [uk_windows_7_enterprise_with_sp1_x64_dvd_u_677683.iso](https://drive.massgrave.dev/uk_windows_7_enterprise_with_sp1_x64_dvd_u_677683.iso) |
 | اوکراینی | x86 | [uk_windows_7_enterprise_with_sp1_x86_dvd_u_677712.iso](https://drive.massgrave.dev/uk_windows_7_enterprise_with_sp1_x86_dvd_u_677712.iso) |
 
+----
+
 == Windows 7 Professional VL SP1
 
-**ویندوز ۷ حرفه‌ای VL SP1**
+**Windows 7 Professional VL SP1**
 
-> - این نسخه فقط شامل فهرست نسخه حرفه‌ای است.  
+> این نسخه فقط شامل فهرست نسخه حرفه‌ای است
 
 | زبان | معماری | لینک |
 |:---|:---|:---|
@@ -229,8 +222,8 @@ editLink: true
 | فرانسوی | x86 | [fr_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677765.iso](https://drive.massgrave.dev/fr_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677765.iso) |
 | عبری | x64 | [he_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677820.iso](https://drive.massgrave.dev/he_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677820.iso) |
 | عبری | x86 | [he_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677769.iso](https://drive.massgrave.dev/he_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677769.iso) |
-| چینی (هنگ کنگ) | x64 | [hk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677823.iso](https://drive.massgrave.dev/hk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677823.iso) |
-| چینی (هنگ کنگ) | x86 | [hk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677951.iso](https://drive.massgrave.dev/hk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677951.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x64 | [hk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677823.iso](https://drive.massgrave.dev/hk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677823.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x86 | [hk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677951.iso](https://drive.massgrave.dev/hk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677951.iso) |
 | کروات | x64 | [hr_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677826.iso](https://drive.massgrave.dev/hr_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677826.iso) |
 | کروات | x86 | [hr_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677773.iso](https://drive.massgrave.dev/hr_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677773.iso) |
 | مجارستانی | x64 | [hu_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677833.iso](https://drive.massgrave.dev/hu_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677833.iso) |
@@ -276,90 +269,95 @@ editLink: true
 | اوکراینی | x64 | [uk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677811.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677811.iso) |
 | اوکراینی | x86 | [uk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677928.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677928.iso) |
 
+----
+
 == Windows 7 Home Premium SP1
 
-**ویندوز ۷ Home Premium SP1**
+**Windows 7 Home Premium SP1**
 
-| Language              | Arch | Link                                                                                                                                               |
-|:----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------|
-| Arabic                | x64  | [ar_windows_7_home_premium_with_sp1_x64_dvd_u_676551.iso](https://drive.massgrave.dev/ar_windows_7_home_premium_with_sp1_x64_dvd_u_676551.iso)     |
-| Arabic                | x86  | [ar_windows_7_home_premium_with_sp1_x86_dvd_u_676666.iso](https://drive.massgrave.dev/ar_windows_7_home_premium_with_sp1_x86_dvd_u_676666.iso)     |
-| Bulgarian             | x64  | [bg_windows_7_home_premium_with_sp1_x64_dvd_u_676515.iso](https://drive.massgrave.dev/bg_windows_7_home_premium_with_sp1_x64_dvd_u_676515.iso)     |
-| Bulgarian             | x86  | [bg_windows_7_home_premium_with_sp1_x86_dvd_u_676671.iso](https://drive.massgrave.dev/bg_windows_7_home_premium_with_sp1_x86_dvd_u_676671.iso)     |
-| Chinese-Simplified    | x64  | [cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso](https://drive.massgrave.dev/cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso)     |
-| Chinese-Simplified    | x86  | [cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso](https://drive.massgrave.dev/cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso)     |
-| Czech                 | x64  | [cs_windows_7_home_premium_with_sp1_x64_dvd_u_676522.iso](https://drive.massgrave.dev/cs_windows_7_home_premium_with_sp1_x64_dvd_u_676522.iso)     |
-| Czech                 | x86  | [cs_windows_7_home_premium_with_sp1_x86_dvd_u_676676.iso](https://drive.massgrave.dev/cs_windows_7_home_premium_with_sp1_x86_dvd_u_676676.iso)     |
-| Danish                | x64  | [da_windows_7_home_premium_with_sp1_x64_dvd_u_676529.iso](https://drive.massgrave.dev/da_windows_7_home_premium_with_sp1_x64_dvd_u_676529.iso)     |
-| Danish                | x86  | [da_windows_7_home_premium_with_sp1_x86_dvd_u_676681.iso](https://drive.massgrave.dev/da_windows_7_home_premium_with_sp1_x86_dvd_u_676681.iso)     |
-| German                | x64  | [de_windows_7_home_premium_with_sp1_x64_dvd_u_676536.iso](https://drive.massgrave.dev/de_windows_7_home_premium_with_sp1_x64_dvd_u_676536.iso)     |
-| German                | x86  | [de_windows_7_home_premium_with_sp1_x86_dvd_u_676687.iso](https://drive.massgrave.dev/de_windows_7_home_premium_with_sp1_x86_dvd_u_676687.iso)     |
-| Greek                 | x64  | [el_windows_7_home_premium_with_sp1_x64_dvd_u_676544.iso](https://drive.massgrave.dev/el_windows_7_home_premium_with_sp1_x64_dvd_u_676544.iso)     |
-| Greek                 | x86  | [el_windows_7_home_premium_with_sp1_x86_dvd_u_676694.iso](https://drive.massgrave.dev/el_windows_7_home_premium_with_sp1_x86_dvd_u_676694.iso)     |
-| English               | x64  | [en_windows_7_home_premium_with_sp1_x64_dvd_u_676549.iso](https://drive.massgrave.dev/en_windows_7_home_premium_with_sp1_x64_dvd_u_676549.iso)     |
-| English               | x86  | [en_windows_7_home_premium_with_sp1_x86_dvd_u_676701.iso](https://drive.massgrave.dev/en_windows_7_home_premium_with_sp1_x86_dvd_u_676701.iso)     |
-| Spanish               | x64  | [es_windows_7_home_premium_with_sp1_x64_dvd_u_676553.iso](https://drive.massgrave.dev/es_windows_7_home_premium_with_sp1_x64_dvd_u_676553.iso)     |
-| Spanish               | x86  | [es_windows_7_home_premium_with_sp1_x86_dvd_u_676707.iso](https://drive.massgrave.dev/es_windows_7_home_premium_with_sp1_x86_dvd_u_676707.iso)     |
-| Estonian              | x64  | [et_windows_7_home_premium_with_sp1_x64_dvd_u_676555.iso](https://drive.massgrave.dev/et_windows_7_home_premium_with_sp1_x64_dvd_u_676555.iso)     |
-| Estonian              | x86  | [et_windows_7_home_premium_with_sp1_x86_dvd_u_676713.iso](https://drive.massgrave.dev/et_windows_7_home_premium_with_sp1_x86_dvd_u_676713.iso)     |
-| Finnish               | x64  | [fi_windows_7_home_premium_with_sp1_x64_dvd_u_676517.iso](https://drive.massgrave.dev/fi_windows_7_home_premium_with_sp1_x64_dvd_u_676517.iso)     |
-| Finnish               | x86  | [fi_windows_7_home_premium_with_sp1_x86_dvd_u_676672.iso](https://drive.massgrave.dev/fi_windows_7_home_premium_with_sp1_x86_dvd_u_676672.iso)     |
-| French                | x64  | [fr_windows_7_home_premium_with_sp1_x64_dvd_u_676521.iso](https://drive.massgrave.dev/fr_windows_7_home_premium_with_sp1_x64_dvd_u_676521.iso)     |
-| French                | x86  | [fr_windows_7_home_premium_with_sp1_x86_dvd_u_676678.iso](https://drive.massgrave.dev/fr_windows_7_home_premium_with_sp1_x86_dvd_u_676678.iso)     |
-| Hebrew                | x64  | [he_windows_7_home_premium_with_sp1_x64_dvd_u_676527.iso](https://drive.massgrave.dev/he_windows_7_home_premium_with_sp1_x64_dvd_u_676527.iso)     |
-| Hebrew                | x86  | [he_windows_7_home_premium_with_sp1_x86_dvd_u_676683.iso](https://drive.massgrave.dev/he_windows_7_home_premium_with_sp1_x86_dvd_u_676683.iso)     |
-| Chinese-Hong Kong SAR | x64  | [hk_windows_7_home_premium_with_sp1_x64_dvd_u_676697.iso](https://drive.massgrave.dev/hk_windows_7_home_premium_with_sp1_x64_dvd_u_676697.iso)     |
-| Chinese-Hong Kong SAR | x86  | [hk_windows_7_home_premium_with_sp1_x86_dvd_u_676771.iso](https://drive.massgrave.dev/hk_windows_7_home_premium_with_sp1_x86_dvd_u_676771.iso)     |
-| Croatian              | x64  | [hr_windows_7_home_premium_with_sp1_x64_dvd_u_676533.iso](https://drive.massgrave.dev/hr_windows_7_home_premium_with_sp1_x64_dvd_u_676533.iso)     |
-| Croatian              | x86  | [hr_windows_7_home_premium_with_sp1_x86_dvd_u_676688.iso](https://drive.massgrave.dev/hr_windows_7_home_premium_with_sp1_x86_dvd_u_676688.iso)     |
-| Hungarian             | x64  | [hu_windows_7_home_premium_with_sp1_x64_dvd_u_676538.iso](https://drive.massgrave.dev/hu_windows_7_home_premium_with_sp1_x64_dvd_u_676538.iso)     |
-| Hungarian             | x86  | [hu_windows_7_home_premium_with_sp1_x86_dvd_u_676696.iso](https://drive.massgrave.dev/hu_windows_7_home_premium_with_sp1_x86_dvd_u_676696.iso)     |
-| Italian               | x64  | [it_windows_7_home_premium_with_sp1_x64_dvd_u_676543.iso](https://drive.massgrave.dev/it_windows_7_home_premium_with_sp1_x64_dvd_u_676543.iso)     |
-| Italian               | x86  | [it_windows_7_home_premium_with_sp1_x86_dvd_u_676702.iso](https://drive.massgrave.dev/it_windows_7_home_premium_with_sp1_x86_dvd_u_676702.iso)     |
-| Japanese              | x64  | [ja_windows_7_home_premium_with_sp1_x64_dvd_u_676548.iso](https://drive.massgrave.dev/ja_windows_7_home_premium_with_sp1_x64_dvd_u_676548.iso)     |
-| Japanese              | x86  | [ja_windows_7_home_premium_with_sp1_x86_dvd_u_676708.iso](https://drive.massgrave.dev/ja_windows_7_home_premium_with_sp1_x86_dvd_u_676708.iso)     |
-| Korean                | x64  | [ko_windows_7_home_premium_k_with_sp1_x64_dvd_u_676808.iso](https://drive.massgrave.dev/ko_windows_7_home_premium_k_with_sp1_x64_dvd_u_676808.iso) |
-| Korean                | x86  | [ko_windows_7_home_premium_k_with_sp1_x86_dvd_u_676814.iso](https://drive.massgrave.dev/ko_windows_7_home_premium_k_with_sp1_x86_dvd_u_676814.iso) |
-| Lithuanian            | x64  | [lt_windows_7_home_premium_with_sp1_x64_dvd_u_676552.iso](https://drive.massgrave.dev/lt_windows_7_home_premium_with_sp1_x64_dvd_u_676552.iso)     |
-| Lithuanian            | x86  | [lt_windows_7_home_premium_with_sp1_x86_dvd_u_676715.iso](https://drive.massgrave.dev/lt_windows_7_home_premium_with_sp1_x86_dvd_u_676715.iso)     |
-| Latvian               | x64  | [lv_windows_7_home_premium_with_sp1_x64_dvd_u_676523.iso](https://drive.massgrave.dev/lv_windows_7_home_premium_with_sp1_x64_dvd_u_676523.iso)     |
-| Latvian               | x86  | [lv_windows_7_home_premium_with_sp1_x86_dvd_u_676720.iso](https://drive.massgrave.dev/lv_windows_7_home_premium_with_sp1_x86_dvd_u_676720.iso)     |
-| Dutch                 | x64  | [nl_windows_7_home_premium_with_sp1_x64_dvd_u_676534.iso](https://drive.massgrave.dev/nl_windows_7_home_premium_with_sp1_x64_dvd_u_676534.iso)     |
-| Dutch                 | x86  | [nl_windows_7_home_premium_with_sp1_x86_dvd_u_676693.iso](https://drive.massgrave.dev/nl_windows_7_home_premium_with_sp1_x86_dvd_u_676693.iso)     |
-| Norwegian             | x64  | [no_windows_7_home_premium_with_sp1_x64_dvd_u_676528.iso](https://drive.massgrave.dev/no_windows_7_home_premium_with_sp1_x64_dvd_u_676528.iso)     |
-| Norwegian             | x86  | [no_windows_7_home_premium_with_sp1_x86_dvd_u_676724.iso](https://drive.massgrave.dev/no_windows_7_home_premium_with_sp1_x86_dvd_u_676724.iso)     |
-| Polish                | x64  | [pl_windows_7_home_premium_with_sp1_x64_dvd_u_676540.iso](https://drive.massgrave.dev/pl_windows_7_home_premium_with_sp1_x64_dvd_u_676540.iso)     |
-| Polish                | x86  | [pl_windows_7_home_premium_with_sp1_x86_dvd_u_676699.iso](https://drive.massgrave.dev/pl_windows_7_home_premium_with_sp1_x86_dvd_u_676699.iso)     |
-| Portuguese-Portugal   | x64  | [pp_windows_7_home_premium_with_sp1_x64_dvd_u_676550.iso](https://drive.massgrave.dev/pp_windows_7_home_premium_with_sp1_x64_dvd_u_676550.iso)     |
-| Portuguese-Portugal   | x86  | [pp_windows_7_home_premium_with_sp1_x86_dvd_u_676711.iso](https://drive.massgrave.dev/pp_windows_7_home_premium_with_sp1_x86_dvd_u_676711.iso)     |
-| Portuguese-Brazil     | x64  | [pt_windows_7_home_premium_with_sp1_x64_dvd_u_676545.iso](https://drive.massgrave.dev/pt_windows_7_home_premium_with_sp1_x64_dvd_u_676545.iso)     |
-| Portuguese-Brazil     | x86  | [pt_windows_7_home_premium_with_sp1_x86_dvd_u_676705.iso](https://drive.massgrave.dev/pt_windows_7_home_premium_with_sp1_x86_dvd_u_676705.iso)     |
-| Romanian              | x64  | [ro_windows_7_home_premium_with_sp1_x64_dvd_u_676554.iso](https://drive.massgrave.dev/ro_windows_7_home_premium_with_sp1_x64_dvd_u_676554.iso)     |
-| Romanian              | x86  | [ro_windows_7_home_premium_with_sp1_x86_dvd_u_676716.iso](https://drive.massgrave.dev/ro_windows_7_home_premium_with_sp1_x86_dvd_u_676716.iso)     |
-| Russian               | x64  | [ru_windows_7_home_premium_with_sp1_x64_dvd_u_676728.iso](https://drive.massgrave.dev/ru_windows_7_home_premium_with_sp1_x64_dvd_u_676728.iso)     |
-| Russian               | x86  | [ru_windows_7_home_premium_with_sp1_x86_dvd_u_676719.iso](https://drive.massgrave.dev/ru_windows_7_home_premium_with_sp1_x86_dvd_u_676719.iso)     |
-| Slovak                | x64  | [sk_windows_7_home_premium_with_sp1_x64_dvd_u_676654.iso](https://drive.massgrave.dev/sk_windows_7_home_premium_with_sp1_x64_dvd_u_676654.iso)     |
-| Slovak                | x86  | [sk_windows_7_home_premium_with_sp1_x86_dvd_u_676723.iso](https://drive.massgrave.dev/sk_windows_7_home_premium_with_sp1_x86_dvd_u_676723.iso)     |
-| Slovenian             | x64  | [sl_windows_7_home_premium_with_sp1_x64_dvd_u_676656.iso](https://drive.massgrave.dev/sl_windows_7_home_premium_with_sp1_x64_dvd_u_676656.iso)     |
-| Slovenian             | x86  | [sl_windows_7_home_premium_with_sp1_x86_dvd_u_676725.iso](https://drive.massgrave.dev/sl_windows_7_home_premium_with_sp1_x86_dvd_u_676725.iso)     |
-| Serbian               | x64  | [sr_windows_7_home_premium_with_sp1_x64_dvd_u_676659.iso](https://drive.massgrave.dev/sr_windows_7_home_premium_with_sp1_x64_dvd_u_676659.iso)     |
-| Serbian               | x86  | [sr_windows_7_home_premium_with_sp1_x86_dvd_u_676726.iso](https://drive.massgrave.dev/sr_windows_7_home_premium_with_sp1_x86_dvd_u_676726.iso)     |
-| Swedish               | x64  | [sv_windows_7_home_premium_with_sp1_x64_dvd_u_676664.iso](https://drive.massgrave.dev/sv_windows_7_home_premium_with_sp1_x64_dvd_u_676664.iso)     |
-| Swedish               | x86  | [sv_windows_7_home_premium_with_sp1_x86_dvd_u_676766.iso](https://drive.massgrave.dev/sv_windows_7_home_premium_with_sp1_x86_dvd_u_676766.iso)     |
-| Thai                  | x64  | [th_windows_7_home_premium_with_sp1_x64_dvd_u_676670.iso](https://drive.massgrave.dev/th_windows_7_home_premium_with_sp1_x64_dvd_u_676670.iso)     |
-| Thai                  | x86  | [th_windows_7_home_premium_with_sp1_x86_dvd_u_676767.iso](https://drive.massgrave.dev/th_windows_7_home_premium_with_sp1_x86_dvd_u_676767.iso)     |
-| Turkish               | x64  | [tr_windows_7_home_premium_with_sp1_x64_dvd_u_676677.iso](https://drive.massgrave.dev/tr_windows_7_home_premium_with_sp1_x64_dvd_u_676677.iso)     |
-| Turkish               | x86  | [tr_windows_7_home_premium_with_sp1_x86_dvd_u_676768.iso](https://drive.massgrave.dev/tr_windows_7_home_premium_with_sp1_x86_dvd_u_676768.iso)     |
-| Chinese-Traditional   | x64  | [tw_windows_7_home_premium_with_sp1_x64_dvd_u_676703.iso](https://drive.massgrave.dev/tw_windows_7_home_premium_with_sp1_x64_dvd_u_676703.iso)     |
-| Chinese-Traditional   | x86  | [tw_windows_7_home_premium_with_sp1_x86_dvd_u_676772.iso](https://drive.massgrave.dev/tw_windows_7_home_premium_with_sp1_x86_dvd_u_676772.iso)     |
-| Ukrainian             | x64  | [uk_windows_7_home_premium_with_sp1_x64_dvd_u_676684.iso](https://drive.massgrave.dev/uk_windows_7_home_premium_with_sp1_x64_dvd_u_676684.iso)     |
-| Ukrainian             | x86  | [uk_windows_7_home_premium_with_sp1_x86_dvd_u_676769.iso](https://drive.massgrave.dev/uk_windows_7_home_premium_with_sp1_x86_dvd_u_676769.iso)     |
+| زبان | معماری | لینک |
+|:---|:---|:---|
+| عربی | x64 | [ar_windows_7_home_premium_with_sp1_x64_dvd_u_676551.iso](https://drive.massgrave.dev/ar_windows_7_home_premium_with_sp1_x64_dvd_u_676551.iso) |
+| عربی | x86 | [ar_windows_7_home_premium_with_sp1_x86_dvd_u_676666.iso](https://drive.massgrave.dev/ar_windows_7_home_premium_with_sp1_x86_dvd_u_676666.iso) |
+| بلغاری | x64 | [bg_windows_7_home_premium_with_sp1_x64_dvd_u_676515.iso](https://drive.massgrave.dev/bg_windows_7_home_premium_with_sp1_x64_dvd_u_676515.iso) |
+| بلغاری | x86 | [bg_windows_7_home_premium_with_sp1_x86_dvd_u_676671.iso](https://drive.massgrave.dev/bg_windows_7_home_premium_with_sp1_x86_dvd_u_676671.iso) |
+| چینی (ساده‌شده) | x64 | [cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso](https://drive.massgrave.dev/cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso) |
+| چینی (ساده‌شده) | x86 | [cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso](https://drive.massgrave.dev/cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso) |
+| چکی | x64 | [cs_windows_7_home_premium_with_sp1_x64_dvd_u_676522.iso](https://drive.massgrave.dev/cs_windows_7_home_premium_with_sp1_x64_dvd_u_676522.iso) |
+| چکی | x86 | [cs_windows_7_home_premium_with_sp1_x86_dvd_u_676676.iso](https://drive.massgrave.dev/cs_windows_7_home_premium_with_sp1_x86_dvd_u_676676.iso) |
+| دانمارکی | x64 | [da_windows_7_home_premium_with_sp1_x64_dvd_u_676529.iso](https://drive.massgrave.dev/da_windows_7_home_premium_with_sp1_x64_dvd_u_676529.iso) |
+| دانمارکی | x86 | [da_windows_7_home_premium_with_sp1_x86_dvd_u_676681.iso](https://drive.massgrave.dev/da_windows_7_home_premium_with_sp1_x86_dvd_u_676681.iso) |
+| آلمانی | x64 | [de_windows_7_home_premium_with_sp1_x64_dvd_u_676536.iso](https://drive.massgrave.dev/de_windows_7_home_premium_with_sp1_x64_dvd_u_676536.iso) |
+| آلمانی | x86 | [de_windows_7_home_premium_with_sp1_x86_dvd_u_676687.iso](https://drive.massgrave.dev/de_windows_7_home_premium_with_sp1_x86_dvd_u_676687.iso) |
+| یونانی | x64 | [el_windows_7_home_premium_with_sp1_x64_dvd_u_676544.iso](https://drive.massgrave.dev/el_windows_7_home_premium_with_sp1_x64_dvd_u_676544.iso) |
+| یونانی | x86 | [el_windows_7_home_premium_with_sp1_x86_dvd_u_676694.iso](https://drive.massgrave.dev/el_windows_7_home_premium_with_sp1_x86_dvd_u_676694.iso) |
+| انگلیسی | x64 | [en_windows_7_home_premium_with_sp1_x64_dvd_u_676549.iso](https://drive.massgrave.dev/en_windows_7_home_premium_with_sp1_x64_dvd_u_676549.iso) |
+| انگلیسی | x86 | [en_windows_7_home_premium_with_sp1_x86_dvd_u_676701.iso](https://drive.massgrave.dev/en_windows_7_home_premium_with_sp1_x86_dvd_u_676701.iso) |
+| اسپانیایی | x64 | [es_windows_7_home_premium_with_sp1_x64_dvd_u_676553.iso](https://drive.massgrave.dev/es_windows_7_home_premium_with_sp1_x64_dvd_u_676553.iso) |
+| اسپانیایی | x86 | [es_windows_7_home_premium_with_sp1_x86_dvd_u_676707.iso](https://drive.massgrave.dev/es_windows_7_home_premium_with_sp1_x86_dvd_u_676707.iso) |
+| استونیایی | x64 | [et_windows_7_home_premium_with_sp1_x64_dvd_u_676555.iso](https://drive.massgrave.dev/et_windows_7_home_premium_with_sp1_x64_dvd_u_676555.iso) |
+| استونیایی | x86 | [et_windows_7_home_premium_with_sp1_x86_dvd_u_676713.iso](https://drive.massgrave.dev/et_windows_7_home_premium_with_sp1_x86_dvd_u_676713.iso) |
+| فنلاندی | x64 | [fi_windows_7_home_premium_with_sp1_x64_dvd_u_676517.iso](https://drive.massgrave.dev/fi_windows_7_home_premium_with_sp1_x64_dvd_u_676517.iso) |
+| فنلاندی | x86 | [fi_windows_7_home_premium_with_sp1_x86_dvd_u_676672.iso](https://drive.massgrave.dev/fi_windows_7_home_premium_with_sp1_x86_dvd_u_676672.iso) |
+| فرانسوی | x64 | [fr_windows_7_home_premium_with_sp1_x64_dvd_u_676521.iso](https://drive.massgrave.dev/fr_windows_7_home_premium_with_sp1_x64_dvd_u_676521.iso) |
+| فرانسوی | x86 | [fr_windows_7_home_premium_with_sp1_x86_dvd_u_676678.iso](https://drive.massgrave.dev/fr_windows_7_home_premium_with_sp1_x86_dvd_u_676678.iso) |
+| عبری | x64 | [he_windows_7_home_premium_with_sp1_x64_dvd_u_676527.iso](https://drive.massgrave.dev/he_windows_7_home_premium_with_sp1_x64_dvd_u_676527.iso) |
+| عبری | x86 | [he_windows_7_home_premium_with_sp1_x86_dvd_u_676683.iso](https://drive.massgrave.dev/he_windows_7_home_premium_with_sp1_x86_dvd_u_676683.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x64 | [hk_windows_7_home_premium_with_sp1_x64_dvd_u_676697.iso](https://drive.massgrave.dev/hk_windows_7_home_premium_with_sp1_x64_dvd_u_676697.iso) |
+| منطقه ویژه اداری هنگ کنگ چین | x86 | [hk_windows_7_home_premium_with_sp1_x86_dvd_u_676771.iso](https://drive.massgrave.dev/hk_windows_7_home_premium_with_sp1_x86_dvd_u_676771.iso) |
+| کروات | x64 | [hr_windows_7_home_premium_with_sp1_x64_dvd_u_676533.iso](https://drive.massgrave.dev/hr_windows_7_home_premium_with_sp1_x64_dvd_u_676533.iso) |
+| کروات | x86 | [hr_windows_7_home_premium_with_sp1_x86_dvd_u_676688.iso](https://drive.massgrave.dev/hr_windows_7_home_premium_with_sp1_x86_dvd_u_676688.iso) |
+| مجارستانی | x64 | [hu_windows_7_home_premium_with_sp1_x64_dvd_u_676538.iso](https://drive.massgrave.dev/hu_windows_7_home_premium_with_sp1_x64_dvd_u_676538.iso) |
+| مجارستانی | x86 | [hu_windows_7_home_premium_with_sp1_x86_dvd_u_676696.iso](https://drive.massgrave.dev/hu_windows_7_home_premium_with_sp1_x86_dvd_u_676696.iso) |
+| ایتالیایی | x64 | [it_windows_7_home_premium_with_sp1_x64_dvd_u_676543.iso](https://drive.massgrave.dev/it_windows_7_home_premium_with_sp1_x64_dvd_u_676543.iso) |
+| ایتالیایی | x86 | [it_windows_7_home_premium_with_sp1_x86_dvd_u_676702.iso](https://drive.massgrave.dev/it_windows_7_home_premium_with_sp1_x86_dvd_u_676702.iso) |
+| ژاپنی | x64 | [ja_windows_7_home_premium_with_sp1_x64_dvd_u_676548.iso](https://drive.massgrave.dev/ja_windows_7_home_premium_with_sp1_x64_dvd_u_676548.iso) |
+| ژاپنی | x86 | [ja_windows_7_home_premium_with_sp1_x86_dvd_u_676708.iso](https://drive.massgrave.dev/ja_windows_7_home_premium_with_sp1_x86_dvd_u_676708.iso) |
+| کره‌ای | x64 | [ko_windows_7_home_premium_k_with_sp1_x64_dvd_u_676808.iso](https://drive.massgrave.dev/ko_windows_7_home_premium_k_with_sp1_x64_dvd_u_676808.iso) |
+| کره‌ای | x86 | [ko_windows_7_home_premium_k_with_sp1_x86_dvd_u_676814.iso](https://drive.massgrave.dev/ko_windows_7_home_premium_k_with_sp1_x86_dvd_u_676814.iso) |
+| لیتوانیایی | x64 | [lt_windows_7_home_premium_with_sp1_x64_dvd_u_676552.iso](https://drive.massgrave.dev/lt_windows_7_home_premium_with_sp1_x64_dvd_u_676552.iso) |
+| لیتوانیایی | x86 | [lt_windows_7_home_premium_with_sp1_x86_dvd_u_676715.iso](https://drive.massgrave.dev/lt_windows_7_home_premium_with_sp1_x86_dvd_u_676715.iso) |
+| لتونیایی | x64 | [lv_windows_7_home_premium_with_sp1_x64_dvd_u_676523.iso](https://drive.massgrave.dev/lv_windows_7_home_premium_with_sp1_x64_dvd_u_676523.iso) |
+| لتونیایی | x86 | [lv_windows_7_home_premium_with_sp1_x86_dvd_u_676720.iso](https://drive.massgrave.dev/lv_windows_7_home_premium_with_sp1_x86_dvd_u_676720.iso) |
+| هلندی | x64 | [nl_windows_7_home_premium_with_sp1_x64_dvd_u_676534.iso](https://drive.massgrave.dev/nl_windows_7_home_premium_with_sp1_x64_dvd_u_676534.iso) |
+| هلندی | x86 | [nl_windows_7_home_premium_with_sp1_x86_dvd_u_676693.iso](https://drive.massgrave.dev/nl_windows_7_home_premium_with_sp1_x86_dvd_u_676693.iso) |
+| نروژی | x64 | [no_windows_7_home_premium_with_sp1_x64_dvd_u_676528.iso](https://drive.massgrave.dev/no_windows_7_home_premium_with_sp1_x64_dvd_u_676528.iso) |
+| نروژی | x86 | [no_windows_7_home_premium_with_sp1_x86_dvd_u_676724.iso](https://drive.massgrave.dev/no_windows_7_home_premium_with_sp1_x86_dvd_u_676724.iso) |
+| لهستانی | x64 | [pl_windows_7_home_premium_with_sp1_x64_dvd_u_676540.iso](https://drive.massgrave.dev/pl_windows_7_home_premium_with_sp1_x64_dvd_u_676540.iso) |
+| لهستانی | x86 | [pl_windows_7_home_premium_with_sp1_x86_dvd_u_676699.iso](https://drive.massgrave.dev/pl_windows_7_home_premium_with_sp1_x86_dvd_u_676699.iso) |
+| پرتغالی (پرتغال) | x64 | [pp_windows_7_home_premium_with_sp1_x64_dvd_u_676550.iso](https://drive.massgrave.dev/pp_windows_7_home_premium_with_sp1_x64_dvd_u_676550.iso) |
+| پرتغالی (پرتغال) | x86 | [pp_windows_7_home_premium_with_sp1_x86_dvd_u_676711.iso](https://drive.massgrave.dev/pp_windows_7_home_premium_with_sp1_x86_dvd_u_676711.iso) |
+| پرتغالی (برزیل) | x64 | [pt_windows_7_home_premium_with_sp1_x64_dvd_u_676545.iso](https://drive.massgrave.dev/pt_windows_7_home_premium_with_sp1_x64_dvd_u_676545.iso) |
+| پرتغالی (برزیل) | x86 | [pt_windows_7_home_premium_with_sp1_x86_dvd_u_676705.iso](https://drive.massgrave.dev/pt_windows_7_home_premium_with_sp1_x86_dvd_u_676705.iso) |
+| رومانیایی | x64 | [ro_windows_7_home_premium_with_sp1_x64_dvd_u_676554.iso](https://drive.massgrave.dev/ro_windows_7_home_premium_with_sp1_x64_dvd_u_676554.iso) |
+| رومانیایی | x86 | [ro_windows_7_home_premium_with_sp1_x86_dvd_u_676716.iso](https://drive.massgrave.dev/ro_windows_7_home_premium_with_sp1_x86_dvd_u_676716.iso) |
+| روسی | x64 | [ru_windows_7_home_premium_with_sp1_x64_dvd_u_676728.iso](https://drive.massgrave.dev/ru_windows_7_home_premium_with_sp1_x64_dvd_u_676728.iso) |
+| روسی | x86 | [ru_windows_7_home_premium_with_sp1_x86_dvd_u_676719.iso](https://drive.massgrave.dev/ru_windows_7_home_premium_with_sp1_x86_dvd_u_676719.iso) |
+| اسلواکی | x64 | [sk_windows_7_home_premium_with_sp1_x64_dvd_u_676654.iso](https://drive.massgrave.dev/sk_windows_7_home_premium_with_sp1_x64_dvd_u_676654.iso) |
+| اسلواکی | x86 | [sk_windows_7_home_premium_with_sp1_x86_dvd_u_676723.iso](https://drive.massgrave.dev/sk_windows_7_home_premium_with_sp1_x86_dvd_u_676723.iso) |
+| اسلوونیایی | x64 | [sl_windows_7_home_premium_with_sp1_x64_dvd_u_676656.iso](https://drive.massgrave.dev/sl_windows_7_home_premium_with_sp1_x64_dvd_u_676656.iso) |
+| اسلوونیایی | x86 | [sl_windows_7_home_premium_with_sp1_x86_dvd_u_676725.iso](https://drive.massgrave.dev/sl_windows_7_home_premium_with_sp1_x86_dvd_u_676725.iso) |
+| صربی | x64 | [sr_windows_7_home_premium_with_sp1_x64_dvd_u_676659.iso](https://drive.massgrave.dev/sr_windows_7_home_premium_with_sp1_x64_dvd_u_676659.iso) |
+| صربی | x86 | [sr_windows_7_home_premium_with_sp1_x86_dvd_u_676726.iso](https://drive.massgrave.dev/sr_windows_7_home_premium_with_sp1_x86_dvd_u_676726.iso) |
+| سوئدی | x64 | [sv_windows_7_home_premium_with_sp1_x64_dvd_u_676664.iso](https://drive.massgrave.dev/sv_windows_7_home_premium_with_sp1_x64_dvd_u_676664.iso) |
+| سوئدی | x86 | [sv_windows_7_home_premium_with_sp1_x86_dvd_u_676766.iso](https://drive.massgrave.dev/sv_windows_7_home_premium_with_sp1_x86_dvd_u_676766.iso) |
+| تایلندی | x64 | [th_windows_7_home_premium_with_sp1_x64_dvd_u_676670.iso](https://drive.massgrave.dev/th_windows_7_home_premium_with_sp1_x64_dvd_u_676670.iso) |
+| تایلندی | x86 | [th_windows_7_home_premium_with_sp1_x86_dvd_u_676767.iso](https://drive.massgrave.dev/th_windows_7_home_premium_with_sp1_x86_dvd_u_676767.iso) |
+| ترکی | x64 | [tr_windows_7_home_premium_with_sp1_x64_dvd_u_676677.iso](https://drive.massgrave.dev/tr_windows_7_home_premium_with_sp1_x64_dvd_u_676677.iso) |
+| ترکی | x86 | [tr_windows_7_home_premium_with_sp1_x86_dvd_u_676768.iso](https://drive.massgrave.dev/tr_windows_7_home_premium_with_sp1_x86_dvd_u_676768.iso) |
+| چینی (سنتی) | x64 | [tw_windows_7_home_premium_with_sp1_x64_dvd_u_676703.iso](https://drive.massgrave.dev/tw_windows_7_home_premium_with_sp1_x64_dvd_u_676703.iso) |
+| چینی (سنتی) | x86 | [tw_windows_7_home_premium_with_sp1_x86_dvd_u_676772.iso](https://drive.massgrave.dev/tw_windows_7_home_premium_with_sp1_x86_dvd_u_676772.iso) |
+| اوکراینی | x64 | [uk_windows_7_home_premium_with_sp1_x64_dvd_u_676684.iso](https://drive.massgrave.dev/uk_windows_7_home_premium_with_sp1_x64_dvd_u_676684.iso) |
+| اوکراینی | x86 | [uk_windows_7_home_premium_with_sp1_x86_dvd_u_676769.iso](https://drive.massgrave.dev/uk_windows_7_home_premium_with_sp1_x86_dvd_u_676769.iso) |
+
+----
 
 == Windows 7 Home Basic SP1
 
-**ویندوز ۷ Home Basic SP1**  
+**Windows 7 Home Basic SP1**
 
-> - در دسترس فقط برای پردازنده‌های با معماری x86روی  MVS
+> فقط در MVS به صورت x86 موجود است
+
 
 | Language              | Arch | Link                                                                                                                                       |
 |:----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -400,11 +398,13 @@ editLink: true
 | Chinese-Traditional   | x86  | [tw_windows_7_home_basic_with_sp1_x86_dvd_u_676507.iso](https://drive.massgrave.dev/tw_windows_7_home_basic_with_sp1_x86_dvd_u_676507.iso) |
 | Ukrainian             | x86  | [uk_windows_7_home_basic_with_sp1_x86_dvd_u_676494.iso](https://drive.massgrave.dev/uk_windows_7_home_basic_with_sp1_x86_dvd_u_676494.iso) |
 
+----
+
 == Windows 7 Starter SP1
 
-**ویندوز ۷ Starter SP1**  
+**Windows 7 Starter SP1**
 
-> - در دسترس فقط برای پردازنده‌های با معماری x86
+> فقط به صورت x86 موجود است
 
 | Language              | Arch | Link                                                                                                                                     |
 |:----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -445,14 +445,16 @@ editLink: true
 | Chinese-Traditional   | x86  | [tw_windows_7_starter_with_sp1_x86_dvd_u_678549.iso](https://drive.massgrave.dev/tw_windows_7_starter_with_sp1_x86_dvd_u_678549.iso)     |
 | Ukrainian             | x86  | [uk_windows_7_starter_with_sp1_x86_dvd_u_678529.iso](https://drive.massgrave.dev/uk_windows_7_starter_with_sp1_x86_dvd_u_678529.iso)     |
 
+----
+
 == Other Versions
 
-**نسخه‌های دیگر**
+**Other Versions**
 
-- [archive.isdn/artifacts][2]
-- [MVS Bot][3]
-- [os.click/][4]
-- [files.rg-adguard.net/5e876ce4d2c3][5]
+> - [archive.isdn/artifacts][2]
+> - [MVS Bot][3]
+> - [os.click/][4]
+> - [files.rg-adguard.net/5e876ce4d2c3][5]
 
 :::
 
@@ -461,4 +463,3 @@ editLink: true
 [3]: https://discord.gg/FajfGaH3nD
 [4]: https://os.click/
 [5]:  https://files.rg-adguard.net/language/a9e697fb-a83e-ef89-8279-5e876ce4d2c3
-[genuine]: https://nirevil.github.io/windows-activation/fa/wa/genuine-installation-media#%D8%AA%D8%A7%D9%94%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B5%D8%A7%D9%84%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7

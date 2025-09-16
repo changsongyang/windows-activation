@@ -11,19 +11,13 @@ editLink: true
 
 # Windows 11 Download
 
-<br/>
+::: danger Note
 
-::: info All download links lead to **`genuine files`**
+All download links lead to `genuine files only`
 
-- [**FAQ**](./genuine-installation-media#faq)
-
-- [**How to ensure that these files are genuine?**][genuine]
-
-The Consumer ISO includes all editions, such as Home, Pro, and Education, but excludes the Enterprise edition. In contrast, the Business ISO includes all editions except for the Home versions.
+[FAQ](./genuine-installation-media#faq)
 
 :::
-
-<br/>
 
 ## Download Links
 
@@ -33,17 +27,13 @@ The Consumer ISO includes all editions, such as Home, Pro, and Education, but ex
 
 == Windows 11 Consumer 24H2 🤍
 
-**Windows 11 Consumer 24H2**
-
-> - Build 26100.1742 (RTM)
+Build - 26100.1742 (RTM)
 
 **Download Links:** [MSDL 🤍][MSDL] / [Microsoft][1]
 
 == Windows 11 Consumer 24H2
 
-**Windows 11 Consumer 24H2**
-
-> - Build 26100.4652 (July 2025)
+Build - 26100.4652 (July 2025)
 
 | Language | Arch | Link |
 |:---|:---|:---|
@@ -86,11 +76,11 @@ The Consumer ISO includes all editions, such as Home, Pro, and Education, but ex
 | Chinese-Simplified | x64 | [zh-cn_windows_11_consumer_editions_version_24h2_updated_july_2025_x64_dvd_a1f0681d.iso](https://drive.massgrave.dev/zh-cn_windows_11_consumer_editions_version_24h2_updated_july_2025_x64_dvd_a1f0681d.iso) |
 | Chinese-Traditional | x64 | [zh-tw_windows_11_consumer_editions_version_24h2_updated_july_2025_x64_dvd_a1f0681d.iso](https://drive.massgrave.dev/zh-tw_windows_11_consumer_editions_version_24h2_updated_july_2025_x64_dvd_a1f0681d.iso) |
 
+----
+
 == Windows 11 Business 24H2
 
-**Windows 11 Business 24H2**
-
-> - Build 26100.4652 (July 2025)
+Build - 26100.4652 (July 2025)
 
 | Language | Arch | Link |
 |:---|:---|:---|
@@ -135,57 +125,50 @@ The Consumer ISO includes all editions, such as Home, Pro, and Education, but ex
 
 == Windows 11 IoT Enterprise 24H2
 
-**Windows 11 IoT Enterprise 24H2**
+**(Not LTSC)**
 
-> **Not LTSC**
-> 
-> - Build 26100.1742 (RTM)
-> - This ISO file is not updated every month.
-> - IoT Enterprise ISO is available only in English language
+Build - 26100.1742 (RTM) (This ISO file is not updated every month)
+IoT Enterprise ISO is available only in English language.
 
 | Language | Arch | Link |
 |:---|:---|:---|
 | English | x64 | [en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_24h2_x64_dvd_3a99b72b.iso) |
 
-<br/>
+### Note for IoT Enterprise
 
-## Note for IoT Enterprise 
+::: danger **(GAC) Not LTSC:**
 
-::: danger **`(GAC) Not  LTSC`**
+- When installing Windows IoT Enterprise (GAC):
 
-### When installing Windows IoT Enterprise (GAC):  
 - If your system has an **OEM license** in the motherboard (Pro or higher),
-- And the key used in Setup is **OEM**
-- then Windows Setup will apply the OEM key from the motherboard during the final stage.
+- And the key used in Setup is **OEM**,
 
-### What this means?  
+then Windows Setup will apply the OEM key from the motherboard during the final stage.
+
+### What this means
+
 - You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
 - After installation, the system will show Pro edition, not IoT Enterprise.
 - This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
 - This behavior is normal and cannot be avoided.
 
-### Fix  
+### Fix
 After installation, switch the edition by running the following in command prompt as admin.
 
 ```shell
 slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 ```
 
+
 == Windows 11 ARM64 24H2
 
-**Windows 11 ARM64 24H2**
-
-Check [**here**](./windows_arm_links)
+Check [here](./windows_arm_links)
 
 == Windows 11 (IoT) Enterprise LTSC 2024
 
-**Windows 11 (IoT) Enterprise LTSC 2024**
-
-Check [**here**](./windows_ltsc_links)
+Check [here](./windows_ltsc_links)
 
 == Other Versions
-
-**Other Versions**
 
 - [MVS Bot][2]
 - [os.click/][3]
@@ -197,15 +180,13 @@ Check [**here**](./windows_ltsc_links)
 
 :::
 
-## Windows 11 23H2 (Old)
+### Windows 11 23H2 (Old)
 
 :::tabs
 
 == Windows 11 Consumer 23H2
 
-**Windows 11 Consumer 23H2**
-
-> - Build  22631.5624 (July 2025)
+Build - 22631.5624 (July 2025)
 
 | Language | Arch | Link |
 |:---|:---|:---|
@@ -250,9 +231,7 @@ Check [**here**](./windows_ltsc_links)
 
 == Windows 11 Business 23H2
 
-**Windows 11 Business 23H2**
-
-> - Build 22631.5624 (July 2025)
+Build - 22631.5624 (July 2025)
 
 | Language | Arch | Link |
 |:---|:---|:---|
@@ -297,35 +276,32 @@ Check [**here**](./windows_ltsc_links)
 
 == Windows 11 IoT Enterprise 23H2
 
-**Windows 11 IoT Enterprise 23H2**
+**(Not LTSC)**
 
-> **Not LTSC**
-> 
-> - Build 22631.2428 (31-Oct-2023)
-> - This ISO file is not updated every month.  
+Build - 22631.2428 (31-Oct-2023) (This ISO file is not updated every month)
 
 | Language | Arch | Link |
 |:---|:---|:---|
 | English | x64 | [en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_23h2_x64_dvd_fb37549c.iso) |
 
-<br/>
+### Note for IoT Enterprise
 
-## Note for IoT Enterprise 
+::: danger **(GAC) Not LTSC:**
 
-::: danger **`(GAC) Not  LTSC`**
+- When installing Windows IoT Enterprise (GAC):
 
-### When installing Windows IoT Enterprise (GAC):  
 - If your system has an **OEM license** in the motherboard (Pro or higher),
-- And the key used in Setup is **OEM**
-- then Windows Setup will apply the OEM key from the motherboard during the final stage.
+- And the key used in Setup is **OEM**,
 
-### What this means?  
+then Windows Setup will apply the OEM key from the motherboard during the final stage.
+
+### What this means
 - You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
 - After installation, the system will show Pro edition, not IoT Enterprise.
 - This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
 - This behavior is normal and cannot be avoided.
 
-### Fix  
+### Fix
 After installation, switch the edition by running the following in command prompt as admin.
 
 ```shell
@@ -342,4 +318,3 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 [5]: https://worproject.com/esd
 [6]: https://github.com/abbodi1406/WHD/raw/master/scripts/esd-decrypter-wimlib-65.7z
 [7]: https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/
-[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files

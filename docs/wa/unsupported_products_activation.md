@@ -11,8 +11,8 @@ editLink: true
 
 ::: info
 
-- On this page, only those product activation methods are mentioned that are not supported by **MAS script**.
-- If you are unsure, run [**MAS**](./index#step2) script activation options first.
+- On this page, only those product activation methods are mentioned that are **not supported by [MAS](./index) script**.
+- If you are unsure, run [MAS](./index#step2) script activation options first.
 
 :::
 
@@ -23,47 +23,24 @@ editLink: true
 ## Windows XP Pro VL
 
 - Download Windows XP Pro VL - [Link](./windows_xp_links)
+- 32-bit (x86) Windows XP Pro VL SP3 ISO Activation key - `XCYBK-2B3KV-G8T8F-WXJM7-WCTYT`
+- 64-bit (x64) Windows XP Pro VL SP2 ISO Activation key - `VCFQD-V9FX9-46WVH-K3CD4-4J3JM`
 
-- 32-bit (x86) Windows XP Pro VL SP3 ISO Activation key:
+----
 
-  ```shell
-  XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
-  ```
-  
-- 64-bit (x64) Windows XP Pro VL SP2 ISO Activation key:
+## Office 2010 VL on Windows XP
 
-  ```shell
-  VCFQD-V9FX9-46WVH-K3CD4-4J3JM
-  ```
+- Download Office 2010 VL - [Link][2]
+- Activate with KMS-VL-ALL by qewlpal [Official thread][3] | [Mirror][4] (Use 7.2RC2 version from the mirror link)
 
-<hr/><br/>
-
-## Office 2010 on Windows XP / Server 2003
-
-- [Office 2010 Installer][2]
-
-- [Ohook Script for Office 2010 by abbodi1406.](https://gitlab.com/-/project/11037551/uploads/bbdc7aae987d08f8e2bf6533942e623a/office2010_ohook.7z) *(Password: `2010`)*
-
-1. Extract the Ohook archive.
-2. Run 	`_install.cmd` as Administrator.
-3. Get a key from [here](ohook#office-2010-140) for the installed Office 2010 product.
-4. Open an Office app > `File > Help > Activate/Change Product Key`.
-5. Enter the key and finish activation.
-
-Office 2010 should now be permanently activated.  
-
-> - **Note:** MAS supports Office on Windows Vista and later.
+> - MAS supports Office on Windows Vista and later versions.
 
 ## Office 2007 Enterprise
 
-- Download Office 2007 Enterprise - [**Link**][5]
-- Activation key:  
-  
-  ```shell
-  BQDQB-KRRY9-43DBR-4P9J4-DH7D8
-  ```
+- Download Office 2007 Enterprise - [Link][5]
+- Activation key - `BQDQB-KRRY9-43DBR-4P9J4-DH7D8`
 
-## Remote Desktop Services — Client Access Licenses (RDS CALs)
+## Remote Desktop Services / Client Access Licenses (RDS CALs)
 
 **Installation**  
 
@@ -112,16 +89,16 @@ Source code and details:
 - It's a [paid Microsoft extension][9] to play High Efficiency Video Coding (HEVC) videos in any video app on your Windows 10/11 device.
 - Microsoft provides digitally signed installers to M365 Admin Center subscribers, you can download them below.
 
-Download link: [**app.box.com/s/rozw**][10] 
-Alternatively, you can download AppxBundle installer from [**store.rg-adguard.net**][11] search `9nmzlz57r3t7` in ProductId.
+Download link: [app.box.com/s/rozw][10]
+Alternatively, you can download AppxBundle installer from [store.rg-adguard.net][11] search `9nmzlz57r3t7` in ProductId.
 
 ## Visual Studio
 
 - Download - [visualstudio.microsoft.com/downloads/][12]
 - Activation keys:
 
-| Editions        | Activation Key |
-|-----------------|----------------|
+| Editions                        | Activation Key                |
+|---------------------------------|-------------------------------|
 | Visual Studio 2022 Professional | TD244-P4NB7-YQ6XK-Y8MMM-YWV2J |
 | Visual Studio 2022 Enterprise   | VHF9H-NXBBB-638P6-6JHCY-88JWH |
 | Visual Studio 2019 Professional | NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y |
@@ -143,8 +120,8 @@ This product is no longer under active development.
 - Download - [microsoft.com/evaluate-sql-server-2022][15]
 - Activation keys:
 
-| Editions        | Activation Key |
-|-----------------|----------------|
+| Editions                        | Activation Key                |
+|---------------------------------|-------------------------------|
 | SQL Server 2022 Enterprise      | J4V48-P8MM4-9N3J9-HD97X-DYMRM |
 | SQL Server 2022 Enterprise Core | 2Q48Q-PB48J-DRCVN-GB844-X2H4Q |
 | SQL Server 2022 Standard        | FG86G-CHH2T-CB7NJ-XT7D2-V8V4X |
@@ -161,17 +138,13 @@ Formerly known as Systems Management Server (SMS), System Center Configuration M
 **Microsoft Configuration Manager (Current Branch)**
 
 Download - [microsoft.com/evaluate-endpoint-config-manager][17]   
-Activation Key:  
-
-```shell
-BXH69-M62YX-QQD6R-3GPWX-8WMFY
-```
+Activation Key - `BXH69-M62YX-QQD6R-3GPWX-8WMFY`
 
 ## Troubleshoot  
 
 ::: danger Troubleshoot
 
-- If you need any help regarding this, first review the [**FAQ**](./faq) — your answer will most likely be there.  
+- If you need any help regarding this, first review the [**FAQ section**](./faq) — your answer will most likely be there.
 
 - If your issue persists — You can [**Contact Us**](./troubleshoot).
 
@@ -179,7 +152,7 @@ BXH69-M62YX-QQD6R-3GPWX-8WMFY
 
 [1]: https://massgrave.dev/office_for_mac
 [2]: https://massgrave.dev/office_msi_links#office-2010
-[3]: https://gitlab.com/-/project/11037551/uploads/bbdc7aae987d08f8e2bf6533942e623a/office2010_ohook.7z
+[3]: https://forums.mydigitallife.net/threads/kms-vl-all-online-offline-kms-activator-for-microsoft-products.63471/
 [4]: https://app.box.com/s/q0nyib6bfylosvbbm5x8ztg87vy0kl8a
 [5]: https://massgrave.dev/office_msi_links#office-2007
 [6]: https://thecatontheceiling.github.io/LyssaRDSGen/

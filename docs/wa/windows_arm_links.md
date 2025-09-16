@@ -9,23 +9,21 @@ date: 2025-04-19
 editLink: true
 ---
 
-# Windows ARM64 Download Links
-
-<br/>
+# Windows ARM64 Download
 
 ::: info All download links lead to **`genuine files`**
 
-- [**FAQ**](./genuine-installation-media#faq)
+- [FAQ](./genuine-installation-media#faq)
 
-- [**How to ensure that these files are genuine?**][genuine]
-
-- You need an ARM64 processor (CPU) to install Windows ARM64 architecture OS.
+> _You need an ARM64 processor (CPU) to install Windows ARM64 architecture OS._
 
 :::
 
 <br/>
 
-## Windows 11 24H2
+## Download Links
+
+### Windows 11 24H2
 
 :::tabs
 
@@ -33,7 +31,7 @@ editLink: true
 
 **Windows 11 Consumer 24H2**
 
-> - Build 26100.1742
+Build - 26100.1742
 
 **Download Links:** [MSDL 🤍][1] / [Microsoft][2]
 
@@ -41,39 +39,41 @@ editLink: true
 
 **Windows 11 IoT Enterprise 24H2**
 
-> - **Not LTSC**
-> - Build 26100.1742
->
-> **These ISOs contain below editions:**  
-> - Windows 11 Enterprise
-> - Windows 11 IoT Enterprise
-> - Windows 11 IoT Enterprise Subscription
-> 
-> ARM64 version for IoT Enterprise ISO is available only in English language.
+(Not LTSC)
+
+Build - 26100.1742
+
+These ISOs contain below editions:
+
+- Windows 11 Enterprise
+- Windows 11 IoT Enterprise
+- Windows 11 IoT Enterprise Subscription
+
+> _ARM64 version for IoT Enterprise ISO is available only in English language._
 
 | Language | Arch  | Link                                                                                                                                                                   |
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | ARM64 | [en-us_windows_11_iot_enterprise_version_24h2_arm64_dvd_e9155a10.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_version_24h2_arm64_dvd_e9155a10.iso) |
 
 
-<br/>
+### Note for IoT Enterprise
 
-## Note for IoT Enterprise 
+::: danger **(GAC) Not  LTSC:**
 
-::: danger **`(GAC) Not  LTSC`**
+- When installing Windows IoT Enterprise (GAC):
 
-### When installing Windows IoT Enterprise (GAC):  
 - If your system has an **OEM license** in the motherboard (Pro or higher),
-- And the key used in Setup is **OEM**
-- then Windows Setup will apply the OEM key from the motherboard during the final stage.
+- And the key used in Setup is **OEM**,
 
-### What this means?  
+then Windows Setup will apply the OEM key from the motherboard during the final stage.
+
+### What this means
 - You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
 - After installation, the system will show Pro edition, not IoT Enterprise.
 - This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
 - This behavior is normal and cannot be avoided.
 
-### Fix  
+### Fix
 After installation, switch the edition by running the following in command prompt as admin.
 
 ```shell
@@ -84,14 +84,15 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 
 **Windows 11 IoT Enterprise LTSC 2024**
 
-> - Build 26100.1742
-> 
-> **These ISOs contain below editions:**  
-> - Windows 11 Enterprise LTSC
-> - Windows 11 IoT Enterprise LTSC
-> - Windows 11 IoT Enterprise l Subscription LTSC
-> 
-> ARM64 version for LTSC is available only in English language.
+Build - 26100.1742
+
+These ISOs contain below editions:
+
+- Windows 11 Enterprise LTSC
+- Windows 11 IoT Enterprise LTSC
+- Windows 11 IoT Enterprise l Subscription LTSC
+
+> _ARM64 version for LTSC is available only in English language._
 
 
 | Language | Arch  | Link                                                                                                                                                             |
@@ -113,7 +114,7 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 
 <br/> 
 
-## Windows 10
+### Windows 10
 
 :::tabs
 
@@ -121,7 +122,7 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 
 **Windows 10 Business 22H2**
 
-> - Build 19045.5854
+Build - 19045.5854
 
 | Language       | Arch  | Link                                                                                                                                                                                           |
 |:---------------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -169,10 +170,11 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 
 **Windows 10 IoT Enterprise 22H2**
 
-> - **Not LTSC**
-> - Build 19045.2006
-> 
-> ARM64 version for IoT Enterprise ISO is available only in English language.
+(Not LTSC)
+
+Build - 19045.2006
+
+_ARM64 version for IoT Enterprise ISO is available only in English language._
 
 | Language | Arch  | Link                                                                                                                                                                   |
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -183,33 +185,33 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 
 **Windows 10 IoT Enterprise LTSC 2021**
 
-> - Build 19044.1288
-> 
-> ARM64 version for LTSC is available only in English language.
+Build - 19044.1288
+
+> _ARM64 version for LTSC is available only in English language._
 
 
 | Language | Arch  | Link                                                                                                                                                             |
 |:---------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | ARM64 | [en-us_windows_10_iot_enterprise_ltsc_2021_arm64_dvd_e8d4fc46.iso](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_arm64_dvd_e8d4fc46.iso) |
 
-<br/>
+### Note for IoT Enterprise
 
-## Note for IoT Enterprise 
+::: danger **(GAC) Not  LTSC:**
 
-::: danger **`(GAC) Not  LTSC`**
+- When installing Windows IoT Enterprise (GAC):
 
-### When installing Windows IoT Enterprise (GAC):  
 - If your system has an **OEM license** in the motherboard (Pro or higher),
-- And the key used in Setup is **OEM**
-- then Windows Setup will apply the OEM key from the motherboard during the final stage.
+- And the key used in Setup is **OEM**,
 
-### What this means?  
+then Windows Setup will apply the OEM key from the motherboard during the final stage.
+
+### What this means
 - You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
 - After installation, the system will show Pro edition, not IoT Enterprise.
 - This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
 - This behavior is normal and cannot be avoided.
 
-### Fix  
+### Fix
 After installation, switch the edition by running the following in command prompt as admin.
 
 ```shell
@@ -236,5 +238,3 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 [6]: https://worproject.com/esd
 [7]: https://github.com/abbodi1406/WHD/raw/master/scripts/esd-decrypter-wimlib-65.7z
 [8]: https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/
-[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files
-

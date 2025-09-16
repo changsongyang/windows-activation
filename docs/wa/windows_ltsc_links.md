@@ -1,8 +1,6 @@
 ---
 layout: doc
 outline: deep
-lang: en-US
-dir: ltr
 title: 'Windows LTSC Download'
 description: 'All download links lead to genuine files only'
 date: 2025-04-19
@@ -11,62 +9,51 @@ editLink: true
 
 # Windows LTSC Download
 
-::: info All download links lead to **`genuine files`**
+All download links lead to genuine files only.
 
-- [**FAQ**](./genuine-installation-media#faq)
+> - [FAQ](./genuine-installation-media#faq)
+> - Microsoft provides Evaluation ISO public [links][1] for Windows LTSC releases, but as the name states, those ISOs are for evaluation purposes and can not be activated for more than 90 days. Below listed ISOs are full version that can be activated.
 
-- [**How to ensure that these files are genuine?**][genuine]
+#### What is LTSC, and is it the right choice for you?
 
-:::
-
-<br/> 
-
-## What is LTSC, and is it the right choice for you?
-
-::: info **INFO**
+::: info Info
 
 ::: details Click here
 
 If you're uncertain, avoid LTSC and choose the general availability channel and its editions (Home, Pro, Enterprise, etc).
 
-<hr/><br/> 
+---
 
-### Microsoft releases Windows 10 and 11 through two servicing channels.
+Microsoft releases Windows 10 and 11 through two servicing channels.
 
+1) **GAC** (General Availability Channel)
+   - It is intended for both general and enterprise customers.
+   - Edition examples include options such as Home, Pro, and Enterprise.
+   - Maximum support on the same build is usually [2 years][2] for consumers and [3 years][3] for the enterprise. After that, you need to install feature updates.
+   - This is the main servicing channel and other software and games usually follow this channel's life cycle to provide support.
+2) **LTSC** (Long-Term Servicing Channel)
+   - It is designed for devices where functionality and features must remain constant over time, such as medical systems, industrial controllers, and air traffic control devices.
+   - Examples of editions include: Enterprise LTSC and IoT Enterprise LTSC.
+   - Maximum support on the same build is usually [5 years][4] for LTSC and [10 years][5] for the IoT LTSC.
+   - This is not the main servicing channel and other software and games usually don't follow this channel's life cycle. For example, browsers and games might not provide support for 10 years on same build.
+   - It lacks most of the Store (UWP) apps.
 
-1. **GAC** — General Availability Channel  
+---
 
-- It is intended for both general and enterprise customers.
-- Edition examples include options such as Home, Pro, and Enterprise.
-- Maximum support on the same build is usually [2 years][2] for consumers and [3 years][3] for the enterprise. After that, you need to install feature updates.
-
-- This is the main servicing channel and other software and games usually follow this channel's life cycle to provide support.
-
-
-2. **LTSC** — Long-Term Servicing Channel
-
-- It is designed for devices where functionality and features must remain constant over time, such as medical systems, industrial controllers, and air traffic control devices.
-- Examples of editions include: Enterprise LTSC and IoT Enterprise LTSC.
-- Maximum support on the same build is usually [5 years][4] for LTSC and [10 years][5] for the IoT LTSC.
-- This is not the main servicing channel and other software and games usually don't follow this channel's life cycle. For example, browsers and games might not provide support for 10 years on same build.
-- It lacks most of the Store (UWP) apps.
-
-<hr/><br/>
-
-### Reasons to use LTSC
+**Reasons to use LTSC:**
 
 - You don't like annual Windows feature upgrades.
 - You don't like preinstalled Store (UWP) apps as well.
 - You want longer update support for Windows 10.
 
-### Reasons to avoid using LTSC
+**Reasons to avoid using LTSC:**
 
 - As stated above, many games and software might not support LTSC once that same build has reached the end of life in GAC.
 - Games might not work out of the box and you will manually need to install store and Xbox apps.
 - New hardware might not be fully supported by a 2-3 year-old LTSC build (A new version of LTSC is released every 3 years).
 - You might miss new features added in GAC that aren't available in LTSC.
 
-### Common misconceptions
+**Common misconceptions**
 
 - LTSC is fast.  
   It's not fast, although there might be a bit more RAM available because of no store apps running in the background, and you can achieve the same result in GAC channel editions by [turning off][6] background apps and startup apps.
@@ -75,20 +62,20 @@ If you're uncertain, avoid LTSC and choose the general availability channel and 
 
 :::
 
-## Microsoft store app installation on LTSC
+#### Microsoft store app installation on LTSC
 
 ::: details Click here for info
 
-Applicable on Windows 11 LTSC 2024 and Windows 10 LTSC 2021
+Applicable on Windows 11 LTSC 2024 and Windows 10 LTSC 2021.
 
-### Microsoft Store
+**Microsoft Store**
 
 LTSC editions do not come with store apps pre-installed. To install them, follow the steps below.
 
 - Make sure the Internet is connected.
 - Open Powershell as admin and enter,  
 
-```shell
+```
 wsreset -i
 ```
   
@@ -96,19 +83,20 @@ wsreset -i
 
 On Windows 10 2021 LTSC, you might encounter an error indicating that cliprenew.exe cannot be found. This error can be safely ignored.
 
-### App Installer
+**App Installer**
 
-This app is very useful; it includes WinGet, enabling easy installation of .appx packages. After installing the Store app, install the App installer from this URL:   
+This app is very useful; it includes WinGet, enabling easy installation of .appx packages. After installing the Store app, install the App installer from this URL.
+
 [apps.microsoft.com/detail/9nb][8]
 
-### It didn't work. What should I do next?
+**It didn't work. What should I do next?**
 
-You can install them using the package provided by abbodi1406:  
+You can install them using the package provided by abbodi1406.
 https://github.com/stdin82/htfx/releases/tag/v0.0.24
 
 :::
 
-## Differences between IoT and Non-IoT Windows Enterprise LTSC
+#### Differences between IoT and Non-IoT Windows Enterprise LTSC
 
 ::: details Click here for info
 
@@ -118,6 +106,7 @@ https://github.com/stdin82/htfx/releases/tag/v0.0.24
 
 **Windows 11 LTSC 2024**
 
+
 | Features                               | Enterprise LTSC | IoT Enterprise LTSC / IoT Enterprise Subscription LTSC                                                                                                                                                                                    |
 |:---------------------------------------|:----------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **TPM / Secure boot / UEFI / 4GB RAM** | All required    | [Not Required](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/Hardware/System_Requirements?tabs=Windows11LTSC#optional-minimum-requirements) 🎉 <br /> Also not required by [IoT Enterprise 24H2 (Non-LTSC)](./windows_11_links) |
@@ -125,6 +114,7 @@ https://github.com/stdin82/htfx/releases/tag/v0.0.24
 | **Update Support**                     | 5 Years         | 10 Years                                                                                                                                                                                                                                  |
 | **Reserved Storage Feature**           | Enabled         | Disabled                                                                                                                                                                                                                                  |
 | **Digital License (HWID)**             | Not supported   | Supported                                                                                                                                                                                                                                 |
+| **Uninstallable Edge outside of EEA**  | Yes             | No                                                                                                                                                                                                                                        |
 | **2 Simultaneous RDP Sessions**        | No              | Yes                                                                                                                                                                                                                                       |
 
 
@@ -137,7 +127,6 @@ https://github.com/stdin82/htfx/releases/tag/v0.0.24
 | IoT Enterprise LTSC 2024 | IoTEnterpriseS | KBN8V-HFGQ4-MGXVD-347P6-PDQGT |
 | Enterprise LTSC 2024     | EnterpriseS    | M7XTQ-FN8P6-TTKYV-9D4CC-J462D |
 
-
 == Windows 10 LTSC 2021
 
 **Windows 10 LTSC 2021**
@@ -149,6 +138,7 @@ https://github.com/stdin82/htfx/releases/tag/v0.0.24
 | **Reserved Storage Feature** | Enabled                                                                                               | Disabled                                                                                                   |
 | **Digital License (HWID)**   | Not supported                                                                                         | Supported                                                                                                  |
 | **KMS License**              | Supported                                                                                             | Support added after the update 19044.2788                                                                  |
+| **Uninstallable Edge**       | Yes                                                                                                   | No                                                                                                         |
 | **$OEM$ Folder Support**     | Yes                                                                                                   | No [(More Info)](./oem-folder)                                                                            |
 
 
@@ -164,40 +154,33 @@ https://github.com/stdin82/htfx/releases/tag/v0.0.24
 
 **Old Versions**
 
-There are ISOs available for IoT Enterprise LTSC/LTSB 2019, 2016, and 2015, but they only have the Non-IoT LTSC OEM key (generic, not-activated) preinstalled. 
 
-The installed key is the only difference. There is no real, different IoT edition available for these versions.
+- There are ISOs available for IoT Enterprise LTSC/LTSB 2019, 2016, and 2015, but they only have the Non-IoT LTSC OEM key (generic, not-activated) preinstalled. The installed key is the only difference. There is no real, different IoT edition available for these versions.
 
 ::: 
 
-## How to upgrade from non-LTSC to LTSC edition while keeping files and apps?
+#### How to upgrade from non-LTSC to LTSC edition while keeping files and apps?
 
 ::: details Click here for info
 
-You might want to check [**Windows 10 EOL guide**](./windows10_eol)
+You might want to check [Windows 10 EOL guide](./windows10_eol).
 
 ::: 
 
-## How to clean install Windows 11 IoT Enterprise LTSC 2024 in Non-English language?
+#### How to clean install Windows 11 IoT Enterprise LTSC 2024 in Non-English language?
 
 ::: details Click here for info
 
 IoT LTSC edition ISOs are available in English language only. However, you can follow the below steps to clean install it.
 
 - Download the non-IoT LTSC 2024 ISO in the desired language from the section below.
-- Follow [**PID.txt method**](./clean_install_windows#windows-11-on-unsupported-hardware) to install IoT version from scratch
+- Follow [PID.txt method](./clean_install_windows#windows-11-on-unsupported-hardware) to install IoT version from scratch.
 
-Alternatively, You can install Non-IoT LTSC in another language and later install IoT LTSC 2024 key
-
-```shell
-KBN8V-HFGQ4-MGXVD-347P6-PDQGT
-```
-
-in activation page in Windows settings to change the edition.
+Alternatively, You can install Non-IoT LTSC in another language and later install IoT LTSC 2024 key `KBN8V-HFGQ4-MGXVD-347P6-PDQGT` in activation page in Windows settings to change the edition.
 
 ::: 
 
-## How to clean install Windows 10 IoT Enterprise LTSC 2021 in Non-English language?
+#### How to clean install Windows 10 IoT Enterprise LTSC 2021 in Non-English language?
 
 ::: details Click here for info
 
@@ -205,21 +188,17 @@ IoT LTSC edition ISOs are available in English language only.
 
 When installing Windows 11 IoT Enterprise LTSC 2024 from scratch, one advantage is its relaxed hardware requirements. However, there isn't much benefit to doing the same with the 2021 IoT version, since you can easily change the Windows edition later. Additionally, the PID.txt method for installing the virtual edition from scratch is only applicable to Windows 11 24H2 and later versions. While there are other methods to install from scratch, they are more complex, and the results do not justify the effort.
 
-### Our recommendation is as follows:
+Our recommendation is as follows:
 
 - Download the non-IoT LTSC 2021 ISO in the desired language from the section below.
-- Install Windows using this [**clean installation guide**](./clean_install_windows).
-- After installing Windows, to change the edition, enter the IoT LTSC 2021 key on the activation page in the Windows settings:
-
-```powershell
-QPM6N-7J2WJ-P88HH-P3YRH-YY74H
-```
+- Install Windows using this [clean installation guide](./clean_install_windows).
+- After installing Windows, to change the edition, enter the IoT LTSC 2021 key `QPM6N-7J2WJ-P88HH-P3YRH-YY74H` on the activation page in the Windows settings.
 
 ::: 
 
-<hr/><br/> 
+---
 
-# Download Links
+## Download Links
 
 :::tabs
 
@@ -227,22 +206,22 @@ QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 
 **Windows 11 IoT Enterprise LTSC 2024**
 
-> - Build 26100.1742
-> 
-> These ISOs contain below editions:  
-> - Windows 11 Enterprise LTSC
-> - Windows 11 IoT Enterprise LTSC
-> - Windows 11 IoT Enterprise Subscription LTSC
+Build - 26100.1742
+
+These ISOs contain below editions
+Windows 11 Enterprise LTSC
+Windows 11 IoT Enterprise LTSC
+Windows 11 IoT Enterprise Subscription LTSC
 
 | Language | Arch | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |:---------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | x64  | [X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso](https://oemsoc.download.prss.microsoft.com/dbazure/X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso_640de540-87c4-427f-be87-e6d53a3a60b4?t=2c3b664b-b119-4088-9db1-ccff72c6d22e&P1=102816950270&P2=601&P3=2&P4=OC448onxqdmdUsBUApAiE8pj1FZ%2bEPTU3%2bC6Quq29MVwMyyDUtR%2fsbiy7RdVoZOHaZRndvzeOOnIwJZ2x3%2bmP6YK9cjJSP41Lvs0SulF4SVyL5C0DdDmiWqh2QW%2bcDPj2Xp%2bMrI9NOeElSBS5kkOWP8Eiyf2VkkQFM3g5vIk3HJVvu5sWo6pFKpFv4lML%2bHaIiTSuwbPMs5xwEQTfScuTKfigNlUZPdHRMp1B3uKLgIA3r0IbRpZgHYMXEwXQ%2fSLMdDNQthpqQvz1PThVkx7ObD55CXgt0GNSAWRfjdURWb8ywWk1gT7ozAgpP%2fKNm56U5nh33WZSuMZIuO1SBM2vw%3d%3d) <br /> = <br /> [en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso) <br /> <br /> Both files are identical, only name is different. <br /> 1st link is from the official OEM portal, and 2nd file is taken from MVS and hosted on massgrave. <br /> Note: With 1st link file you need to rename extension to .iso |
 
-<hr/><br/>
+---
 
 **Windows 11 Enterprise LTSC 2024**
 
-> - Build 26100.1742  
+Build - 26100.1742
 
 | Language               | Arch | Link                                                                                                                                                           |
 |:-----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -285,26 +264,27 @@ QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 | Chinese-Simplified     | x64  | [zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso](https://drive.massgrave.dev/zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso)           |
 | Chinese-Traditional         | x64  | [zh-tw_windows_11_enterprise_ltsc_2024_x64_dvd_6287d84d.iso](https://drive.massgrave.dev/zh-tw_windows_11_enterprise_ltsc_2024_x64_dvd_6287d84d.iso)           |
 
+---
 
 == Windows 10 LTSC 2021
 
 **Windows 10 IoT Enterprise LTSC 2021**
 
-> - Build 19044.1288
-> 
-> These ISOs contain below editions:  
-> - Windows 10 Enterprise LTSC
-> - Windows 10 IoT Enterprise LTSC   
+(Build - 19044.1288)
+
+These ISOs contain below editions
+Windows 10 Enterprise LTSC
+Windows 10 IoT Enterprise LTSC
 
 | Language | Arch | Link                                                                                                                                                         |
 |:---------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | x64  | [en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso) |
 
-<hr/><br/>
+---
 
 **Windows 10 Enterprise LTSC 2021**
 
-> - Build 19044.1288  
+(Build - 19044.1288)
 
 | Language               | Arch | Link                                                                                                                                                           |
 |:-----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -385,26 +365,25 @@ QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 | Chinese-Traditional         | x64  | [zh-tw_windows_10_enterprise_ltsc_2021_x64_dvd_80dba877.iso](https://drive.massgrave.dev/zh-tw_windows_10_enterprise_ltsc_2021_x64_dvd_80dba877.iso)           |
 | Chinese-Traditional         | x86  | [zh-tw_windows_10_enterprise_ltsc_2021_x86_dvd_03be1c20.iso](https://drive.massgrave.dev/zh-tw_windows_10_enterprise_ltsc_2021_x86_dvd_03be1c20.iso)           |
 
+---
 
 == Windows 10 LTSC 2019
 
 **Windows 10 IoT Enterprise LTSC 2019**
 
-> - Build - 17763.107
-> 
-> - It doesn't have the actual Iot EnterpriseS edition,
-> - it's just EnterpriseS with OEM key (generic, not-activated) installed.  
+(Build - 17763.107)
+It doesn't have the actual IotEnterpriseS edition, it's just EnterpriseS with OEM key (generic, not-activated) installed.
 
 | Language | Arch | Link                                                                                                                                                   |
 |:---------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | x64  | [en_windows_10_iot_enterprise_ltsc_2019_x64_dvd_a1aa819f.iso](https://drive.massgrave.dev/en_windows_10_iot_enterprise_ltsc_2019_x64_dvd_a1aa819f.iso) |
 | English  | x86  | [en_windows_10_iot_enterprise_ltsc_2019_x86_dvd_2255a237.iso](https://drive.massgrave.dev/en_windows_10_iot_enterprise_ltsc_2019_x86_dvd_2255a237.iso) |
 
-<hr/><br/>
+---
 
 **Windows 10 Enterprise LTSC 2019**
 
-> - Build 17763.316
+(Build - 17763.316)
 
 | Language               | Arch | Link                                                                                                                                                 |
 |:-----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -485,11 +464,13 @@ QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 | Ukrainian              | x64  | [uk_windows_10_enterprise_ltsc_2019_x64_dvd_d40a905a.iso](https://drive.massgrave.dev/uk_windows_10_enterprise_ltsc_2019_x64_dvd_d40a905a.iso)       |
 | Ukrainian              | x86  | [uk_windows_10_enterprise_ltsc_2019_x86_dvd_e3b4eb4d.iso](https://drive.massgrave.dev/uk_windows_10_enterprise_ltsc_2019_x86_dvd_e3b4eb4d.iso)       |
 
+---
+
 == Windows 10 LTSB 2016
 
 **Windows 10 Enterprise LTSB 2016**
 
-> - Build 14393  
+(Build - 14393)
 
 | Language               | Arch | Link                                                                                                                                                   |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -570,11 +551,13 @@ QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 | Ukrainian              | x64  | [uk_windows_10_enterprise_2016_ltsb_x64_dvd_9058295.iso](https://drive.massgrave.dev/uk_windows_10_enterprise_2016_ltsb_x64_dvd_9058295.iso)           |
 | Ukrainian              | x86  | [uk_windows_10_enterprise_2016_ltsb_x86_dvd_9058286.iso](https://drive.massgrave.dev/uk_windows_10_enterprise_2016_ltsb_x86_dvd_9058286.iso)           |
 
+---
+
 == Windows 10 LTSB 2015
 
 **Windows 10 Enterprise LTSB 2015**
 
-> - Build 10240  
+(Build - 10240)
 
 | Language               | Arch | Link                                                                                                                                                   |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -661,9 +644,12 @@ QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 
 **Windows 10/11 IoT Enterprise LTSC ARM64**
 
-Check [**Windows ARM links**](./windows_arm_links)
+Check [Windows arm links](./windows_arm_links).
+
+---
 
 :::
+
 
 [1]: https://www.microsoft.com/en-us/evalcenter
 [2]: https://learn.microsoft.com/en-us/lifecycle/products/windows-11-home-and-pro
@@ -673,4 +659,3 @@ Check [**Windows ARM links**](./windows_arm_links)
 [6]: https://www.elevenforum.com/t/enable-or-disable-background-apps-in-windows-11.923/
 [7]: https://gist.github.com/ave9858/a2153957afb053f7d0e7ffdd6c3dcb89
 [8]: https://apps.microsoft.com/detail/9nblggh4nns1
-[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files
