@@ -9,13 +9,13 @@ editLink: true
 
 # سوالات متداول (FAQ)
 
-به بخش سوالات متداول MAS خوش آمدید! اگر سوالی دارید، ابتدا این صفحه را مرور کنید — احتمال زیاد جواب‌تان اینجاست. اگر هنوز سوالی داشتید، [در تماس باشید](#در-تماس-باشید) تا راهنمایی‌تان کنیم.
+به بخش سوالات متداول MAS خوش آمدید! اگر سوالی دارید، ابتدا همین صفحه رو مرور کنید — به احتمال زیاد جواب‌تان اینجاست. اگر هنوز سوالی داشتید، با ما [در تماس باشید](#در-تماس-باشید) تا راهنمایی‌تان کنیم.
 
 <br/>
 
 ## شروع به کار با **M A S**
 
-> Microsoft Activation Scripts
+> `Microsoft Activation Scripts`
 
 ### چطور از MAS استفاده کنم؟
 
@@ -49,16 +49,19 @@ editLink: true
 
 <br/>
 
-### آیا MAS امن است؟ چطور مطمئن شوم که ویروس ندارد؟
+### آیا MAS امن است؟ چطور مطمئن شوم که آلوده به بدافزار نیست؟
 
-پروژه کاملاً متن‌باز است، بیش از ۱۲۵ هزار ستاره در [GitHub][1] دارد و میلیون‌ها کاربر از آن استفاده می‌کنند. می‌توانید کد را با Notepad یا کمک ChatGPT بررسی کنید.  
-اگر مایل بودید، فعال‌سازی دستی را مطابق [این راهنما](./manual_hwid_activation) انجام دهید.
+پروژه کاملاً اوپن سورس هست و بیش از ۱۲۵ هزار استار در [GitHub][1] داره و میلیون‌ها کاربر از اون استفاده می‌کنن.  
+شما می‌تونید [کد پروژه][7] رو با Notepad ویندوز یا MT Manager موبایل یا با کمک هوش‌های مصنوعی زیر یا هرکدوم دیگه تحلیل و بررسی کنید.   
+[Gemini] - [Claude] - [Chat GPT] - [Grok] - [Perplexity] - [Qwen] - [GenSpark]
+
+اگر مایل بودید، فعال‌سازی دستی رو مطابق [این راهنما](./manual_hwid_activation) انجام بدید.
 
 <br/>
 
 ### چطور فعال‌سازی HWID، Ohook، TSforge، KMS38 یا Online KMS را حذف کنم؟
 
-راهنماهای حذف تمامی روش‌ها را اینجا پیدا کنید:
+اسکریپت MAS از روش‌های فعال‌سازی مختلفی استفاده می‌کند، برای دستورالعمل‌های حذف هر کدام به لینک مربوط به آن مراجعه کنید:
 
 [❌حذف HWID](./hwid#چگونه-hwid-را-حذف-کنیم)
 
@@ -70,23 +73,41 @@ editLink: true
 
 [❌حذف Online KMS](./online_kms#چگونه-آنلاین-kms-را-حذف-کنیم)
 
-<br><br/>
+<br/> 
+
+::: danger نکات تکمیلی
+
+::: details راهنمای حذف یا لغو اشتراک‌ها
+
+- **HWID:** لایسنس دیجیتال روی سرورهای مایکروسافت ذخیره شده و به سخت‌افزار شما متصل است. این نمی‌تواند به معنای سنتی `حذف` شود. تغییر عمده سخت‌افزار (مانند مادربرد) آن را `باطل` می‌کند. برای بازگشت به حالت غیرفعال، می‌توانید یک کلید عمومی [KMS](./kms38#چگونه-kms38-را-حذف-کنیم) نصب کنید. [جزئیات تکمیلی hwid](./hwid#چگونه-hwid-را-حذف-کنیم)
+
+- **Online KMS / Ohook / KMS38:** از گزینه متناظر `Uninstall` یا `Remove` در منوی اسکریپت [MAS](#مرحله-۲) استفاده کنید، سپس گزینه "Fix Licensing" را از منوی Troubleshoot اجرا کنید. [جزئیات KMS آنلاین](./online_kms#چگونه-آنلاین-kms-را-حذف-کنیم) و [جزئیات KMS38](./kms38#چگونه-kms38-را-حذف-کنیم)
+
+- **TSforge:** این روش فقط داده‌ها را اضافه می‌کند و فایلی نصب نمی‌کند. برای بازنشانی آن، کافی است گزینه `Fix Licensing` را از منوی Troubleshoot در اسکریپت MAS اجرا کنید. [جزئیات TSforge](./tsforge#چگونه-tsforge-را-حذف-کنیم) و [جزئیات Ohook](./ohook#چگونه-ohook-را-حذف-کنیم)
+
+:::
+
+<<br/>
+
+### چگونه به‌روزرسانی‌های امنیتی ویندوز ۱۰ رو پس از اکتبر ۲۰۲۵ دریافت کنیم؟
+
+شما می‌توانید از [گزینه TSforge در MAS](index#مرحله-۲) برای فعال‌سازی ESU سه ساله (اکتبر ۲۰۲۵ تا اکتبر ۲۰۲۸) استفاده کنید. [اطلاعات بیشتر](./windows10_eol).
 
 ## سوالات مربوط به ویندوز و آفیس
 
-### چطور نسخه کامل Windows 10/11 Enterprise LTSC را دانلود کنم؟
+### چطور نسخه کامل Windows 10/11 Enterprise LTSC رو دانلود کنم؟
 
-راهنمای [دریافت رسانه اصل](./genuine-installation-media) را ببینید.
+راهنمای [دریافت فایل‌های رسمی](./genuine-installation-media) را ببینید.
 
 <br/> 
 
-### آیا می‌توانم ویرایش ویندوز را از Home به Pro تغییر دهم؟
+### آیا میتونم نسخه ویندوز رو از Home به Pro تغییر بدم؟
 
 بله، در فعال‌ساز، گزینه `Change Windows Edition` را انتخاب کنید.
 
 <br/>
 
-### آیا با تغییر نسخه ویندوز (مثلاً از Home به Pro) اطلاعاتم پاک می‌شود؟
+### آیا با تغییر نسخه ویندوز (مثلاً از Home به Pro) اطلاعاتم حذف میشه؟
 
 خیر، اطلاعات شما حذف نمی‌شود.
 
@@ -181,5 +202,14 @@ editLink: true
 [3]: https://www.microsoft.com/en-us/microsoft-365/microsoft-copilot
 [4]: https://support.microsoft.com/en-us/office/introduction-to-python-in-excel-55643c2e-ff56-4168-b1ce-9428c8308545
 [5]: https://github.com/NiREvil/windows-activation/discussions
-[6]: mailto:diana.clk01@gmail.com
+[6]: mailto:dianashariati.cl@gmail.com
+[7]: https://github.com/massgravel/Microsoft-Activation-Scripts/blob/master/MAS/All-In-One-Version-KL/MAS_AIO.cmd
+[Gemini]: https://aistudio.google.com/prompt
+[Jules]: https://jules.google/
+[Claude]: https://claude.ai/chat/
+[ChatGPT]: https://chat.openai.com/auth/login
+[Grok]: https://grok.com
+[GenSpark]: https://www.genspark.ai/
+[Perplexity]: http://perplexity.ai/
+[Qwen]: https://chat.qwen.ai/
 [rainbow]: https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256
