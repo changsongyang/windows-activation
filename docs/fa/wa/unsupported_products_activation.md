@@ -1,9 +1,11 @@
 ---
 layout: doc
 outline: deep
+lang: fa-IR
+dir: rtl
 title: 'فعال‌سازی محصولات پشتیبانی نشده'
 description: 'در این صفحه فقط روش‌های فعال‌سازی محصولاتی ذکر شده است که توسط اسکریپت MAS پشتیبانی نمی‌شوند'
-date: 2024-04-19
+date: 2025-01-19
 editLink: true
 ---
 
@@ -18,35 +20,35 @@ editLink: true
 
 ## MS Office For Mac
 
-- [اینجا][1] را بررسی کنید.
+- [**اینجا**][1] را بررسی کنید.
 
 ## Windows XP Pro VL
 
-- دانلود ویندوز XP Pro VL - [لینک](./windows_xp_links)
+- دانلود ویندوز XP Pro VL - [**لینک**](./windows_xp_links)
 
 - کلید فعال‌سازی ISO 32 بیتی (x86) Windows XP Pro VL SP3:
 
-  ```shell
-  XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
-  ```
+```shell
+XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
+```
 
 - کلید فعال‌سازی ISO 64 بیتی (x64) Windows XP Pro VL SP2:
 
-  ```shell
-  VCFQD-V9FX9-46WVH-K3CD4-4J3JM
-  ```
+```shell
+VCFQD-V9FX9-46WVH-K3CD4-4J3JM
+```
 
 <hr/><br/>
 
 ## Office 2010 on Windows XP / Server 2003
 
-- [نصب‌کننده آفیس 2010][2]
+- [**نصب‌کننده آفیس 2010**][2]
 
-- [اسکریپت Ohook برای آفیس 2010 توسط abbodi1406.](https://gitlab.com/-/project/11037551/uploads/bbdc7aae987d08f8e2bf6533942e623a/office2010_ohook.7z) *(رمز عبور: `2010`)*
+- [**اسکریپت Ohook برای آفیس 2010 توسط abbodi1406**][3] *(رمز عبور: `2010`)*
 
 1. آرشیو Ohook را استخراج کنید.
 2. `_install.cmd` را به عنوان مدیر اجرا کنید.
-3. یک کلید از [اینجا](ohook#office-2010-140) برای محصول نصب شده آفیس 2010 دریافت کنید.
+3. یک کلید از [**اینجا**](./ohook#آفیس-2010-14-0) برای محصول نصب شده آفیس 2010 دریافت کنید.
 4. یک برنامه آفیس را باز کنید > `File > Help > Activate/Change Product Key`.
 5. کلید را وارد کرده و فعال‌سازی را به پایان برسانید.
 
@@ -59,9 +61,9 @@ editLink: true
 - دانلود آفیس 2007 Enterprise - [**لینک**][5]
 - کلید فعال‌سازی:
 
-  ```shell
-  BQDQB-KRRY9-43DBR-4P9J4-DH7D8
-  ```
+```shell
+BQDQB-KRRY9-43DBR-4P9J4-DH7D8
+```
 
 ## Remote Desktop Services — Client Access Licenses (RDS CALs)
 
@@ -122,10 +124,10 @@ editLink: true
 
 | نسخه‌ها | کلید فعال‌سازی |
 |---|---|
-| Visual Studio 2022 Professional | TD244-P4NB7-YQ6XK-Y8MMM-YWV2J |
-| Visual Studio 2022 Enterprise | VHF9H-NXBBB-638P6-6JHCY-88JWH |
-| Visual Studio 2019 Professional | NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y |
-| Visual Studio 2019 Enterprise | BF8Y8-GN2QH-T84XB-QVY3B-RC4DF |
+| Visual Studio 2022 Professional | `TD244-P4NB7-YQ6XK-Y8MMM-YWV2J` |
+| Visual Studio 2022 Enterprise | VHF9H-`NXBBB-638P6-6JHCY-88JWH` |
+| Visual Studio 2019 Professional | `NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y` |
+| Visual Studio 2019 Enterprise | BF8Y8-`GN2QH-T84XB-QVY3B-RC4DF` |
 
 ## Microsoft DaRT
 
@@ -145,18 +147,19 @@ Microsoft DaRT (Diagnostics and Recovery Toolset، که قبلاً ERD Commander
 
 | نسخه‌ها | کلید فعال‌سازی |
 |---|---|
-| SQL Server 2022 Enterprise | J4V48-P8MM4-9N3J9-HD97X-DYMRM |
-| SQL Server 2022 Enterprise Core | 2Q48Q-PB48J-DRCVN-GB844-X2H4Q |
-| SQL Server 2022 Standard | FG86G-CHH2T-CB7NJ-XT7D2-V8V4X |
-| SQL Server 2022 Web | 2R97W-F4XNT-T6MYV-3TKB7-6X3JM |
-| SQL Server 2022 Developer | 22222-00000-00000-00000-00000 |
-| SQL Server 2019 Enterprise | HMWJ3-KY3J2-NMVD7-KG4JR-X2G8G |
-| SQL Server 2019 Standard | PMBDC-FXVM3-T777P-N4FY8-PKFF4 |
+| SQL Server 2022 Enterprise | `J4V48-P8MM4-9N3J9-HD97X-DYMRM` |
+| SQL Server 2022 Enterprise Core | `2Q48Q-PB48J-DRCVN-GB844-X2H4Q` |
+| SQL Server 2022 Standard | `FG86G-CHH2T-CB7NJ-XT7D2-V8V4X` |
+| SQL Server 2022 Web | `2R97W-F4XNT-T6MYV-3TKB7-6X3JM` |
+| SQL Server 2022 Developer | `22222-00000-00000-00000-00000` |
+| SQL Server 2019 Enterprise | `HMWJ3-KY3J2-NMVD7-KG4JR-X2G8G` |
+| SQL Server 2019 Standard | `PMBDC-FXVM3-T777P-N4FY8-PKFF4` |
 
 ## Microsoft Configuration Manager
 
-همچنین به عنوان ConfigMgr، Microsoft Endpoint Configuration Manager (MECM) شناخته می‌شود.
-قبلاً به عنوان Systems Management Server (SMS)، System Center Configuration Manager (SCCM) شناخته می‌شد. [اطلاعات بیشتر][16] در مورد تغییرات نام.
+همچنین به عنوان ConfigMgr، Microsoft Endpoint Configuration Manager (MECM) شناخته می‌شود.  
+
+قبلاً به عنوان Systems Management Server (SMS)، System Center Configuration Manager (SCCM) شناخته می‌شد. [**اطلاعات بیشتر**][16] در مورد تغییرات نام.
 
 **Microsoft Configuration Manager (Current Branch)**
 
@@ -167,9 +170,9 @@ Microsoft DaRT (Diagnostics and Recovery Toolset، که قبلاً ERD Commander
 BXH69-M62YX-QQD6R-3GPWX-8WMFY
 ```
 
-## عیب یابی
+## مشکلات
 
-::: danger عیب یابی
+::: danger مشکلات
 
 - اگر در این مورد به کمکی نیاز دارید، ابتدا [**سوالات متداول**](./faq) را مرور کنید — به احتمال زیاد پاسخ شما در آنجا خواهد بود.
 
