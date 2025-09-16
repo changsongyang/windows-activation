@@ -3,31 +3,42 @@ layout: doc
 outline: deep
 title: 'Windows 7 Download'
 description: 'All download links lead to genuine files only'
-date: 2023-01-19
+date: 20234-01-19
 editLink: true
 ---
 
 # Windows 7 Download
 
-> - All download links lead to genuine files only
->
-> - [FAQ](./genuine-installation-media#faq)
-> -   **You can permanently activate Windows 7 with [TSforge option in MAS](./index#step2)**
-> -   Ultimate, Professional, Home Premium, Home Basic and Starter ISOs contain all editions except Enterprise but by default they don't appear while installing Windows. You can easily choose any of them while installing and for that you need to delete or edit `sources\ei.cfg` file in the bootable USB or ISO.
-> -   To get latest updates on Windows 7 install, you can use [Simplix Pack][1] or activate ESU with TSforge option in MAS.
+<br/>
 
-----
+::: info All download links lead to **`genuine files`**
+
+- [**FAQ**](./genuine-installation-media#faq)
+
+- [**How to ensure that these files are genuine?**][genuine]
+
+- You can permanently activate Windows 7 with [**TSforge option in MAS**](./index#step2)
+
+- Ultimate, Professional, Home Premium, Home Basic and Starter ISOs contain all editions except Enterprise but by default they don't appear while installing Windows. You can easily choose any of them while installing and for that you need to delete or edit `sources\ei.cfg` file in the bootable USB or ISO.
+
+- To get latest updates on Windows 7 install, you can use [**Simplix Pack**][1] or activate ESU with TSforge option in MAS.
+
+:::
+
+<br/> 
 
 ## Download Links
 
 **Windows 7 SP1**  
-**Build - 7601.17514**
+
+> - Build  7601.17514
 
 :::tabs
 
 == Windows 7 Ultimate SP1 🤍
 
 **Windows 7 Ultimate SP1**
+
 
 | Language              | Arch | Link                                                                                                                                       |
 |:----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -104,11 +115,10 @@ editLink: true
 | Ukrainian             | x64  | [uk_windows_7_ultimate_with_sp1_x64_dvd_u_677406.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x64_dvd_u_677406.iso)     |
 | Ukrainian             | x86  | [uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso](https://drive.massgrave.dev/uk_windows_7_ultimate_with_sp1_x86_dvd_u_677485.iso)     |
 
-----
-
 == Windows 7 Enterprise SP1
 
 **Windows 7 Enterprise SP1**
+
 
 | Language              | Arch | Link                                                                                                                                           |
 |:----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -185,11 +195,10 @@ editLink: true
 | Ukrainian             | x64  | [uk_windows_7_enterprise_with_sp1_x64_dvd_u_677683.iso](https://drive.massgrave.dev/uk_windows_7_enterprise_with_sp1_x64_dvd_u_677683.iso)     |
 | Ukrainian             | x86  | [uk_windows_7_enterprise_with_sp1_x86_dvd_u_677712.iso](https://drive.massgrave.dev/uk_windows_7_enterprise_with_sp1_x86_dvd_u_677712.iso)     |
 
-----
-
 == Windows 7 Professional SP1
 
 **Windows 7 Professional SP1**
+
 
 | Language              | Arch | Link                                                                                                                                               |
 |:----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -266,13 +275,12 @@ editLink: true
 | Ukrainian             | x64  | [uk_windows_7_professional_with_sp1_x64_dvd_u_677026.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_x64_dvd_u_677026.iso)     |
 | Ukrainian             | x86  | [uk_windows_7_professional_with_sp1_x86_dvd_u_677150.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_x86_dvd_u_677150.iso)     |
 
-----
-
 == Windows 7 Professional VL SP1
 
 **Windows 7 Professional VL SP1**  
 
-> This version contains only Professional edition index
+> - This version contains only Professional edition index.
+
 
 | Language              | Arch | Link                                                                                                                                                             |
 |:----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -349,11 +357,10 @@ editLink: true
 | Ukrainian             | x64  | [uk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677811.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677811.iso) |
 | Ukrainian             | x86  | [uk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677928.iso](https://drive.massgrave.dev/uk_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677928.iso) |
 
-----
-
 == Windows 7 Home Premium SP1
 
 **Windows 7 Home Premium SP1**
+
 
 | Language              | Arch | Link                                                                                                                                               |
 |:----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -430,13 +437,12 @@ editLink: true
 | Ukrainian             | x64  | [uk_windows_7_home_premium_with_sp1_x64_dvd_u_676684.iso](https://drive.massgrave.dev/uk_windows_7_home_premium_with_sp1_x64_dvd_u_676684.iso)     |
 | Ukrainian             | x86  | [uk_windows_7_home_premium_with_sp1_x86_dvd_u_676769.iso](https://drive.massgrave.dev/uk_windows_7_home_premium_with_sp1_x86_dvd_u_676769.iso)     |
 
-----
-
 == Windows 7 Home Basic SP1
 
 **Windows 7 Home Basic SP1**  
 
-> Available in x86 only on MVS
+> - Available in x86 only on MVS.
+
 
 | Language              | Arch | Link                                                                                                                                       |
 |:----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -477,13 +483,11 @@ editLink: true
 | Chinese-Traditional   | x86  | [tw_windows_7_home_basic_with_sp1_x86_dvd_u_676507.iso](https://drive.massgrave.dev/tw_windows_7_home_basic_with_sp1_x86_dvd_u_676507.iso) |
 | Ukrainian             | x86  | [uk_windows_7_home_basic_with_sp1_x86_dvd_u_676494.iso](https://drive.massgrave.dev/uk_windows_7_home_basic_with_sp1_x86_dvd_u_676494.iso) |
 
-----
-
 == Windows 7 Starter SP1
 
 **Windows 7 Starter SP1**  
 
-> Available in x86 only
+> - Available in x86 only
 
 | Language              | Arch | Link                                                                                                                                     |
 |:----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -524,8 +528,6 @@ editLink: true
 | Chinese-Traditional   | x86  | [tw_windows_7_starter_with_sp1_x86_dvd_u_678549.iso](https://drive.massgrave.dev/tw_windows_7_starter_with_sp1_x86_dvd_u_678549.iso)     |
 | Ukrainian             | x86  | [uk_windows_7_starter_with_sp1_x86_dvd_u_678529.iso](https://drive.massgrave.dev/uk_windows_7_starter_with_sp1_x86_dvd_u_678529.iso)     |
 
-----
-
 == Other Versions
 
 **Other Versions**
@@ -535,8 +537,6 @@ editLink: true
 > - [os.click/][4]
 > - [files.rg-adguard.net/5e876ce4d2c3][5]
 
-----
-
 :::
 
 [1]: https://blog-simplix-info.translate.goog/updatepack7r2/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=nl&_x_tr_pto=sc
@@ -544,3 +544,4 @@ editLink: true
 [3]: https://discord.gg/FajfGaH3nD
 [4]: https://os.click/
 [5]:  https://files.rg-adguard.net/language/a9e697fb-a83e-ef89-8279-5e876ce4d2c3
+[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files
