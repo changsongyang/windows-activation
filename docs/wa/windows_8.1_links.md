@@ -3,45 +3,83 @@ layout: doc
 outline: deep
 title: 'Windows 8.1 Download'
 description: 'All download links lead to genuine files only'
-date: 2025-04-19
+date: 2025-01-19
 editLink: true
 ---
 
-# Windows 8.1 Download
+# Windows 8.1 Download Links
 
-All download links lead to genuine files only.
+<br/>
 
-> - [FAQ](./genuine-installation-media#faq)
-> -   In the install process of Windows 8.1 (Core / Pro) ISO, setup will ask to enter the key, you can enter below generic keys for the desired edition.  
->     `Windows 8.1 Core: 334NH-RXG76-64THK-C7CKG-D3VPT`  
->     `Windows 8.1 Core N: 6NPQ8-PK64X-W4WMM-MF84V-RGB89`  
->     `Windows 8.1 Core Single Language: Y9NXP-XT8MV-PT9TG-97CT3-9D6TC`  
->     `Windows 8.1 Pro: XHQ8N-C3MCJ-RQXB6-WCHYG-C9WKB`  
->     `Windows 8.1 Pro N: JRBBN-4Q997-H4RM2-H3B7W-Q68KC`  
-> -   **Windows 8.1 can be permanently activated with TSforge option in MAS.**
-> -   Windows 8.1 Embedded editions don't come with preinstalled store apps.
+::: info All download links lead to **`genuine files`**
 
-----
+- [**FAQ**](./genuine-installation-media#faq)
 
-## Download Links
-### Windows 8.1
+- [**How to ensure that these files are genuine?**][genuine]  
+
+> - In the install process of Windows 8.1 (Core / Pro) ISO, setup will ask to enter the key, you can enter below generic keys for the desired edition.
+> 
+> **Windows 8.1 Core:**
+> 
+> ```shell
+> 334NH-RXG76-64THK-C7CKG-D3VPT
+> ```
+>
+> 
+> **Windows 8.1 Core N:**
+> 
+> ```shell
+> 6NPQ8-PK64X-W4WMM-MF84V-RGB89
+> ```
+>
+> 
+> **Windows 8.1 Core Single Language:**
+> 
+> ```shell
+> Y9NXP-XT8MV-PT9TG-97CT3-9D6TC
+> ```
+>
+> 
+> **Windows 8.1 Pro:**
+>
+> ```shell
+> XHQ8N-C3MCJ-RQXB6-WCHYG-C9WKB
+> ```
+>
+> 
+> **Windows 8.1 Pro N:**
+> 
+> ```shell
+> JRBBN-4Q997-H4RM2-H3B7W-Q68KC
+> ```
+>  
+> - **Windows 8.1 can be permanently activated with [TSforge option in MAS](./index#step2)**
+> 
+> - Windows 8.1 Embedded editions don't come with preinstalled store apps.
+> 
+
+:::
+
+<br/>
+
+## Windows 8.1
 
 :::tabs
 
 == Windows 8.1 Core / Pro 🤍
 
 **Windows 8.1 Core / Pro**  
-(Build - 9600.17415)  
+
+ > - Build  9600.17415
 
 [MSDL][MSDL] provides official links directly from Microsoft.
-
-----
 
 == Windows 8.1 Core / Pro
 
 **Windows 8.1 Core / Pro**
 
-(Build - 9600.17415)
+> - Build  9600.17415
+
 
 | Language               | Arch | Link                                                                                                                                   |
 |:-----------------------|:-----|:---------------------------------------------------------------------------------------------------------------------------------------|
@@ -120,13 +158,11 @@ All download links lead to genuine files only.
 | Ukrainian              | x64  | [uk_windows_8.1_with_update_x64_dvd_6051508.iso](https://drive.massgrave.dev/uk_windows_8.1_with_update_x64_dvd_6051508.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_with_update_x86_dvd_6051671.iso](https://drive.massgrave.dev/uk_windows_8.1_with_update_x86_dvd_6051671.iso)           |
 
-----
-
 == Windows 8.1 Pro VL
 
 **Windows 8.1 Pro VL**
 
-(Build - 9600.17415)
+> - Build  9600.17415)
 
 | Language               | Arch | Link                                                                                                                                                 |
 |:-----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -205,13 +241,11 @@ All download links lead to genuine files only.
 | Ukrainian              | x64  | [uk_windows_8.1_pro_vl_with_update_x64_dvd_6050907.iso](https://drive.massgrave.dev/uk_windows_8.1_pro_vl_with_update_x64_dvd_6050907.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_pro_vl_with_update_x86_dvd_6050945.iso](https://drive.massgrave.dev/uk_windows_8.1_pro_vl_with_update_x86_dvd_6050945.iso)           |
 
-----
-
 == Windows 8.1 Enterprise
 
 **Windows 8.1 Enterprise**
 
-(Build - 9600.17415)
+> - Build  9600.17415
 
 | Language               | Arch | Link                                                                                                                                                         |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -290,13 +324,11 @@ All download links lead to genuine files only.
 | Ukrainian              | x64  | [uk_windows_8.1_enterprise_with_update_x64_dvd_6050618.iso](https://drive.massgrave.dev/uk_windows_8.1_enterprise_with_update_x64_dvd_6050618.iso)           |
 | Ukrainian              | x86  | [uk_windows_8.1_enterprise_with_update_x86_dvd_6050870.iso](https://drive.massgrave.dev/uk_windows_8.1_enterprise_with_update_x86_dvd_6050870.iso)           |
 
-----
-
 == Windows 8.1 Embedded Pro
 
 **Windows 8.1 Embedded Pro**  
 
-(Build - 9600.17415)
+> - Build  9600.17415
 
 | Language               | Arch | Link                                                                                                                                                                               |
 |:-----------------------|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -375,13 +407,11 @@ All download links lead to genuine files only.
 | Ukrainian              | x64  | [uk_windows_embedded_8.1_industry_pro_with_update_x64_dvd_6052113.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_pro_with_update_x64_dvd_6052113.iso)           |
 | Ukrainian              | x86  | [uk_windows_embedded_8.1_industry_pro_with_update_x86_dvd_6052150.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_pro_with_update_x86_dvd_6052150.iso)           |
 
-----
-
 == Windows 8.1 Embedded Enterprise
 
 **Windows 8.1 Embedded Enterprise**  
 
-(Build - 9600.17415)
+> - Build  9600.17415
 
 | Language               | Arch | Link                                                                                                                                                                                             |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -460,8 +490,6 @@ All download links lead to genuine files only.
 | Ukrainian              | x64  | [uk_windows_embedded_8.1_industry_enterprise_with_update_x64_dvd_6052210.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_enterprise_with_update_x64_dvd_6052210.iso)           |
 | Ukrainian              | x86  | [uk_windows_embedded_8.1_industry_enterprise_with_update_x86_dvd_6052328.iso](https://drive.massgrave.dev/uk_windows_embedded_8.1_industry_enterprise_with_update_x86_dvd_6052328.iso)           |
 
-----
-
 == Other Versions
 
 **Other Versions**
@@ -471,8 +499,6 @@ All download links lead to genuine files only.
 - [files.rg-adguard.net/language/a7c44b76e808][3]
 - [MVS Bot][4]
 
-----
-
 :::
 
 [MSDL]: https://msdl.gravesoft.dev/#52
@@ -480,3 +506,4 @@ All download links lead to genuine files only.
 [2]: https://os.click/
 [3]: https://files.rg-adguard.net/language/1c50237d-03ef-617b-41f0-a7c44b76e808
 [4]: https://discord.gg/FajfGaH3nD
+[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files

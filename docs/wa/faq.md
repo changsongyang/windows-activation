@@ -54,14 +54,17 @@ See our [troubleshooting guide](./troubleshoot) for common solutions.
 
 ### Is MAS safe? How do I know it’s not malware?
 
-MAS is fully open-source, with over 140K stars on [GitHub][1] and millions of users worldwide. You can inspect the batch files in any text editor, or use ChatGPT for code review.  
+MAS is fully open-source, with over 140K stars on [GitHub][1] and millions of users worldwide. You can inspect the [batch files][8] in any text editor, or use this ai's for code review.
+
+[Gemini] - [Jules] - [Claude] - [ChatGPT] - [Grok] - [Perplexity] - [Qwen] - [GenSpark]
+
 If you prefer, you can also perform manual activation — see [this guide](./manual_hwid_activation).
 
 <br/>
 
 ### How can I remove HWID, Ohook, TSforge, KMS38, or Online KMS activations?
 
-Check out these guides for removing each activation type:
+MAS uses different activation methods, see the link below for removal instructions for each one:  
 
 - [❌Remove HWID](./hwid#how-to-remove-hwid)
 - [❌Remove Ohook](./ohook#how-to-remove-ohook)
@@ -70,6 +73,49 @@ Check out these guides for removing each activation type:
 - [❌Remove Online KMS](./online_kms#how-to-remove-online-kms)
 
 <br/>
+
+::: danger Additional Information
+
+::: details Click here to see details
+
+- **HWID:**
+A digital license is stored on Microsoft's servers and tied to your hardware. It `cannot be removed` in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid#how-to-remove-hwid)
+
+- **Online KMS / Ohook / KMS38:**
+Use the corresponding `Uninstall` or `Remove` option within the [MAS script](./index#step2) menu, then run the "Fix Licensing" option from the Troubleshoot menu. [Online KMS Details](./online_kms#how-to-remove-online-kms) and [KMS38 details](./kms38#how-to-remove-kms38)
+
+- **TSforge:**
+This method only appends data and doesn't install files. To reset it, simply run the `Fix Licensing` option from the Troubleshoot menu in the MAS script. [Ohook](./ohook#how-to-remove-ohook) [TSforge details](./tsforge#how-to-remove-tsforge)
+
+:::
+
+<br/>
+
+### Will I receive updates? How is it different from an official license?
+
+MAS does not interfere with Windows or Office updates. It functions in the same way as official licensing methods.
+
+### Will Microsoft ban my account if I use MAS?
+
+**No.**   
+Windows and Office piracy has existed for decades, and Microsoft has never banned accounts solely for this reason.
+
+### Is it legal? Can I face any consequences?
+
+By using MAS, you are bypassing official licensing methods and not paying Microsoft, so technically it is not legal.
+
+
+- **Is it safe?**
+
+**Home users:** Yes, it's safe.  
+Piracy has existed for decades, and Microsoft does not take action against individuals who pirate Windows or Office. Pursuing a home user over a $100–$200 license costs more in legal fees than it would recover and risks bad publicity.
+
+At most, you may see notifications that your license is not genuine (with MAS, these notifications do not appear).
+
+**Businesses:** We do not recommend that businesses use MAS.  
+Microsoft conducts audits on business entities to verify licenses. While small businesses might be less likely to face audits, the risk is still yours.
+
+If you work in IT at a college or university, consult experienced senior staff about the chances of Microsoft audits at your institution.
 
 ## Windows & Office Questions
 
@@ -81,7 +127,7 @@ Refer to the [genuine installation media guide](./genuine-installation-media).
 
 ### Can I upgrade Windows from Home to Pro?
 
-Yes! In MAS, select the “Change Windows Edition” option.
+Yes! In [MAS](./index#step2), select the “Change Windows Edition” option.
 
 <br/>
 
@@ -111,21 +157,20 @@ Yes — updates will work as usual.
 
 ## Office-Specific
 
+#### Can I get the Copilot feature in Office with MAS activation?
+No. [Copilot][2] is an additional plan that can be added to existing subscriptions of Microsoft 365.
+
 ### I’m in Russia and can’t download Office. Any workaround?
 
-See [this guide][2] for bypassing regional restrictions.
+See [this guide][3] for bypassing regional restrictions.
 
 <br/>
 
 ### Can I activate Office 365?
 
-Yes, with the `Ohook` activation. Note: MAS does not unlock server-side Office 365 features such as 1TB OneDrive, but you get almost all other features and 5GB of free OneDrive storage.
+Yes, with the `Ohook` activation. Note: MAS does not unlock server-side Office 365 features such as 1TB OneDrive, though almost all other features and 5GB storage in a free OneDrive account would work fine.
 
-<br/>
-
-### Can I get the Copilot feature in Office with MAS?
-
-No. [Copilot][3] is an add-on available only to official Microsoft 365 subscribers.
+Some features require signing in with a Microsoft account (free) in the Office apps.
 
 <br/>
 
@@ -159,25 +204,45 @@ See the Docs section for detailed info.
 
 ### Does MAS work for Windows Vista/7/8.1?
 
-Yes, TSforge, Ohook, and Online KMS options work for these versions.
+Yes, [TSforge](./tsforge), [Ohook](./ohook), and [Online KMS](./online_kms) options work for these versions.
 
 <br/>
 
-### Can I donate or support the project?
+### How can I donate or contribute to the project?
+This project doesn't accept donations and it's completely free. We don't earn money from donations, ads, or any other sources and we are commited to keeping it this way.
 
-This project doesn’t accept donations and is completely free. It’s a community-driven project, and profiting from piracy is not supported.
+It's because it's a community project and involves many contributors, splitting donations is not practical, and also because profiting from piracy is not good.
 
-<br/>
+::: details Click here for more information
+
+However, if you would like to support and contribute us, you can do so in non-financial ways.
+
+**Coding**  
+At the moment, we don't need any help with coding.
+
+[We will update this list as needed in the future.][7]
+
+:::
 
 ::: danger Troubleshoot
 
-- Need any help regarding this — feel free to [**Contact Us**](./troubleshoot), We're happy to help!
+- Need any help regarding this — feel free to [**Contact Us**](./troubleshoot), We're happy to help.
 
 :::
 
 [1]: https://github.com/massgravel/Microsoft-Activation-Scripts
-[2]: https://gravesoft.dev/bypass-russian-geoblock
-[3]: https://www.microsoft.com/en-us/microsoft-365/microsoft-copilot
+[2]: https://www.microsoft.com/en-us/microsoft-365/microsoft-copilot
+[3]: https://gravesoft.dev/bypass-russian-geoblock
 [4]: https://support.microsoft.com/en-us/office/introduction-to-python-in-excel-55643c2e-ff56-4168-b1ce-9428c8308545
 [5]: https://github.com/NiREvil/windows-activation/discussions
-[6]: mailto:diana.clk01@gmail.com
+[6]: mailto:dianashariati.cl@gmail.com
+[7]: https://massgrave.dev/contribute
+[8]: https://github.com/massgravel/Microsoft-Activation-Scripts/blob/master/MAS/All-In-One-Version-KL/MAS_AIO.cmd
+[Gemini]: https://aistudio.google.com/prompt
+[Jules]: https://jules.google/
+[Claude]: https://claude.ai/chat/
+[ChatGPT]: https://chat.openai.com/auth/login
+[Grok]: https://grok.com
+[GenSpark]: https://www.genspark.ai/
+[Perplexity]: http://perplexity.ai/
+[Qwen]: https://chat.qwen.ai/

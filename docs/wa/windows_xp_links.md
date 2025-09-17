@@ -3,21 +3,37 @@ layout: doc
 outline: deep
 title: 'Windows XP Download'
 description: 'All download links lead to genuine files only'
-date: 2025-04-19
+date: 2024-01-19
 editLink: true
 ---
 
-
 # Windows XP Download
 
-All download links lead to genuine files only.
+<br/>
 
-> - [FAQ](./genuine-installation-media#faq)
-> -   For x86, SP3 and for x64, SP2 are the last released ISOs available. x64 SP2 version was released in English language only.
-> -   x86 VL ISOs can be activated with the key `XCYBK-2B3KV-G8T8F-WXJM7-WCTYT`
-> -   x64 VL ISOs can be activated with the key `VCFQD-V9FX9-46WVH-K3CD4-4J3JM`
+::: info All download links lead to **`genuine files`**
 
-----
+- [**FAQ**](./genuine-installation-media#faq)
+
+- [**How to ensure that these files are genuine?**][genuine]
+
+- For x86, SP3 and for x64, SP2 are the last released ISOs available. x64 SP2 version was released in English language only.
+
+- x86 VL ISOs can be activated with the key:
+
+```shell
+XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
+```
+
+- x64 VL ISOs can be activated with the key:
+
+```shell
+VCFQD-V9FX9-46WVH-K3CD4-4J3JM
+```
+
+::: 
+
+<br/>
 
 :::tabs
 
@@ -53,8 +69,6 @@ All download links lead to genuine files only.
 | Chinese-Hong Kong SAR | x86  | [zh-hk_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74075.iso](https://drive.massgrave.dev/zh-hk_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74075.iso)     |
 | Chinese-Traditional   | x86  | [zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74140.iso](https://drive.massgrave.dev/zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74140.iso)     |
 
-----
-
 == Windows XP SP2 VL (x64)
 
 **Windows XP SP2 VL (x64)**
@@ -64,3 +78,5 @@ All download links lead to genuine files only.
 | English  | x64  | [en_win_xp_pro_x64_with_sp2_vl_x13-41611.iso](https://drive.massgrave.dev/en_win_xp_pro_x64_with_sp2_vl_x13-41611.iso) |
 
 :::
+
+[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files

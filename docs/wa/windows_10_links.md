@@ -1,8 +1,6 @@
 ---
 layout: doc
 outline: deep
-lang: en-US
-dir: ltr
 title: 'Windows 10 Download'
 description: 'All download links lead to genuine files only'
 date: 2025-05-19
@@ -11,26 +9,30 @@ editLink: true
 
 # Windows 10 Download
 
+<br/>
+
 ::: info All download links lead to **`genuine files`**
 
 - [**FAQ**](./genuine-installation-media#faq)
 
-- [Windows 10 updates after End-Of-Life.](./windows10_eol)
+- [**Windows 10 Updates after —End Of Life—**](./windows10_eol)
 
-- [How to ensure that these files are genuine?](genuine-installation-media.md#verify-authenticity-of-files)
+- [**How to ensure that these files are genuine?**][genuine]
 
 The Consumer ISO includes all editions, such as Home, Pro, and Education, but excludes the Enterprise edition. In contrast, the Business ISO includes all editions except for the Home versions.
 
 :::
 
-## Download Links
+<br/>
+
+# Download Links
 
 :::tabs
 
 == Windows 10 Consumer 22H2 🤍
 
 <details>
-  <summary>Info on Official links</summary>
+<summary>Info on Official links</summary>
 
 Microsoft provides Official public links for Windows 10 22H2 (Build 19045.2965) and that build is old and has an issue where Windows update may fail to install [KB5028997][1].  
 That is why we recommend getting the latest Windows 10 ISO file from the table below, those ISOs are taken from the Official MVS site.
@@ -41,9 +43,11 @@ Windows 10 download from [microsoft.com/en-us/software-download][8] isn't recomm
 
 </details>
 
-Windows 10 Consumer 22H2
+<br/>
 
-Build - 19045.6093 (July 2025)
+**Windows 10 Consumer 22H2**
+
+> - Build 19045.6093 (July 2025)
 
 | Language               | Arch | Link                                                                                                                                                                                                                     |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -127,7 +131,9 @@ Build - 19045.6093 (July 2025)
 
 == Windows 10 Business 22H2
 
-Build - 19045.6093 (July 2025)
+**Windows 10 Business 22H2**
+
+> - Build 19045.6093 (July 2025)
 
 | Language               | Arch | Link                                                                                                                                                                                                                     |
 |:-----------------------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -208,34 +214,37 @@ Build - 19045.6093 (July 2025)
 | Chinese-Traditional    | x64  | [zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x64_dvd_3bcee6f7.iso](https://drive.massgrave.dev/zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x64_dvd_3bcee6f7.iso) |
 | Chinese-Traditional    | x86  | [zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x86_dvd_4c18674b.iso](https://drive.massgrave.dev/zh-tw_windows_10_business_editions_version_22h2_updated_july_2025_x86_dvd_4c18674b.iso) |
 
----
-
 == Windows 10 IoT Enterprise 22H2
 
-**(Not LTSC)**
+**Windows 10 IoT Enterprise 22H2**
 
-Updated Oct 2022 (Build - 19045.2006) (Only English RTM ISO is available)
+> **Not LTSC**
+> 
+> - Updated Oct 2022 (Build - 19045.2006)
+> - Only English RTM ISO is available
 
 | Language | Arch | Link                                                                                                                                                               |
 |:---------|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | English  | x64  | [en-us_windows_10_iot_enterprise_version_22h2_x64_dvd_51cc370f.iso](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_version_22h2_x64_dvd_51cc370f.iso) |
 
-### Note for IoT Enterprise 
+<br/>
 
-::: danger **(GAC) Not  LTSC:**
+## Note for IoT Enterprise 
 
-- When installing Windows IoT Enterprise (GAC):
+::: danger **`(GAC) Not  LTSC`**
+
+### When installing Windows IoT Enterprise (GAC):  
 - If your system has an **OEM license** in the motherboard (Pro or higher),
 - And the key used in Setup is **OEM**
 - then Windows Setup will apply the OEM key from the motherboard during the final stage.
 
-### What this means
+### What this means?  
 - You can install **IoT Enterprise** with its features (including relaxed hardware requirements on Windows 11 24H2, etc.).
 - After installation, the system will show Pro edition, not IoT Enterprise.
 - This happens because IoT Enterprise (GAC) is distributed only with an OEM key.
 - This behavior is normal and cannot be avoided.
 
-### Fix
+### Fix  
 After installation, switch the edition by running the following in command prompt as admin.
 
 ```shell
@@ -244,14 +253,19 @@ slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD
 
 == Windows 10 ARM64 22H2
 
-Check here for [Windows arm links](./windows_arm_links).
+**Windows 10 ARM 22H2**
 
+Check here for [**Windows arm links**](./windows_arm_links)
 
 == Windows 10 Enterprise LTSC
 
-Check here for [Windows ltsc links](./windows_ltsc_links).
+**Windows 10 Enterprise LTSC**
+
+Check here for [**Windows ltsc links**](./windows_ltsc_links)
 
 == Other Versions
+
+**Other Versions**
 
 - [MVS Bot][2]
 - [os.click/][3]
@@ -273,3 +287,4 @@ Check here for [Windows ltsc links](./windows_ltsc_links).
 [7]: https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/
 [8]: https://www.microsoft.com/en-us/software-download
 [MSDL]: https://msdl.gravesoft.dev/#2618
+[genuine]: https://nirevil.github.io/windows-activation/wa/genuine-installation-media#verify-authenticity-of-files
