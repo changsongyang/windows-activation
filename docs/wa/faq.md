@@ -81,8 +81,10 @@ MAS uses different activation methods, see the link below for removal instructio
 - **HWID:**
 A digital license is stored on Microsoft's servers and tied to your hardware. It `cannot be removed` in the traditional sense. A major hardware change (like the motherboard) will invalidate it. To return to an unactivated state, you can install a generic KMS key. [Extended hwid details](./hwid#how-to-remove-hwid)
 
+
 - **Online KMS / Ohook / KMS38:**
 Use the corresponding `Uninstall` or `Remove` option within the [MAS script](./index#step2) menu, then run the "Fix Licensing" option from the Troubleshoot menu. [Online KMS Details](./online_kms#how-to-remove-online-kms) and [KMS38 details](./kms38#how-to-remove-kms38)
+
 
 - **TSforge:**
 This method only appends data and doesn't install files. To reset it, simply run the `Fix Licensing` option from the Troubleshoot menu in the MAS script. [Ohook](./ohook#how-to-remove-ohook) [TSforge details](./tsforge#how-to-remove-tsforge)
@@ -105,8 +107,7 @@ Windows and Office piracy has existed for decades, and Microsoft has never banne
 By using MAS, you are bypassing official licensing methods and not paying Microsoft, so technically it is not legal.
 
 
-- **Is it safe?**
-
+- **Is it safe?**   
 **Home users:** Yes, it's safe.  
 Piracy has existed for decades, and Microsoft does not take action against individuals who pirate Windows or Office. Pursuing a home user over a $100–$200 license costs more in legal fees than it would recover and risks bad publicity.
 
@@ -153,7 +154,7 @@ Absolutely, it’s safe.
 
 Yes — updates will work as usual.
 
-<hr/><br/>
+<br/>
 
 ## Office-Specific
 
